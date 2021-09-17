@@ -15,7 +15,7 @@ names = tree.xpath('//tei:item[@rend="name"]', namespaces=ns)
 
 
 def person_id(a):
-    #person_count = 0
+    person_count = 0
     for person in a:
         attributes = person.attrib
         # print(attributes)
@@ -25,7 +25,7 @@ def person_id(a):
         else:
             print(str('-'))
 
-        # person_count += 1
+        person_count += 1
     # CHECK THE NUMBER OF ENTRIES READ FROM THE PERSON INDEX
     # print(str('Number of letters/ids: ') + str(person_count))
 
@@ -46,10 +46,56 @@ def given_names(b):
             # print(name.find('tei:forname', namespaces=ns).text)
         name_count += 1
     # CHECK THE NUMBER OF ENTRIES READ FROM THE PERSON INDEX
-    print(str('Number of names: ') + str(name_count))
+    # print(str('Number of names: ') + str(name_count))
 
 
 # print(names.text)
-print(str('Number of letters: ') + str(len(names)))
-given_names(names)
-# print(root)
+# print(str('Number of letters: ') + str(len(names)))
+# given_names(names)
+
+
+def surname_names(c):
+    name_count = 0
+    for name in c:
+        surname_name = name.xpath('./tei:persName/tei:surname/text()', namespaces=ns)
+        # print(surname_name)
+
+        if not surname_name:
+            print(str('-'))
+        else:
+            print(surname_name[0])   # ONLY ONE ITEM IN LIST
+        name_count += 1
+    # CHECK THE NUMBER OF ENTRIES READ FROM THE PERSON INDEX
+    # print(str('Number of names: ') + str(name_count))
+
+
+# surname_names(names)
+
+
+def full_names(d):
+    name_count = 0
+    for name in d:
+        name_name = name.xpath('./tei:persName/tei:name/text()', namespaces=ns)
+        org_name = name.xpath('./tei:name/text()', namespaces=ns)
+        given_name = name.xpath('./tei:persName/tei:forename/text()', namespaces=ns)
+        surname_name = name.xpath('./tei:persName/tei:surname/text()', namespaces=ns)
+        # print(name_name)
+
+        if name_name and not org_name:
+            print(name_name[0])  # ONLY ONE ITEM IN LIST
+        elif org_name and not name_name:
+            print(org_name[0])   # ONLY ONE ITEM IN LIST
+        elif given_name and surname_name and not name_name and not org_name:
+            print(str(given_name[0] + str(' ') + surname_name[0]))
+        elif given_name and not surname_name and not name_name and not org_name:
+            print(str(given_name[0]))
+        elif surname_name and not given_name and not name_name and not org_name:
+            print(str(surname_name[0]))
+        else:
+            print(str('-'))
+        name_count += 1
+    # CHECK THE NUMBER OF ENTRIES READ FROM THE PERSON INDEX
+    print(str('Number of names: ') + str(name_count))
+
+
+full_names(names)
