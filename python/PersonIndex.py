@@ -10,28 +10,32 @@ ns = {'HIS': 'http://www.example.org/ns/HIS',
 
 tree = etree.parse('../github/Ibsen-Networks/xml-data/Navneregister_HISe.xml')
 root = tree.getroot()
-persons = tree.xpath('.//tei:div[@type="person"or@type="organisation"]', namespaces=ns)  # ADD tei: IN XPATH
+persons_org = tree.xpath('.//tei:div[@type="person"or@type="organisation"]', namespaces=ns)  # ADD tei: IN XPATH
 names = tree.xpath('//tei:item[@rend="name"]', namespaces=ns)
+desc = tree.xpath('//tei:list/tei:item[@rend="briefDescription"]', namespaces=ns)
+
+
 
 
 def person_id(a):
     person_count = 0
     for person in a:
         attributes = person.attrib
-        # print(attributes)
-        if '{http://www.w3.org/XML/1998/namespace}id' in attributes:
-            xmlid = attributes['{http://www.w3.org/XML/1998/namespace}id']
-            print(xmlid)
-        else:
-            print(str('-'))
+        # print(person)
+        #print(attributes)
+        #if '{http://www.w3.org/XML/1998/namespace}id' in attributes:
+            #xmlid = attributes['{http://www.w3.org/XML/1998/namespace}id']
+            #print(xmlid)
+        #else:
+            #print(str('-'))
 
-        person_count += 1
+        #person_count += 1
     # CHECK THE NUMBER OF ENTRIES READ FROM THE PERSON INDEX
     # print(str('Number of letters/ids: ') + str(person_count))
 
 
-# (person_id(persons))
-# print(str('Number of letters: ') + str(len(persons)))
+# (person_id(persons_org))
+# print(str('Number of letters: ') + str(len(persons_org)))
 
 def given_names(b):
     name_count = 0
@@ -95,7 +99,85 @@ def full_names(d):
             print(str('-'))
         name_count += 1
     # CHECK THE NUMBER OF ENTRIES READ FROM THE PERSON INDEX
-    print(str('Number of names: ') + str(name_count))
+    # print(str('Number of names: ') + str(name_count))
 
 
-full_names(names)
+#full_names(names)
+
+
+def date_of_birth(e):
+    date_count = 0
+    person_org_count = 0
+    for date in e:
+        b_date = date.xpath('./tei:list/tei:item[@rend="date"]/tei:date/@from', namespaces=ns)
+        if not b_date:
+            print(str('-'))
+        else:
+            print(b_date[0])
+            date_count += 1
+        person_org_count +=1
+    print(str('Number of birth dates: ') + str(date_count))
+    print(str('Number of persons/organisations: ') + str(person_org_count))
+
+
+# date_of_birth(persons_org)
+
+
+def date_of_death(f):
+    date_count = 0
+    person_org_count = 0
+    for date in f:
+        d_date = date.xpath('./tei:list/tei:item[@rend="date"]/tei:date/@to', namespaces=ns)
+        if not d_date:
+            print(str('-'))
+        else:
+            print(d_date[0])
+            date_count += 1
+        person_org_count += 1
+    print(str('Number of death dates: ') + str(date_count))
+    print(str('Number of persons/organisations: ') + str(person_org_count))
+
+
+# date_of_death(persons_org)
+
+
+def lifespan(g):
+    date_count = 0
+    person_org_count = 0
+    for date in g:
+        b_date = date.xpath('./tei:list/tei:item[@rend="date"]/tei:date/@from', namespaces=ns)
+        d_date = date.xpath('./tei:list/tei:item[@rend="date"]/tei:date/@to', namespaces=ns)
+
+        if b_date and not d_date:
+            print(b_date[0] + str('-'))  # ONLY ONE ITEM IN LIST
+            date_count += 1
+        elif d_date and not b_date:
+            print(str('-') + d_date[0])  # ONLY ONE ITEM IN LIST
+            date_count += 1
+        elif b_date and d_date:
+            print(b_date[0] + str('-') + d_date[0])
+            date_count += 1
+        else:
+            print(str('-'))
+        person_org_count += 1
+    # CHECK THE NUMBER OF ENTRIES READ FROM THE PERSON INDEX
+    print(str('Number of dates: ') + str(date_count))
+    print(str('Number of persons/organisations: ') + str(person_org_count))
+
+
+# lifespan(persons_org)
+
+
+def person_org_desc(h):
+    desc_count = 0
+    person_org_count = 0
+    for desc in h:
+        attributes = desc.attrib
+        full_desc = desc.text()
+        print(full_desc)
+        #for description in desc:
+
+        #print(full_desc)
+
+
+person_org_desc(desc)
