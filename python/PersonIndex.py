@@ -2,6 +2,7 @@ import xml.etree.ElementTree as ET
 from lxml import etree
 from html.entities import codepoint2name
 import pprint
+import re
 
 #  declaring all namespaces present in the xml files
 ns = {'HIS': 'http://www.example.org/ns/HIS',
@@ -171,13 +172,52 @@ def lifespan(g):
 def person_org_desc(h):
     desc_count = 0
     person_org_count = 0
-    for desc in h:
-        attributes = desc.attrib
-        full_desc = desc.text()
-        print(full_desc)
-        #for description in desc:
+    for pers_org in h:
+        description = pers_org.xpath('./tei:list/tei:item[@rend="briefDescription"]/text()', namespaces=ns)
+        description_full = (pers_org.xpath('./tei:list/tei:item[@rend="briefDescription"]', namespaces=ns))
+        child = pers_org.xpath('./tei:list/tei:item[@rend="briefDescription"]/HIS:hisRef', namespaces=ns)
 
-        #print(full_desc)
+        if not description_full:
+            print(str('-'))
+            # desc_count +=1
+        elif not child and len(description_full) == 1:
+            print(' '.join(description[0].split()))
+            desc_count += 1
+        else:
+
+            def multiple_replace(dict, text):
+                # CREATES REGULAR EXPRESSION FOR DICTIONARY KEYS
+                regex = re.compile("(%s)" % "|".join(map(re.escape, dict.keys())))
+
+                # LOOK UP MATCHING VALUE IN DICTIONARY
+                return regex.sub(lambda mo: dict[mo.string[mo.start():mo.end()]], text)
+
+            if __name__ == "__main__":
+                if len(description_full) == 1:
+                    text = str(etree.tostring(description_full[0]))
+                    remove_tags = re.sub('<[^>]+>', '', text)
+                    cleaned_str = ' '.join(remove_tags.split())
+                dict = {
+                    '\'': '',
+                    'b': '',
+                    r'\n': '',
+                    '&#229;': 'å',
+                    '&#246;': 'ö',
+                    '&#248;': 'ø',
+                    '&#252;': 'ü',
+                    '&amp;': '&'
+
+                }
+
+                print(multiple_replace(dict, cleaned_str))
+            desc_count += 1
+
+        person_org_count += 1
+    print(str('Number of descriptions: ') + str(desc_count))
+    print(str('Number of persons/organisations: ') + str(person_org_count))
 
 
-person_org_desc(desc)
+person_org_desc(persons_org)
+
+#XML_tree = etree.fromstring(XML_content)
+#text = XML_tree.xpath('string(//text[@title="book"]/div/div/p)')
