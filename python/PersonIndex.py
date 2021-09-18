@@ -16,23 +16,21 @@ names = tree.xpath('//tei:item[@rend="name"]', namespaces=ns)
 desc = tree.xpath('//tei:list/tei:item[@rend="briefDescription"]', namespaces=ns)
 
 
-
-
 def person_id(a):
     person_count = 0
     for person in a:
         attributes = person.attrib
         # print(person)
-        #print(attributes)
-        #if '{http://www.w3.org/XML/1998/namespace}id' in attributes:
-            #xmlid = attributes['{http://www.w3.org/XML/1998/namespace}id']
-            #print(xmlid)
-        #else:
-            #print(str('-'))
+        # print(attributes)
+        if '{http://www.w3.org/XML/1998/namespace}id' in attributes:
+            xmlid = attributes['{http://www.w3.org/XML/1998/namespace}id']
+            print(xmlid)
+        else:
+            print(str('-'))
 
-        #person_count += 1
+        person_count += 1
     # CHECK THE NUMBER OF ENTRIES READ FROM THE PERSON INDEX
-    # print(str('Number of letters/ids: ') + str(person_count))
+    print(str('Number of letters/ids: ') + str(person_count))
 
 
 # (person_id(persons_org))
@@ -42,12 +40,12 @@ def given_names(b):
     name_count = 0
     for name in b:
         given_name = name.xpath('./tei:persName/tei:forename/text()', namespaces=ns)
-        #print(given_name)
+        # print(given_name)
 
         if not given_name:
             print(str('-'))
         else:
-            print(given_name[0])   # ONLY ONE ITEM IN LIST
+            print(' '.join(given_name[0].split()))   # ONLY ONE ITEM IN LIST
             # print(name.find('tei:forname', namespaces=ns).text)
         name_count += 1
     # CHECK THE NUMBER OF ENTRIES READ FROM THE PERSON INDEX
@@ -68,7 +66,7 @@ def surname_names(c):
         if not surname_name:
             print(str('-'))
         else:
-            print(surname_name[0])   # ONLY ONE ITEM IN LIST
+            print(' '.join(surname_name[0].split()))   # ONLY ONE ITEM IN LIST
         name_count += 1
     # CHECK THE NUMBER OF ENTRIES READ FROM THE PERSON INDEX
     # print(str('Number of names: ') + str(name_count))
@@ -87,15 +85,15 @@ def full_names(d):
         # print(name_name)
 
         if name_name and not org_name:
-            print(name_name[0])  # ONLY ONE ITEM IN LIST
+            print(' '.join(name_name[0].split()))  # ONLY ONE ITEM IN LIST
         elif org_name and not name_name:
-            print(org_name[0])   # ONLY ONE ITEM IN LIST
+            print(' '.join(org_name[0].split()))   # ONLY ONE ITEM IN LIST
         elif given_name and surname_name and not name_name and not org_name:
-            print(str(given_name[0] + str(' ') + surname_name[0]))
+            print(str(' '.join(given_name[0].split()) + str(' ') + ' '.join(surname_name[0].split())))
         elif given_name and not surname_name and not name_name and not org_name:
-            print(str(given_name[0]))
+            print(str(' '.join(given_name[0].split())))
         elif surname_name and not given_name and not name_name and not org_name:
-            print(str(surname_name[0]))
+            print(str(' '.join(surname_name[0].split())))
         else:
             print(str('-'))
         name_count += 1
@@ -103,7 +101,7 @@ def full_names(d):
     # print(str('Number of names: ') + str(name_count))
 
 
-#full_names(names)
+# full_names(names)
 
 
 def date_of_birth(e):
@@ -116,7 +114,7 @@ def date_of_birth(e):
         else:
             print(b_date[0])
             date_count += 1
-        person_org_count +=1
+        person_org_count += 1
     print(str('Number of birth dates: ') + str(date_count))
     print(str('Number of persons/organisations: ') + str(person_org_count))
 
@@ -185,19 +183,19 @@ def person_org_desc(h):
             desc_count += 1
         else:
 
-            def multiple_replace(dict, text):
+            def multiple_replace(replace, string):
                 # CREATES REGULAR EXPRESSION FOR DICTIONARY KEYS
-                regex = re.compile("(%s)" % "|".join(map(re.escape, dict.keys())))
+                regex = re.compile("(%s)" % "|".join(map(re.escape, replace.keys())))
 
                 # LOOK UP MATCHING VALUE IN DICTIONARY
-                return regex.sub(lambda mo: dict[mo.string[mo.start():mo.end()]], text)
+                return regex.sub(lambda mo: replace_string[mo.string[mo.start():mo.end()]], string)
 
             if __name__ == "__main__":
                 if len(description_full) == 1:
                     text = str(etree.tostring(description_full[0]))
                     remove_tags = re.sub('<[^>]+>', '', text)
                     cleaned_str = ' '.join(remove_tags.split())
-                dict = {
+                replace_string = {
                     '\'': '',
                     'b': '',
                     r'\n': '',
@@ -209,7 +207,7 @@ def person_org_desc(h):
 
                 }
 
-                print(multiple_replace(dict, cleaned_str))
+                print(multiple_replace(replace_string, cleaned_str))
             desc_count += 1
 
         person_org_count += 1
@@ -219,5 +217,5 @@ def person_org_desc(h):
 
 person_org_desc(persons_org)
 
-#XML_tree = etree.fromstring(XML_content)
-#text = XML_tree.xpath('string(//text[@title="book"]/div/div/p)')
+# XML_tree = etree.fromstring(XML_content)
+# text = XML_tree.xpath('string(//text[@title="book"]/div/div/p)')
