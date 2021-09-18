@@ -3,6 +3,7 @@ from lxml import etree
 from html.entities import codepoint2name
 import pprint
 import re
+import csv
 
 #  declaring all namespaces present in the xml files
 ns = {'HIS': 'http://www.example.org/ns/HIS',
@@ -12,25 +13,30 @@ ns = {'HIS': 'http://www.example.org/ns/HIS',
 tree = etree.parse('../github/Ibsen-Networks/xml-data/Navneregister_HISe.xml')
 root = tree.getroot()
 persons_org = tree.xpath('.//tei:div[@type="person"or@type="organisation"]', namespaces=ns)  # ADD tei: IN XPATH
-names = tree.xpath('//tei:item[@rend="name"]', namespaces=ns)
-desc = tree.xpath('//tei:list/tei:item[@rend="briefDescription"]', namespaces=ns)
+names = tree.xpath('//tei:div[@type="person"or@type="organisation"]/tei:list/tei:item[@rend="name"]', namespaces=ns)
+# desc = tree.xpath('//tei:list/tei:item[@rend="briefDescription"]', namespaces=ns) NOT USED
 
 
 def person_id(a):
     person_count = 0
+    list_of_ids = []
     for person in a:
         attributes = person.attrib
         # print(person)
         # print(attributes)
         if '{http://www.w3.org/XML/1998/namespace}id' in attributes:
             xmlid = attributes['{http://www.w3.org/XML/1998/namespace}id']
-            print(xmlid)
+            #print(xmlid)
+            list_of_ids.append(xmlid)
         else:
-            print(str('-'))
+            list_of_ids.append(str('-'))
+            #print(str('-'))
+    return list_of_ids
 
-        person_count += 1
+
+        # person_count += 1
     # CHECK THE NUMBER OF ENTRIES READ FROM THE PERSON INDEX
-    print(str('Number of letters/ids: ') + str(person_count))
+    # print(str('Number of letters/ids: ') + str(person_count))
 
 
 # (person_id(persons_org))
@@ -215,7 +221,19 @@ def person_org_desc(h):
     print(str('Number of persons/organisations: ') + str(person_org_count))
 
 
-person_org_desc(persons_org)
+# person_org_desc(persons_org)
 
 # XML_tree = etree.fromstring(XML_content)
 # text = XML_tree.xpath('string(//text[@title="book"]/div/div/p)')
+
+
+def write_csv(ids):
+    # print(ids)
+    with open('practice_person_info.csv', 'w', ) as new_csv:
+        wr = csv.writer(new_csv, quoting=csv.QUOTE_NONE)
+        for id in ids:
+            wr.writerow([id])
+
+
+id_list = (person_id(persons_org))
+write_csv(id_list)
