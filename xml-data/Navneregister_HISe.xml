@@ -23577,7 +23577,8 @@
                </div>
             </div>
 
-            <div type="person" xml:id="peHI">  <!--#RS add a brief entry for Henrik Ibsen to record his xml:id-->
+            <!--#RS add a brief entry for Henrik Ibsen to record his xml:id-->
+            <div type="person" xml:id="peHI">
                <list>
                   <item rend="name"><persName><forename>HENRIK
                            JOHAN</forename><surname>IBSEN</surname></persName></item>
@@ -23587,9 +23588,9 @@
                         <HIS:hisRef type="person" target="peMI">Marichen Ibsens</HIS:hisRef>. Broren
                      til <HIS:hisRef type="person" target="peJAAI">Johan Andreas Altenburg
                         Ibsen</HIS:hisRef> og <HIS:hisRef type="person" target="peOPI">Ole Paus
-                           Ibsen</HIS:hisRef>. Faren til <HIS:hisRef type="person" target="peSiI">Sigurt
-                              Ibsen</HIS:hisRef>. <HIS:hisRef type="person" target="peSuI">Susanna
-                                 Ibsen</HIS:hisRef>, Henrik Ibsens hustru.</item>
+                        Ibsen</HIS:hisRef>. Faren til <HIS:hisRef type="person" target="peSiI"
+                        >Sigurt Ibsen</HIS:hisRef>. <HIS:hisRef type="person" target="peSuI">Susanna
+                        Ibsen</HIS:hisRef>, Henrik Ibsens hustru.</item>
                </list>
             </div>
             <div type="person" xml:id="peJAAI">
