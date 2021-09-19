@@ -4,6 +4,45 @@
 <!ENTITY % HIS_entiteter SYSTEM
 'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'  >
 %HIS_entiteter;
+<!ENTITY copy 'Copyright-symbol'>
+<!ENTITY funder 'funding body'>
+<!ENTITY editor 'editor'>
+<!ENTITY amp '&#38;'>
+<!ENTITY sol '/'>
+<!ENTITY lquo '«'>
+<!ENTITY rquo '»'>
+<!ENTITY deg '°'>
+<!ENTITY dash '-'>
+<!ENTITY projectDesc-grt-ms 'project description handwritten manuscript'>
+<!ENTITY projectDesc-grt-trykk 'project description printed manuscript'>
+<!ENTITY projectDesc-tekstkilde 'project description text scource'>
+<!ENTITY projectDesc-ht-corpus 'project description corpus'>
+<!ENTITY stdVals 'standardized values'>
+<!ENTITY editorialDecl 'editorial declaration'>
+<!ENTITY tagUsage-TEI 'tag usage-TEI'>
+<!ENTITY half '½'>
+<!ENTITY frac12 '½'>
+<!ENTITY frac14 '¼'>
+<!ENTITY frac34 '¾'>
+<!ENTITY foot '&#39;'>
+<!ENTITY mark '–'>
+<!ENTITY skilling 'ʄ'>
+<!ENTITY rep '"'>
+<!ENTITY equals '='>
+<!ENTITY period '.'>
+<!ENTITY rapo '’'>
+<!ENTITY lapo '‘'>
+<!ENTITY rsaquo '›'>
+<!ENTITY lsaquo '‹'>
+<!ENTITY hyphen '-'>
+<!ENTITY hellip '…'>
+<!ENTITY odblac 'ö'>
+<!ENTITY Scaron 'Š'>
+<!ENTITY scaron 'š'>
+<!ENTITY rcaron 'ř'>
+<!ENTITY udblac 'ü'>
+<!ENTITY titleColon ':'>
+<!ENTITY percnt '&#37;'>
 ]>
 <?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
