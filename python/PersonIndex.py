@@ -40,6 +40,12 @@ def person_id(a):
             xmlid = attributes['{http://www.w3.org/XML/1998/namespace}id']
             # print(xmlid)
             list_of_ids.append(xmlid)
+        # elif '{http://www.tei-c.org/ns/1.}corresp' in attributes:
+        #     corresp = attributes['{http://www.tei-c.org/ns/1.}corresp']
+        #     list_of_ids.append(corresp)
+        #     # print(xmlid)
+        #     # list_of_ids.append(str('-'))
+        #     #print(str('-'))
         else:
             list_of_ids.append(str('-'))
             # person_count += 1
