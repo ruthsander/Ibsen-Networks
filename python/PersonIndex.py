@@ -4,6 +4,14 @@ from html.entities import codepoint2name
 import pprint
 import re
 import csv
+from pywikibot.data import api
+import pywikibot
+import requests
+from pywikibot import pagegenerators as pg
+import pandas as pd
+from csv import writer
+from csv import reader
+import time
 
 #  declaring all namespaces present in the xml files
 ns = {'HIS': 'http://www.example.org/ns/HIS',
@@ -12,8 +20,12 @@ ns = {'HIS': 'http://www.example.org/ns/HIS',
 
 tree = etree.parse('../github/Ibsen-Networks/xml-data/Navneregister_HISe.xml')
 root = tree.getroot()
-persons_org = tree.xpath('.//tei:div[@type="person"or@type="organisation"]', namespaces=ns)  # ADD tei: IN XPATH
-names = tree.xpath('//tei:div[@type="person"or@type="organisation"]/tei:list/tei:item[@rend="name"]', namespaces=ns)
+# ADD tei: IN XPATH
+persons_org = tree.xpath('.//tei:div[@xml:id and @type="person"or@type="organisation"]', namespaces=ns)
+names = tree.xpath(
+    '//tei:div[@xml:id and @type="person"or@type="organisation"]/tei:list/tei:item[@rend="name"]', namespaces=ns)
+
+
 # desc = tree.xpath('//tei:list/tei:item[@rend="briefDescription"]', namespaces=ns) NOT USED
 
 
@@ -134,7 +146,7 @@ def date_of_death(f):
     for date in f:
         d_date = date.xpath('./tei:list/tei:item[@rend="date"]/tei:date/@to', namespaces=ns)
         if not d_date:
-            print(str('-'))
+            list_death_year.append(str(''))
         else:
             print(d_date[0])
             date_count += 1
