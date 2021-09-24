@@ -30,23 +30,21 @@ names = tree.xpath(
 
 
 def person_id(a):
-    person_count = 0
-    list_of_ids = []
+    # person_count = 0
+    list_of_ids = ['XML-ID']
     for person in a:
         attributes = person.attrib
         # print(person)
         # print(attributes)
         if '{http://www.w3.org/XML/1998/namespace}id' in attributes:
             xmlid = attributes['{http://www.w3.org/XML/1998/namespace}id']
-            #print(xmlid)
+            # print(xmlid)
             list_of_ids.append(xmlid)
         else:
             list_of_ids.append(str('-'))
-            #print(str('-'))
+            # person_count += 1
     return list_of_ids
 
-
-        # person_count += 1
     # CHECK THE NUMBER OF ENTRIES READ FROM THE PERSON INDEX
     # print(str('Number of letters/ids: ') + str(person_count))
 
@@ -55,17 +53,21 @@ def person_id(a):
 # print(str('Number of letters: ') + str(len(persons_org)))
 
 def given_names(b):
-    name_count = 0
+    # name_count = 0
+    name_list = ['Given Name']
     for name in b:
         given_name = name.xpath('./tei:persName/tei:forename/text()', namespaces=ns)
         # print(given_name)
 
         if not given_name:
-            print(str('-'))
+            name_list.append(str(''))
+            # print(str('-'))
         else:
-            print(' '.join(given_name[0].split()))   # ONLY ONE ITEM IN LIST
+            name_list.append(' '.join(given_name[0].split()))
+            # print(' '.join(given_name[0].split()))   # ONLY ONE ITEM IN LIST
             # print(name.find('tei:forname', namespaces=ns).text)
-        name_count += 1
+        # name_count += 1
+    return name_list
     # CHECK THE NUMBER OF ENTRIES READ FROM THE PERSON INDEX
     # print(str('Number of names: ') + str(name_count))
 
@@ -76,16 +78,18 @@ def given_names(b):
 
 
 def surname_names(c):
-    name_count = 0
+    # name_count = 0
+    surname_list = ['Surname']
     for name in c:
         surname_name = name.xpath('./tei:persName/tei:surname/text()', namespaces=ns)
         # print(surname_name)
 
         if not surname_name:
-            print(str('-'))
+            surname_list.append(str(''))
         else:
-            print(' '.join(surname_name[0].split()))   # ONLY ONE ITEM IN LIST
-        name_count += 1
+            surname_list.append(' '.join(surname_name[0].split()))  # ONLY ONE ITEM IN LIST
+        # name_count += 1
+    return surname_list
     # CHECK THE NUMBER OF ENTRIES READ FROM THE PERSON INDEX
     # print(str('Number of names: ') + str(name_count))
 
@@ -94,7 +98,8 @@ def surname_names(c):
 
 
 def full_names(d):
-    name_count = 0
+    # name_count = 0
+    list_full_name = ['Name']
     for name in d:
         name_name = name.xpath('./tei:persName/tei:name/text()', namespaces=ns)
         org_name = name.xpath('./tei:name/text()', namespaces=ns)
@@ -103,18 +108,19 @@ def full_names(d):
         # print(name_name)
 
         if name_name and not org_name:
-            print(' '.join(name_name[0].split()))  # ONLY ONE ITEM IN LIST
+            list_full_name.append(' '.join(name_name[0].split()))  # ONLY ONE ITEM IN LIST
         elif org_name and not name_name:
-            print(' '.join(org_name[0].split()))   # ONLY ONE ITEM IN LIST
+            list_full_name.append(' '.join(org_name[0].split()))  # ONLY ONE ITEM IN LIST
         elif given_name and surname_name and not name_name and not org_name:
-            print(str(' '.join(given_name[0].split()) + str(' ') + ' '.join(surname_name[0].split())))
+            list_full_name.append(str(' '.join(given_name[0].split()) + str(' ') + ' '.join(surname_name[0].split())))
         elif given_name and not surname_name and not name_name and not org_name:
-            print(str(' '.join(given_name[0].split())))
+            list_full_name.append(str(' '.join(given_name[0].split())))
         elif surname_name and not given_name and not name_name and not org_name:
-            print(str(' '.join(surname_name[0].split())))
+            list_full_name.append(str(' '.join(surname_name[0].split())))
         else:
-            print(str('-'))
-        name_count += 1
+            list_full_name.append(str(''))
+        # name_count += 1
+    return list_full_name
     # CHECK THE NUMBER OF ENTRIES READ FROM THE PERSON INDEX
     # print(str('Number of names: ') + str(name_count))
 
@@ -123,63 +129,69 @@ def full_names(d):
 
 
 def date_of_birth(e):
-    date_count = 0
-    person_org_count = 0
+    # date_count = 0
+    # person_org_count = 0
+    list_birth_year = ['Year of Birth']
     for date in e:
         b_date = date.xpath('./tei:list/tei:item[@rend="date"]/tei:date/@from', namespaces=ns)
         if not b_date:
-            print(str('-'))
+            list_birth_year.append(str(''))
         else:
-            print(b_date[0])
-            date_count += 1
-        person_org_count += 1
-    print(str('Number of birth dates: ') + str(date_count))
-    print(str('Number of persons/organisations: ') + str(person_org_count))
+            list_birth_year.append(b_date[0])
+            # date_count += 1
+        # person_org_count += 1
+    return list_birth_year
+    # print(str('Number of birth dates: ') + str(date_count))
+    # print(str('Number of persons/organisations: ') + str(person_org_count))
 
 
 # date_of_birth(persons_org)
 
 
 def date_of_death(f):
-    date_count = 0
-    person_org_count = 0
+    # date_count = 0
+    # person_org_count = 0
+    list_death_year = ['Year of Death']
     for date in f:
         d_date = date.xpath('./tei:list/tei:item[@rend="date"]/tei:date/@to', namespaces=ns)
         if not d_date:
             list_death_year.append(str(''))
         else:
-            print(d_date[0])
-            date_count += 1
-        person_org_count += 1
-    print(str('Number of death dates: ') + str(date_count))
-    print(str('Number of persons/organisations: ') + str(person_org_count))
+            list_death_year.append(d_date[0])
+            # date_count += 1
+        # person_org_count += 1
+    return list_death_year
+    # print(str('Number of death dates: ') + str(date_count))
+    # print(str('Number of persons/organisations: ') + str(person_org_count))
 
 
 # date_of_death(persons_org)
 
 
 def lifespan(g):
-    date_count = 0
-    person_org_count = 0
+    # date_count = 0
+    # person_org_count = 0
+    list_life = ['Lifespan']
     for date in g:
         b_date = date.xpath('./tei:list/tei:item[@rend="date"]/tei:date/@from', namespaces=ns)
         d_date = date.xpath('./tei:list/tei:item[@rend="date"]/tei:date/@to', namespaces=ns)
 
         if b_date and not d_date:
-            print(b_date[0] + str('-'))  # ONLY ONE ITEM IN LIST
-            date_count += 1
+            list_life.append(b_date[0] + str('-'))  # ONLY ONE ITEM IN LIST
+            # date_count += 1
         elif d_date and not b_date:
-            print(str('-') + d_date[0])  # ONLY ONE ITEM IN LIST
-            date_count += 1
+            list_life.append(str('-') + d_date[0])  # ONLY ONE ITEM IN LIST
+            # date_count += 1
         elif b_date and d_date:
-            print(b_date[0] + str('-') + d_date[0])
-            date_count += 1
+            list_life.append(b_date[0] + str('-') + d_date[0])
+            # date_count += 1
         else:
-            print(str('-'))
-        person_org_count += 1
+            list_life.append(str(''))
+    #     person_org_count += 1
+    return list_life
     # CHECK THE NUMBER OF ENTRIES READ FROM THE PERSON INDEX
-    print(str('Number of dates: ') + str(date_count))
-    print(str('Number of persons/organisations: ') + str(person_org_count))
+    # print(str('Number of dates: ') + str(date_count))
+    # print(str('Number of persons/organisations: ') + str(person_org_count))
 
 
 # lifespan(persons_org)
@@ -188,16 +200,17 @@ def lifespan(g):
 def person_org_desc(h):
     desc_count = 0
     person_org_count = 0
+    list_desc = ['Brief Description']
     for pers_org in h:
         description = pers_org.xpath('./tei:list/tei:item[@rend="briefDescription"]/text()', namespaces=ns)
         description_full = (pers_org.xpath('./tei:list/tei:item[@rend="briefDescription"]', namespaces=ns))
         child = pers_org.xpath('./tei:list/tei:item[@rend="briefDescription"]/HIS:hisRef', namespaces=ns)
 
         if not description_full:
-            print(str('-'))
+            list_desc.append(str(''))
             # desc_count +=1
         elif not child and len(description_full) == 1:
-            print(' '.join(description[0].split()))
+            list_desc.append(' '.join(description[0].split()))
             desc_count += 1
         else:
 
@@ -225,12 +238,13 @@ def person_org_desc(h):
 
                 }
 
-                print(multiple_replace(replace_string, cleaned_str))
+                list_desc.append(multiple_replace(replace_string, cleaned_str))
             desc_count += 1
 
         person_org_count += 1
-    print(str('Number of descriptions: ') + str(desc_count))
-    print(str('Number of persons/organisations: ') + str(person_org_count))
+    return list_desc
+    # print(str('Number of descriptions: ') + str(desc_count))
+    # print(str('Number of persons/organisations: ') + str(person_org_count))
 
 
 # person_org_desc(persons_org)
@@ -241,6 +255,7 @@ def person_org_desc(h):
 
 def write_csv(ids):
     # print(ids)
+    rows = zip(ids, wiki_id, names_given, last_name, names_full, year_of_birth, year_of_death, lifespans, descriptions)
     with open('practice_person_info.csv', 'w', ) as new_csv:
         wr = csv.writer(new_csv, quoting=csv.QUOTE_NONE)
         for id in ids:
