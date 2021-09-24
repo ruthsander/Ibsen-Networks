@@ -259,14 +259,112 @@ def person_org_desc(h):
 # text = XML_tree.xpath('string(//text[@title="book"]/div/div/p)')
 
 
-def write_csv(ids):
+def get_wikidata_ids(target):
+    ntarget = len(target)
+    list_wikidata_ids = ['Wikidata ID']
+    for i in range(1, ntarget):
+        entry = target[i]
+        remove_bracket_right = entry.replace('[', '')
+        remove_bracket_left = remove_bracket_right.replace(']', '')
+        search_name = remove_bracket_left
+
+        try:
+            def getItems(site, itemtitle):
+                params = {'action': 'wbsearchentities', 'format': 'json', 'language': 'en', 'type': 'item',
+                          'search': itemtitle}
+                request = api.Request(site=site, **params)
+                return request.submit()
+
+            # Login to wikidata
+            site = pywikibot.Site("wikidata", "wikidata")
+            repo = site.data_repository()
+            # token = repo.token(pywikibot.Page(repo, 'Main Page'), 'edit')
+            wikidataEntries = getItems(site, search_name)
+            # Print the different Wikidata entries to the screen
+            # prettyPrint(wikidataEntries)
+
+            search_result = wikidataEntries.get('search')
+            wiki_id = search_result[0].get('id')
+            # print(wiki_id)
+            list_wikidata_ids.append(str(wiki_id))
+        except IndexError:
+            # print(str(''))
+            list_wikidata_ids.append(str(''))
+    return list_wikidata_ids
+
+
+def write_csv(ids, wiki_id, names_given, last_name, names_full, year_of_birth, year_of_death, lifespans, descriptions):
     # print(ids)
     rows = zip(ids, wiki_id, names_given, last_name, names_full, year_of_birth, year_of_death, lifespans, descriptions)
     with open('practice_person_info.csv', 'w', ) as new_csv:
-        wr = csv.writer(new_csv, quoting=csv.QUOTE_NONE)
-        for id in ids:
-            wr.writerow([id])
+        wr = csv.writer(new_csv, delimiter=',')
+
+        for row in rows:
+            wr.writerow(row)
 
 
 id_list = (person_id(persons_org))
-write_csv(id_list)
+given_name_list = (given_names(names))
+surnames_list = (surname_names(names))
+names_list = full_names(names)
+birth_year_list = (date_of_birth(persons_org))
+death_year_list = (date_of_death(persons_org))
+lifespan_list = (lifespan(persons_org))
+descriptions_list = (person_org_desc(persons_org))
+
+
+# w_ids = (get_wikidata_ids(names_list))
+# write_csv(id_list, w_ids, given_name_list, surnames_list, names_list, birth_year_list, death_year_list, lifespan_list, descriptions_list)
+
+
+def add_further_data():
+    with open('practice_person_info.csv', newline='') as old_file:
+        # wr = csv.writer(new_csv, delimiter=',')
+
+        wiki_ids = csv.DictReader(old_file)
+        for row in wiki_ids:
+            search_id = row['Wikidata ID']
+            #print(search_id + str('test'))
+
+            details = []
+            if search_id == str(''):
+                # details.append(str(''))
+                pass
+            else:
+                print(search_id)
+                # with open('sparql.rq', 'r') as query_file:
+                query = '''PREFIX wikibase: <http://wikiba.se/ontology#>
+                            PREFIX wd: <http://www.wikidata.org/entity/>
+                            PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+                            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+                            SELECT ?i ?itemLabel ?genderLabel ?viaf ?nhrpId ?nationalityLabel WHERE {
+                            VALUES ?i {wd:Q36661}
+                            OPTIONAL {?i wdt:P1477 ?itemLabel.}
+                            OPTIONAL {?i wdt:P21 ?gender.}
+                            OPTIONAL {?i wdt:P214 ?viaf.}
+                            OPTIONAL {?i wdt:P4574 ?nhrpId.}
+                            OPTIONAL {?i wdt:P27 ?nationality.}
+                            SERVICE wikibase:label {bd:serviceParam wikibase:language "en" .}}'''
+
+                change_values = re.sub('Q36661', search_id, query)
+
+                url = 'https://query.wikidata.org/bigdata/namespace/wdq/sparql'
+                data = requests.get(url, params={'query': change_values, 'format': 'json'}).json()
+
+                #for item in data['results']['bindings']:
+                    # if item['itemLabel'] == True and item['genderLabel']== True and item['viaf']== True and item['nhrpId']== True and item['nationalityLabel']== True:
+                    #     details.append({
+                    #         'Name': item['itemLabel']['value'],
+                    #         'Gender': item['genderLabel']['value'],
+                    #         'VIAF': item['viaf']['value'],
+                    #         'nhrpId': item['nhrpId']['value'],
+                    #         'nationality': item['nationalityLabel']['value']
+                    #     })
+                    # else:
+                    #     skip
+                pprint.pprint(data['results']['bindings'])
+                time.sleep(1)
+
+
+add_further_data()
