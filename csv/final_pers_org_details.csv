@@ -25,7 +25,7 @@ peCCTA,Q15873738,47597627,,CARL [CHRISTIAN THORVALD],ANDERSEN,CARL [CHRISTIAN TH
 peHCA,Q5673,4925902,,HANS CHRISTIAN,ANDERSEN,HANS CHRISTIAN ANDERSEN,1805,1875,1805-1875,Denmark,writer,human,male,dansk forfatter.
 peHA,Q11975364,220149066602865601964,pf01036392084110,HILDUR,ANDERSEN,HILDUR ANDERSEN,1864,1956,1864-1956,Norway,pianist,human,female,norsk pianistinne og musikkpedagog.
 peMatA,,,,MATHILDE,ANDERSEN,MATHILDE ANDERSEN,,,,,,human,,ikke identifisert.
-peOMA,,,,OLUF MARTIN,ANDERSEN,OLUF MARTIN ANDERSEN,1826,1908,1826-1908,,,human,,norsk stadsingeniør og brannsjef.
+peOMA,,17162721026861090800,,OLUF MARTIN,ANDERSEN,OLUF MARTIN ANDERSEN,1826,1908,1826-1908,,,human,,norsk stadsingeniør og brannsjef.
 peTAn,Q5553363,69678408,,THEODOR [VILHELM JACOB],ANDERSEN,THEODOR [VILHELM JACOB] ANDERSEN,1835,1909,1835-1909,Denmark,actor,human,male,dansk skuespiller og teaterdirektør.
 peVA,,,,VALBORG,ANDERSEN,VALBORG ANDERSEN,1857,1937,1857-1937,,,human,,norsk lærerinne.
 peRBA,Q3436547,22924736,,RASMUS BJØRN,ANDERSON,RASMUS BJØRN ANDERSON,1846,1936,1846-1936,United States of America,diplomat,human,male,norsk-amerikansk forfatter.
@@ -38,7 +38,7 @@ peAA,Q529001,2532045,,ANDRÉ,ANTOINE,ANDRÉ ANTOINE,1858,1943,1858-1943,France,a
 pePA,Q95757498,165145542658096642024,,PAUL,APFELSTEDT,PAUL APFELSTEDT,,,,,writer,human,male,tysk autografsamler.
 peAEAr,Q33113944,,pf01036392045344,ANNA ELIZA,ARBO,ANNA ELIZA ARBO,1854,1921,1854-1921,Norway,painter,human,female,norsk malerhustru.
 pePNA,Q353014,30936931,pf01052721045917,PETER NICOLAI,ARBO,PETER NICOLAI ARBO,1831,1892,1831-1892,Norway,painter,human,male,norsk maler.
-peFrAr,,,,FRANCES [ELIZABETH],ARCHER,FRANCES [ELIZABETH] ARCHER,1855,1929,1855-1929,,,human,,britisk kritikerhustru.
+peFrAr,,222299029,,FRANCES [ELIZABETH],ARCHER,FRANCES [ELIZABETH] ARCHER,1855,1929,1855-1929,,,human,,britisk kritikerhustru.
 peWA,Q1382278,2509112,,WILLIAM,ARCHER,WILLIAM ARCHER,1856,1924,1856-1924,United Kingdom of Great Britain and Ireland,writer,human,male,britisk teaterkritiker og journalist.
 peSArc,Q1777383,226121847,pf01036392093920,SOFUS [ANTON BIRGER],ARCTANDER,SOFUS [ANTON BIRGER] ARCTANDER,1845,1924,1845-1924,Norway,politician,human,male,norsk politiker og embetsmann.
 peArius,Q106026,12404999,,,,ARIUS,0250,0336,0250-0336,Ancient Rome,ascetic,human,male,aleksandrinsk presbyter (prest).
@@ -65,9 +65,9 @@ peWBa,,,,WALTHER,BACMEISTER,WALTHER BACMEISTER,,,,,,human,,tysk gymnasiast.
 peFBa,,,,FREDERIK [AUGUST WILHELM],BAGGE,FREDERIK [AUGUST WILHELM] BAGGE,1861,1928,1861-1928,,,human,,dansk boktrykker.
 peMaBa,Q6874729,96407812,,MAGNUS [THULSTRUP],BAGGE,MAGNUS [THULSTRUP] BAGGE,1825,1894,1825-1894,Norway,painter,human,male,norsk maler.
 pePeBa,Q5564004,71366779,,PETER [FREDRIK LEO],BAGGE,PETER [FREDRIK LEO] BAGGE,1850,1926,1850-1926,Sweden,writer,human,male,svensk skolemann.
-peCTB,,,,CARL [THOLSTRUP],BAHNSON,CARL [THOLSTRUP] BAHNSON,1845,1917,1845-1917,,,human,,dansk prest og forfatter.
+peCTB,,4858998,,CARL [THOLSTRUP],BAHNSON,CARL [THOLSTRUP] BAHNSON,1845,1917,1845-1917,,,human,,dansk prest og forfatter.
 peHeBa,Q94034,36939191,,HERMANN,BAHR,HERMANN BAHR,1863,1934,1863-1934,Austria,writer,human,male,østerriksk forfatter.
-peABan,,,,ALBERT [THEODOR FREDERIK NICOLAI REICHWEIN HUITFELDT],BANG,ALBERT [THEODOR FREDERIK NICOLAI REICHWEIN HUITFELDT] BANG,1831,1892,1831-1892,,,human,,norsk offiser.
+peABan,,53149196501474792014,,ALBERT [THEODOR FREDERIK NICOLAI REICHWEIN HUITFELDT],BANG,ALBERT [THEODOR FREDERIK NICOLAI REICHWEIN HUITFELDT] BANG,1831,1892,1831-1892,,,human,,norsk offiser.
 peACB,Q3356252,34597270,pf01036392309060,ANTON CHRISTIAN,BANG,ANTON CHRISTIAN BANG,1840,1913,1840-1913,Norway,writer,human,male,"norsk biskop, statsråd og kirkehistoriker."
 peFSB,,,,FREDERIK SIEGFRED,BANG,FREDERIK SIEGFRED BANG,1810,1889,1810-1889,,,human,,dansk kunstsamler.
 peHBa,Q439370,34476645,,HERMAN [JOACHIM],BANG,HERMAN [JOACHIM] BANG,1857,1912,1857-1912,Denmark,writer,human,male,dansk forfatter.
@@ -109,7 +109,7 @@ peHEB,Q955114,3658329,pf01036392063043,HAGBARD EMANUEL,BERNER,HAGBARD EMANUEL BE
 peBern,Q61104,57396349,,,,BERNHARD,1851,1928,1851-1928,Germany,military personnel,human,male,arveprins av Sachsen-Meiningen.
 peCaBe,Q499784,49952262,,CARL,BERNHARD,CARL BERNHARD,1798,1865,1798-1865,Denmark,writer,human,male,dansk romanforfatter.
 peSB,Q4605,68925417,,SARAH,BERNHARDT,SARAH BERNHARDT,1844,1923,1844-1923,France,actor,human,female,fransk skuespillerinne.
-peTCB,,,,THEODOR CHRISTIAN,BERNHOFT,THEODOR CHRISTIAN BERNHOFT,1833,1885,1833-1885,,,human,,norsk prest.
+peTCB,,72148995771859750903,,THEODOR CHRISTIAN,BERNHOFT,THEODOR CHRISTIAN BERNHOFT,1833,1885,1833-1885,,,human,,norsk prest.
 peGLB,Q160538,73850000,,GIOVANNI LORENZO,BERNINI,GIOVANNI LORENZO BERNINI,1598,1680,1598-1680,Italy,architect,human,male,"italiensk billedhugger, arkitekt og maler."
 peEBe,Q107883,117272891,,ELSA,BERNSTEIN,ELSA BERNSTEIN,1866,1949,1866-1949,Austria,writer,human,female,tysk forfatterinne.
 peMBe,Q86731,42644082,,MAX (MAXIMILIAN ERNST),BERNSTEIN,MAX (MAXIMILIAN ERNST) BERNSTEIN,1854,1925,1854-1925,Germany,writer,human,male,tysk advokat og forfatter.
@@ -126,7 +126,7 @@ peCSAB,Q5576010,58629835,,CARL STEEN ANDERSEN,BILLE,CARL STEEN ANDERSEN BILLE,18
 peLoBi,,,,LOUISE [MOGENSINE],BILLE,LOUISE [MOGENSINE] BILLE,1841,1926,1841-1926,,,human,,dansk redaktør- og politikerhustru.
 peJBi,Q1777802,71301870,pf01036708000069,JUST [JOHAN],BING,JUST [JOHAN] BING,1866,1954,1866-1954,Norway,archivist,human,male,norsk statsarkivar og historiker.
 peSBi,Q66112,32839322,,SAMUEL (eg. Siegfried),BING,SAMUEL (eg. Siegfried) BING,1838,1905,1838-1905,France,art dealer,human,male,tysk-fransk kunstsamler og kunstforhandler.
-peESJB,,,,ELSE SOPHIE JENSDATTER,BIRKEDALEN,ELSE SOPHIE JENSDATTER BIRKEDALEN,1818,1892,1818-1892,,,human,,norsk tjenestepike.
+peESJB,,353149294145280521082,,ELSE SOPHIE JENSDATTER,BIRKEDALEN,ELSE SOPHIE JENSDATTER BIRKEDALEN,1818,1892,1818-1892,,,human,,norsk tjenestepike.
 peHJHB,,,,HANS JACOB HENDRICHSSEN (Henriksen),BIRKEDALEN,HANS JACOB HENDRICHSSEN (Henriksen) BIRKEDALEN,1846,1916,1846-1916,,,human,,norsk smed.
 peMBi,,,,MARIE,BIRKELAND,MARIE BIRKELAND,1831,1919,1831-1919,,,human,,norsk embetsmannshustru.
 peMB,Q449180,51592717,pf01052721005671,MICHAEL,BIRKELAND,MICHAEL BIRKELAND,1830,1896,1830-1896,Norway,politician,human,male,"norsk riksarkivar, historiker og politiker."
@@ -163,7 +163,7 @@ peJABl,,,,JOHANNE ALIDA,BLYTT (Blydt),JOHANNE ALIDA BLYTT (Blydt),1826,1905,1826
 pePB,Q17119542,67149296262280670001,,PETER [MICHAEL],BLYTT (Blydt),PETER [MICHAEL] BLYTT (Blydt),1823,1897,1823-1897,Norway,procurement,human,male,norsk handelsmann og stadsmegler (
 peVBl,,,,VALBORG,BLYTT,VALBORG BLYTT,1855,,1855-,,,human,,norsk stadsmeglerdatter.
 peGiBo,Q1514544,81438162,,GIROLAMO,BOCCARDO,GIROLAMO BOCCARDO,1829,1904,1829-1904,Kingdom of Italy,politician,human,male,italiensk nasjonaløkonom.
-peCHB,,,,[CÆSAR] HAKON,BOECK,[CÆSAR] HAKON BOECK,1832,1898,1832-1898,,,human,,norsk lege.
+peCHB,,291196681,,[CÆSAR] HAKON,BOECK,[CÆSAR] HAKON BOECK,1832,1898,1832-1898,,,human,,norsk lege.
 peSBoe,,,,[INGEBORG] SOPHIE,BOECK,[INGEBORG] SOPHIE BOECK,1839,1917,1839-1917,,,human,,"norsk legehustru, gift med foregående Hakon Boeck (F 1875; Koro 1908-15; NBO PA). "
 peTB,Q3373789,57425789,pf01037045154206,THORVALD [OLAF],BOECK,THORVALD [OLAF] BOECK,1835,1901,1835-1901,Norway,jurist,human,male,norsk kongelig fullmektig og boksamler.
 peAPB,Q372277,27880926,,ALEKSEJ PETROVITSJ,BOGOLJUBOV,ALEKSEJ PETROVITSJ BOGOLJUBOV,1824,1896,1824-1896,Russian Empire,painter,human,male,"russisk marinemaler, samler og lærer."
@@ -175,8 +175,8 @@ peWB,Q5475457,88863461,,[ANDREAS] WILHELM,BOLIN,[ANDREAS] WILHELM BOLIN,1835,192
 peABom,,,,ANETTE [JØRGINE],BOMHOFF,ANETTE [JØRGINE] BOMHOFF,1811,1894,1811-1894,,,human,,norsk kjøpmannshustru.
 peKB,Q3436189,,,KARL [GETHER],BOMHOFF,KARL [GETHER] BOMHOFF,1842,1925,1842-1925,Norway,politician,human,male,"norsk farmasøyt, fabrikkbestyrer og bankdirektør."
 peMBom,,,,[CAMILLA] MATHILDE,BOMHOFF,[CAMILLA] MATHILDE BOMHOFF,1854,1923,1854-1923,,,human,,norsk bankdirektørhustru.
-peBoni,Q355485,116587918,pf01038011000661,CLEMENS,BONIFACIUS,CLEMENS BONIFACIUS,,,,Union between Sweden and Norway,writer,human,male,pseudonym for P.Chr. Asjørnsen. 
-peCBo,,,,CAMILLE,BONNARD,CAMILLE BONNARD,1793,,1793-,,,human,,fransk kostymeverkforfatter.
+peBoni,Q355485,116587918,pf01038011000661,CLEMENS,BONIFACIUS,CLEMENS BONIFACIUS,,,,Union between Sweden and Norway,writer,human,male,pseudonym for P.Chr. Asjørnsen.
+peCBo,,17349285,,CAMILLE,BONNARD,CAMILLE BONNARD,1793,,1793-,,,human,,fransk kostymeverkforfatter.
 peLBo,Q170259,19835381,,LÉON [JOSEPH FLORENTIN],BONNAT,LÉON [JOSEPH FLORENTIN] BONNAT,1833,1922,1833-1922,France,painter,human,male,fransk maler.
 peAB,Q1588065,4909296,,ALBERT,BONNIER,ALBERT BONNIER,1820,1900,1820-1900,Sweden,publisher,human,male,svensk forlagsbokhandler.
 peBeBo,Q104755506,,,BETTY,BONNIER,BETTY BONNIER,1828,1888,1828-1888,Sweden,,human,female,svensk bokhandlerhustru.
@@ -191,7 +191,7 @@ peAAB,Q448812,32055272,,[ANTOINE] AUGUST,BOURNONVILLE,[ANTOINE] AUGUST BOURNONVI
 peAEB,Q216668,46941089,,[ALBERT] EMIL,BRACHVOGEL,[ALBERT] EMIL BRACHVOGEL,1824,1878,1824-1878,Germany,writer,human,male,tysk forfatter.
 peOBr,Q71903,22161138,,OTTO,BRAHM,OTTO BRAHM,1856,1912,1856-1912,German Empire,writer,human,male,tysk teaterleder og -kritiker.
 peJoBr,Q7294,7573295,,JOHANNES,BRAHMS,JOHANNES BRAHMS,1833,1897,1833-1897,German Confederation,composer,human,male,tysk komponist.
-peAsBr,,,,ASTRID,BRANDES,ASTRID BRANDES,1880,1880,1880-1880,,,human,,datter av Georg og Gerda Brandes. Døde av difteri 19. novemer 1890 (GBT). 
+peAsBr,,,,ASTRID,BRANDES,ASTRID BRANDES,1880,1880,1880-1880,,,human,,datter av Georg og Gerda Brandes. Døde av difteri 19. novemer 1890 (GBT).
 peEdBr,,,,EDITH,BRANDES,EDITH BRANDES,1879,1968,1879-1968,,,human,,"datter av Georg og Gerda Brandes (J. Knudsen 2004, . 2, 650). "
 peEBr,Q347582,30334407,,[CARL] EDVARD [COHEN],BRANDES,[CARL] EDVARD [COHEN] BRANDES,1847,1931,1847-1931,Denmark,writer,human,male,"dansk kritiker, forfatter, journalist og politiker."
 peEBra,,,,EMILIE,BRANDES,EMILIE BRANDES,1818,1898,1818-1898,,,human,,dansk grossererhustru.
@@ -204,8 +204,8 @@ peLoBr,Q1870155,49976527,,LORENZ VON,BRAUNWART,LORENZ VON BRAUNWART,1826,1904,18
 peEBrau,Q124497,59875388,,ERNST,BRAUSEWETTER,ERNST BRAUSEWETTER,1863,1904,1863-1904,German Empire,writer,human,male,tysk forfatter og oversetter.
 peJB,Q13411079,61494363,,JOHAN (Josva),BRAVO,JOHAN (Josva) BRAVO,1797,1876,1797-1876,Denmark,painter,human,male,dansk maler og kunstagent.
 peNB,Q5585682,12262574,,NIELS [ANDREAS],BREDAL,NIELS [ANDREAS] BREDAL,1841,1888,1841-1888,Denmark,painter,human,male,dansk akvarellmaler.
-peFBr,,,,FRIEDRICH,BRESEMANN,FRIEDRICH BRESEMANN,1809,1850,1809-1850,,,human,,dansk språklærer.
-peCBr,,,,CHRISTOFFER,BRINCHMANN,CHRISTOFFER BRINCHMANN,1864,1940,1864-1940,,,human,,norsk arkivar.
+peFBr,,103316608,,FRIEDRICH,BRESEMANN,FRIEDRICH BRESEMANN,1809,1850,1809-1850,,,human,,dansk språklærer.
+peCBr,,88763255,,CHRISTOFFER,BRINCHMANN,CHRISTOFFER BRINCHMANN,1864,1940,1864-1940,,,human,,norsk arkivar.
 peElBr,,,,ELISE,BRODTKORB,ELISE BRODTKORB,1831,1914,1831-1914,,,human,,norsk proprietærhustru (NBO PA).
 peBBro,Q55674719,57373747,,BERNHARD,BRONS,BERNHARD BRONS,1831,1911,1831-1911,,merchant,human,male,tysk forretningsmann.
 peHBvS,Q66163,62333906,,HANS [AUGUST],BRONSART VON SCHELLENDORF,HANS [AUGUST] BRONSART VON SCHELLENDORF,1830,1913,1830-1913,Germany,composer,human,male,tysk komponist.
@@ -213,7 +213,7 @@ peIBS,Q457863,59869091,,INGEBORG,BRONSART VON SCHELLENDORF,INGEBORG BRONSART VON
 peTAB,,,,TITO A.,BRUCENI,TITO A. BRUCENI,,,,,,human,,italiensk litterat.
 peMBr,Q16164996,307224396,,MASSI (Masine Steinon),BRUHN,MASSI (Masine Steinon) BRUHN,1846,1895,1846-1895,Denmark,novelist,human,female,dansk forfatterinne og kvinnesaksforkjemper.
 peAlB,Q12300947,,,ALEXANDER,BRUN,ALEXANDER BRUN,1814,1893,1814-1893,Denmark,entomologist,human,male,dansk birøkter og fruktdyrker.
-peAJB,,,,ANDREAS [JOHN],BRUN,ANDREAS [JOHN] BRUN,1840,1926,1840-1926,,,human,,"norsk bokhandler (Anker 2, 86)."
+peAJB,,2157640953938221746,,ANDREAS [JOHN],BRUN,ANDREAS [JOHN] BRUN,1840,1926,1840-1926,,,human,,"norsk bokhandler (Anker 2, 86)."
 peHBru,Q18756034,231499317,pf01053257030608,HANS [SALVESEN],BRUN,HANS [SALVESEN] BRUN,1834,1901,1834-1901,Norway,actor,human,male,norsk skuespiller og sanger.
 peJCBr,Q6214982,7419149296291780670003,,JOHAN [CHRISTOPHER],BRUN,JOHAN [CHRISTOPHER] BRUN,1838,1914,1838-1914,Norway,politician,human,male,norsk apoteker.
 peJFB,Q1794570,221276383,pf01053257005687,JOHANNES [FINNE],BRUN,JOHANNES [FINNE] BRUN,1832,1890,1832-1890,Norway,actor,human,male,norsk skuespiller.
@@ -305,7 +305,7 @@ peEdC,,,,[JEAN] EDMUND DE,CONINCK,[JEAN] EDMUND DE CONINCK,1817,1874,1817-1874,,
 peMRC,Q18916929,74608944,,MARIE,CONRAD-RAMLO,MARIE CONRAD-RAMLO,1850,1921,1850-1921,,writer,human,female,tysk skuespillerinne og forfatterinne.
 peGdC,Q18012167,24987471,,GÉRARD DE,CONTADES,GÉRARD DE CONTADES,1846,1899,1846-1899,France,historian,human,male,fransk forfatter og historiker.
 peCeCo,Q1093375,19687913,,CESARE,CORRÈNTI,CESARE CORRÈNTI,1815,1888,1815-1888,Kingdom of Sardinia,politician,human,male,italiensk politiker.
-peThCor,,,,THOMAS,CORTES,THOMAS CORTES,1819,1901,1819-1901,,,human,,dansk-norsk skuespiller og teaterdirektør.
+peThCor,,3145970019432250554,,THOMAS,CORTES,THOMAS CORTES,1819,1901,1819-1901,,,human,,dansk-norsk skuespiller og teaterdirektør.
 peKCo,Q1730676,57818108,,KARL,COSTENOBLE,KARL COSTENOBLE,1837,1907,1837-1907,Austria,politician,human,male,østerriksk billedhugger.
 peMC,Q42899454,27330633,,MAURICE,COTTIER,MAURICE COTTIER,1822,1881,1822-1881,France,painter,human,male,"fransk samler, maler og forfatter."
 peTCr,,,,THOMAS,CRAWFURD,THOMAS CRAWFURD,1779,1850,1779-1850,,,human,,skotskfødt norsk kjøpmann og skipsreder.
@@ -372,7 +372,7 @@ peJSD,,,,JOHANNE [SIGVARDA],DAAE,JOHANNE [SIGVARDA] DAAE,1835,1899,1835-1899,,,h
 peJRD,,,,JONAS RAVN,DAAE,JONAS RAVN DAAE,1822,1892,1822-1892,,,human,,norsk offiser.
 peLuDa,Q3355854,14672507,pf01038288000010,LUDVIG,DAAE,LUDVIG DAAE,1829,1893,1829-1893,Norway,writer,human,male,"norsk jurist, embetsmann og politiker."
 peLDa,Q946290,76417494,pd00000013230763,LUDVIG LUDVIGSEN,DAAE,LUDVIG LUDVIGSEN DAAE,1834,1910,1834-1910,Norway,librarian,human,male,norsk historiker.
-peJEb,,,,JOACHIM,EBBELL,JOACHIM EBBELL,1835,1877,1835-1877,,,human,,sønn av Grimstad-kjøpmann Jørgen Benedix Ebbell og Inger Bie.
+peJEb,,311149294283080521393,,JOACHIM,EBBELL,JOACHIM EBBELL,1835,1877,1835-1877,,,human,,sønn av Grimstad-kjøpmann Jørgen Benedix Ebbell og Inger Bie.
 peCE,,,,CLARA (Marthe Clarine),EBBELL,CLARA (Marthe Clarine) EBBELL,1830,1897,1830-1897,,,human,,norsk losoldermannshustru (F 1865).
 peJosE,Q4945641,,,JOSEPHINE [HORTENSIA NANCY ADELAIDE],ECKARDT,JOSEPHINE [HORTENSIA NANCY ADELAIDE] ECKARDT,1839,1906,1839-1906,Denmark,actor,human,female,dansk skuespillerinne.
 peGEd,Q16649149,,,GUSTAF [ELIAS],EDGREN,GUSTAF [ELIAS] EDGREN,1837,1903,1837-1903,Sweden,,human,male,svensk embetsmann.
@@ -408,7 +408,7 @@ peFFF,Q7886627,,,FREDERIK FERDINAND,FALKENSTJERNE,FREDERIK FERDINAND FALKENSTJER
 peAdF,,,,ADOLF,FALKMAN,ADOLF FALKMAN,1837,1903,1837-1903,,,human,,"dansk journalist (i HIS 12k, 655, på basis av K&E 1, 314, feilaktig identifisert som Axel Falkmann)."
 peSFal,Q11893231,58611805,,SEVERIN [GABRIEL],FALKMAN,SEVERIN [GABRIEL] FALKMAN,1831,1889,1831-1889,Grand Duchy of Finland,painter,human,male,svensk-finsk maler.
 peEF,Q12309374,,,[MORTEN] EDVARD,FALLESEN,[MORTEN] EDVARD FALLESEN,1817,1894,1817-1894,Denmark,military personnel,human,male,"dansk offiser, politiker og teatersjef."
-peCF,,,,CONRAD,FALSEN,CONRAD FALSEN,1847,1898,1847-1898,,,human,,norsk offiser og konsul.
+peCF,,157149196534874792135,,CONRAD,FALSEN,CONRAD FALSEN,1847,1898,1847-1898,,,human,,norsk offiser og konsul.
 peDFa,,,,DOROTHEA [ELISABETH],FALSEN,DOROTHEA [ELISABETH] FALSEN,1849,1916,1849-1916,,,human,,"Conrad Falsens hustru, Susanna Isens halvsøster. "
 peHAF,,,,HENRIK ANTON,FALSEN,HENRIK ANTON FALSEN,1871,1945,1871-1945,,,human,,"norsk konsul, sønn av Conrad og Dorothea Falsen,. "
 peMF,,,,MAGDALENA,FALSEN,MAGDALENA FALSEN,1874,1957,1874-1957,,,human,,"datter av Conrad og Dorothea Falsen (Anker 2, 132; F 1900). "
@@ -425,7 +425,7 @@ peAF,Q5729628,35454566,,[JOHAN] ANDREAS [NEERGAARD],FIBIGER,[JOHAN] ANDREAS [NEE
 peFrFr,Q108825,19930180,,FRIEDRICH,FIEDLER,FRIEDRICH FIEDLER,1859,1917,1859-1917,Russian Empire,writer,human,male,"tysk lærer, sceneforfatter og oversetter (DBI 3. utg.;"
 peJCHF,Q5731579,21837237,,JOHAN CHRISTIAN HENRIK,FISCHER,JOHAN CHRISTIAN HENRIK FISCHER,1814,1885,1814-1885,Denmark,politician,human,male,dansk minister.
 peSFi,Q95541,76445177,,SAMUEL,FISCHER,SAMUEL FISCHER,1859,1934,1859-1934,Germany,publisher,human,male,tysk forlagsbokhandler.
-peFist,,,,GUSTAV [CHRISTIAN JACOB PIERRE NESTOR],FISTAINE,GUSTAV [CHRISTIAN JACOB PIERRE NESTOR] FISTAINE,1820,1886,1820-1886,,,human,,dansk språkmann.
+peFist,,72121416,,GUSTAV [CHRISTIAN JACOB PIERRE NESTOR],FISTAINE,GUSTAV [CHRISTIAN JACOB PIERRE NESTOR] FISTAINE,1820,1886,1820-1886,,,human,,dansk språkmann.
 peLFi,Q4948162,44350413,,LAURA [MATHILDA BERNHARDINA],FITINGHOFF,LAURA [MATHILDA BERNHARDINA] FITINGHOFF,1848,1908,1848-1908,Sweden,writer,human,female,"svensk forfatterinne, mor til Rosa Fitinghoff. "
 peRFi,Q1120787,62017993,,[LAURA MATHILDA EDLA] ROSA,FITINGHOFF,[LAURA MATHILDA EDLA] ROSA FITINGHOFF,1872,1949,1872-1949,Sweden,author,human,female,"svensk forfatterinne, datter av Laura Fitinghoff. "
 peJHGF,Q6118627,40834455,,JAKOB/JACOB [HENRIK GERHARD],FJELDE,JAKOB/JACOB [HENRIK GERHARD] FJELDE,1859,1896,1859-1896,United States of America,sculptor,human,male,norsk-amerikansk billedhugger.
@@ -461,7 +461,7 @@ peGGal,Q307,2470550,,GALILEO,GALILEI,GALILEO GALILEI,1564,1642,1564-1642,Grand D
 peGSG,,,,GREGORY SERGEJEVITSJ,GALITZIN,GREGORY SERGEJEVITSJ GALITZIN,1838,1907,1838-1907,,,human,,"russisk fyrste, senator og generalløytnant."
 pePiGa,,,,PIETRO,GALLETTI,PIETRO GALLETTI,,,,,,human,,"italiensk teatermann (jf. HU 19, 566)."
 peLeGa,Q295090,61559644,,LÉON,GAMBETTA,LÉON GAMBETTA,1838,1882,1838-1882,France,lawyer,human,male,fransk jurist og politiker.
-peJCG,,,,JOACHIM [CHRISTIAN],GAMBORG,JOACHIM [CHRISTIAN] GAMBORG,1831,1884,1831-1884,,,human,,norsk jurist og økonom.
+peJCG,,309667840,,JOACHIM [CHRISTIAN],GAMBORG,JOACHIM [CHRISTIAN] GAMBORG,1831,1884,1831-1884,,,human,,norsk jurist og økonom.
 peHGa,Q5934177,31595004,,HUGO,GANZ,HUGO GANZ,1862,1922,1862-1922,Germany,journalist,human,male,tysk journalist og forfatter.
 peAGa,Q467497,89613088,pf01037030002786,ARNE (Aadne),GARBORG,ARNE (Aadne) GARBORG,1851,1924,1851-1924,Norway,writer,human,male,norsk forfatter og redaktør.
 peGGa,Q539,100192194,,GIUSEPPE,GARIBALDI,GIUSEPPE GARIBALDI,1807,1882,1807-1882,French Third Republic,writer,human,male,italiensk nasjonalist og geriljaleder.
@@ -470,7 +470,7 @@ peFLG,Q1448090,80765865,,FRANZ LUDWIG,GEHE,FRANZ LUDWIG GEHE,1810,1882,1810-1882
 peALG,,,,ANNA L.,GEELMUYDEN,ANNA L. GEELMUYDEN,1809,1872,1809-1872,,,human,,"norsk trykkerieier (Amdam & Keel 1993-99, b. 2)."
 peGaG,Q343550,22187234,,GUSTAF AF,GEIJERSTAM,GUSTAF AF GEIJERSTAM,1858,1909,1858-1909,Sweden,writer,human,male,svensk forfatter.
 peGoG,Q10503575,819561,,(GUSTAV) GÖSTA AF,GEIJERSTAM,(GUSTAV) GÖSTA AF GEIJERSTAM,1888,1954,1888-1954,Norway,writer,human,male,svensk-norsk forfatter og maler.
-peNGV,,,,[SOFIA EUGENIA HORTENCE] NENNIE,GEIJERSTAM-VALENKAMPH,[SOFIA EUGENIA HORTENCE] NENNIE GEIJERSTAM-VALENKAMPH,1864,1900,1864-1900,,,human,,svensk forfatterhustru.
+peNGV,,47599849,,[SOFIA EUGENIA HORTENCE] NENNIE,GEIJERSTAM-VALENKAMPH,[SOFIA EUGENIA HORTENCE] NENNIE GEIJERSTAM-VALENKAMPH,1864,1900,1864-1900,,,human,,svensk forfatterhustru.
 peGeorgII,Q702749,27084313,,,,GEORG 2.,1826,1914,1826-1914,Germany,sovereign,human,male,hertug av Sachsen-Meiningen og teaterleder.
 peBeG,Q1797916,107637654,pf01037045154553,BERNHARD,GETZ,BERNHARD GETZ,1850,1901,1850-1901,Norway,lawyer,human,male,norsk jurist.
 peCCG,Q64710942,,pf01038027003846,CHRISTIAN [CHRISTOPHER],GIEBELHAUSEN,CHRISTIAN [CHRISTOPHER] GIEBELHAUSEN,1807,1885,1807-1885,Norway,actor,human,male,dansk-norsk skuespiller og regissør.
@@ -521,7 +521,7 @@ peAuGr,,,,AUGUST,GRÖBNER,AUGUST GRÖBNER,1860,1914,1860-1914,,,human,,østerrik
 peLuGr,,,,LUDWIG,GRÖBNER,LUDWIG GRÖBNER,1853,1916,1853-1916,,,human,,Ibsens vert i Gossensass.
 peMarGr,,,,MARIE (Maria),GRÖBNER,MARIE (Maria) GRÖBNER,1855,1937,1855-1937,,,human,,østerriksk guvernante.
 peMaGr,,,,MAX,GRÖBNER,MAX GRÖBNER,1861,1922,1861-1922,,,human,,østerriksk kjøpmann og hotellvert.
-peGrob,,,,fru,GRÖBNER,fru GRÖBNER,,,,,,human,,Max Gröners hustru. 
+peGrob,,,,fru,GRÖBNER,fru GRÖBNER,,,,,,human,,Max Gröners hustru.
 peToGr,,,,TONI (ANTONIA),GRÖBNER,TONI (ANTONIA) GRÖBNER,1870,1952,1870-1952,,,human,,østerriksk hotellvertinne.
 peAFG,,,,[ANDREAS] FREDRIK [SCHROETER],GRØN,[ANDREAS] FREDRIK [SCHROETER] GRØN,1819,1905,1819-1905,,,human,,norsk lege.
 peABG,Q270464,64196537,pf01052055030522,AGATHE [URSULA] BACKER,GRØNDAHL,AGATHE [URSULA] BACKER GRØNDAHL,1847,1907,1847-1907,Norway,composer,human,female,norsk pianistinne og komponist.
@@ -582,7 +582,7 @@ pePHa,Q5788371,290969456,,[HANS CHRISTIAN] PETER,HANSEN,[HANS CHRISTIAN] PETER H
 pePEH,,,,PETER EMMANUEL/PJOTR GOTFRIDOVITSJ,HANSEN,PETER EMMANUEL/PJOTR GOTFRIDOVITSJ HANSEN,1854,1930,1854-1930,,,human,,dansk-russisk litterat og oversetter.
 peTHa,Q78638,60518382,,THEOPHILUS [EDVARD],HANSEN,THEOPHILUS [EDVARD] HANSEN,1813,1891,1813-1891,Austria,teacher,human,male,dansk-østerriksk arkitekt.
 peKlHa,Q1383935,224000711,pf01052994006365,KLAUS,HANSSEN,KLAUS HANSSEN,1844,1914,1844-1914,Norway,physician,human,male,norsk lege.
-peCRH,,,,CHRISTIAN RASMUS,HANSSON,CHRISTIAN RASMUS HANSSON,1807,1872,1807-1872,,,human,,norsk embetsmann.
+peCRH,,3157640833938220876,,CHRISTIAN RASMUS,HANSSON,CHRISTIAN RASMUS HANSSON,1807,1872,1807-1872,,,human,,norsk embetsmann.
 peOHa,Q7082983,8168149108625068780009,pf01052055032513,OLAF [MØRCH],HANSSON,OLAF [MØRCH] HANSSON,1856,1912,1856-1912,Norway,actor,human,male,"norsk skuespiller, sceneinstruktør og teatersjef."
 peHanst,Q5112479,,pf01036392087485,CHRISTOPHER,HANSTEEN,CHRISTOPHER HANSTEEN,1822,1912,1822-1912,Norway,judge,human,male,norsk jurist og dommer.
 peTHan,,,,THORA,HANSTEEN,THORA HANSTEEN,1816,1898,1816-1898,,,human,,"norsk, datter av fysikeren Christopher Hansteen (1784-1873), søster av Aasta Hansteen (NBO PA; Steen 1954, 28). "
@@ -688,7 +688,7 @@ peIAFH,Q322391,70570400,,IVER [ANDREAS FREDRIK],HOLTER,IVER [ANDREAS FREDRIK] HO
 peTWH,,,,[THORVALD] WALDEMAR,HOLTERMANN,[THORVALD] WALDEMAR HOLTERMANN,1826,1902,1826-1902,,,human,,norsk examinatus juris (
 peFvH,Q86934,95190728,,[JOACHIM WILHELM] FRANZ [PHILIPP] VON,HOLTZENDORFF,[JOACHIM WILHELM] FRANZ [PHILIPP] VON HOLTZENDORFF,1829,1889,1829-1889,Germany,jurist,human,male,tysk rettslærd.
 peHom,,,,,,HOMER,,,,,,human,,
-peCHon,,,,CORNELIS,HONIGH,CORNELIS HONIGH,1845,1896,1845-1896,,,human,,nederlandsk forfatter og oversetter.
+peCHon,,22524232,,CORNELIS,HONIGH,CORNELIS HONIGH,1845,1896,1845-1896,,,human,,nederlandsk forfatter og oversetter.
 peWJH,,,,WILLIAM [JOHANNES],HONUM,WILLIAM [JOHANNES] HONUM,1860,1914,1860-1914,,,human,,dansk jurist.
 peHRvH,Q104180,49492164,,HANS,HOPFEN,HANS HOPFEN,1835,1904,1835-1904,German Empire,writer,human,male,tysk dikter.
 peMaHo,Q55856688,89935152,,MARY,HOPFEN,MARY HOPFEN,1858,1905,1858-1905,,singer,human,female,tysk operasangerinne.
@@ -703,7 +703,7 @@ peFHv,Q3352124,224185195,pf01037335036216,[FREDRIK] WALDEMAR,HVOSLEF,[FREDRIK] W
 peElHw,Q4955200,4043161332355452420003,,ELISE (Ebba Charlotta Elisa),HWASSER,ELISE (Ebba Charlotta Elisa) HWASSER,1831,1894,1831-1894,Sweden,actor,human,female,svensk skuespillerinne.
 peGOHC,Q3120877,56973019,,GUNNAR OLOF,HYLTÉN-CAVALLIUS,GUNNAR OLOF HYLTÉN-CAVALLIUS,1818,1889,1818-1889,Sweden,writer,human,male,svensk folkeminnesamler og -forsker.
 peFLH,Q5820456,232987864,,FREDERIK [LUDVIG],HØEDT,FREDERIK [LUDVIG] HØEDT,1820,1885,1820-1885,Denmark,actor,human,male,dansk sceneinstruktør og skuespiller.
-peAHoy,,,,[SVENNIK] ANTON,HØYER,[SVENNIK] ANTON HØYER,1842,1905,1842-1905,,,human,,norsk skolemann.
+peAHoy,,316149196253674790179,,[SVENNIK] ANTON,HØYER,[SVENNIK] ANTON HØYER,1842,1905,1842-1905,,,human,,norsk skolemann.
 peHHof,Q703531,54193861,,HARALD,HÖFFDING,HARALD HÖFFDING,1843,1931,1843-1931,Denmark,psychologist,human,male,dansk filosof.
 peSoH,Q5820866,,,SOFUS [MAGDALUS],HØGSBRO,SOFUS [MAGDALUS] HØGSBRO,1822,1902,1822-1902,Denmark,politician,human,male,dansk høyskoleforstander og politiker.
 peKAH,Q95195025,171666577,,KARL ALBRECHT,HÖLBE,KARL ALBRECHT HÖLBE,1839,,1839-,,teacher,human,female,tysk skoledirektør (DBI).
@@ -806,7 +806,7 @@ peOvK,Q38240335,3250147425855745040003,,[ERIC] OSCAR VON,KNORRING,[ERIC] OSCAR V
 peDFK,Q15633021,288910146,pf01052721117122,DAVID FAYE,KNUDSEN,DAVID FAYE KNUDSEN,1837,1922,1837-1922,Norway,theologian,human,male,norsk skolemann og lærebokforfatter.
 peKKspr,Q965733,25705181,pf01053257011500,KNUD,KNUDSEN,KNUD KNUDSEN,1812,1895,1812-1895,Norway,philologist,human,male,"norsk språkreformator, grammatiker og skolemann."
 peKKn,,,,KNUD,KNUDSEN,KNUD KNUDSEN,,,,,,human,,ikke identifisert.
-peFGK,,,,FREDERIK GOTSCHALK,KNUDTZON,FREDERIK GOTSCHALK KNUDTZON,1843,1917,1843-1917,,,human,,dansk kunsthistoriker.
+peFGK,,282503437,,FREDERIK GOTSCHALK,KNUDTZON,FREDERIK GOTSCHALK KNUDTZON,1843,1917,1843-1917,,,human,,dansk kunsthistoriker.
 peMK,Q59384,44370381,,MAX,KOCH,MAX KOCH,1855,1931,1855-1931,Germany,historian,human,male,tysk litteraturhistoriker.
 peRvonK,Q5916611,9824372,,RICHERT VOGT VON,KOCH,RICHERT VOGT VON KOCH,1838,1913,1838-1913,Sweden,military officer,human,male,svensk offiser og forfatter.
 peKvK,Q18628094,5679097,,KARL [VON],KOLB,KARL [VON] KOLB,1800,1868,1800-1868,,banker,human,male,tysk kjøpmann og bankier i Roma.
@@ -865,7 +865,7 @@ peRoL,Q2166450,80424072,,ROSA,LANZLOTT,ROSA LANZLOTT,1834,1923,1834-1923,Germany
 peSLa,Q12002048,74707285,pf01036392121506,SOPHUS [EDMÉ CONRAD],LARPENT,SOPHUS [EDMÉ CONRAD] LARPENT,1838,1911,1838-1911,Norway,art collector,human,male,norsk kunstsamler og mesen.
 peAdoL,Q365448,17962644,,ADOLPH,L’ARRONGE,ADOLPH L’ARRONGE,1838,1908,1838-1908,Germany,screenwriter,human,male,tysk teaterforfatter og teaterdirektør.
 peLar,,,,,LARSEN,LARSEN,,,,,,human,,ikke identifisert.
-peAnL,,,,ANTON [LAURENTIUS],LARSEN,ANTON [LAURENTIUS] LARSEN,1827,1888,1827-1888,,,human,,norsk publisist.
+peAnL,,55538305,,ANTON [LAURENTIUS],LARSEN,ANTON [LAURENTIUS] LARSEN,1827,1888,1827-1888,,,human,,norsk publisist.
 peAuLa,,,,AUGUST [GOTTLIEB],LARSEN,AUGUST [GOTTLIEB] LARSEN,1843,1906,1843-1906,,,human,,dansk bokhandler.
 peEdLa,,,,EDVARD/EDWARD,LARSEN/LARSSEN,EDVARD/EDWARD LARSEN/LARSSEN,1840,1898,1840-1898,,,human,,"norsk journalist, fotograf, forfatter m.m."
 peHeLa,,,,HERTHA [VILHELMINE PETREA THEODORA],LARSEN,HERTHA [VILHELMINE PETREA THEODORA] LARSEN,1857,1920,1857-1920,,,human,,dansk bokhandlerhustru.
@@ -953,7 +953,7 @@ peALu,,,,ALBERT MARINIUS,LUND,ALBERT MARINIUS LUND,1867,1959,1867-1959,,,human,,
 peCCL,,,,CARL CORNELIUS [CLARIN],LUND,CARL CORNELIUS [CLARIN] LUND,1824,1906,1824-1906,,,human,,norsk ingeniøroffiser (Strøm 2005).
 peFSL,Q5499531,,pf01036392092265,FREDRIK STANG,LUND,FREDRIK STANG LUND,1859,1922,1859-1922,Norway,judge,human,male,norsk advokat.
 peJLu,Q4566367,206061303,pf01036708011279,JOHN [THEODOR],LUND,JOHN [THEODOR] LUND,1842,1913,1842-1913,Norway,politician,human,male,norsk politiker.
-peLL,,,,[JOHAN] LUDVIG [MICHAEL],LUND,[JOHAN] LUDVIG [MICHAEL] LUND,1844,1912,1844-1912,,,human,,dansk zoolog og religionshistorisk forfatter.
+peLL,,229856832,,[JOHAN] LUDVIG [MICHAEL],LUND,[JOHAN] LUDVIG [MICHAEL] LUND,1844,1912,1844-1912,,,human,,dansk zoolog og religionshistorisk forfatter.
 peMLu,,,,MARIUS,LUND,MARIUS LUND,1852,1931,1852-1931,,,human,,norsk bokhandelbetjent (NBO PA).
 peNL,,,,NILS,LUND,NILS LUND,1835,1914,1835-1914,,,human,,norsk bokhandler.
 peSLu,Q7512883,87433296,pf01052994016718,SIGNE,LUND,SIGNE LUND,1868,1950,1868-1950,Norway,composer,human,female,norsk komponist og pianistinne.
@@ -990,7 +990,7 @@ peHMa,Q80348211,,pf01053257056706,HEDVIG [THERESIA FRANCISCA],MARIBO,HEDVIG [THE
 peWAM,Q19398699,,pf01037028008997,WILHELM [ADELSTEN],MARIBO,WILHELM [ADELSTEN] MARIBO,1814,1901,1814-1901,Norway,jurist,human,male,norsk jurist.
 peMaBe,Q311850,2521520,,AUGUSTE FERDINAND FRANÇOIS,MARIETTE,AUGUSTE FERDINAND FRANÇOIS MARIETTE,1821,1881,1821-1881,France,egyptologist,human,male,fransk egyptolog.
 peMark,,,,,,MARKOS,,,,,,human,,biskop i Syria.
-peMarkus,,,,,,MARKUS,,,,,,human,,ikke identifisert. Muligens sønn av Konrad Maurer. 
+peMarkus,,,,,,MARKUS,,,,,,human,,ikke identifisert. Muligens sønn av Konrad Maurer.
 peElMa,Q18916715,72154435,,ELISABETH,MARR,ELISABETH MARR,1828,1901,1828-1901,,writer,human,female,tysk forfatterinne.
 peHeMa,Q1598262,20472669,,HEINRICH,MARR,HEINRICH MARR,1797,1871,1797-1871,Germany,stage actor,human,male,tysk skuespiller og regissør.
 peHLMa,Q552875,67260686,,HANS [LASSEN],MARTENSEN,HANS [LASSEN] MARTENSEN,1808,1884,1808-1884,Denmark,priest,human,male,dansk biskop.
@@ -1008,7 +1008,7 @@ peJRMC,Q1388348,34522756,,JOHN RAMSAY,M’CULLOCH/MAC CULLOCH,JOHN RAMSAY M’CU
 peASM,,,,SOFIE (Anna Sophie),MEGRUND,SOFIE (Anna Sophie) MEGRUND,1839,1920,1839-1920,,,human,,norsk prestehustru.
 peCMe,,,,[HANS] CONRAD [THORESEN],MEGRUND,[HANS] CONRAD [THORESEN] MEGRUND,1874,1955,1874-1955,,,human,,norsk prest.
 peDiM,Q5283683,228277213,,DITMAR,MEIDELL,DITMAR MEIDELL,1826,1900,1826-1900,Norway,librarian,human,male,norsk redaktør.
-peHMe,,,,HJALMAR [SIGVARD],MEIDELL,HJALMAR [SIGVARD] MEIDELL,1871,1957,1871-1957,,,human,,norsk tannlege og forfatter.
+peHMe,,1110166,,HJALMAR [SIGVARD],MEIDELL,HJALMAR [SIGVARD] MEIDELL,1871,1957,1871-1957,,,human,,norsk tannlege og forfatter.
 peSMe,Q5983438,39367346,,SIMON [SØRENSEN],MEISLING,SIMON [SØRENSEN] MEISLING,1787,1856,1787-1856,Denmark,translator,human,male,dansk filolog.
 peEMe,Q354786,49233513,,[JEAN LOUIS] ERNEST,MEISSONNIER,[JEAN LOUIS] ERNEST MEISSONNIER,1815,1891,1815-1891,France,politician,human,male,"fransk maler, raderer, litograf og tegner."
 peGPM,,,,PETER GABRIEL,MEISTERLIN,PETER GABRIEL MEISTERLIN,1873,1901,1873-1901,,,human,,norsk lege.
@@ -1171,7 +1171,7 @@ peph,,,,,,P.H.,,,,,,human,,ikke identifisert.
 peFP,Q1403729,10590744,,FELIX,PHILIPPI,FELIX PHILIPPI,1851,1921,1851-1921,Germany,writer,human,male,tysk forfatter og regissør.
 peGPh,Q18592621,313473207,,GUSTAV,PHILIPSEN,GUSTAV PHILIPSEN,1853,1925,1853-1925,Denmark,politician,human,male,dansk bokhandler og politiker.
 pePGP,Q17341826,316528846,,PHILIP GERSON,PHILIPSEN,PHILIP GERSON PHILIPSEN,1812,1877,1812-1877,Denmark,publisher,human,male,dansk bokhandler og forlegger.
-pePJP,,,,POVEL [JOHANNES] (Johansen),PHØNIXBERG,POVEL [JOHANNES] (Johansen) PHØNIXBERG,1679,1729,1679-1729,,,human,,"dansk viseforfatter, journalist og boktrykker."
+pePJP,,234149294278780521386,,POVEL [JOHANNES] (Johansen),PHØNIXBERG,POVEL [JOHANNES] (Johansen) PHØNIXBERG,1679,1729,1679-1729,,,human,,"dansk viseforfatter, journalist og boktrykker."
 peAuPi,Q769588,39418525,,AUGUSTO,PIERANTONI,AUGUSTO PIERANTONI,1840,1911,1840-1911,Kingdom of Italy,lawyer,human,male,italiensk rettslærd.
 peAP,,,,"prinsesse, f. Adelaide Nathan David",PIGNATELLI,"prinsesse, f. Adelaide Nathan David PIGNATELLI",1796,1891,1796-1891,,,human,,
 peKvP,Q505758,50018904,,KARL [THEODOR] VON,PILOTY,KARL [THEODOR] VON PILOTY,1826,1886,1826-1886,Kingdom of Bavaria,teacher,human,male,tysk historiemaler.
@@ -1407,7 +1407,7 @@ peHSo,,,,HELENE [MØLLER],SONTUM,HELENE [MØLLER] SONTUM,1790,1864,1790-1864,,,h
 peSvSWE,Q242862,68772990,,,,SOPHIE [WILHELMINE MARIE LOUISE],1824,1897,1824-1897,Kingdom of the Netherlands,aristocrat,human,female,nederlandsk-tysk hertuginne (DBI).
 pePSp,Q17120332,56361974,pf01052055025086,PAOLO [AGOSTINO],SPERATI,PAOLO [AGOSTINO] SPERATI,1821,1884,1821-1884,Kingdom of Italy,composer,human,male,italiensk-norsk musiker.
 peCaSp,,,,CARLOTTA,SPINN,CARLOTTA SPINN,1873,,1873-,,,human,,tysk malerhustru.
-peDSp,,,,DIANA,SPINOLA,DIANA SPINOLA,1875,,1875-,,,human,,datter av Vittoria Guerrieri og Luigi Domenico Spinola (Reitwiesner [2008]). 
+peDSp,,,,DIANA,SPINOLA,DIANA SPINOLA,1875,,1875-,,,human,,datter av Vittoria Guerrieri og Luigi Domenico Spinola (Reitwiesner [2008]).
 peLDS,,,,LUIGI DOMENICO,SPINOLA,LUIGI DOMENICO SPINOLA,1825,1899,1825-1899,,,human,,italiensk adelsmann.
 peVGSp,,,,VITTORIA GUERRIERI,SPINOLA,VITTORIA GUERRIERI SPINOLA,1848,1905,1848-1905,,,human,,italiensk kongedatter.
 peSpi,Q1705795,25415205,,JOSEF,SPITHÖVER,JOSEF SPITHÖVER,1813,1892,1813-1892,,art dealer,human,male,"tysk bokhandler, kunsthandler og mesen i Roma."
@@ -1638,67 +1638,67 @@ orgAftb,Q4690436,,,,,AFTENBLADET,,,,,,periodical,,norsk avis.
 orgAftp,Q388841,147145969949732250346,,,,AFTENPOSTEN,,,,,,daily newspaper,,norsk avis.
 orgBanNap,,,,,,BANCO NAPOLETANA,,,,,,,,italiensk bank.
 orgNatSc,Q1186793,179145970153232251294,,,,BERGENS NATIONALE SCENE,,,,,,theatre,,"norsk teater, se"
-orgTeatB,,,,,,BERGENS THEATERFORENING,,,,,,,,stiftet i Bergen 8. desemer 1872 med det formål å areide for Fremme af en fast national Scene i Bergen (jf. kommentar til rev til J. Bøgh 30. septemer 1876 og Bergens Nationale Scene. 
+orgTeatB,,,,,,BERGENS THEATERFORENING,,,,,,,,stiftet i Bergen 8. desemer 1872 med det formål å areide for Fremme af en fast national Scene i Bergen (jf. kommentar til rev til J. Bøgh 30. septemer 1876 og Bergens Nationale Scene.
 orgBerTid,Q59055,125475554,,,,BERLINGSKE TIDENDE,,,,,,newspaper,,dansk avis.
 orgBurg,Q308720,130962450,,,,BURGTHEATER,,,,,,theatre,,østerriksk teater.
 orgCB,,,,,,CHRISTIANIA BYFOGEDCONTOR,,,,,,,,norsk embetskontor.
 orgChrTh,Q565382,295751298,,,,CHRISTIANIA THEATER,,,,,,theatre,,norsk teater.
-orgCPo,Q5110451,,,,,CHRISTIANIA-POSTEN,,,,,,periodical,,norsk avis.
+orgCPo,Q5110451,492149196254374790210,,,,CHRISTIANIA-POSTEN,,,,,,periodical,,norsk avis.
 orgDagbl,Q1157193,31149366342485602576,,,,DAGBLADET,,,,,,daily newspaper,,norsk avis.
 orgDT,Q55226416,,,,,DAGS-TELEGRAPHEN,,,,,,newspaper,,dansk avis.
 orgFriStud,,,,,,DEN FRISINNEDE STUDENTERFORENING,,,,,,,,norsk studentforening.
 orgGyl,,,,,,DEN GYLDENDALSKE BOGHANDEL,,,,,,,,"dansk bokhandel og forlag, Ibsens forlag fra og med utgivelsen av"
-orgDnFo,Q1772743,,,,,DEN NORSKE FORFATTERFORENING,,,,,,writers’ organization,,interesseorganisasjon for norske fag- og skjønnlitterære forfattere.
-orgSF,,,,,,DEN SKANDINAVISKE FORENING I ROMA,,,,,,,,organisasjon for skandinaver og finner.
+orgDnFo,Q1772743,262954347,,,,DEN NORSKE FORFATTERFORENING,,,,,,writers’ organization,,interesseorganisasjon for norske fag- og skjønnlitterære forfattere.
+orgSF,,123744277,,,,DEN SKANDINAVISKE FORENING I ROMA,,,,,,,,organisasjon for skandinaver og finner.
 orgAkKoll,,,,,,DET AKADEMISKE KOLLEGIUM,,,,,,,,norsk universitetsstyre.
 orgBsS,,,,,,DET BRITISK-SKANDINAVISKE SELSKAB,,,,,,,,engelsk litterært selskap.
 orgKNVS,Q1201052,126396860,,,,DET KONGELIGE NORSKE VIDENSKABERS SELSKAB,,,,,,academy of sciences,,norsk vitenskapsselskap.
 orgKT,Q607681,158849714,,,,DET KONGELIGE THEATER I KØBENHAVN,,,,,,theatre,,"den danske hovedscene for skuespill, opera og ballett."
 orgStud,Q6517302,,,,,DET NORSKE STUDENTERSAMFUND,,,,,,student society,,norsk studentforening.
 orgNTB,Q1186793,179145970153232251294,,,,DET NORSKE THEATER I BERGEN,,,,,,theatre,,norsk teater.
-orgDGen,,,,,,DEUTSCHE GENOSSENSCHAFT DRAMATISCHER AUTOREN UND COMPONISTEN,,,,,,,,tysk interesseorganisasjon og teateragentur.
+orgDGen,,185364982,,,,DEUTSCHE GENOSSENSCHAFT DRAMATISCHER AUTOREN UND COMPONISTEN,,,,,,,,tysk interesseorganisasjon og teateragentur.
 orgDV,Q688555,131854082,,,,DEUTSCHES VOLKSTHEATER,,,,,,theatre,,"østerriksk teater, Wien."
 orgDampD,,,,,,DIREKSJONEN FOR DAMPSKIPET «DRONNINGEN»,,,,,,,,norsk bedriftsstyre.
 orgDresBGA,,,,,,DRESDNER BEZIRKS-GERICHTS-AMT,,,,,,,,tysk byrett.
-orgFBE,Q1403355,,,,,FELIX BLOCH ERBEN,,,,,,publisher,,tysk teateragentur.
-orgFinDep,,,,,,FINANTS- OG TOLDDEPARTEMENTET (FINANSDEPARTEMENTET),,,,,,,,norsk departement.
+orgFBE,Q1403355,146068461,,,,FELIX BLOCH ERBEN,,,,,,publisher,,tysk teateragentur.
+orgFinDep,,145405314,,,,FINANTS- OG TOLDDEPARTEMENTET (FINANSDEPARTEMENTET),,,,,,,,norsk departement.
 orgGBkom,,,,,,GIORDANO BRUNO-KOMITEEN,,,,,,,,"internasjonal forening, jf. kommentar til brevet."
 orgHoh,,,,,,HOHLENBERG,,,,,,,,dansk fotograf.
 orgHotG,,,,,,HOTEL GRÖBNER,,,,,,,,"hotell i Gossensass, Sør-Tyrol, der Isen hadde sommer-/høstopphold 1876, 1878, 1882, 1883, 1884 og 1889, (jf. innledningen, under Gossensass). "
 orgIN,Q6000615,2941149068361965730000,,,,ILLUSTRERET NYHEDSBLAD,,,,,,magazine,,norsk illustrert ukeblad.
 orgJComp,,,,,,JENSEN & CO.,,,,,,,,"norsk fetevareforretning i Torvgaden 5A, Kristiania."
 orgKdep,Q11980720,158259364,,,,"KIRKE- OG UNDERVISNINGSDEPARTEMENTET, eller: DEPARTEMENTET FOR KIRKE- OG UNDERVISNINGSVESENET, gjerne forkortet: KIRKEDEPARTEMENTET",,,,,,ministry,,norsk departement.
-orgKUMin,Q27990502,,,,,"KIRKE- OG UNDERVISNINGSMINISTERIET, eller: MINISTERIET FOR KIRKE- OG UNDERVISNINGSVÆSEN, vanligvis kalt KULTUSMINISTERIET",,,,,,ministry of Kultus,,dansk departement.
+orgKUMin,Q27990502,146622117,,,,"KIRKE- OG UNDERVISNINGSMINISTERIET, eller: MINISTERIET FOR KIRKE- OG UNDERVISNINGSVÆSEN, vanligvis kalt KULTUSMINISTERIET",,,,,,ministry of Kultus,,dansk departement.
 orgKomTB,,,,,,KOMITÉEN FOR TUSENÅRSFESTEN I BERLIN,,,,,,,,komité opprettet i forbindelse med tusenårsjubileet for samlingen av Norge til ett rike 1872.
 orgKong,,,,,,KONGEN,,,,,,,,det norske statsoverhode.
 orgKDTS,,,,,,KONGL. DRAMATISKA THEATERN,,,,,,,,"svensk teater, jf. Kongl. Theatrarne. "
 orgKoTh,,,,,,KONGL. THEATRARNE I STOCKHOLM,,,,,,,,"de svenske hovedscener for teater, opera og ballett."
 orgKrArb,,,,,,KRISTIANIA ARBEIDERSAMFUND,,,,,,,,norsk arbeidersamfunn.
-orgJour,,,,,,KRISTIANIA JOURNALISTKLUB,,,,,,,,interesseorganisasjon for journalister.
+orgJour,,96148995745759750520,,,,KRISTIANIA JOURNALISTKLUB,,,,,,,,interesseorganisasjon for journalister.
 orgKrLign,,,,,,KRISTIANIA LIGNINGSKOMMISJON,,,,,,,,"kommunal etat, kollegiet av takserborgere (senere kalt ligningsmenn) i Kristiania."
 orgKNT,Q5110461,2945149368793485980008,,,,KRISTIANIA NORSKE THEATER,,,,,,theatrical troupe,,norsk teater.
-orgKrVArb,,,,,,KRISTIANIA VESTRE ARBEIDERSAMFUND,,,,,,,,norsk arbeidersamfunn.
+orgKrVArb,,1808149368829985980003,,,,KRISTIANIA VESTRE ARBEIDERSAMFUND,,,,,,,,norsk arbeidersamfunn.
 orgLdep,Q2607906,151132314,,,,LANDBRUKSDEPARTEMENTET,,,,,,agriculture ministry,,norsk departement.
 orgMNN,Q1958977,1649159035190501380006,,,,MÜNCHENER NEUESTE NACHRICHTEN,,,,,,newspaper,,tysk avis.
 orgNatTh,Q565382,295751298,,,,NATIONALTHEATRET,,,,,,theatre,,norsk teater.
 orgNat,Q10594813,,,,,NATIONALTIDENDE,,,,,,daily newspaper,,dansk avis.
 orgNeuZ,,,,,,NEUE ZEIT : WOCHENSCHRIFT FÜR DEUTSCHES THEATER UND URHEBERRECHT,,,,,,,,offisielt organ for Deutsche Genossenschaft dramatischer Autoren und Componisten.
 orgNoInt,Q4583889,405149106213868491720,,,,NORSKE INTELLIGENSSEDLER,,,,,,daily newspaper,,norsk avis.
-orgNoKvin,,,,,,NORSK KVINDESAGSFORENING,,,,,,,,
+orgNoKvin,,141660770,,,,NORSK KVINDESAGSFORENING,,,,,,,,
 orgNJo,,,,,,NY JORD,,,,,,,,dansk tidsskrift.
-orgOdel,Q1132026,,,,,ODELSTINGET,,,,,,legislative house,,norsk parlamentsavdeling.
+orgOdel,Q1132026,1507150203814303250000,,,,ODELSTINGET,,,,,,legislative house,,norsk parlamentsavdeling.
 orgPR,Q558781,145114995,,,,PHILIPP RECLAM JUN.,,,,,,book publisher,,tysk forlag.
 orgPolit,Q373133,138148996144959752939,,,,POLITIKEN,,,,,,newspaper,,dansk avis.
 orgKomPT,,,,,,PRESSENS TIVOLIUGE,,,,,,,,"komiteen, norsk arrangementskomité."
 orgRog,,,,,,ROGER,,,,,,,,forretningsfører (agent général) for Société des auteurs et compositeurs dramtiques (jf. kommentar til brev til M. Prozor 20. november 1890).
-orgScLo,,,,,,SCHUSTER & LOEFFLER,,,,,,,,tysk forlag.
+orgScLo,,155667069,,,,SCHUSTER & LOEFFLER,,,,,,,,tysk forlag.
 orgStOlav,,,,,,SKATMESTEREMBEDET VED DEN KONGELIGE NORSKE SANKT-OLAVS ORDEN,,,,,,,,norsk hoffembete.
 orgSRComp,,,,,,S. REIERSEN COMP.,,,,,,,,norsk bedrift.
 orgGotT,Q3288744,245049364,,,,STORA TEATERN (GÖTEBORG),,,,,,theatre,,svensk teater.
-orgStort,Q109016,,,,,STORTINGET,,,,,,unicameral legislature,,"den norske nasjonalforsamling, etablert ved den norske grunnlov av 17. mai 1814 etter løsrivelsen fra Danmark."
+orgStort,Q109016,308249485,,,,STORTINGET,,,,,,unicameral legislature,,"den norske nasjonalforsamling, etablert ved den norske grunnlov av 17. mai 1814 etter løsrivelsen fra Danmark."
 orgStudSeni,,,,,,STUDENTERFORENINGENS SENIORAT,,,,,,,,dansk studentforeningsstyre.
 orgStudF,,,,,,STUDENTFORENINGEN FRAM,,,,,,,,norsk studentforening.
-orgNOB,,,,,,SVENSKA AKADEMIENS NOBELKOMMITTÉ,,,,,,,,opprettet oktoer 1900 i tråd med Alfred Noels testamente (1895) og Grundstadgar för Noelstiftelsen (1900). 
+orgNOB,,157688867,,,,SVENSKA AKADEMIENS NOBELKOMMITTÉ,,,,,,,,opprettet oktoer 1900 i tråd med Alfred Noels testamente (1895) og Grundstadgar för Noelstiftelsen (1900).
 orgTT,Q56574943,3355149368795185980007,,,,THRONDHJEMS THEATER,,,,,,theatre,,norsk teater.
 orgTS,,,,,,TRONDHJEM STIFT[AMT],,,,,,,,norsk lokaladministrativ enhet.
-orgVG,Q4580487,,,,,VERDENS GANG,,,,,,daily newspaper,,norsk avis.
+orgVG,Q4580487,7148703878936930213,,,,VERDENS GANG,,,,,,daily newspaper,,norsk avis.
