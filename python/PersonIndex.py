@@ -338,10 +338,12 @@ def retrieve_further_data():
     details_nat = ['Country_of_citizenship']
     details_occup = ['Occupation']
 
-        wiki_ids = csv.DictReader(old_file)
-        for row in wiki_ids:
-            search_id = row['Wikidata ID']
-            #print(search_id + str('test'))
+    # q_is_list =[]
+    # entry = (wiki_ids['Wikidata ID'])
+    # q_is_list.append(entry)
+    #
+    # for row in wiki_ids:
+    #     print(row)
 
             details = []
             if search_id == str(''):
