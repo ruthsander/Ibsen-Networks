@@ -342,19 +342,22 @@ def add_further_data():
                             PREFIX wdt: <http://www.wikidata.org/prop/direct/>
                             PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-                            SELECT ?i ?itemLabel ?genderLabel ?viaf ?nhrpId ?nationalityLabel WHERE {
-                            VALUES ?i {wd:Q36661}
-                            OPTIONAL {?i wdt:P1477 ?itemLabel.}
-                            OPTIONAL {?i wdt:P21 ?gender.}
-                            OPTIONAL {?i wdt:P214 ?viaf.}
-                            OPTIONAL {?i wdt:P4574 ?nhrpId.}
-                            OPTIONAL {?i wdt:P27 ?nationality.}
-                            SERVICE wikibase:label {bd:serviceParam wikibase:language "en" .}}'''
+                SELECT ?item ?instanceLabel ?genderLabel ?viaf ?nhrpId ?nationalityLabel ?occupationLabel WHERE {
+                VALUES ?item {wd:Q36661}
+                OPTIONAL {?item wdt:P1477 ?itemLabel.}
+                OPTIONAL {?item wdt:P31 ?instance.}
+                OPTIONAL {?item wdt:P21 ?gender.}
+                OPTIONAL {?item wdt:P214 ?viaf.}
+                OPTIONAL {?item wdt:P4574 ?nhrpId.}
+                OPTIONAL {?item wdt:P27 ?nationality.}
+                OPTIONAL {?item wdt:P106 ?occupation.}
+                SERVICE wikibase:label {bd:serviceParam wikibase:language "en" .}}
+                LIMIT 1'''
 
-                change_values = re.sub('Q36661', search_id, query)
+            change_values = re.sub('Q36661', search_id, query)
 
-                url = 'https://query.wikidata.org/bigdata/namespace/wdq/sparql'
-                data = requests.get(url, params={'query': change_values, 'format': 'json'}).json()
+            url = 'https://query.wikidata.org/bigdata/namespace/wdq/sparql'
+            data = requests.get(url, params={'query': change_values, 'format': 'json'}).json()
 
                 #for item in data['results']['bindings']:
                     # if item['itemLabel'] == True and item['genderLabel']== True and item['viaf']== True and item['nhrpId']== True and item['nationalityLabel']== True:
