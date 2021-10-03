@@ -321,9 +321,22 @@ descriptions_list = (person_org_desc(persons_org))
 # write_csv(id_list, w_ids, given_name_list, surnames_list, names_list, birth_year_list, death_year_list, lifespan_list, descriptions_list)
 
 
-def add_further_data():
-    with open('practice_person_info.csv', newline='') as old_file:
-        # wr = csv.writer(new_csv, delimiter=',')
+def retrieve_further_data():
+    colnames = ['XML-ID', 'Wikidata_ID', 'Given_Name', 'Surname', 'Name', 'Year_of_Birth', 'Year_of_Death', 'Lifespan',
+                'Brief_Description']
+    data_csv = pd.read_csv('practice_person_info_edited.csv', names=colnames, na_filter=False)
+    q_ids = data_csv.Wikidata_ID.tolist()
+    # q_ids.fillna('', inplace=True)
+    # print(q_ids)
+    # print(len(q_ids))
+
+    # details_Qid = ['Wiki ID']
+    details_instance = ['Instance']
+    details_gender = ['Gender']
+    details_viaf = ['Viaf_Id']
+    details_nhrp = ['NHRP_ID']
+    details_nat = ['Country_of_citizenship']
+    details_occup = ['Occupation']
 
         wiki_ids = csv.DictReader(old_file)
         for row in wiki_ids:
