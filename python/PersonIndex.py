@@ -389,19 +389,203 @@ def retrieve_further_data():
             url = 'https://query.wikidata.org/bigdata/namespace/wdq/sparql'
             data = requests.get(url, params={'query': change_values, 'format': 'json'}).json()
 
-                #for item in data['results']['bindings']:
-                    # if item['itemLabel'] == True and item['genderLabel']== True and item['viaf']== True and item['nhrpId']== True and item['nationalityLabel']== True:
-                    #     details.append({
-                    #         'Name': item['itemLabel']['value'],
-                    #         'Gender': item['genderLabel']['value'],
-                    #         'VIAF': item['viaf']['value'],
-                    #         'nhrpId': item['nhrpId']['value'],
-                    #         'nationality': item['nationalityLabel']['value']
-                    #     })
-                    # else:
-                    #     skip
-                pprint.pprint(data['results']['bindings'])
-                time.sleep(1)
+            for item in data['results']['bindings']:
+                # try:
+                #   item['item']['value']
+                #   details_Qid.append(item['item']['value'])
+                # except KeyError:
+                #     details_Qid.append(str(''))
+
+                try:
+                    # item['item']['value']
+                    details_instance.append(item['instanceLabel']['value'])
+                except KeyError:
+                    details_instance.append(str(''))
+
+                try:
+                    # item['genderLabel']['value']
+                    details_gender.append(item['genderLabel']['value'])
+                except KeyError:
+                    details_gender.append(str(''))
+
+                try:
+                    # item['viaf']['value']
+                    details_viaf.append(item['viaf']['value'])
+                except KeyError:
+                    details_viaf.append(str(''))
+
+                try:
+                    # item['nhrpId']['value']
+                    details_nhrp.append(item['nhrpId']['value'])
+                except KeyError:
+                    details_nhrp.append(str(''))
+
+                try:
+                    # item['nationalityLabel']['value']
+                    details_nat.append(item['nationalityLabel']['value'])
+                except KeyError:
+                    details_nat.append(str(''))
+
+                try:
+                    # item['nationalityLabel']['value']
+                    details_occup.append(item['occupationLabel']['value'])
+                except KeyError:
+                    details_occup.append(str(''))
+
+                # pprint.pprint(data['results']['bindings'])
+                time.sleep(2)
+
+        except ValueError:
+            print(str('Error at') + str(index))
+            break
+    return details_instance, details_gender, details_viaf, details_nhrp, details_nat, details_occup
 
 
-add_further_data()
+# retrieve_further_data()
+details_instance, details_gender, details_viaf, details_nhrp, details_nat, details_occup = retrieve_further_data()
+
+
+def intermediate_csv(list_details_instance, list_details_gender, list_details_viaf, list_details_nhrp, list_details_nat,
+                     list_details_occup):
+    with open('intermediate_1.csv', 'w', ) as work_csv:
+        wr = csv.writer(work_csv, delimiter=',')
+        rows = zip(list_details_instance, list_details_gender, list_details_viaf, list_details_nhrp, list_details_nat,
+                   list_details_occup)
+        for row in rows:
+            wr.writerow(row)
+
+
+intermediate_csv(details_instance, details_gender, details_viaf, details_nhrp, details_nat, details_occup)
+
+
+def final_csv(ids, names_given, last_name, names_full, year_of_birth, year_of_death, lifespans, descriptions):
+    colnames = ['Instance', 'Gender', 'Viaf_Id', 'NHRP_ID', 'Country_of_citizenship', 'Occupation']
+    data_csv_p1 = pd.read_csv('person_info_new_data_1-300.csv', names=colnames, na_filter=False)
+    data_csv_p2 = pd.read_csv('person_info_new_data_301-600.csv', names=colnames, na_filter=False)
+    data_csv_p3 = pd.read_csv('person_info_new_data_601-900.csv', names=colnames, na_filter=False)
+    data_csv_p4 = pd.read_csv('person_info_new_data_901-1300.csv', names=colnames, na_filter=False)
+    data_csv_p5 = pd.read_csv('person_info_new_data_1301-1703.csv', names=colnames, na_filter=False)
+
+    instance_1 = data_csv_p1.Instance.tolist()
+    instance_2 = data_csv_p2.Instance.tolist()
+    instance_3 = data_csv_p3.Instance.tolist()
+    instance_4 = data_csv_p4.Instance.tolist()
+    instance_5 = data_csv_p5.Instance.tolist()
+
+    gender_1 = data_csv_p1.Gender.tolist()
+    gender_2 = data_csv_p2.Gender.tolist()
+    gender_3 = data_csv_p3.Gender.tolist()
+    gender_4 = data_csv_p4.Gender.tolist()
+    gender_5 = data_csv_p5.Gender.tolist()
+
+    viaf_1 = data_csv_p1.Viaf_Id.tolist()
+    viaf_2 = data_csv_p2.Viaf_Id.tolist()
+    viaf_3 = data_csv_p3.Viaf_Id.tolist()
+    viaf_4 = data_csv_p4.Viaf_Id.tolist()
+    viaf_5 = data_csv_p5.Viaf_Id.tolist()
+
+    nhrp_1 = data_csv_p1.NHRP_ID.tolist()
+    nhrp_2 = data_csv_p2.NHRP_ID.tolist()
+    nhrp_3 = data_csv_p3.NHRP_ID.tolist()
+    nhrp_4 = data_csv_p4.NHRP_ID.tolist()
+    nhrp_5 = data_csv_p5.NHRP_ID.tolist()
+
+    country_1 = data_csv_p1.Country_of_citizenship.tolist()
+    country_2 = data_csv_p2.Country_of_citizenship.tolist()
+    country_3 = data_csv_p3.Country_of_citizenship.tolist()
+    country_4 = data_csv_p4.Country_of_citizenship.tolist()
+    country_5 = data_csv_p5.Country_of_citizenship.tolist()
+
+    occupation_1 = data_csv_p1.Occupation.tolist()
+    occupation_2 = data_csv_p2.Occupation.tolist()
+    occupation_3 = data_csv_p3.Occupation.tolist()
+    occupation_4 = data_csv_p4.Occupation.tolist()
+    occupation_5 = data_csv_p5.Occupation.tolist()
+
+    # print(len(nhrp_5))
+    instance_list = ['Instance']
+    gender_list = ['Gender']
+    viaf_list = ['Viaf ID']
+    nhrp_list = ['NHRP ID']
+    country_list = ['Country of co=itizenship']
+    occupation_list = ['Occupation']
+
+    for index in range(1, 300):
+        instance_list.append(instance_1[index])
+        gender_list.append(gender_1[index])
+        viaf_list.append(viaf_1[index])
+        nhrp_list.append(nhrp_1[index])
+        country_list.append(country_1[index])
+        occupation_list.append(occupation_1[index])
+        # return instance_list
+
+    for index in range(1, 301):
+        instance_list.append(instance_2[index])
+        gender_list.append(gender_2[index])
+        viaf_list.append(viaf_2[index])
+        nhrp_list.append(nhrp_2[index])
+        country_list.append(country_2[index])
+        occupation_list.append(occupation_2[index])
+        # return instance_list
+
+    for index in range(1, 301):
+        instance_list.append(instance_3[index])
+        gender_list.append(gender_3[index])
+        viaf_list.append(viaf_3[index])
+        nhrp_list.append(nhrp_3[index])
+        country_list.append(country_3[index])
+        occupation_list.append(occupation_3[index])
+        # return instance_list
+
+    for index in range(1, 401):
+        instance_list.append(instance_4[index])
+        gender_list.append(gender_4[index])
+        viaf_list.append(viaf_4[index])
+        nhrp_list.append(nhrp_4[index])
+        country_list.append(country_4[index])
+        occupation_list.append(occupation_4[index])
+        # return instance_list
+
+    for index in range(1, 405):
+        instance_list.append(instance_5[index])
+        gender_list.append(gender_5[index])
+        viaf_list.append(viaf_5[index])
+        nhrp_list.append(nhrp_5[index])
+        country_list.append(country_5[index])
+        occupation_list.append(occupation_5[index])
+        # return instance_list
+
+    for i in range(1, 1704):
+        instances = instance_list[i]
+        xml_ids = ids[i]
+        if instances == str(''):
+            if xml_ids.startswith('pe'):
+                instance_list[i] = str('human')
+            else:
+                continue
+
+    # print(instance_list)
+    # print(len(instance_list))
+    # print(gender_list)
+    # print(len(gender_list))
+    # print(viaf_list)
+    # print(len(viaf_list))
+    # print(nhrp_list)
+    # print(len(nhrp_list))
+    # print(occupation_list)
+    # print(len(occupation_list))
+
+    colnames2 = ['XML-ID', 'Wikidata_ID', 'Given_Name', 'Surname', 'Name', 'Year_of_Birth', 'Year_of_Death', 'Lifespan',
+                 'Brief_Description']
+    data_csv = pd.read_csv('practice_person_info_edited.csv', names=colnames2, na_filter=False)
+    q_ids = data_csv.Wikidata_ID.tolist()
+
+    rows = zip(ids, q_ids, viaf_list, nhrp_list, names_given, last_name, names_full, year_of_birth, year_of_death,
+               lifespans, country_list, occupation_list, instance_list, gender_list, descriptions)
+    with open('final_pers_org_details.csv', 'w', ) as work_csv:
+        wr = csv.writer(work_csv, delimiter=',')
+
+        for row in rows:
+            wr.writerow(row)
+
+# final_csv(id_list, given_name_list, surnames_list, names_list, birth_year_list, death_year_list, lifespan_list, descriptions_list)
