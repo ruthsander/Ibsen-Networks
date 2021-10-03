@@ -289,9 +289,11 @@ def get_wikidata_ids(target):
             wiki_id = search_result[0].get('id')
             # print(wiki_id)
             list_wikidata_ids.append(str(wiki_id))
+            time.sleep(1)
         except IndexError:
             # print(str(''))
             list_wikidata_ids.append(str(''))
+            time.sleep(1)
     return list_wikidata_ids
 
 
