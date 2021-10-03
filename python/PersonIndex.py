@@ -345,17 +345,32 @@ def retrieve_further_data():
     # for row in wiki_ids:
     #     print(row)
 
-            details = []
-            if search_id == str(''):
-                # details.append(str(''))
-                pass
-            else:
-                print(search_id)
-                # with open('sparql.rq', 'r') as query_file:
-                query = '''PREFIX wikibase: <http://wikiba.se/ontology#>
-                            PREFIX wd: <http://www.wikidata.org/entity/>
-                            PREFIX wdt: <http://www.wikidata.org/prop/direct/>
-                            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    for index in range(1, 300):
+        try:
+            search_id = q_ids[index]
+            # print(search_id)
+            # for search_id in q_ids:
+            # print(search_id)
+            # q_is_list.append(value)
+
+            # details = []
+            # if search_id == str(''):
+            #     #print(str('next'))
+            #     # details_Qid.append(str(''))
+            #     details_instance.append(str(''))
+            #     details_gender.append(str(''))
+            #     details_viaf.append(str(''))
+            #     details_nhrp.append(str(''))
+            #     details_nat.append(str(''))
+            #     details_occup.append(str(''))
+            #
+            # else:
+            print(search_id)
+            # with open('sparql.rq', 'r') as query_file:
+            query = '''PREFIX wikibase: <http://wikiba.se/ontology#>
+                PREFIX wd: <http://www.wikidata.org/entity/>
+                PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
                 SELECT ?item ?instanceLabel ?genderLabel ?viaf ?nhrpId ?nationalityLabel ?occupationLabel WHERE {
                 VALUES ?item {wd:Q36661}
