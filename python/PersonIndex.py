@@ -12,6 +12,8 @@ import pandas as pd
 from csv import writer
 from csv import reader
 import time
+import numpy as np
+import sys
 
 #  declaring all namespaces present in the xml files
 ns = {'HIS': 'http://www.example.org/ns/HIS',
