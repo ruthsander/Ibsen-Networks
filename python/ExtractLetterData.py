@@ -16,7 +16,7 @@ letter_short_info = tree.xpath('//HIS:hisMsDesc[@type="letter"]', namespaces=ns)
 
 #   Header = root[0]
 
-
+# retrieve all letter ids
 processed_letters = 0
 for entry in letter_short_info:
 
@@ -29,7 +29,8 @@ for entry in letter_short_info:
     # print(sender)
     # print(nsender)
 
-    all_senders = {'xml_ids': []}
+# retrieve all senders
+    all_senders = []
     for i in range(0, nsender):
         s = sender[i]
         attribites_sender = s.attrib
@@ -37,6 +38,7 @@ for entry in letter_short_info:
         edit_sender_id = re.sub('Navneregister_HISe.xml#', '', sender_id)
         all_senders['xml_ids'].append(edit_sender_id)
 
+# retrieve letter recipients
     recipient = entry.xpath('.//HIS:letterinfo/tei:name[@role="recipient"]/HIS:hisRef', namespaces=ns)
     nrecioient = len(recipient)
     all_recipients= {'xml_id':[]}
@@ -47,7 +49,7 @@ for entry in letter_short_info:
         edit_recipient_id = re.sub('Navneregister_HISe.xml#', '', recipient_id)
         all_recipients['xml_id'].append(edit_recipient_id)
 
-
+# retrieve dispatch date
     dispatch_dates = entry.xpath('.//HIS:letterinfo/tei:origDate', namespaces=ns)
     #print(dispatch_dates)
     attributes_dates = dispatch_dates[0].attrib
@@ -59,6 +61,7 @@ for entry in letter_short_info:
     else:
         date = str('unknown')
 
+# retrieve dispatch locations
     dispatch_location = entry.xpath('.//HIS:letterinfo/tei:origPlace/HIS:hisRef', namespaces=ns)
     attributes_loc = dispatch_location[0].attrib
     edit_loc_abr = re.sub('Navneregister_HISe.xml#pl', '', attributes_loc['target'])
