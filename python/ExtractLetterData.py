@@ -36,18 +36,18 @@ for entry in letter_short_info:
         attribites_sender = s.attrib
         sender_id = attribites_sender['target']
         edit_sender_id = re.sub('Navneregister_HISe.xml#', '', sender_id)
-        all_senders['xml_ids'].append(edit_sender_id)
+        all_senders.append(edit_sender_id)
 
 # retrieve letter recipients
     recipient = entry.xpath('.//HIS:letterinfo/tei:name[@role="recipient"]/HIS:hisRef', namespaces=ns)
     nrecioient = len(recipient)
-    all_recipients= {'xml_id':[]}
+    all_recipients= []
     for j in range(0, nrecioient):
         r = recipient[j]
         attribites_recipient = r.attrib
         recipient_id = attribites_recipient['target']
         edit_recipient_id = re.sub('Navneregister_HISe.xml#', '', recipient_id)
-        all_recipients['xml_id'].append(edit_recipient_id)
+        all_recipients.append(edit_recipient_id)
 
 # retrieve dispatch date
     dispatch_dates = entry.xpath('.//HIS:letterinfo/tei:origDate', namespaces=ns)
@@ -68,7 +68,8 @@ for entry in letter_short_info:
     loc_full = dispatch_location[0].text
 
 
-    print(corresp + str(' + ') + str(all_senders['xml_ids'])+ str(' + ') + str(all_recipients['xml_id']) + str(' + ') + date + str(' + ') + edit_loc_abr + str(' + ') + loc_full)
+
+    #print(corresp + str(' + ') + str(all_senders)+ str(' + ') + str(all_recipients) + str(' + ') + date + str(' + ') + edit_loc_abr + str(' + ') + loc_full)
     processed_letters +=1
 print(str('Number of letters/xmlids: ') + str(processed_letters))
 
