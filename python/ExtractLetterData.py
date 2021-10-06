@@ -13,16 +13,19 @@ ns = {'HIS': 'http://www.example.org/ns/HIS',
 tree = etree.parse('../github/Ibsen-Networks/xml-data/B1844-1871ht.xml')
 root = tree.getroot()
 letter_short_info = tree.xpath('//HIS:hisMsDesc[@type="letter"]', namespaces=ns)
+letter_text = tree.xpath('.//tei:text[@rend="letter"]', namespaces=ns)
 
 #   Header = root[0]
 
 # retrieve all letter ids
 processed_letters = 0
+info_ids = []
 for entry in letter_short_info:
 
     letter_info = entry.xpath('.//HIS:letterinfo[@corresp]', namespaces=ns)
     attributes_corresp = letter_info[0].attrib
     corresp = attributes_corresp['corresp']
+    info_ids.append(corresp)
 
     sender = entry.xpath('.//HIS:letterinfo/tei:name[@role="sender"]/HIS:hisRef', namespaces=ns)
     nsender = len(sender)
@@ -71,7 +74,25 @@ for entry in letter_short_info:
 
     #print(corresp + str(' + ') + str(all_senders)+ str(' + ') + str(all_recipients) + str(' + ') + date + str(' + ') + edit_loc_abr + str(' + ') + loc_full)
     processed_letters +=1
-print(str('Number of letters/xmlids: ') + str(processed_letters))
+#print(str('Number of letters/xmlids: ') + str(processed_letters))
+
+letter_texts = {}
+text_number = 0
+for corres in letter_text:
+    # retrieve sending address
+    text_corresp = corres.attrib
+    corresp_text_id = text_corresp['corresp']
+    #print(text_corresp)
+
+    send_to = corres.xpath('.//HIS:envelope/tei:address', namespaces=ns)
+    print(send_to)
+    letter_texts[corresp_text_id] = {}
+
+    text_number +=1
+#print(str('Number of letters/xmlids: ') + str(text_number))
+
+#print(info_ids)
+#print(letter_texts)
 
 
 # xmlns = root.get('xmlns')
