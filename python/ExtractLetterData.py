@@ -15,6 +15,8 @@ root = tree.getroot()
 letter_short_info = tree.xpath('//HIS:hisMsDesc[@type="letter"]', namespaces=ns)
 letter_text = tree.xpath('.//tei:text[@rend="letter"]', namespaces=ns)
 
+tree_info = etree.parse('../github/Ibsen-Networks/xml-data/B1844-1871_info.xml')
+letter_head = tree_info.xpath('.//tei:div[@type = "letterHead"]', namespaces=ns)
 #   Header = root[0]
 
 
