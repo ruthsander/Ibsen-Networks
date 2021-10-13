@@ -87,11 +87,15 @@ def parse_letterinfo(letter_short_info):
         attributes_dates = dispatch_dates[0].attrib
         # print(attributes_dates)
         if 'when' in attributes_dates:
-            date = str(attributes_dates['when'])
+            # date = str(attributes_dates['when'])
+            letter_short_infos[corresp]['send_date'] = str(attributes_dates['when'])
+
         elif 'notBefore' in attributes_dates and 'notAfter' in attributes_dates:
-            date = str(attributes_dates['notBefore'] + str(' - ') + attributes_dates['notAfter'])
+            # date = str(attributes_dates['notBefore'] + str(' - ') + attributes_dates['notAfter'])
+            letter_short_infos[corresp]['send_date'] = str(attributes_dates['notBefore'] + str(' - ') + attributes_dates['notAfter'])
         else:
             date = str('unknown')
+            letter_short_infos[corresp]['send_date'] = str('unknown')
 
     # retrieve dispatch locations
         dispatch_location = entry.xpath('.//HIS:letterinfo/tei:origPlace/HIS:hisRef', namespaces=ns)
@@ -118,19 +122,6 @@ def parse_letter_text(letter_text):
         id_text = corres.attrib['corresp']
         letter_texts[id_text]={}
         # print(id_text)
-
-        # retrieve sending address
-        send_to = corres.xpath('.//HIS:envelope/tei:address/tei:addrLine/text()', namespaces=ns)
-        # addr_string = str(etree.tostring(send_to[0]))
-        addr_str = []
-        for x in send_to:
-            addr_str.append(x)
-        # print(addr_str)
-        if addr_str:
-            letter_texts[id_text]['recipient_addr'] = addr_str
-        else:
-            letter_texts[id_text]['recipient_addr'] = str('')
-        # print(send_to)
 
         # retrieve persons mentioned in letter
         per_mentioned = corres.xpath('.//HIS:hisRef[@type="person"]', namespaces=ns)
