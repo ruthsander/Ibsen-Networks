@@ -7,7 +7,7 @@
 <!ENTITY copy 'Copyright-symbol'>
 <!ENTITY funder 'funding body'>
 <!ENTITY editor 'editor'>
-<!ENTITY amp 'and'>
+<!ENTITY amp '&#38;'>
 <!ENTITY sol '/'>
 <!ENTITY lquo '«'>
 <!ENTITY rquo '»'>
@@ -20,14 +20,32 @@
 <!ENTITY stdVals 'standardized values'>
 <!ENTITY editorialDecl 'editorial declaration'>
 <!ENTITY tagUsage-TEI 'tag usage-TEI'>
-<!ENTITY rapo 'right single quotation mark'>
-<!ENTITY frac12 'fraction one half'>
-<!ENTITY frac14 'fraction one quarter'>
+<!ENTITY half '½'>
+<!ENTITY frac12 '½'>
+<!ENTITY frac14 '¼'>
+<!ENTITY frac34 '¾'>
+<!ENTITY foot '&#39;'>
 <!ENTITY mark '–'>
-<!ENTITY skilling 'Notation to differentiate'>
-<!ENTITY rep 'repetition sign'>
+<!ENTITY skilling 'ʄ'>
+<!ENTITY rep '"'>
 <!ENTITY equals '='>
 <!ENTITY period '.'>
+<!ENTITY rapo '’'>
+<!ENTITY lapo '‘'>
+<!ENTITY rsaquo '›'>
+<!ENTITY lsaquo '‹'>
+<!ENTITY hyphen '-'>
+<!ENTITY hellip '…'>
+<!ENTITY odblac 'ö'>
+<!ENTITY Scaron 'Š'>
+<!ENTITY scaron 'š'>
+<!ENTITY rcaron 'ř'>
+<!ENTITY udblac 'ü'>
+<!ENTITY titleColon ':'>
+<!ENTITY percnt '&#37;'>
+<!ENTITY times '&#x00D7;'>
+<!ENTITY sect '§'>
+<!ENTITY nbsp '&#x00A0;'>
 ]>
 <?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
@@ -7964,7 +7982,8 @@
                      saafremt det viste sig at Stipendiet var utilstrækkeligt. At dette er
                      Tilfældet, derom er jeg nu forvisset; jeg haaber derfor at den ærede Bestyrelse
                      ialfald bevilger mig de her omhandlede 20 Sp. da jeg ellers bliver nødt til at
-                     tage fra <HIS:hisRef type="place" target="Navneregister_HISe.xml#plHam">Hamburg</HIS:hisRef> med Skibsleilighed, og derved maaskee tabe meget af
+                     tage fra <HIS:hisRef type="place" target="Navneregister_HISe.xml#plHam"
+                        >Hamburg</HIS:hisRef> med Skibsleilighed, og derved maaskee tabe meget af
                      den Tid som er mig aldeles fornøden, dersom jeg for Theatret skal kunne udrette
                      Noget inden Saisonens Begyndelse; &dash; jeg har nu af Stipendiet saameget
                      tilbage, som jeg behøver til mit Ophold her, og for de her omhandlede 20 Sp.

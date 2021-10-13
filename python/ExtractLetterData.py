@@ -23,13 +23,16 @@ letter_head = tree_info.xpath('.//tei:div[@type = "letterHead"]', namespaces=ns)
 def parse_letterinfo(letter_short_info):
     # retrieve all letter ids
     processed_letters = 0
-    info_ids = []
+    # info_ids = []  # not used
+
+    letter_short_infos = {}
     for entry in letter_short_info:
 
         letter_info = entry.xpath('.//HIS:letterinfo[@corresp]', namespaces=ns)
         attributes_corresp = letter_info[0].attrib
         corresp = attributes_corresp['corresp']
-        info_ids.append(corresp)
+        # info_ids.append(corresp)
+        letter_short_infos[corresp] = {}
 
         sender = entry.xpath('.//HIS:letterinfo/tei:name[@role="sender"]/HIS:hisRef', namespaces=ns)
         nsender = len(sender)
