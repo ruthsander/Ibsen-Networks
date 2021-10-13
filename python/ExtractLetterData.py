@@ -180,6 +180,40 @@ def parse_letter_text(letter_text):
         else:
             letter_texts[id_text]['place_m_id'] = mentioned_pl_id_abbr
 
+        if len(mentioned_pl_full) == 0:
+            letter_texts[id_text]['place_m_name'] = str('')
+        else:
+            letter_texts[id_text]['place_m_name'] = mentioned_pl_full
+
+        # retrieve organisations mentioned in the letter
+        org_mentioned = corres.xpath('.//HIS:hisRef[@type="org"]', namespaces=ns)
+        mentioned_org_id = []
+        for org in org_mentioned:
+            m_o_id = org.attrib['target']
+            edit_org_id = re.sub('Navneregister_HISe.xml#', '', m_o_id)
+            mentioned_org_id.append(edit_org_id)
+        # print(mentioned_per_id)
+
+        if len(mentioned_org_id) == 0:
+            letter_texts[id_text]['org_m_id'] = str('')
+        else:
+            letter_texts[id_text]['org_m_id'] = mentioned_org_id
+
+        # retrieve sending address
+        send_to = corres.xpath('.//HIS:envelope/tei:address/tei:addrLine/text()', namespaces=ns)
+        # addr_string = str(etree.tostring(send_to[0]))
+        addr_str = []
+        for x in send_to:
+            addr_str.append(x)
+        # print(addr_str)
+        # create list of locations for comparison
+
+        if addr_str:
+            letter_texts[id_text]['recipient_addr'] = addr_str
+        else:
+            letter_texts[id_text]['recipient_addr'] = str('')
+        # print(send_to)
+
         text_number += 1
 
     # print(str('Number of letters/xmlids: ') + str(text_number))
@@ -187,9 +221,7 @@ def parse_letter_text(letter_text):
     # #print(info_ids)
     # pprint.pprint(letter_texts)
     # print(len(letter_texts))
-
-
-# parse_letter_text(letter_text)
+    return letter_texts
 
 
 def parse_letter_heads(heads):
