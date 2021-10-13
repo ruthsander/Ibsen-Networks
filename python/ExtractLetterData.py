@@ -4,6 +4,7 @@ from html.entities import codepoint2name
 import pprint
 import re
 import csv
+import dateparser
 
 #  declaring all namespaces present in the xml files
 ns = {'HIS': 'http://www.example.org/ns/HIS',
@@ -41,23 +42,44 @@ def parse_letterinfo(letter_short_info):
 
     # retrieve all senders
         all_senders = []
+        all_sender_names = []
         for i in range(0, nsender):
             s = sender[i]
+            name_string = re.sub('\n', '', s.text)
             attribites_sender = s.attrib
             sender_id = attribites_sender['target']
             edit_sender_id = re.sub('Navneregister_HISe.xml#', '', sender_id)
             all_senders.append(edit_sender_id)
+            all_sender_names.append(name_string)
+
+        if all_senders == 0:
+            letter_short_infos[corresp]['sender_ids'] = str('')
+            letter_short_infos[corresp]['sender_name'] = str('')
+        else:
+            letter_short_infos[corresp]['sender_ids'] = all_senders
+            letter_short_infos[corresp]['sender_name'] = all_sender_names
 
     # retrieve letter recipients
         recipient = entry.xpath('.//HIS:letterinfo/tei:name[@role="recipient"]/HIS:hisRef', namespaces=ns)
         nrecioient = len(recipient)
         all_recipients= []
+        all_recip_names = []
         for j in range(0, nrecioient):
             r = recipient[j]
             attribites_recipient = r.attrib
+            recipient_string = re.sub('\n', '', r.text)
+            clean_r_string = ' '.join(recipient_string.split())
             recipient_id = attribites_recipient['target']
             edit_recipient_id = re.sub('Navneregister_HISe.xml#', '', recipient_id)
             all_recipients.append(edit_recipient_id)
+            all_recip_names.append(clean_r_string)
+
+        if all_recipients == 0:
+            letter_short_infos[corresp]['recipient_ids'] = str('')
+            letter_short_infos[corresp]['recipient_name'] = str('')
+        else:
+            letter_short_infos[corresp]['recipient_ids'] = all_recipients
+            letter_short_infos[corresp]['recipient_name'] = all_recip_names
 
     # retrieve dispatch date
         dispatch_dates = entry.xpath('.//HIS:letterinfo/tei:origDate', namespaces=ns)
