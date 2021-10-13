@@ -11,12 +11,12 @@ ns = {'HIS': 'http://www.example.org/ns/HIS',
       'xml': 'http://www.w3.org/XML/1998/namespace',
       'tei': 'http://www.tei-c.org/ns/1.0'}
 
-tree = etree.parse('../github/Ibsen-Networks/xml-data/B1844-1871ht.xml')
+tree = etree.parse('../github/Ibsen-Networks/xml-data/B1890-1905ht.xml')
 root = tree.getroot()
 letter_short_info = tree.xpath('//HIS:hisMsDesc[@type="letter"]', namespaces=ns)
 letter_text = tree.xpath('.//tei:text[@rend="letter"]', namespaces=ns)
 
-tree_info = etree.parse('../github/Ibsen-Networks/xml-data/B1844-1871_info.xml')
+tree_info = etree.parse('../github/Ibsen-Networks/xml-data/B1890-1905_info.xml')
 letter_head = tree_info.xpath('.//tei:div[@type = "letterHead"]', namespaces=ns)
 #   Header = root[0]
 
