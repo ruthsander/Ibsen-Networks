@@ -170,6 +170,11 @@ def parse_letter_text(letter_text):
             # cleaned_pl_full = ' '.join(m_pl_full.split())
         # print(mentioned_pl_id)
 
+        for pl_full in place_mentioned_text:
+            cleaned_pl_full = ' '.join(pl_full.split())
+            mentioned_pl_full.append(cleaned_pl_full)
+            # print(cleaned_pl_full)
+
         if len(mentioned_pl_id_abbr) == 0:
             letter_texts[id_text]['place_m_id'] = str('')
         else:
