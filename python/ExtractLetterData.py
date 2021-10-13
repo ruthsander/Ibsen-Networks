@@ -121,11 +121,19 @@ def parse_letterinfo(letter_short_info):
 def parse_letter_text(letter_text):
     letter_texts = {}
     text_number = 0
+
+    # create list of places
+    # places_list = []
+    # point = tree.xpath('.//HIS:hisRef[@type="place"]/text()', namespaces=ns)
+    # #places_list.append(point)
+    # comp_loc = list(dict.fromkeys(point))
+    # pprint.pprint(comp_loc)
+
     for corres in letter_text:
 
         # retrieve letter id
         id_text = corres.attrib['corresp']
-        letter_texts[id_text]={}
+        letter_texts[id_text] = {}
         # print(id_text)
 
         # retrieve persons mentioned in letter
@@ -147,8 +155,10 @@ def parse_letter_text(letter_text):
 
         # retrieve places mentioned in letter
         place_mentioned = corres.xpath('.//HIS:hisRef[@type="place"]', namespaces=ns)
+        place_mentioned_text = corres.xpath('.//HIS:hisRef[@type="place"]/text()', namespaces=ns)
         mentioned_pl_id_abbr = []
-        # mentioned_pl_full = []
+        mentioned_pl_full = []
+
         for pl in place_mentioned:
             # if len(pl)==0:
             #     mentioned_per_id.append(str(''))
@@ -166,10 +176,11 @@ def parse_letter_text(letter_text):
             letter_texts[id_text]['place_m_id'] = mentioned_pl_id_abbr
 
         text_number += 1
+
     # print(str('Number of letters/xmlids: ') + str(text_number))
     #
     # #print(info_ids)
-    pprint.pprint(letter_texts)
+    # pprint.pprint(letter_texts)
     # print(len(letter_texts))
 
 
@@ -190,7 +201,7 @@ def parse_letter_heads(heads):
         # retrieve recipient
         recip_head = str(head.xpath('.//tei:name/text()', namespaces=ns))
         recip_name = str(re.sub('Til ', '', re.sub(',', '', recip_head)))
-        print(recip_name)
+        #print(recip_name)
         letter_head_info[id_text_head]['recipient_name'] = recip_name
 
         # retrieve dispatch location
@@ -201,7 +212,6 @@ def parse_letter_heads(heads):
         date_head = str(head.xpath('.//tei:date/text()', namespaces=ns))
         letter_head_info[id_text_head]['date'] = date_head
 
-    pprint.pprint(letter_head_info)
 
 
 parse_letter_heads(letter_head)
