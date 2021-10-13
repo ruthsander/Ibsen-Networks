@@ -99,19 +99,24 @@ def parse_letterinfo(letter_short_info):
 
     # retrieve dispatch locations
         dispatch_location = entry.xpath('.//HIS:letterinfo/tei:origPlace/HIS:hisRef', namespaces=ns)
-        attributes_loc = dispatch_location[0].attrib
-        edit_loc_abr = re.sub('Navneregister_HISe.xml#pl', '', attributes_loc['target'])
-        loc_full = dispatch_location[0].text
+        if len(dispatch_location) == 0:
+            letter_short_infos[corresp]['dispatch_loc_abbr'] = str('')
+            letter_short_infos[corresp]['dispatch_loc_full'] = str('')
+        else:
+            attributes_loc = dispatch_location[0].attrib
+            edit_loc_abr = re.sub('Navneregister_HISe.xml#pl', '', attributes_loc['target'])
+            loc_full = dispatch_location[0].text
+            letter_short_infos[corresp]['dispatch_loc_abbr'] = edit_loc_abr
+            letter_short_infos[corresp]['dispatch_loc_full'] = loc_full
 
+        #print(corresp + str(' + ') + str(all_senders)+ str(' + ') + str(all_recipients) + str(' + ') + date + str(' + ') + edit_loc_abr + str(' + ') + loc_full)
+        #processed_letters +=1
+        #pprint.pprint(letter_short_infos)
+    #return corresp, all_senders
+    #print(str('Number of letters/xmlids: ') + str(processed_letters))
+    return letter_short_infos
 
-
-        print(corresp + str(' + ') + str(all_senders)+ str(' + ') + str(all_recipients) + str(' + ') + date + str(' + ') + edit_loc_abr + str(' + ') + loc_full)
-        processed_letters +=1
-    print(str('Number of letters/xmlids: ') + str(processed_letters))
-
-
-# (parse_letterinfo(letter_short_info))
-
+# parse_letterinfo(letter_short_info)
 
 def parse_letter_text(letter_text):
     letter_texts = {}
