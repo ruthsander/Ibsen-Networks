@@ -247,7 +247,15 @@ def parse_letter_heads(heads):
 
         # retrieve date
         date_head = str(head.xpath('.//tei:date/text()', namespaces=ns))
-        letter_head_info[id_text_head]['date'] = date_head
+        try:
+            cleaned_date = dateparser.parse(re.sub('\[', '', re.sub(']', '', re.sub('\'', '', date_head)))).strftime("%Y-%m-%d")
+            letter_head_info[id_text_head]['date'] = cleaned_date
+        except AttributeError:
+            cleaned_date = (re.sub('\[', '', re.sub(']', '', re.sub('\'', '', date_head))))
+            letter_head_info[id_text_head]['date'] = cleaned_date
+
+    # pprint.pprint(letter_head_info)
+    return letter_head_info
 
 
 
