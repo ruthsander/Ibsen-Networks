@@ -292,6 +292,7 @@ def edit_person_org_csv():
 
 
 n_letter_received, n_mentions = count_letters_to_person(regest_entries)
+#print(n_letter_received)
 new_i_list, new_g_list,new_n_list,new_occup_list = edit_person_org_csv()
 
 def combile_to_csv(instance, gender,citizenship,occupation,n_letter_received, n_mentions):
@@ -311,9 +312,16 @@ def combile_to_csv(instance, gender,citizenship,occupation,n_letter_received, n_
     yearDeath = work_file.Year_of_Death.tolist()
     lifespan = work_file.Lifespan.tolist()
     description = work_file.Brief_Description.tolist()
+    n_l_received = []
+    n_mention = []
 
+    for key in n_letter_received:
+        n_l_received.append(n_letter_received[key])
 
-    rows = zip(xmlID,wikidataID,viafID,nhrpID,givenName,surname,name,yearBirth,yearDeath,lifespan,instance, gender,citizenship,occupation,n_letter_received, n_mentions,description)
+    for keys in n_mentions:
+        n_mention.append(n_mentions[keys])
+
+    rows = zip(xmlID,wikidataID,viafID,nhrpID,givenName,surname,name,yearBirth,yearDeath,lifespan,instance, gender,citizenship,occupation,n_l_received, n_mention,description)
     with open('Person_Register_Info.csv', 'w', ) as work_csv:
         wr = csv.writer(work_csv, delimiter=',')
 
