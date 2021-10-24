@@ -296,7 +296,7 @@ dict_letter_text = parse_letter_text(letter_text)
 dict_letter_head = parse_letter_heads(letter_head)
 
 def compile_letter_info(dict_info, dict_text, dict_head):
-    list_info_per_letter = [['Letter_ID','Sender_ID','Sender_Name','Recipient_ID', 'Recipient_Name', 'Date', 'Dispatch_Location', 'Dispatch_Location_Abbr', 'Mentioned_Person_ID', 'Mentioned_Person', 'Mentioned_Org_ID', 'Mentioned_Org', 'Mentioned_Places_Abbr', 'Mentioned_Places', 'Recipient_Adress']]
+    list_info_per_letter = [['Letter_ID','Sender_ID','Sender_Name','Recipient_ID', 'Recipient_Name', 'Date', 'Dispatch_Location', 'Dispatch_Location_Abbr', 'Mentioned_Person_ID', 'Mentioned_Person', 'Mentioned_Org_ID', 'Mentioned_Org', 'Mentioned_Places_Abbr', 'Mentioned_Places', 'Recipient_Adress','Mentioned_Works_IDs']]
 
     for key in dict_info.keys():
         individual_letter_list =[]
@@ -361,6 +361,15 @@ def compile_letter_info(dict_info, dict_text, dict_head):
             #len(dict_text[key]['recipient_addr'])==1:
             individual_letter_list.append(str(re.sub('\[', '\'',re.sub('\]', '\'', (re.sub('\'', '', str(dict_text[key]['recipient_addr'])))))))
         list_info_per_letter.append(individual_letter_list)
+        # get works mentioned
+        if len(dict_text[key]['works_m_id']) == 0:
+            individual_letter_list.append(str(''))
+        elif len(dict_text[key]['works_m_id']) == 1:
+            individual_letter_list.append(
+                str(re.sub('\[', '', re.sub('\]', '', (re.sub('\'', '', str(dict_text[key]['works_m_id'])))))))
+        else:
+            individual_letter_list.append(
+                str(re.sub('\[', '\'', (re.sub('\]', '\'', (re.sub('\'', '', str(dict_text[key]['works_m_id']))))))))
 
     for keys in dict_head.keys():
         if keys in dict_info:
@@ -426,10 +435,23 @@ def compile_letter_info(dict_info, dict_text, dict_head):
                 # len(dict_text[key]['recipient_addr'])==1:
                 solo_letter_list.append(
                     str(re.sub('\[', '\'', re.sub('\]', '\'', (re.sub('\'', '', str(dict_text[keys]['recipient_addr'])))))))
+            # get works mentioned
+            if len(dict_text[keys]['works_m_id']) == 0:
+                solo_letter_list.append(str(''))
+            elif len(dict_text[keys]['works_m_id']) == 1:
+                solo_letter_list.append(
+                    str(re.sub('\[', '', re.sub('\]', '', (re.sub('\'', '', str(dict_text[key]['works_m_id'])))))))
+            else:
+                solo_letter_list.append(
+                    str(re.sub('\[', '\'',
+                               (re.sub('\]', '\'', (re.sub('\'', '', str(dict_text[key]['works_m_id']))))))))
             list_info_per_letter.append(solo_letter_list)
 
     return list_info_per_letter
-    #pprint.pprint(list_info_per_letter)
+    # pprint.pprint(list_info_per_letter)
+
+
+#compile_letter_info(dict_letter_info, dict_letter_text, dict_letter_head)
     #print(len(list_info_per_letter))
     # letter_id_info = dict_info.keys()
     # print(letter_id_info)
@@ -451,6 +473,7 @@ def create_csv_letters(info_list):
 
 compiled_list = compile_letter_info(dict_letter_info, dict_letter_text, dict_letter_head)
 create_csv_letters(compiled_list)
+
 # pprint.pprint(dict_letter_head)
 # pprint.pprint(dict_letter_info)
 # pprint.pprint(dict_letter_text)
