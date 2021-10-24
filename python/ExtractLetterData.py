@@ -153,6 +153,37 @@ def parse_letter_text(letter_text):
         else:
             letter_texts[id_text]['per_m_id'] = mentioned_per_id
 
+        # retrieve works mentioned in letter
+        works_mentioned = corres.xpath('.//HIS:hisRef[@type="work"]', namespaces=ns)
+        mentioned_works = []
+        #print(works_mentioned)
+
+        for work in works_mentioned:
+            w = work.attrib['target']
+            # print(w)
+            edit_w = re.sub('Navneregister_HISe.xml#', '', w)
+            edit_works = re.sub('Navneregister_HISe#', '', edit_w)
+            # print(edit_w)
+            if ' ' not in edit_works:
+                mentioned_works.append(edit_works)
+            else:
+                split_id = edit_works.split()
+                for works_id in split_id:
+                    if works_id not in works_mentioned:
+                        mentioned_works.append(works_id)
+                    else:
+                        continue
+        # print(mentioned_works)
+        if len(mentioned_works) == 0:
+            letter_texts[id_text]['works_m_id'] = str('')
+        else:
+            letter_texts[id_text]['works_m_id'] = mentioned_works
+
+            # if edit_w not in mentioned_works:
+            #     mentioned_works.append(edit_w)
+            # else:
+            #     continue
+
         # retrieve places mentioned in letter
         place_mentioned = corres.xpath('.//HIS:hisRef[@type="place"]', namespaces=ns)
         place_mentioned_text = corres.xpath('.//HIS:hisRef[@type="place"]/text()', namespaces=ns)
@@ -223,6 +254,8 @@ def parse_letter_text(letter_text):
     # print(len(letter_texts))
     return letter_texts
 
+
+# parse_letter_text(letter_text)
 
 def parse_letter_heads(heads):
     letter_head_info = {}
