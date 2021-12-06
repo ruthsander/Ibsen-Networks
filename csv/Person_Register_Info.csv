@@ -12,11 +12,11 @@ peLAd,Q18023252,97610053,,LEOPOLD,ADLER,LEOPOLD ADLER,1850,1919,1850-1919,human,
 peSA,Q4346827,47621912,,[KARIN] SOPHIE,ADLERSPARRE,[KARIN] SOPHIE ADLERSPARRE,1823,1895,1823-1895,human,female,Sweden,"author, suffragette",2,2,svensk kvinnesaksforkjemper og forfatterinne.,,
 peBA,Q457801,752905,,BERNHARD,AFINGER,BERNHARD AFINGER,1813,1882,1813-1882,human,male,Germany,sculptor,0,1,tysk billedhugger.,,
 peHEPCA,Q45917603,286838326,,[HENRIETTE ELISABETH] PAULINE [CHRISTINA],AHLBERG,[HENRIETTE ELISABETH] PAULINE [CHRISTINA] AHLBERG,1851,1896,1851-1896,human,female,Sweden,author,0,1,svensk forfatterinne.,[JOHAN] JULIUS [FERDINAND] KRONBERG,peJKr
-peAKar,Q317578,16244181,,,ALEXANDER KARADJORDJEVIĆ (KARAGEORGEVIĆ),ALEXANDER KARADJORDJEVIĆ (KARAGEORGEVIĆ),1806,1885,1806-1885,"human, Prince",male,,prince,0,1,fyrste av Serbia 1842-58.,,
-peAlex,Q152260,268757034,,,,ALEXANDRA,1844,1925,1844-1925,"human, Queen, Princess",female,,"princess, prince, Queen",0,1,prinsesse av Wales (fra 1901 dronning av England).,"EDVARD, PRINS AV WALES",noID
+peAKar,Q317578,16244181,,,ALEXANDER KARADJORDJEVIĆ (KARAGEORGEVIĆ),ALEXANDER KARADJORDJEVIĆ (KARAGEORGEVIĆ),1806,1885,1806-1885,"human, Prince",male,,Prince,0,1,fyrste av Serbia 1842-58.,,
+peAlex,Q152260,268757034,,,,ALEXANDRA,1844,1925,1844-1925,"human, Queen, Princess",female,,"Princess, Queen",0,1,prinsesse av Wales (fra 1901 dronning av England).,"EDVARD, PRINS AV WALES",noID
 peBeAlm,Q4898802,6779148390846010830001,,BETTY (Hedvig Christina Elisabeth),ALMLÖF,BETTY (Hedvig Christina Elisabeth) ALMLÖF,1831,1882,1831-1882,human,female,Sweden,actor,0,1,svensk skuespillerinne.,,
 peJLA,,,,JOHAN LUDVIG,ALSING,JOHAN LUDVIG ALSING,1812,1902,1812-1902,human,male,Norway,"lawyer, civil servant",0,2,norsk jurist og embetsmann.,,
-peOAl,Q27189569,56971750,,OLGA,ALTIERI,OLGA ALTIERI,1843,1929,1843-1929,"human, Princess",female,"Italy, Russia","author, princess, prince",0,1,"russisk-italiensk prinsesse, forfatterinne.",,
+peOAl,Q27189569,56971750,,OLGA,ALTIERI,OLGA ALTIERI,1843,1929,1843-1929,"human, Princess",female,"Italy, Russia","author, Princess",0,1,"russisk-italiensk prinsesse, forfatterinne.",,
 peAmm,Q172198,89594750,,,,AMMIANUS MARCELLINUS,0330,0395,0330-0395,human,male,,,0,3,"romersk historieskriver, født i Antiokia.",,
 peMA,Q468252,67333216,,MICHAEL [PETER],ANCHER,MICHAEL [PETER] ANCHER,1849,1927,1849-1927,human,male,Denmark,painter,1,1,dansk maler.,,
 peAFA,,,,ANNE FREDRIKKE,ANDERSEN,ANNE FREDRIKKE ANDERSEN,1828,1895,1828-1895,human,female,,married to,0,2,"norsk ingeniørhustru, mor til Hildur Andersen. ",OLUF MARTIN ANDERSEN,peOMA
@@ -106,7 +106,7 @@ peVB,Q715868,27203347,,[JØRGEN] VILHELM,BERGSØE,[JØRGEN] VILHELM BERGSØE,183
 peBJC,Q1037035,391149066548065601332,,[JOHAN] CARL [ERNST],BERLING,[JOHAN] CARL [ERNST] BERLING,1812,1871,1812-1871,human,male,Denmark,"civil servant, book printer",1,0,dansk boktrykker og hoffembetsmann.,,
 peGBe,Q19798589,,,[FREUND JAKOB] GOTTLOB,BERNER,[FREUND JAKOB] GOTTLOB BERNER,1823,1914,1823-1914,human,male,Denmark,civil servant,3,12,dansk teaterembetsmann.,,
 peHEB,Q955114,3658329,pf01036392063043,HAGBARD EMANUEL,BERNER,HAGBARD EMANUEL BERNER,1839,1920,1839-1920,human,male,Norway,"politician, civil servant",3,5,norsk politiker og embetsmann.,,
-peBern,Q61104,57396349,,,,BERNHARD,1851,1928,1851-1928,"human, Prince",male,,prince,0,1,arveprins av Sachsen-Meiningen.,CHARLOTTE,peCharlotte
+peBern,Q61104,57396349,,,,BERNHARD,1851,1928,1851-1928,"human, Prince",male,,Prince,0,1,arveprins av Sachsen-Meiningen.,CHARLOTTE,peCharlotte
 peCaBe,Q499784,49952262,,CARL,BERNHARD,CARL BERNHARD,1798,1865,1798-1865,human,male,Denmark,"author, novelist",0,1,dansk romanforfatter.,,
 peSB,Q4605,68925417,,SARAH,BERNHARDT,SARAH BERNHARDT,1844,1923,1844-1923,human,female,France,actor,0,1,fransk skuespillerinne.,,
 peTCB,,72148995771859750903,,THEODOR CHRISTIAN,BERNHOFT,THEODOR CHRISTIAN BERNHOFT,1833,1885,1833-1885,human,male,Norway,vicar,0,1,norsk prest.,,
@@ -271,8 +271,8 @@ peTC,Q1773735,41760854,,[CARL] THEODOR,CASPARI,[CARL] THEODOR CASPARI,1853,1948,
 peRiC,Q97733793,9776853,,RICCARDO,CASTELVECCHIO,RICCARDO CASTELVECCHIO,1814,1894,1814-1894,human,male,Italy,playwright,0,1,italiensk dramatiker.,,
 peHeCa,Q5696741,66795902,,[PAULUS] HENRIK,CAVLING,[PAULUS] HENRIK CAVLING,1858,1933,1858-1933,human,male,Denmark,"author, journalist",0,2,dansk journalist og forfatter.,,
 peFrCe,,,,FREDERIK [ADOLPH CHRISTENSEN],CETTI,FREDERIK [ADOLPH CHRISTENSEN] CETTI,1838,1906,1838-1906,human,male,Denmark,"actor, theatre director, director",0,2,"dansk skuespiller, instruktør og teaterdirektør.",,
-peChar,Q154971,265661610,,,,CHARLOTTE,1840,1927,1840-1927,"human, Emperor",female,,"empress, Emperor",0,1,keiserinne av Mexico.,,
-peCharlotte,Q58670,50332967,,,,CHARLOTTE,1860,1919,1860-1919,"human, Princess",female,Germany,"princess, prince",0,1,tysk prinsesse.,BERNHARD,peBern
+peChar,Q154971,265661610,,,,CHARLOTTE,1840,1927,1840-1927,"human, Empress",female,,Empress,0,1,keiserinne av Mexico.,,
+peCharlotte,Q58670,50332967,,,,CHARLOTTE,1860,1919,1860-1919,"human, Princess",female,Germany,Princess,0,1,tysk prinsesse.,BERNHARD,peBern
 peCCha,,,,CHARLES,CHARRINGTON,CHARLES CHARRINGTON,,1926,-1926,human,male,United Kingdom of Great Britain and Ireland,actor,1,1,britisk skuespiller.,,
 pePhCh,Q962402,24666646,,[VICTOR EUPHÉMION] PHILARÈTE,CHASLES,[VICTOR EUPHÉMION] PHILARÈTE CHASLES,1798,1873,1798-1873,human,male,France,"librarian, critic",0,1,fransk bibliotekar og kritiker.,,
 peMiCh,Q1930688,51933,,MICHEL,CHEVALIER,MICHEL CHEVALIER,1806,1879,1806-1879,human,male,France,"politician, economist",0,1,fransk sosialøkonom og politiker.,,
@@ -389,11 +389,11 @@ peEvE,Q349751,39650884,,EDUARD VON,ENGERTH,EDUARD VON ENGERTH,1818,1897,1818-189
 peAE,Q104437188,115703,,ARMAND,ÉPHRAÏM,ARMAND ÉPHRAÏM,1852,1935,1852-1935,human,male,France,littérateur,0,1,fransk litterat (,,
 peDrEr,Q55897045,40132462,,WOLFGANG,ERHARDT,WOLFGANG ERHARDT,1819,1906,1819-1906,human,male,Germany,doctor,0,1,"tysk lege i Roma (GEBB 8), der han også virket som skandinavenes lege (K&E 1, 308).",,
 peAEE,Q11957963,46657865,pf01036615027645,ANDREAS EMIL,ERICHSEN/ERIKSEN,ANDREAS EMIL ERICHSEN/ERIKSEN,1841,1913,1841-1913,human,male,Norway,"teacher, historian",1,0,norsk skolemann og historiker.,,
-peErnst,Q572130,80584491,,,,ERNST,1859,1941,1859-1941,"human, Prince",male,Germany,"painter, military officer, prince",0,1,"prins av Sachsen-Meiningen, tysk offiser og maler.",,
+peErnst,Q572130,80584491,,,,ERNST,1859,1941,1859-1941,"human, Prince",male,Germany,"painter, military officer, Prince",0,1,"prins av Sachsen-Meiningen, tysk offiser og maler.",,
 peKSAE,Q3422087,34498642,,KRISTIAN [SOPHUS AUGUST],ERSLEV,KRISTIAN [SOPHUS AUGUST] ERSLEV,1852,1930,1852-1930,human,male,Denmark,historian,0,1,dansk historiker.,,
 peEssen,Q1779675,221380940,pf01038387001259,[CARL] PETER [PARELIUS],ESSENDROP,[CARL] PETER [PARELIUS] ESSENDROP,1818,1893,1818-1893,human,male,Norway,bishop,0,1,norsk biskop.,,
 peEt,,,,"(Blanche, f. baronesse Pereira, T. Ethofer og Mareo Ethofer)",ETHOFER,"(Blanche, f. baronesse Pereira, T. Ethofer og Mareo Ethofer) ETHOFER",,,,human,male,Austria,,0,1,"østerriksk familie, bosatt i Wien.",,
-peEug,Q157130,39510739,,,,EUGÉNIE,1826,1920,1826-1920,"human, Emperor",female,,"empress, Emperor",0,1,keiserinne av Frankrike.,,
+peEug,Q157130,39510739,,,,EUGÉNIE,1826,1920,1826-1920,"human, Empress",female,,Empress,0,1,keiserinne av Frankrike.,,
 peEun,Q343018,100215825,,,,EUNAPIOS,0345,,0345-,human,male,Greece,"historian, sophist",0,2,gresk sofist og historiker.,,
 peOE,Q3430250,6866150325545810090008,,OTTO [FREDERIK THEOBALD],EVENS,OTTO [FREDERIK THEOBALD] EVENS,1826,1895,1826-1895,human,male,Denmark,sculptor,0,1,dansk billedhugger.,,
 peHFE,Q5721524,41603181,,HERMAN FREDERIK,EWALD,HERMAN FREDERIK EWALD,1821,1908,1821-1908,human,male,Denmark,author,0,1,dansk forfatter.,,
@@ -439,7 +439,7 @@ peCFoug,Q4579994,45149294507880522945,,CARL [ANDREAS],FOUGSTAD,CARL [ANDREAS] FO
 peEMF,Q122464,69689129,,ERNST [MORITZ],FRANCKE,ERNST [MORITZ] FRANCKE,1852,1921,1852-1921,human,male,Germany,"editor, politician",0,1,tysk sosialpolitiker og redaktør.,,
 peFruF,,,,,FRANQUE,FRU VON,,,,human,female,Germany,landlord,0,1,"tysk husvertinne, ikke identifisert.",,
 peKongF7,Q94941,120722547,,,,FREDERIK 7.,1808,1863,1808-1863,"human, King",male,Denmark,King,0,1,dansk konge 1848-63.,,
-peFrV,Q550714,5725465,,,,FREDRIK VILHELM 1.,1802,1875,1802-1875,"human, Prince",male,,prince,0,1,kurfyrste av Hessen-Kassel 1847-66.,,
+peFrV,Q550714,5725465,,,,FREDRIK VILHELM 1.,1802,1875,1802-1875,"human, Prince",male,,Prince,0,1,kurfyrste av Hessen-Kassel 1847-66.,,
 peGF,Q5859657,,,[JOHAN] GUSTAF,FREDRIKSON,[JOHAN] GUSTAF FREDRIKSON,1832,1921,1832-1921,human,male,Sweden,"actor, theatre manager",5,5,svensk skuespiller og teaterleder.,,
 peAFr,Q94752512,30296684,,ANNA,FREYTAG,ANNA FREYTAG,1852,1911,1852-1911,human,female,,married to,1,0,tysk forfatterhustru.,"ALEXANDER STRAKOSCH, GUSTAV FREYTAG","noID, peGFr"
 peGFr,Q58811,29547947,,GUSTAV,FREYTAG,GUSTAV FREYTAG,1816,1895,1816-1895,human,male,Germany,"author, journalist, historian",0,3,"tysk forfatter, kulturhistoriker og journalist.",,
@@ -458,7 +458,7 @@ peGECG,Q5748952,5209153184552427100003,,GOTTLIEB ERNST CLAUSEN,GAD,GOTTLIEB ERNS
 peLHG,Q7905807,,,LUDVIG HARALD,GADE,LUDVIG HARALD GADE,1823,1897,1823-1897,human,male,Denmark,dancer,0,2,dansk danser.,,
 peNWG,Q154632,54332446,,NIELS WILHELM,GADE,NIELS WILHELM GADE,1817,1890,1817-1890,human,male,Denmark,composer,0,1,dansk komponist.,,
 peGGal,Q307,2470550,,GALILEO,GALILEI,GALILEO GALILEI,1564,1642,1564-1642,human,male,Italy,"astronomer, physicist",0,1,italiensk fysiker og astronom.,,
-peGSG,,,,GREGORY SERGEJEVITSJ,GALITZIN,GREGORY SERGEJEVITSJ GALITZIN,1838,1907,1838-1907,"human, Prince",male,Russia,"prince, general",0,1,"russisk fyrste, senator og generalløytnant.",,
+peGSG,,,,GREGORY SERGEJEVITSJ,GALITZIN,GREGORY SERGEJEVITSJ GALITZIN,1838,1907,1838-1907,"human, Prince",male,Russia,"Prince, general",0,1,"russisk fyrste, senator og generalløytnant.",,
 pePiGa,,,,PIETRO,GALLETTI,PIETRO GALLETTI,,,,human,male,Italy,theatre personnel,0,5,"italiensk teatermann (jf. HU 19, 566).",,
 peLeGa,Q295090,61559644,,LÉON,GAMBETTA,LÉON GAMBETTA,1838,1882,1838-1882,human,male,France,"lawyer, politician",0,1,fransk jurist og politiker.,,
 peJCG,,309667840,,JOACHIM [CHRISTIAN],GAMBORG,JOACHIM [CHRISTIAN] GAMBORG,1831,1884,1831-1884,human,male,Norway,"lawyer, economist",3,3,norsk jurist og økonom.,,
@@ -766,8 +766,8 @@ peEMK,Q15450728,122119452,,EDUARD MICHAEL,KAFKA,EDUARD MICHAEL KAFKA,1864,1893,1
 peJKa,Q697592,50017298,,JOSEF,KAINZ,JOSEF KAINZ,1858,1919,1858-1919,human,male,Austria,actor,0,2,østerriksk skuespiller.,,
 peEAK,,,,ESTRID [ARVIDSDOTTER],KALLING,ESTRID [ARVIDSDOTTER] KALLING,1836,1900,1836-1900,"human, Countess",female,Sweden,Countess,0,1,svensk grevinne.,,
 peKam,Q182483,1313154380971230291392,,,,KAMBYSES,,,,"human, King",male,,King,0,1,konge av Persia 529-22 f.Kr.,,
-peKar,Q4979323,41819186,,MARY [LOUISE],KARADJA,MARY [LOUISE] KARADJA,1868,1943,1868-1943,"human, Princess",female,Sweden,"author, princess, prince",1,0,"svensk prinsesse, forfatterinne.",PRINS JEAN KARADJA,noID
-peBKa,Q7243837,186929885,,BOŽIDAR,KARADJORDJEVIĆ,BOŽIDAR KARADJORDJEVIĆ,1861,1908,1861-1908,"human, Prince",male,,"author, prince",0,1,"serbisk prins, forfatter og kunstner (jf.",,
+peKar,Q4979323,41819186,,MARY [LOUISE],KARADJA,MARY [LOUISE] KARADJA,1868,1943,1868-1943,"human, Princess",female,Sweden,"author, Princess",1,0,"svensk prinsesse, forfatterinne.",PRINS JEAN KARADJA,noID
+peBKa,Q7243837,186929885,,BOŽIDAR,KARADJORDJEVIĆ,BOŽIDAR KARADJORDJEVIĆ,1861,1908,1861-1908,"human, Prince",male,,"author, Prince",0,1,"serbisk prins, forfatter og kunstner (jf.",,
 peKongK12,Q52934,51697993,,,,KARL 12.,1682,1718,1682-1718,"human, King",male,Sweden,King,0,1,svensk konge fra 1697.,,
 peKongK4,Q52925,265309035,,,,KARL 15. (KARL 4.),1826,1872,1826-1872,"human, King",male,,King,6,13,konge av Sverige og Norge 1859-72.,LOVISA (Louise Vilhelmina Fredrika Alexandra Anna),peLov
 peCKas,Q1041364,85975815,,CARL [FREIHERR VON],KASKEL,CARL [FREIHERR VON] KASKEL,1797,1874,1797-1874,human,male,Germany,banker,0,1,tysk bankier.,,
@@ -942,7 +942,7 @@ peLost,Q7107889,55544895,pg00000000415196,[JOHAN] LUDVIG,LOSTING,[JOHAN] LUDVIG 
 peJoL,Q105598027,,,JOHAN,LOTHE,JOHAN LOTHE,1855,1932,1855-1932,human,male,Norway,,0,1,norsk apoteker.,,
 peAsL,Q19587503,311190566,pf01053299003929,ASTRID,LOUS,ASTRID LOUS,1872,1945,1872-1945,human,female,Norway,"actor, singer, opera singer, pedagog",0,1,"norsk skuespillerinne, operasangerinne og sangpedagog.",,
 peLov,Q130413,72150868282722071325,,,,LOVISA (Louise Vilhelmina Fredrika Alexandra Anna),1828,1871,1828-1871,"human, Queen",female,,Queen,0,1,dronning av Norge og Sverige 1859-71.,,
-peLovi,Q232402,73149196634374792769,,,,LOVISA (Louise Josefina Eugenia),1851,1926,1851-1926,"human, Queen, Princess",female,Denmark,"princess, prince, Queen",0,1,dansk kronprinsesse (dronning 1906-26).,,
+peLovi,Q232402,73149196634374792769,,,,LOVISA (Louise Josefina Eugenia),1851,1926,1851-1926,"human, Queen, Princess",female,Denmark,"Princess, Queen",0,1,dansk kronprinsesse (dronning 1906-26).,,
 peANL,,,,ALOIS N.,LUCEK,ALOIS N. LUCEK,1871,1894,1871-1894,human,male,Czechoslovakia,translator,1,0,tsjekkisk oversetter (,,
 peLu2,Q44039,64799557,,,,LUDVIG 2.,1845,1886,1845-1886,human,male,Germany,,0,1,tysk monark.,,
 peKaLu,,,,KAJ,LUDVIGSEN,KAJ LUDVIGSEN,1879,1902,1879-1902,human,male,,,0,1,"sønn av Sara og Valdemar Ludvigsen, nevø av Susanna Isen (Thoresen 2009, . 1, 16). ",,
