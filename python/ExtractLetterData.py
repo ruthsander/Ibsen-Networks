@@ -170,7 +170,7 @@ def parse_letter_text(letter_text):
                 split_id = edit_works.split()
                 for works_id in split_id:
                     if works_id not in works_mentioned:
-                        mentioned_works.append(works_id)
+                        mentioned_works.append(str('(')+works_id+str(')'))
                     else:
                         continue
         # print(mentioned_works)
