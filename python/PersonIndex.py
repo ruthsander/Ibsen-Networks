@@ -317,18 +317,18 @@ lifespan_list = (lifespan(persons_org))
 descriptions_list = (person_org_desc(persons_org))
 
 
-# w_ids = (get_wikidata_ids(names_list))
-# write_csv(id_list, w_ids, given_name_list, surnames_list, names_list, birth_year_list, death_year_list, lifespan_list, descriptions_list)
+#w_ids = (get_wikidata_ids(names_list))
+#write_csv(id_list, w_ids, given_name_list, surnames_list, names_list, birth_year_list, death_year_list, lifespan_list, descriptions_list)
 
 
 def retrieve_further_data():
-    colnames = ['XML-ID', 'Wikidata_ID', 'Given_Name', 'Surname', 'Name', 'Year_of_Birth', 'Year_of_Death', 'Lifespan',
-                'Brief_Description']
+    colnames = ['XML-ID','Wikidata_ID','Given_Name','Surname','Name','Year_of_Birth','Year_of_Death','Lifespan','Brief_Description']
     data_csv = pd.read_csv('practice_person_info_edited.csv', names=colnames, na_filter=False)
     q_ids = data_csv.Wikidata_ID.tolist()
     # q_ids.fillna('', inplace=True)
     # print(q_ids)
     # print(len(q_ids))
+
 
     # details_Qid = ['Wiki ID']
     details_instance = ['Instance']
@@ -338,19 +338,19 @@ def retrieve_further_data():
     details_nat = ['Country_of_citizenship']
     details_occup = ['Occupation']
 
-    # q_is_list =[]
-    # entry = (wiki_ids['Wikidata ID'])
-    # q_is_list.append(entry)
-    #
-    # for row in wiki_ids:
-    #     print(row)
+        # q_is_list =[]
+        # entry = (wiki_ids['Wikidata ID'])
+        # q_is_list.append(entry)
+        #
+        # for row in wiki_ids:
+        #     print(row)
 
     for index in range(1, 300):
         try:
             search_id = q_ids[index]
-            # print(search_id)
-            # for search_id in q_ids:
-            # print(search_id)
+            #print(search_id)
+            #for search_id in q_ids:
+            #print(search_id)
             # q_is_list.append(value)
 
             # details = []
@@ -364,14 +364,14 @@ def retrieve_further_data():
             #     details_nat.append(str(''))
             #     details_occup.append(str(''))
             #
-            # else:
+            #else:
             print(search_id)
-            # with open('sparql.rq', 'r') as query_file:
+                # with open('sparql.rq', 'r') as query_file:
             query = '''PREFIX wikibase: <http://wikiba.se/ontology#>
                 PREFIX wd: <http://www.wikidata.org/entity/>
                 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
                 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-
+    
                 SELECT ?item ?instanceLabel ?genderLabel ?viaf ?nhrpId ?nationalityLabel ?occupationLabel WHERE {
                 VALUES ?item {wd:Q36661}
                 OPTIONAL {?item wdt:P1477 ?itemLabel.}
@@ -445,12 +445,10 @@ def retrieve_further_data():
 details_instance, details_gender, details_viaf, details_nhrp, details_nat, details_occup = retrieve_further_data()
 
 
-def intermediate_csv(list_details_instance, list_details_gender, list_details_viaf, list_details_nhrp, list_details_nat,
-                     list_details_occup):
+def intermediate_csv(list_details_instance, list_details_gender, list_details_viaf, list_details_nhrp, list_details_nat, list_details_occup):
     with open('intermediate_1.csv', 'w', ) as work_csv:
         wr = csv.writer(work_csv, delimiter=',')
-        rows = zip(list_details_instance, list_details_gender, list_details_viaf, list_details_nhrp, list_details_nat,
-                   list_details_occup)
+        rows = zip(list_details_instance, list_details_gender, list_details_viaf, list_details_nhrp, list_details_nat, list_details_occup)
         for row in rows:
             wr.writerow(row)
 
@@ -459,7 +457,7 @@ intermediate_csv(details_instance, details_gender, details_viaf, details_nhrp, d
 
 
 def final_csv(ids, names_given, last_name, names_full, year_of_birth, year_of_death, lifespans, descriptions):
-    colnames = ['Instance', 'Gender', 'Viaf_Id', 'NHRP_ID', 'Country_of_citizenship', 'Occupation']
+    colnames = ['Instance','Gender','Viaf_Id','NHRP_ID','Country_of_citizenship','Occupation']
     data_csv_p1 = pd.read_csv('person_info_new_data_1-300.csv', names=colnames, na_filter=False)
     data_csv_p2 = pd.read_csv('person_info_new_data_301-600.csv', names=colnames, na_filter=False)
     data_csv_p3 = pd.read_csv('person_info_new_data_601-900.csv', names=colnames, na_filter=False)
@@ -502,15 +500,16 @@ def final_csv(ids, names_given, last_name, names_full, year_of_birth, year_of_de
     occupation_4 = data_csv_p4.Occupation.tolist()
     occupation_5 = data_csv_p5.Occupation.tolist()
 
-    # print(len(nhrp_5))
+    #print(len(nhrp_5))
     instance_list = ['Instance']
     gender_list = ['Gender']
     viaf_list = ['Viaf ID']
     nhrp_list = ['NHRP ID']
-    country_list = ['Country of co=itizenship']
+    country_list = ['Country of coitizenship']
     occupation_list = ['Occupation']
 
     for index in range(1, 300):
+
         instance_list.append(instance_1[index])
         gender_list.append(gender_1[index])
         viaf_list.append(viaf_1[index])
@@ -529,6 +528,7 @@ def final_csv(ids, names_given, last_name, names_full, year_of_birth, year_of_de
         # return instance_list
 
     for index in range(1, 301):
+
         instance_list.append(instance_3[index])
         gender_list.append(gender_3[index])
         viaf_list.append(viaf_3[index])
@@ -538,6 +538,7 @@ def final_csv(ids, names_given, last_name, names_full, year_of_birth, year_of_de
         # return instance_list
 
     for index in range(1, 401):
+
         instance_list.append(instance_4[index])
         gender_list.append(gender_4[index])
         viaf_list.append(viaf_4[index])
@@ -564,6 +565,8 @@ def final_csv(ids, names_given, last_name, names_full, year_of_birth, year_of_de
             else:
                 continue
 
+
+
     # print(instance_list)
     # print(len(instance_list))
     # print(gender_list)
@@ -576,16 +579,16 @@ def final_csv(ids, names_given, last_name, names_full, year_of_birth, year_of_de
     # print(len(occupation_list))
 
     colnames2 = ['XML-ID', 'Wikidata_ID', 'Given_Name', 'Surname', 'Name', 'Year_of_Birth', 'Year_of_Death', 'Lifespan',
-                 'Brief_Description']
+                'Brief_Description']
     data_csv = pd.read_csv('practice_person_info_edited.csv', names=colnames2, na_filter=False)
     q_ids = data_csv.Wikidata_ID.tolist()
 
-    rows = zip(ids, q_ids, viaf_list, nhrp_list, names_given, last_name, names_full, year_of_birth, year_of_death,
-               lifespans, country_list, occupation_list, instance_list, gender_list, descriptions)
+    rows = zip(ids, q_ids,viaf_list, nhrp_list, names_given, last_name, names_full, year_of_birth, year_of_death, lifespans,country_list, occupation_list, instance_list, gender_list,descriptions)
     with open('final_pers_org_details.csv', 'w', ) as work_csv:
         wr = csv.writer(work_csv, delimiter=',')
 
         for row in rows:
             wr.writerow(row)
+
 
 # final_csv(id_list, given_name_list, surnames_list, names_list, birth_year_list, death_year_list, lifespan_list, descriptions_list)
