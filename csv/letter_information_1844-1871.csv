@@ -1,334 +1,334 @@
-Letter_ID,Sender_ID,Sender_Name,Recipient_ID,Recipient_Name,Date,Dispatch_Location,Dispatch_Location_Abbr,Mentioned_Person_ID,Mentioned_Person,Mentioned_Org_ID,Mentioned_Org,Mentioned_Places_Abbr,Mentioned_Places,Recipient_Adress
-B18440520PL,peHI,HENRIK IBSEN,pePL,POUL LIEUNGH,1844-05-20,GRIMSTAD,Gri,"'peHeL, peJAR, peFLR, peJAAI, peJJos, peCSAa'",,,,"'Gri, Ski'","'Grimstad, Skiens'","'Herr ,  P Lieungh, Skien'"
-B18441006HSte,peHI,HENRIK IBSEN,peHSte,HANNA STENERSEN,1844-10-06,GRIMSTAD,Gri,"'peJAR, peFLR'",,,,,,"'Jomfru H Stenersen, Porsgrund'"
-B18450801AWE,peHI,HENRIK IBSEN,peAWE,MINA WAHL (G. ENG),1845-08-01,GRIMSTAD,Gri,,,,,,,
-B18461207JCP,peHI,HENRIK IBSEN,peJCP,JOHAN CASPAR PREUS,1846-12-07,GRIMSTAD,Gri,"'peESJB, peHJHB, peJAR, peKPI'",,,,"'Gri, Ski'","'Grimstad, Skien'",
-B18491015OS,peHI,HENRIK IBSEN,peOS,OLE CARELIUS SCHULERUD,1849-10-15,GRIMSTAD,Gri,peCLD,,,,,,"'N,  1/, Til, Herr Stud: jur: O. Schulerud, Addr: Fru Budde, Kirkebakken, N,  5., Christiania'"
-B18500105OS,peHI,HENRIK IBSEN,peOS,OLE CARELIUS SCHULERUD,1850-01-05,GRIMSTAD,Gri,"'peCL, peKongChr7, peKongG3, peCE, peHJB, peTCr, peCLD, peLNi, pePSch'",,,,"'Tel, Lil, Kbh, Kri, Akfest'","'Thelemarken, Lillesand, Kjøbenhavn, Christiania, Agershuus Fæstning'",
-B18500210OS,peHI,HENRIK IBSEN,peOS,OLE CARELIUS SCHULERUD,1850-02-10,GRIMSTAD,Gri,"'peAGOe, peCLD'",,,,,,"'Til, Herr Stud: jur: O. Schulrud., Addr. Madame Sæther, Pipervigen, Christiania.'"
-B18500412CM,peHI,HENRIK IBSEN,peCM,CATHRINE MARTINI,1850-04-12,GRIMSTAD,Gri,,,,,,,
-B18500712KongO1,peHI,HENRIK IBSEN,peKongO1,KONG OSCAR 1.,1850-07-12,KRISTIANIA,Kri,,,,,"'Gri, Kri'","'Grimstads, Christiania'",
-B18500728AkKoll,peHI,HENRIK IBSEN,orgAkKoll,DET AKADEMISKE KOLLEGIUM,1850-07-28,KRISTIANIA,Kri,peHom,,,,,,
-Budat1850-51CE,peHI,HENRIK IBSEN,peCE,CLARA EBBELL,1850-12-25 - 1851-01-31,GRIMSTAD,Gri,,,,,,,"'Til, Jomfru Clara Ebbell.'"
-B18510125HerrA,peHI,"IBSEN, HENRIK",peHerrA,«HERR A.»,1851-01-25,KRISTIANIA,Kri,peAI,,,,,,
-B18520425NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1852-04-25,KØBENHAVN,Kbh,"'peJLHe, peTO'",,orgKT,,,,"'Til, Bestyrelsen for det norske Theater, i Bergen.'"
-B18520516NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1852-05-16,KØBENHAVN,Kbh,"'peHaNi, peJFH, peAAB, peLHG, peJLHe, peTO, peCaBe, peCNJS, peTSHH, peWiS, peLuH, peHCA, peJCD, peCRH'",,"'orgNTB, orgBurg'",,"'Kri, Berg, D, Ham, Dre, Wien'","'Christiania, Bergen, Tydskland, Hamburg, Dresden, Wien'","'Til, Bestyrelsen for det norske Theater, i Bergen.'"
-B18520530NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1852-05-30,KØBENHAVN,Kbh,"'peHaNi, peJFB, peJFH, peLoB, peCNJS, peLanz, peJLHe, peTO, peJCD'",,orgKT,,"'Lub, Dre'","'Lübeck, Dresden'","'Til, Bestyrelsen for det norske Theater, i Bergen.'"
-B18520602NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1852-06-02,KØBENHAVN,Kbh,"'peJFB, peJFH, peHaNi, peLoB, peAI, peJPr, peOJB, peLW, peFLH, peTO, peJLHe'",,,,Berg,Bergen,"'Til, Bestyrelsen for det norske Theater, i Bergen'"
-B18520624NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1852-06-24,DRESDEN,Dre,"'peJCD, peCBo, peHaNi, peJFB, peKNe, peWT'",,,,"'Kbh, Pa, Berg, Ham'","'Kjøbenhavn, Paris, Hamburg'","'Til, Bestyrelsen for det norske Theater, in Bergen, Norwegen'"
-B18530522RHo,peHI,HENRIK IBSEN,peRHo,RIKKE HOLST (G. TRESSELT),1853-05-22,BERGEN,Berg,,,,,,,
-B18530606RHo,peHI,HENRIK IBSEN,peRHo,RIKKE HOLST (G. TRESSELT),1853-06-06,[BERGEN],Berg,,,,,,,
-Budat185306RHo,peHI,HENRIK IBSEN,peRHo,RIKKE HOLST (G. TRESSELT),1853-06,[BERGEN],Berg,,,,,,,
-B18530804NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1853-08-04,BERGEN,Berg,"'peJMay, pePEN, peJSte, peHJW'",,,,,,
-B18530805PBH,peHI,HENRIK IBSEN,pePBH,PAUL BOTTEN-HANSEN,1853-08-05,[BERGEN],Berg,"'peAOV, peOJB, peTAb'",,,,,,"'Til, Herr Literatus P. B. Hansen., Adr: Bogh: Dzwonkowsky., Christiania, Ved godhed af, Herr Skuespiller Bucher'"
-B18531108NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1853-11-08,[BERGEN],NN,"'peAI, peBJH, peHaNi'",,,,,,
-B18531205NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1853-12-05,[BERGEN],NN,"'peFN, peKMR, peHLaa, peAI, peJI'",,,,,,
-B18531221NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1853-12-21,BERGEN,Berg,peAI,,,,,,
-B18540405TS,peHI,HENRIK IBSEN,orgTS,TRONDHJEM STIFTAMT,1854-04-05,TRONDHEIM,Trhm,,,"'orgNTB, orgTT'",,Trhm,Trondhjem,
-B18541104NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1854-11-04,[BERGEN],NN,"'peJac, peJoh'",,,,,,"'Til, Bestyrelsen for det norske Theater'"
-B18550627NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1855-06-27,BERGEN,Berg,peHLaa,,,,,,"'Til, Bestyrelsen for det norske Theater.'"
-B18560211CT,peHI,HENRIK IBSEN,peCT,CHRISTIAN TØNSBERG,1856-02-11,BERGEN,Berg,"'peCPB, peHKj, pePBH'",,,,"'Kri, Trhm'","'Christiania, Throndhjem'","'S.T., Hr: Consul Chr: Tønsberg., Christiania'"
-B18560306NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1856-03-06,TRONDHEIM,Trhm,"'peJLA, peJI, peFN, peBGu'",,,,Berg,Bergen,
-B18560314CT,peHI,HENRIK IBSEN,peCT,CHRISTIAN TØNSBERG,1856-03-14,TRONDHEIM,Trhm,,,,,,,"'S.T., Hr: Consul Chr: Tønsberg, Christiania'"
-B18560314NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1856-03-14,TRONDHEIM,Trhm,"'peJLA, peJI, peFN, peThS, peLar, peSch'",,,,,,"'Til, Bestyrelsen for det norske Theater, i Bergen'"
-B18560320NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1856-03-20,TRONDHEIM,Trhm,"'peJI, peCSi, peFN, peAI, peCAH, peLar'",,,,,,"'Til, Bestyrelsen for det norske Theat, i Bergen'"
-B18560331NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1856-03-31,TRONDHEIM,Trhm,,,orgTT,,Berg,Bergen,"'Til, Bestyrelsen for det norske Theater, i Bergen.'"
-B18560819HB,peHI,HENRIK IBSEN,peHB,HERMAN BAARS,1856-08-19,BERGEN,Berg,"'peOHe, peJKoo'",,orgNTB,,,,"'Hr. Kjøb,  H. Baars., Bergen'"
-B18570102ESte,peHI,HENRIK IBSEN,peESte,ESTANCE STEEN,1857-01-02,BERGEN,Berg,peKS,,,,,,
-B18570417PBH,peHI,HENRIK IBSEN,pePBH,PAUL BOTTEN-HANSEN,1857-04-17,BERGEN,Berg,"'peKKn, peSuI, peHCT, peMT, peCPB, peCT'",,"'orgChrTh, orgStud'",,,,"'Hr: stud: philolog. P. B. Hansen., Christiania.'"
-B18570428PBH,peHI,HENRIK IBSEN,pePBH,PAUL BOTTEN-HANSEN,1857-04-28,BERGEN,Berg,"'peOVi, peCT, peCPB, peNHG, peOS, peTAb'",,orgChrTh,,,,"'S.T., Hr: stud: philologiæ Paul Botten-Hansen, Kjøb,  Haslunds Gaard,, Hjørnet af Raadhuusgaden og Kongensgade., Christiania.'"
-B18570705FN,peHI,HENRIK IBSEN,peFN,FREDRIKKE NIELSEN,1857-07-05,BERGEN,Berg,,,,,,,
-B18570717PBH,peHI,HENRIK IBSEN,pePBH,PAUL BOTTEN-HANSEN,1857-07-17,BERGEN,Berg,,,,,Kri,Christiania,"'Hr. stud: philologiæ Paul Botten-Hansen, Adr: Kjøb,  Haslunds Gaard, Hjørnet af Kongens Gade og Raadhusgaden, Christiania'"
-B18570723NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1857-07-23,KRISTIANIA,Kri,"'peJLC, peGHK, peCCL, peOS'",,orgKNT,,"'Berg, Kri'","'Bergen, Christiania'","'Bestyrelsen for det norske Theater, i Bergen'"
-B18571113AkKoll,peHI,HENRIK IBSEN,orgAkKoll,DET AKADEMISKE KOLLEGIUM,1857-11-13,KRISTIANIA,Kri,,,orgNTB,,,,
-B18580113AkKoll,peHI,HENRIK IBSEN,orgAkKoll,DET AKADEMISKE KOLLEGIUM,1858-01-13,KRISTIANIA,Kri,,,,,,,"'Til, Collegium academicum., Christiania.'"
-B18571118DCD,peHI,HENRIK IBSEN,peDCD,DANIEL CORNELIUS DANIELSSEN,1857-11-18,KRISTIANIA,Kri,"'peFARo, pePSp, peOBull, pePB'",,"'orgNTB, orgKNT, orgChrTh, orgIN'",,,,
-B18580130CJA,peHI,HENRIK IBSEN,peCJA,CARL JOHAN ANKER,1858-01-30,KRISTIANIA,Kri,"'peGOHC, peCFoug'",,orgIN,,"'Hard, Kbh, Sthlm'","'Hardanger, Kjøbenhavn, Stockholm'",
-B18580208CHau,peHI,HENRIK IBSEN,peCHau,CARSTEN HAUCH,1858-02-08,KRISTIANIA,Kri,,,orgKT,,Kbh,Kjøbenhavn,
-B18580604CHo,peHI,HENRIK IBSEN,peCHo,CHRISTIAN HOLST,1858-06-04,DAMPSKIPET «CHRISTIANIA»,DsChr,,,,,,,"'Hr. Universitetssecretær, Kammerherre,, Ridder Chr: Holst., Christiania'"
-Budat18580616JCG,peHI,HENRIK IBSEN,peJCG,JOACHIM GAMBORG,1858-06-12 - 1858-06-16,[KRISTIANIA],Kri,peHCT,,orgNTB,,Kri,Christiania,
-Budat1856-58JCDa,peHI,HENRIK IBSEN,peJCDa,JOHAN CHRISTIAN DAHL,1856 - 1858,[BERGEN],Berg,,,,,,,"'Hr. Kirketjener Dahl, Bergen'"
-B18590112PB,peHI,HENRIK IBSEN,pePB,PETER BLYTT,1859-01-12,KRISTIANIA,Kri,peKALM,,orgNTB,,Berg,Bergen,"'Hr: Kjøb,  Peter Blytt, Bergen'"
-Budat185903LD,peHI,HENRIK IBSEN,peLD,LORENTZ DIETRICHSON,1859-03,[KRISTIANIA],Kri,,,,,,,"'Hr. Cand philos: L. Dietrichson, Christiania.'"
-B18590806PB,peHI,HENRIK IBSEN,pePB,PETER BLYTT,1859-08-06,KRISTIANIA,Kri,peSiP,,orgNTB,,,,
-B18590813JRD,peHI,HENRIK IBSEN,peJRD,JONAS RAVN DAAE,1859-08-13,KRISTIANIA,Kri,,,orgKNT,,,,"'S.T., Hr. Lieutnant J. Daae, Christiania'"
-B18591025Stort2,"peHI', 'peJCG', 'peChH', 'peMKH', 'peKKspr', 'peSiP","HENRIK IBSEN', 'JOACHIM GAMBORG', 'CHRISTOPHER                        HANSTEEN', 'MARTIN KIRKGAARD                           HOLFELDT', 'KNUD KNUDSEN', 'SIEGWART                        PETERSEN",orgStort,STORTINGET,1859-10-25,KRISTIANIA,Kri,"'peOBull, peKongK4, peFrV'",,"'orgKNT, orgBurg, orgKTB, orgKDTS, orgKT'",,"'Eu, Pa, Wien, Berl'","'Europa, Paris, Wien, Berlin'",
-B18591027NN_Vi_tillade,"peHI', 'peJCG', 'peChH', 'peMKH', 'peKKspr', 'peSiP","HENRIK IBSEN', 'JOACHIM GAMBORG', 'CHRISTOPHER                        HANSTEEN', 'MARTIN KIRKGAARD                           HOLFELDT', 'KNUD KNUDSEN', 'PETER SIEGWART BLUMENTHAL                           PETERSEN",peNN,UKJENT MOTTAGER,1859-10-27,KRISTIANIA,Kri,,,orgKNT,,Kri,Kristiania,
-Budat18591122JS,"peHI', 'peBB","HENRIK IBSEN', 'BJØRNSTJERNE                        BJØRNSON",peJS,JOHAN SVERDRUP,1859-11-22,[KRISTIANIA],NN,"'peRO, peDCD, peOGU, peJSte, peOLH'",,,,,,"'Til, Hr Sverdrup, Sagføreren'"
-Budat185912HOB,peHI,HENRIK IBSEN,peHOB,HANS ØRN BLOM,1859-12,[KRISTIANIA],Kri,,,,,,,
-B18600121KE,peHI,HENRIK IBSEN,peKE,KRISTIAN ELSTER,1860-01-21,KRISTIANIA,Kri,,,orgKNT,,,,"'Hr: Theod: Mandrup. -, Adr: Hr: Elster,, Pilestrædet N, \n                        , .'"
-Budat18600218KNT,peHI,HENRIK IBSEN,orgKNT,KRISTIANIA NORSKE THEATER,1860-02-18,[KRISTIANIA],Kri,peSiP,,,,,,
-Budat18600318IN,peHI,HENRIK IBSEN,orgIN,ILLUSTRERET NYHEDSBLAD,1860-03-18,[KRISTIANIA],Kri,"'peTO, peBJH'",,orgKNT,,,,"'Til, Illustreret Nyhedsblad., Jensens Bogtrykkeri, Storgaden.'"
-Budat18600525CPo,peHI,HENRIK IBSEN,orgCPo,CHRISTIANIA-POSTEN,1860-05-25,[KRISTIANIA],Kri,peAVW,,orgKNT,,,,
-B18600621KNT,peHI,HENRIK IBSEN,orgKNT,KRISTIANIA NORSKE THEATER,1860-06-21,[KRISTIANIA],NN,"'peGHK, peAI'",,,,,,"'Til, Bestyrelsen for det norske Theater, Kristiania.'"
-B18600704HJN,peHI,HENRIK IBSEN,peHJN,JACOB NANDRUP,1860-07-04,KRISTIANIA,Kri,"'pePPe, peCSo'",,,,,,"'ST., Hr: Sagfører Nandrup, Hersteds.'"
-Budat18600821JRD,peHI,HENRIK IBSEN,peJRD,JONAS RAVN DAAE,1860-08-21,KRISTIANIA,Kri,peKongK4,,,,,,"'ST., Hr. Lieutnant Daae -'"
-Budat18600926JCG,peHI,HENRIK IBSEN,peJCG,JOACHIM GAMBORG,1860-09-26,[KRISTIANIA],Kri,peJLC,,,,Kbh,Kjøbenhavn,"'ST., Hr. Overretssagfører Gamborg.'"
-Budat18600930JCG,peHI,HENRIK IBSEN,peJCG,JOACHIM GAMBORG,1860-09-26 - 1860-09-30,[KRISTIANIA],Kri,,,orgKT,,,,'Hr. Overretssagfører Gamborg.'
-Budat18610302KNT,peHI,HENRIK IBSEN,orgKNT,KRISTIANIA NORSKE THEATER,1861-03-02,[KRISTIANIA],Kri,"'peGHK, peJCG, peMKH'",,,,,,"'Til, Bestyrelsen for det norske Theater.'"
-B18610304JRD,peHI,HENRIK IBSEN,peJRD,JONAS RAVN DAAE,1861-03-04,KRISTIANIA,Kri,peTWH,,orgKNT,,,,
-B18610317ChrTh,peHI,HENRIK IBSEN,orgChrTh,CHRISTIANIA THEATER,1861-03-17,KRISTIANIA,Kri,,,,,,,"'Til, Directionen for Christiania Theater.'"
-B18610327CHo,peHI,HENRIK IBSEN,peCHo,CHRISTIAN HOLST,1861-03-27,KRISTIANIA,Kri,peBaP,,,,,,
-B18610606JKSH,peHI,HENRIK IBSEN,peJKSH,JOHAN KRISTOFFER STØREN HEFFERMEHL,1861-06-06,KRISTIANIA,Kri,peJJo,,,,,,
-B18610718MAU,peHI,HENRIK IBSEN,peMAU,MARTIN UDBYE,1861-07-18,KRISTIANIA,Kri,,,,,,,
-B18610725CB,peHI,HENRIK IBSEN,orgCB,KRISTIANIA BYFOGDKONTOR,1861-07-25,KRISTIANIA,Kri,peTWH,,,,,,
-B18620303KNT,peHI,HENRIK IBSEN,orgKNT,KRISTIANIA NORSKE THEATER,1862-03-03,KRISTIANIA,Kri,"'peCPN, peWick'",,orgKNT,,,,
-B18620514JBK,peHI,HENRIK IBSEN,peJBK,JOHANNES KLINGENBERG,1862-05-14,KRISTIANIA,Kri,,,orgKNT,,,,'Hr. Ingeniørkaptejn Klingenberg.'
-B18620519HW,peHI,HENRIK IBSEN,peHW,HARALD WERGELAND,1862-05-19,[KRISTIANIA],NN,peCARA,,,,,,
-B18620524HJN,peHI,HENRIK IBSEN,peHJN,JACOB NANDRUP,1862-05-24,KRISTIANIA,Kri,,,,,,,
-B18620618MDEL,peHI,HENRIK IBSEN,peMDEL,MORTEN LAMBRECHTS,1862-06-18,KRISTIANIA,Kri,,,orgKNT,,,,"'S.T., Hr: Civildommer Lambrechts.'"
-B18620812CT,peHI,HENRIK IBSEN,peCT,CHRISTIAN TØNSBERG,1862-08-12,KRISTIANIA,Kri,peHJN,,,,,,
-Budat18620825CHo,peHI,HENRIK IBSEN,peCHo,CHRISTIAN HOLST,1862-08-25,[KRISTIANIA],Kri,,,,,,,'Hr: Kammerherre Chr: Holst'
-B18630624RN,peHI,HENRIK IBSEN,peRN,RANDOLPH NILSEN,1863-06-24,KRISTIANIA,Kri,"'peWEN, peCKG, peWMo, peANil, pePB, peJvdL'",,,,"'Berg, Sta'","'Bergen, Stavanger'",
-B18630810CP,peHI,HENRIK IBSEN,peCP,CLEMENS PETERSEN,1863-08-10,KRISTIANIA,Kri,peBB,,orgKT,,,,
-B18631008Kdep,peHI,HENRIK IBSEN,orgKdep,KIRKE- OG UNDERVISNINGSDEPARTEMENTET,1863-10-08,KRISTIANIA,Kri,,,,,Kbh,Kjøbenhavn,
-B18631026FT,peHI,HENRIK IBSEN,peFT,FREDERIK TILLISCH,1863-10-26,KRISTIANIA,Kri,,,orgKT,,,,"'Til, Chefen for det Kongelige danske Theater,, Hans Excellence, Geheimeconferentsraad Tillisch,, Ridder af Elefantordenen, p: pl:'"
-B18631027Kdep,peHI,HENRIK IBSEN,orgKdep,KIRKE- OG UNDERVISNINGSDEPARTEMENTET,1863-10-27,KRISTIANIA,Kri,,,,,Ham,Hamburg,
-B18640307BD,peHI,HENRIK IBSEN,peBD,BERNHARD DUNKER,1864-03-07,KRISTIANIA,Kri,"'peBB, peRP'",,,,,,'Hr: Regjeringsadvokat Dunker.'
-B18640417BD,peHI,HENRIK IBSEN,peBD,BERNHARD DUNKER,1864-04-17,KØBENHAVN,Kbh,,,,,"'Lub, Tri, Rom'","'Lübeck, Triest, Rom'","'Hr: Regjeringsadvokat Dunker, Christiania'"
-B18640622BD,peHI,HENRIK IBSEN,peBD,BERNHARD DUNKER,1864-06-22,ROMA,Rom,"'peTH, peJB, peBB'",,,,"'Tri, Mil, Gen, Rom, Ven, Berl'","'Triest, Milano, Genua, Rom, Venedig, Berlin'",
-B18640718JHT,peHI,HENRIK IBSEN,peJHT,JOHAN HERMAN THORESEN,1864-07-18,ROMA,Rom,,,,,,,
-B18640916BB,peHI,HENRIK IBSEN,peBB,BJØRNSTJERNE BJØRNSON,1864-09-16,ROMA,Rom,"'peLD, peRP, peBMi, peGLB, peSuI, peSiI, peJHT, peEjBj, peKBj, peBD'",,orgChrTh,,"'Genz, Rom, Mil, Kri, Kbh, Troj'","'Genzano, Rom, Milano, Christiania, Kjøbenhavn, Troja'",
-B18650120SF,peHI,HENRIK IBSEN,orgSF,DEN SKANDINAVISKE FORENING I ROMA,1865-01-20,ROMA,Rom,,,orgSF,,,,
-B18650128BB,peHI,HENRIK IBSEN,peBB,BJØRNSTJERNE BJØRNSON,1865-01-28,ROMA,Rom,"'pePrax, peBMi, peJHT, peSiI, peKBj, peHI peSuI, peBD'",,orgChrTh,,"'N, Berl, Dyb, Pol, Vat, ViBo, Cate, Sab, Trhm, Ham'","'vort Lands, Berlin, Dybbøl, Polen, Vatikanet, Villa Borghese, Caracallas Bade, Sabinerbjergene, Trondhjem, Hamburg'","'Til, Digteren Bjørnstjerne Bjørnson, Christiania, in Norvegia'"
-B18650325KNVS,peHI,HENRIK IBSEN,orgKNVS,DET KONGELIGE NORSKE VIDENSKABERS SELSKAB,1865-03-25,ROMA,Rom,peBB,,,,"'Rom, Pa, Kri, It'","'Rom, Paris, Kristiania, Italien'",
-B18650619IN,peHI,HENRIK IBSEN,orgIN,ILLUSTRERET NYHEDSBLAD,1865-06-19,ROMA,Rom,,,,,,,
-B18650912EB,peHI,HENRIK IBSEN,peEB,EMIL BLOCH,1865-09-12,ARICCIA,Aric,"'peGuB, peLH, peCBl'",,,,Rom,Rom,
-B18650912BB,peHI,HENRIK IBSEN,peBB,BJØRNSTJERNE BJØRNSON,1865-09-12,ARICCIA,Aric,"'peFH, peKri, peCaMu, peJS, peJB, peGHK, peKBj'",,"'orgStort, orgKNVS, orgChrTh'",,"'PeKi, Rom, N'","'Peterskirken, Rom, hjemme'","'Til, Digteren ,  Bjørnson, Christiania, Norvegia.'"
-B18650912JS,peHI,HENRIK IBSEN,peJS,JOHAN SVERDRUP,1865-09-12,ARICCIA,Aric,peBB,,orgGyl,,"'Kri, Kbh'","'Kristiania, Kjøbenhavn'",
-B18650926EB,peHI,HENRIK IBSEN,peEB,EMIL BLOCH,1865-09-26,ARICCIA,Aric,"'peGuB, peALo, peLH, pePCS, peCBl'",,,,Rom,Rom,"'Signor Emil Bloch., Indir: al Sgr: Bravo,, Console Danimarca., Roma.'"
-B18651025FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1865-10-25,ROMA,Rom,peBB,,,,"'Kbh, It'","'Kjøbenhavn, Italien'",
-B18651026AK,peHI,HENRIK IBSEN,peAK,ANTON KLUBIEN,1865-10-26,ROMA,Rom,"'peFH, peCBl, pePCS, peLH, peJB, peVVP, peHVS, peCKFM'",,"'orgSF, orgGyl'",,"'Lon, Aric, Fir, Rom, Kbh, Sorr'","'London, Ariccia, Florents, Rom, Kjøbenhavn, Sore'","'Hr: Cand: jur: A: Klubien, St: Kannikestræde, N,  15, 1,  Sal., Kjøbenhavn.'"
-B18651107FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1865-11-07,ROMA,Rom,peCKFM,,,,Kbh,Kjøbenhavn,
-B18651115FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1865-11-15,ROMA,Rom,"'peBB, peBD, peMT, peAK'",,,,"'Kbh, Rom'","'Kjøbenhavn, Rom'",
-B18651125FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1865-11-25,ROMA,Rom,"'peJB, peCKFM'",,,,"'Kbh, Dk, N'","'Kjøbenhavn, Danmark, Norge'","'Herr Cancelliraad F. Hegel, Copenaghen., Danimarca.'"
-B18651201SF,peHI,HENRIK IBSEN,orgSF,DEN SKANDINAVISKE FORENING I ROMA,1865-12-01,ROMA,Rom,,,,,N plSE plDk,hver Nation,
-B18651203MT,peHI,HENRIK IBSEN,peMT,MAGDALENE THORESEN,1865-12-03,ROMA,Rom,"'peKongK4, peGGa, peSiI, peFH, peCP, peSuI, peLD, peWMR, peTK, peAxT, peSaLu, peDFa, peMTh, peASM'",,,,"'N, Pie, Gen, Nov, Ales, Pale, Finn, Berl, Dyb, SE, Dk, Kbh'","'Norge, Piemont, Genua, Novara, Alessandria, Palermo, Finmarken, Berlin, Dybbøl, Sverigs, Danmark, Kjøbenhavn'",
-B18651204CP,peHI,HENRIK IBSEN,peCP,CLEMENS PETERSEN,1865-12-04,ROMA,Rom,,,,,N,Norge,"'Hr: Clemens Petersen., Kjøbenhavn.'"
-B18660304BB,peHI,HENRIK IBSEN,peBB,BJØRNSTJERNE BJØRNSON,1866-03-04,ROMA,Rom,"'peNR, peFB, peJB, peFH, peMT, peDiM, peKBj, peAnM, peLoB, peJFB, peBD, peFBPS, peAMu, peCP, peRiN'",,"'orgStort, orgKNVS, orgChrTh'",,N,Norge,
-B18660304FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1866-03-04,ROMA,Rom,peBB,,,,,,
-B18660304BD,peHI,HENRIK IBSEN,peBD,BERNHARD DUNKER,1866-03-04,ROMA,Rom,peFH,,,,N,hjemme,"'Herr Regjeringsadvokat Dunker., Christiania.'"
-B18660307FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1866-03-07,ROMA,Rom,"'peBB, peKongChr4, peMT, peCP'",,,,"'N, Kbh, Kri'","'Norge, Kjøbenhavn, Christiania'",
-B18660316FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1866-03-16,ROMA,Rom,"'peBB, peMT, peAK'",,,,"'Dk, Kbh, Rom'","'Danmark, Kjøbenhavns Poststempel, Pavestaten'",
-B18660316AK,peHI,HENRIK IBSEN,peAK,ANTON KLUBIEN,1866-03-16,ROMA,Rom,"'peFH, peOE, peJCo, peJSo'",,orgSF,,"'Rom, Sorr, Ge, Ol, Su, Cer, Ti'","'Rom, Sorent, Genazzano, Olevano, Subiaco, Cerrano, Tivoli'",
-B18660322JG,peHI,HENRIK IBSEN,peJG,JOHN GRIEG,1866-03-22,ROMA,Rom,peEGr,,,,"'N, D, Dre'","'vort eget Land, Tydskland, Dresden'",
-B18660415GS,peHI,HENRIK IBSEN,peGS,GEORG SIBBERN,1866-04-15,ROMA,Rom,peKongK4,,,,N,Norge,
-B18660415KongK4,peHI,HENRIK IBSEN,peKongK4,KONG KARL 15.,1866-04-15,ROMA,Rom,,,orgStort,,"'It, Kbh, N, Kri'","'Italien, Kjøbenhavn, mit Fædrelands Grændser, Christiania'",
-Budat186604AK,peHI,HENRIK IBSEN,peAK,ANTON KLUBIEN,1866-04,[ROMA],NN,peEGr,,,,,,
-B18660425GB,peHI,HENRIK IBSEN,peGB,GEORG BRANDES,1866-04-25,ROMA,Rom,"'peLED, peJB, peDrEr, peFWo, pePK, peAP, peCD, peFH, peCP'",,orgSF,,"'Rom, Na, Sorr, Gi, Kbh'","'hernede, det Neapolitanske, Sorento, St: Giacomo, Kjø, n'","'Hr: Cand: mag: , Krystalgade N,  6, 3, Copenaghen.'"
-B18660425FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1866-04-25,ROMA,Rom,,,,,"'Dk, N, Sorr'","'Danmark, Norge, Sorent'",
-B18660504MB,peHI,HENRIK IBSEN,peMB,MICHAEL BIRKELAND,1866-05-04 - 1866-05-05,ROMA,Rom,"'peKongK4, peGS, peBB, peOAB, pePBH, peJLo, peAFK, peCD, peJLH, peCHau, peMBi, peOF, peFStang'",,orgStort,,"'N, Sthlm, Dk, Kbh, Rom, Vat'","'Norge, Stokholm, Danmark, Kjøbenhavn, Rom, Pavestaten'","'Hr: Rigsarkivar M Birkeland., a Christiania, (Norvegia.)'"
-B18660505BB,peHI,HENRIK IBSEN,peBB,BJØRNSTJERNE BJØRNSON,1866-05-05,ROMA,Rom,"'peMB, peKongK4, peGS, peBD, peHHolm, peFB, peKBj, peMT'",,"'orgChrTh, orgStort'",,Kri,Christiania,"'Till, Digteren Bjørnstjerne Bjørnson., Christiania'"
-B18660505BD,peHI,HENRIK IBSEN,peBD,BERNHARD DUNKER,1866-05-05,ROMA,Rom,"'peOF, peHad, pePrax, peMyr'",,orgStort,,"'Kap, Vat, ViBo, ViLu'","'Capitoliets, Vatikanets, Villa Borghese, Villa Ludovisi'","'Hr: Regjeringsadvokat Dunker., Christiania.'"
-B18660516HCTh,peHI,HENRIK IBSEN,peHCTh,HARALD THAULOW,1866-05-16,ROMA,Rom,peREP,,,,,,
-B18660521FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1866-05-21,ROMA,Rom,"'peGr, peGS, peFStang, peKongK4, peCHau, peCP, peGB, peECR, peHFH, peVL, peGAKH'",,"'orgStort, orgKNVS'",,"'Pa, Trhm, Sthlm, Kri, N'","'Paris, Throndhjem, Norge'",
-B18660528MT,peHI,HENRIK IBSEN,peMT,MAGDALENE THORESEN,1866-05-28,ROMA,Rom,"'peFH, peECR'",,,,"'Kri, Fras, Alfj'","'Chr-a, Frascati, Albanerbjergene'",
-B18660602GS,peHI,HENRIK IBSEN,peGS,GEORG SIBBERN,1866-06-02,ROMA,Rom,peKongK4,,,,"'Kri, Sthlm'","'Christiania, Stokholm'",
-B18660606LH,peHI,HENRIK IBSEN,peLH,LARS HANSEN,1866-06-06,FRASCATI,Fras,"'peAuLor, peCPC, peGuB, peJB'",,,,"'Kbh, Rom'","'Kjøbenhavn, Rom'",
-B18660609FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1866-06-09,FRASCATI,Fras,"'peHFH, peGB, peBB, peSKi'",,orgChrTh,,"'Kri, Sthlm'","'Chr-a, Stokholm'",
-B18660618NR,peHI,HENRIK IBSEN,peNR,NIELS RAVNKILDE,1866-06-18,FRASCATI,Fras,,,,,,,"'Allright single quotation mark illustrissimo Maestro, Il Signore Nicolo Ravnkilde., Indirizz: all Cav: J. Bravo,, Consigliere di Stato di Danimarca,, Console di Svezia & Norvegia., Roma.'"
-B18660722PBH,peHI,HENRIK IBSEN,pePBH,PAUL BOTTEN-HANSEN,1866-07-22,FRASCATI,Fras,"'peFB, peJB, peSuI, peJoBH, peCic, peJLo'",,"'orgSF, orgStort'",,"'Sthlm, Kri, Rom, Camp, Fras, Alfj, PaGr, Tus, Mdh, Sab, Ap, Na, MoSo'","'Stokholm, Kristiania, Rom, Campagnen, Frascati, Albanerbjergene, Palazzo Gratiosi, Tusculum, Middelhavet, Sabinerland, Appeninerne, neapolitanske, Mons Soracte'","'Herr Universitetsbibliothekar, P. Botten-Hansen'"
-B18660724Kdep,"peHI', 'peAuLor', 'peJB","HENRIK IBSEN', 'AUGUST LORENZ', 'JOHAN BRAVO",orgKdep,KIRKE- OG UNDERVISNINGSDEPARTEMENTET,1866-07-24,ROMA,Rom,"'peAuLor, peJB'",,,,,,'Til Den kongelige norske Regjerings Departement for Kirke- og\n                        Undervisningsvæsenet i Christiania.'
-B18660822FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1866-08-22 - 1866-08-24,FRASCATI,Fras,"'peGS, peFStang, peGB, peEGr'",,,,"'Dk, Kbh, Sthlm, Kri, He'","'Danmark, Kjøbenhavn, Stokholm, Kristiania, Grækenland'","'Herr Cancelliraad Hegel., Copenaghen., Danimarca.'"
-B18660824EGr,peHI,HENRIK IBSEN,peEGr,EDVARD GRIEG,1866-08-24,FRASCATI,Fras,"'peBB, peSuI'",,orgChrTh,,Sthlm,Stokholm,"'Till, Komponisten Hr. Edvard Grieg.'"
-B18660920JHT,peHI,HENRIK IBSEN,peJHT,JOHAN HERMAN THORESEN,1866-09-20,FRASCATI,Fras,,,,,,,
-B18661005FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1866-10-05,ROMA,Rom,"'peJLi, pePBH, peJDy, peECR, peCP, peMSa, peAuLa'",,,,Kbh,Kjøbenhavns Klasselotteri;,
-B18661005MB,peHI,HENRIK IBSEN,peMB,MICHAEL BIRKELAND,1866-10-05,ROMA,Rom,"'peJHT, peFStang, peFH, peJLi, peJDy, peOAB, peJLo, pePBH, peJES, peLDa, peBB, peSuI, peChar, peMBi'",,,,"'Pa, He, N, Sorr'","'Paris, Grækenland, Norge, Sorrent'",
-B18661102FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1866-11-02,ROMA,Rom,"'peECR, peBD, peLD, peALCL, peKongChr4, peGS, peKongK4, peBB, peNR, peFB, pePBH, peMB, peMSa, peHNC'",,,,"'Sthlm, N'","'Stokholm, Norge'",
-B18661111CT,peHI,HENRIK IBSEN,peCT,CHRISTIAN TØNSBERG,1866-11-11,ROMA,Rom,"'peFH, peECR, peBB, peCNJ'",,,,"'Dk, Na, Rom'","'Danmark, Neapel, hernede'","'Herr Generalkonsul Tønsberg., Ridder af Dannebrog og fl:\n                        O:, Adr: Bredgade N,  14., Copenaghen., Danimarca.'"
-Budat18661117BB,peHI,HENRIK IBSEN,peBB,BJØRNSTJERNE BJØRNSON,1866-11-17,[ROMA],Rom,"'peHJN, peBD, peCic, peKBj, peMT, peMTh, peSuI, peFB, peNR'",,"'orgSF, orgChrTh, orgStud'",,"'Rom, Kbh, N'","'Roms, Kjøbenhavn, Norge'",
-B18661123FH2,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1866-11-23,ROMA,Rom,peNR,,,,,,"'Herr Cancelliraad Hegel, Kjøbenhavn.'"
-B18661123FH1,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1866-11-23,ROMA,Rom,peCEH,,,,Kbh,Kjøbenhavn,
-B18661210SF,"peHI', 'peJCo","HENRIK IBSEN', 'JANUS LA COUR",orgSF,DEN SKANDINAVISKE FORENING I ROMA,1866-12-10,ROMA,Rom,,,,,,,
-B18661215CT,peHI,HENRIK IBSEN,peCT,CHRISTIAN TØNSBERG,1866-12-15,ROMA,Rom,peCNJ,,,,,,
-B18670105FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1867-01-05,ROMA,Rom,"'peAlB, peLD, peALCL, peCP, peJLi'",,,,N,Norge,
-B18670209BJC,"peHI', 'peJB","HENRIK IBSEN', 'JOHAN BRAVO",peBJC,CARL BERLING,1867-02-09,ROMA,Rom,,,orgSF,,,,
-B18670304NR,peHI,HENRIK IBSEN,peNR,NIELS RAVNKILDE,1867-03-04,ROMA,Rom,,,,,,,"'All Illmo Signore, Il Maestro N: Ravnkilde., Via di Ripetta, N,  39., Roma.'"
-B18670308FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1867-03-08,ROMA,Rom,"'peMAG, peAxF, peHRi, peHHe, peSKi, peNR, peALCL, peAnL, peHNC, pePAAH, pePMOL, peBB'",,orgChrTh,,"'Sthlm, Kri'","'Stockholm, Christiania'",
-B18670309CP,peHI,HENRIK IBSEN,peCP,CLEMENS PETERSEN,1867-03-09,ROMA,Rom,peFH,,,,,,
-B18670327FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1867-03-27,ROMA,Rom,"'peVB, peHNC, pePMOL, peEPHH, pePHe, peVHei'",,,,Sorr,Sorrento,
-B18670502FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1867-05-02,ROMA,Rom,"'peVB, peAuLa, peJB'",,,,"'Isc, Dk, Kbh'","'Ischia, Danmark, Kjøbenhavn'",
-B18670516VB,peHI,HENRIK IBSEN,peVB,VILHELM BERGSØE,1867-05-16,ROMA,Rom,"'peLH, peMS'",,,,"'Rom, Na, Isc, Sen'","'Rom, Neapel, Ischia, la piccola Sentinella'",
-B18670808FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1867-08-08,ISCHIA,Isc,"'peDD, pePGy, pePCA, peCP, peVB, peCKFM, peGB'",,,,"'Rom, Na, Gud, Na, Sorr'","'Rom, Neapel, Gudbrandsdalen, Sorrento'",
-B18670918FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1867-09-18,SORRENTO,Sorr,"'peAuLa, peBB, peCKFM, peDD'",,,,Na,Neapel,
-B18671015MT,peHI,HENRIK IBSEN,peMT,MAGDALENE THORESEN,1867-10-15,SORRENTO,Sorr,"'peSaLu, peDFa, pePCA, peFH, peTK, peAxT, peCT, peSuI, peSiI'",,,,"'Kbh, It, Isc, Rom, Vat, N, Pom'","'Kjøbenhavn, Italien, Ischia, Rom, Pavestaten, Norge, Pompeji'",
-B18671016JB,peHI,HENRIK IBSEN,peJB,JOHAN BRAVO,1867-10-16,SORRENTO,Sorr,"'peGuB, peALo, peLFGS, peSuI'",,,,"'Rom, Kbh'","'Rom, Kjøbenhavn'",
-B18671018FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1867-10-18,SORRENTO,Sorr,"'peGB, peBB, peCP, peVB, peJB, peAuLa'",,,,Rom,Rom,
-B18671021JC,peHI,HENRIK IBSEN,peJC,JONAS COLLIN,1867-10-21,SORRENTO,Sorr,"'peVB, peEC, peGGa, peSuI, peLASc, peGB'",,,,"'Rom, Isc, Sorr, Na, Vat, Pom, Fir, Kbh'","'Rom, Ischia, Sorrento, Neapel, Pavestaten, Pompeji, Florentz, Kjøbenhavn'","'Herr Cand: magister Jonas Collin., Adr: Dronningens Tvergade No 19., Copenaghen., (Danimarca.)'"
-B18671104JB,peHI,HENRIK IBSEN,peJB,JOHAN BRAVO,1867-11-04,SAN GERMANO,SanGer,"'peDD, peVB, peCSAB, peSuI'",,,,"'Vat, Rom, Na, Sorr, Pom'","'pavelige Grænse, Rom, Neapel, Sorrento, Pompeji'",
-B18671108JB,peHI,HENRIK IBSEN,peJB,JOHAN BRAVO,1867-11-08,SAN GERMANO,SanGer,"'peGuB, peALo'",,,,Rom,Rom,
-B18671123FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1867-11-23,ROMA,Rom,"'peGB, peJAAFD'",,,,"'N, Kri, Vat'","'Norge, Christiania, Pavestaten'",
-B18671209BB,peHI,HENRIK IBSEN,peBB,BJØRNSTJERNE BJØRNSON,1867-12-09 - 1867-12-10,ROMA,Rom,"'peCP, peMaMo, peCPP, peKBj'",,,,"'Kbh, N, Dk'","'Kjøbenhavn, Norge, Danmark'",
-B18671228BB,peHI,HENRIK IBSEN,peBB,BJØRNSTJERNE BJØRNSON,1867-12-28,ROMA,Rom,"'peCP, peJWGo, peFH, peJB, pePMOL, peABla, peJHT, peKBj'",,orgChrTh,,"'NoIt, N'","'Norditalien, Norge'",
-B18680127HHag,"peHI', 'peJLHB', 'peJB', 'peVB', 'peOVM","HENRIK IBSEN', 'JOHN BÖRJESON', 'JOHAN BRAVO', 'VILHELM BERGSØE', 'OTTO VALDEMAR                        MOURIER",peHHag,HANS HAGERUP,1868-01-27,ROMA,Rom,"'peMAG, pePW'",,orgSF,,Kbh,Kjøbenhavn,
-B18680221JdB,"peHI', 'peJLHB', 'peJB', 'peVB', 'peOVM","HENRIK IBSEN', 'JOHN BÖRJESON', 'JOHAN BRAVO', 'VILHELM BERGSØE', 'OTTO VALDEMAR                        MOURIER",peJdB,JOHAN DE BESCHE,1868-02-21,ROMA,Rom,,,orgSF,,,,
-B18680223SF,peHI,HENRIK IBSEN,orgSF,DEN SKANDINAVISKE FORENING I ROMA,1868-02-23,ROMA,Rom,,,,,,,
-B18680224FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1868-02-24,ROMA,Rom,"'peBB, peGB, pePHj, peSiI'",,,,"'SE, N, Dk, Kri'","'Sverig, Norge, Danmark, Christiania'",
-B18680310SF,"peHI', 'peLH', 'peJLHB', 'peJFK","HENRIK IBSEN', 'LARS HANSEN', 'JOHN BÖRJESSON', 'JOHANNES FRITIHOF                           KJELLBERG",orgSF,DEN SKANDINAVISKE FORENING I ROMA,1868-03-10,ROMA,Rom,,,,,,,"'Til, Bestyrelsen for den skand: Forening, i Rom.'"
-B18680331MT,peHI,HENRIK IBSEN,peMT,MAGDALENE THORESEN,1868-03-31,ROMA,Rom,"'peJdB, peTK, peAxT'",,orgSF,,"'It, Kri, N, Vat, Sthlm'","'Italien, Kristiania, vort Land, Pavestatens, Stokholm'",'Fru Magdalene Thoresen.'
-B18680427FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1868-04-27,ROMA,Rom,"'peHLo, peBB, peGB'",,,,"'NoIt, Ty, Pa, Fir'","'Norditalien, Tyrol, Paris, Florentz'",
-B18680622JB,peHI,HENRIK IBSEN,peJB,JOHAN BRAVO,1868-06-22,BERCHTESGADEN,BerGad,"'peAHas, peFH, peHLo, peOF, peNR, peOVM, peHJBu'",,orgGyl,,"'Rom, Fir, Bol, Ven, Bo, Bay, Tu'","'Rom, Florents, Bologna, Venedig, Botzen, Bayern, Turin'",
-B18680728FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1868-07-28,BERCHTESGADEN,BerGad,"'peBB, peJB, peLH, peMT, peAHas'",,,,"'Fir, Ty, Mun, Dre, Pa, Sal, Kbh, It, Bay'","'Florentz, Tyrol, München, Dresden, Salzburg, Kbhvn, Italien, Bayern'",
-B18680820FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1868-08-20,BERCHTESGADEN,BerGad,"'peECR, peGRo, peCHau, peLD'",,,,"'Sal, Ga, Kbh, Sthlm'","'Salzburg, Gastein, Kjøbenhavn, Stokholm'",
-B18680922FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1868-09-22,MÜNCHEN,Mun,peCBa,,orgKT,,"'Dre, N, Mun, Tu'","'Dresden, Norge, Münchens virkelige Kunstskatte, Turin'",
-B18681002FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1868-10-02,MÜNCHEN,Mun,peCBa,,,,"'BerGad, Mun, Dre'","'Berchtesgaden, München, Dresden'",
-B18681010FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1868-10-10,DRESDEN,Dre,,,,,"'Mun, Dre'","'München, Dresden'",
-B18681031FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1868-10-31,DRESDEN,Dre,"'peGB, peJB, peRS, peVB'",,orgKT,,"'N, Dk, Rom, Dre, D'","'Norge, Danmark, Rom, Dresden, Tydsklands'",
-B18681031RS,peHI,HENRIK IBSEN,peRS,RUDOLPH SCHMIDT,1868-10-31,DRESDEN,Dre,"'peRNi, peCP'",,,,"'Rom, It'","'Rom, Italien'","'Herr Cand: mag: Rudolf Schmidt, Klareboderne N,  16, 2,  Sal., Kopenhagen.'"
-B18681222FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1868-12-22,DRESDEN,Dre,"'peGB, peJB, peHLo, peHJGr, peMT, peVB, peCPP, peCKFM, pePFSt, peCLFl, peJH, peSuI, peMTh'",,,,"'Tu, Rom, BerGad, Kbh, Ty, Dk, N'","'Turin, Rom, Berchtesgaden, Kjøbenhavn, Tyrol, Danmark, Norge'",
-Budat1866-68NR,peHI,HENRIK IBSEN,peNR,NIELS RAVNKILDE,1866 - 1868-04,[ROMA],Rom,,,orgSF,,,,"'Illmo Signore, Il Maestro N: Ravnkilde'"
-B18690122FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1869-01-22,DRESDEN,Dre,"'peHLo, peJB, peSpi, peMT, peKAWi, peJWC, peGECG, peRS'",,,,Rom,Rom,
-B18690126RS,peHI,HENRIK IBSEN,peRS,RUDOLPH SCHMIDT,1869-01-26,DRESDEN,Dre,peBB,,,,,,"'Hr: Cand: magist: Rudolf Schmidt., Klareboderne. 16. 2., Kopenhagen.'"
-B18690210PFS,peHI,HENRIK IBSEN,pePFS,PETER FRIEDRICH SIEBOLD,1869-02-10,DRESDEN,Dre,"'peFH, peHelm'",,,,"'Dk plN plSE, Kri'","'de tre skandinaviske Lande, Christiania'",
-B18690216Kdep,peHI,HENRIK IBSEN,orgKdep,KIRKE- OG UNDERVISNINGSDEPARTEMENTET,1869-02-16,DRESDEN,Dre,"'peLD, peJB, peTMom, peJAWN, peGGa'",,orgSF,,"'SE, D, Fr, It, N, Kbh, Berl, Pra, Wien, Tri, Ven, Mil, Gen, Liv, Rom, Genz, Alfj, FoRom, PAL, Cate, Titu, Aric, SAB, Ti, Fras, Tus, Na, Isc, Sorr, Ama, Sale, Pom, Vat, SanGer, Fir, Ver, Sal, Ty, Mun'","'Sverig, Tyskland, Frankrig, Italien, Norge, Kjøbenhavn, Berlin, Prag, Wien, Triest, Venedig, Milano, Genua, Livorno, Rom, Genzano, Albanerbjergene, forum romanum, Palatin, Caracallas, Titusright single quotation marks Thermer, Ariccia, Sabinerbjergene, Tivoli, Frascati, det gamle Tusculum, Neapel, Ischia, Sorrento, Amalfi, Salerno, Pompeji, Pavestaten, San Germano, Florentz, Verona, Salzburg, Tyrol, München'",
-B18690220FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1869-02-20,DRESDEN,Dre,"'peBB, peCFR, peMT, peSiI, peTho, peRS'",,,,"'Kbh, Rom, Kri'","'Kjøbenhavn, Rom, Christiania'",
-B18690228FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1869-02-28,DRESDEN,Dre,pePFSt,,,,,,
-B18690314FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1869-03-14,DRESDEN,Dre,"'peAuLa, peECR, peGAKH, peGAK, peGB, peBB, pePFS'",,,,"'N, Lei'","'Norge, Leipzig'",
-B18690323MS,peHI,HENRIK IBSEN,peMS,MARTIN SCHNEEKLOTH,1869-03-23,DRESDEN,Dre,"'peCHau, peVB, peFH, peJB, peOVM, peOF, peSiI, peKAH, pePFS'",,orgGyl,,"'It, Rom, Kbh, Ty, Bo, BerGad'","'Italien, Rom, Kbhvn, Tyrol, Botzen, Berchtesgaden'",
-B18690407FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1869-04-07,DRESDEN,Dre,"'peCP, peBB'",,,,,,
-B18690418KB,peHI,HENRIK IBSEN,peKB,KARL BOMHOFF,1869-04-18,[DRESDEN],Dre,,,,,,,"'Herrn Cand: pharm: Bomhoff., Palaisplatz., N,  4, Parterre.'"
-B18690502FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1869-05-02,DRESDEN,Dre,"'peBB, peCHSch, peJSW'",,,,Dk,Danmark,
-B18690509PFS,peHI,HENRIK IBSEN,pePFS,PETER FRIEDRICH SIEBOLD,1869-05-09,DRESDEN,Dre,"'peHelm, peFH, peHLa'",,orgStort,,"'Lei, D'","'Leipzig, Tydskland'",
-B18690516AI,peHI,HENRIK IBSEN,peAI,ANDREAS HORNBECK ISACHSEN,1869-05-17,DRESDEN,Dre,"'peTH, peJI'",,orgChrTh,,"'Dre, Kri, Berl'","'Dresden, Kristiania, Berlin'","'Herr Skuespiller A. H. Isachsen., in Christiania., (Norw, gen.)'"
-B18690528LD,peHI,HENRIK IBSEN,peLD,LORENTZ DIETRICHSON,1869-05-28,DRESDEN,Dre,"'pePFS, peJMD, peHoDi, peFH, peLuH, peSuI'",,orgStort,,"'Sthlm, Kas, Lei, Got'","'Stokholm, Cassel, Leipzig'",
-B18690529JHT,peHI,HENRIK IBSEN,peJHT,JOHAN HERMAN THORESEN,1869-05-29,DRESDEN,Dre,,,orgStort,,,,
-B18690529Tho,peHI,HENRIK IBSEN,peTho,CHR. THORKILSEN,1869-05-29,DRESDEN,Dre,,,,,Kbh,Kjøbenhavn,
-B18690531PFS,peHI,HENRIK IBSEN,pePFS,PETER FRIEDRICH SIEBOLD,1869-05-31,DRESDEN,Dre,"'peLD, peJJW, peJGTG, peAvonS'",,,,"'Sthlm, Lei, N, Kas'","'Stokholm, Leipzig, Norge, Cassel'",
-B18690610FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1869-06-10,DRESDEN,Dre,"'peCHSch, peALCL, peGB'",,,,"'Kbh, D'","'Kjøbenhavn, Tyskland'",
-B18690615FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1869-06-15,DRESDEN,Dre,,,orgKT,,,,
-B18690615ALi,peHI,HENRIK IBSEN,peALi,ANDREAS CONRAD PUTSCHER LINDE,1869-06-15,DRESDEN,Dre,peFH,,orgKT,,"'N, Dk, Kri, Kbh'","'Norge, Danmarks, Christiania, Kjøbenhavn'",
-B18690615PFS,peHI,HENRIK IBSEN,pePFS,PETER FRIEDRICH SIEBOLD,1869-06-15,DRESDEN,Dre,peLD,,,,Kas,Cassel,
-B18690616FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1869-06-16,DRESDEN,Dre,"'peLD, peBB, peMT'",,"'orgChrTh, orgKDTS, orgStort'",,"'Sthlm, Kbh, Kri'","'Stokholm, Kjøbenhavn, Kristiania'",
-B18690617JB,peHI,HENRIK IBSEN,peJB,JOHAN BRAVO,1869-06-17,DRESDEN,Dre,"'peSiI, peOVM'",,orgReg,,"'Kri, Rom, It'","'Kristiania, Rom, Italien'",
-B18690617KB,peHI,HENRIK IBSEN,peKB,KARL BOMHOFF,1869-06-17,DRESDEN,Dre,,,,,,,
-B18690619LD,peHI,HENRIK IBSEN,peLD,LORENTZ DIETRICHSON,1869-06-19,DRESDEN,Dre,peHaWi,,orgKDTS,,"'N, SE, Sthlm'","'Norge, Sverig, Stokholm'",
-B18690626GB,peHI,HENRIK IBSEN,peGB,GEORG BRANDES,1869-06-26,DRESDEN,Dre,"'peGGal, peRNi, peMMW, peJC, peJHL, peMAG'",,,,"'Rom, Kbh'","'Rom, Kbhvn'",
-B18690706JHT,peHI,HENRIK IBSEN,peJHT,JOHAN HERMAN THORESEN,1869-07-06,DRESDEN,Dre,"'peEaE, pePMOL, peAFK'",,,,Sthlm,Stokholm,
-B18690715GB,peHI,HENRIK IBSEN,peGB,GEORG BRANDES,1869-07-15,DRESDEN,Dre,"'peBB, peBMi, peRaf, peMLut, peFH'",,,,"'Sthlm, Kbh'","'Stokholm, Kjøbenhavn'",
-B18690718JHT,peHI,HENRIK IBSEN,peJHT,JOHAN HERMAN THORESEN,1869-07-18,DRESDEN,Dre,peSuI,,,,,,
-B18690719FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1869-07-19,DRESDEN,Dre,peEaE,,"'orgChrTh, orgKDTS, orgKT'",,"'Sthlm, SE'","'Stokholm, Sverig'",
-B18690801JHT,peHI,HENRIK IBSEN,peJHT,JOHAN HERMAN THORESEN,1869-08-01,STOCKHOLM,Sthlm,,,,,,,
-B18690802JHT,peHI,HENRIK IBSEN,peJHT,JOHAN HERMAN THORESEN,1869-08-02,STOCKHOLM,Sthlm,"'peLKDaa, peJLo, peLD, peLovi'",,,,"'Dre, N'","'Dresden, Norge'",
-B18690922FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1869-09-22,STOCKHOLM,Sthlm,"'peGB, pePHa, peMJH, peRK, pePGP, peVB, peMT'",,"'orgKT, orgChrTh, orgKDTS'",,"'Kbh, Eg, SE'","'Kjøbenhavn, Egypten, Sverig'",
-B18690922RK,peHI,HENRIK IBSEN,peRK,RICHARD KAUFMANN,1869-09-22,STOCKHOLM,Sthlm,,,,,,,
-B18690924JHT,peHI,HENRIK IBSEN,peJHT,JOHAN HERMAN THORESEN,1869-09-24,STOCKHOLM,Sthlm,"'peIsP, peKongK4, peSuI, peOvK, peMT'",,"'orgKdep, orgKT, orgKDTS'",,"'Eg, Suez, Pa, SE, Dre, Ma'","'hans Land, Suez-Kanalens, Paris, Sverig, Dresden, Marseille'",
-B18690926HSto,peHI,HENRIK IBSEN,peHSto,HEDVIG STOUSLAND,1869-09-26,STOCKHOLM,Sthlm,"'peMI, peKPI, peIsP, peSuI, peSiI'",,,,"'N, Sthlm, Dre, Pa, Eg'","'Norge, Stockholm, Dresden, Paris, Egypten'",
-B18691214FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1869-12-14,DRESDEN,Dre,"'peSuI, peBB, peJHT, peGB, pePHa, peRW'",,,,"'Eg, N, Kri, Nu, RodH'","'Egypten, Norge, Christiania, Nubien, det røde Hav'",
-B18691217JHT,peHI,HENRIK IBSEN,peJHT,JOHAN HERMAN THORESEN,1869-12-17,DRESDEN,Dre,"'peAb, peEug, peSuI, peHJN, peFH, peJLo, pePBH, peMTh, peSiI, peLuDa, peHCTh, peAOV'",,orgChrTh,,"'Nil, Nu, RodH, Ism, Lu, Ka, Suez, Sthlm, Eg, Kri, SE'","'Nilen, Nubien, det røde Hav, Ismailia, Luxor, Kairo, Suez, Stokholm, Egypten, Christiania, Sverig'",
-B18691227RS,peHI,HENRIK IBSEN,peRS,RUDOLPH SCHMIDT,1869-12-27,DRESDEN,Dre,"'peJLi, peBB'",,,,Tro,Tromsø,"'Herr Cand: mag: Rudolf Schmidt, Klareboderne, N,  16.2., Kopenhagen.'"
-B18691230SAH,peHI,HENRIK IBSEN,peSAH,SVEN ADOLF HEDLUND,1869-12-30,DRESDEN,Dre,peJDCL,,,,"'Ka, Eg'","'Kairo, Egypten'",
-B18691231EaE,peHI,HENRIK IBSEN,peEaE,ERIK AF EDHOLM,1869-12-31,DRESDEN,Dre,peLeLa,,orgKDTS,,"'Sthlm, Eg'","'Stockholm, Egypten'",
-B18700104JC,peHI,HENRIK IBSEN,peJC,JONAS COLLIN,1870-01-04,DRESDEN,Dre,"'peFH, peEC, peVB, peGB'",,,,"'SE, Eg, N, Kbh'","'Sverig, Egypten, Norge, Kjøbenhavn'",
-B18700106AB,peHI,HENRIK IBSEN,peAB,ALBERT BONNIER,1870-01-06,DRESDEN,Dre,"'peEStj, peJAS, peBeBo'",,,,"'Sthlm, It'","'Stockholm, Italien'",
-B18700113CR,peHI,HENRIK IBSEN,peCR,CARL ROSENBERG,1870-01-13,DRESDEN,Dre,"'peGAKH, peFH'",,,,"'Eg, Kbh'","'Egypten, Kjöbenhavn'",
-B18700113RW,peHI,HENRIK IBSEN,peRW,ROBERT WATT,1870-01-13,DRESDEN,Dre,"'peEBo, pePBH'",,,,"'Eg, Kbh, Kri, Lei'","'Egypten, Kjøbenhavn, Christiania, Leipzig'",
-B18700114PFS,peHI,HENRIK IBSEN,pePFS,PETER FRIEDRICH SIEBOLD,1870-01-14,DRESDEN,Dre,peHCTh,,,,"'Kri, Kas'","'Christiania, Cassel'",
-B18700115OW,peHI,HENRIK IBSEN,peOW,OSCAR WIJKANDER,1870-01-15,DRESDEN,Dre,,,,,"'Eg, Sthlm'",Stockholm,"'Till, Literatören Herr Oscar Wijkander., Stockholm.'"
-B18700125FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1870-01-25,DRESDEN,Dre,"'peRS, peBB, peJLo'",,orgKT,,"'Kri, Kbh, Sthlm, Eg, N'","'Christiania, Kjøbenhavn, Stockholm, Egypten, Norge'",
-B18700126JB,peHI,HENRIK IBSEN,peJB,JOHAN BRAVO,1870-01-26,DRESDEN,Dre,"'peCFGF, peJDCL, peOF, peSuI'",,,,"'Eg, Rom, Kbh, Kri, Dre, N'","'Egypten, Rom, Kjøbenhavn, Christiania, Dresden, Norge'",
-B18700203PFS,peHI,HENRIK IBSEN,pePFS,PETER FRIEDRICH SIEBOLD,1870-02-03,DRESDEN,Dre,peHCTh,,,,"'Kri, D'","'Christiania, Tydskland'",
-B18700210JPA,peHI,HENRIK IBSEN,peJPA,JENS PETER ANDRESEN,1870-02-10,DRESDEN,Dre,peBB,,orgChrTh,,Kri,Christiania,
-B18700212FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1870-02-12,DRESDEN,Dre,"'peJAAFD, peBB, peALG, peJCGun, peHJJ, peKKspr'",,orgKT,,"'Kbh, Berg, Kri, N, Dk, SE'","'Kjøbenhavn, Bergen, Christiania, Norge, Danmarks, Sverigs'",
-B18700228PFS,peHI,HENRIK IBSEN,pePFS,PETER FRIEDRICH SIEBOLD,1870-02-28,DRESDEN,Dre,"'peJJW, peLK'",,,,"'Kbh, N, N'","'Kjøbenhavn, Norge, vort Land'",
-B18700301EStj,peHI,HENRIK IBSEN,peEStj,EDVARD STJERNSTRÖM,1870-03-01,DRESDEN,Dre,"'peJAS, peWBW, peLStj'",,,,"'Kbh, Berl, Dre, Elb'","'Köbenhavn, Berlin, Dresden, Elben'",
-B18700306GB,peHI,HENRIK IBSEN,peGB,GEORG BRANDES,1870-03-06,DRESDEN,Dre,,,,,Kbh,Kjøbenhavn,
-B18700307OvK,peHI,HENRIK IBSEN,peOvK,OSCAR VON KNORRING,1870-03-07,DRESDEN,Dre,"'peKSt, peSuI, peMTh'",,,,"'Kbh, Sthlm, Pa, Eg, Ka, N, SE'","'København, Stockholm, Paris, Egyptens, Kairo, Norge, Sverig'","'Herrn Oscar von Knorring., Hauptmann, Ritter etc. etc., Drottning-gatan N,  98., Stockholm.'"
-B18700308JHT,peHI,HENRIK IBSEN,peJHT,JOHAN HERMAN THORESEN,1870-03-08,DRESDEN,Dre,"'peHJN, peHeHe, peJPA, peBB, pePhCh, peJLo'",,orgChrTh,,"'Kri, Eg'","'Christiania, Egypten'",
-B18700309RW,peHI,HENRIK IBSEN,peRW,ROBERT WATT,1870-03-09,DRESDEN,Dre,peFLH,,orgKT,,Ism,Ismailia,
-B18700312RW,peHI,HENRIK IBSEN,peRW,ROBERT WATT,1870-03-12,DRESDEN,Dre,"'peHCFS, peFH'",,,,,,
-B18700316FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1870-03-16,DRESDEN,Dre,"'peJLo, peHCFS, peNFSGr, peJHW, peEC, peCKFM, peEBo, peVB, peGB'",,orgKT,,Kbh,Kbhvn,
-B18700317GBe,peHI,HENRIK IBSEN,peGBe,GOTTLOB BERNER,1870-03-17,DRESDEN,Dre,peFH,,orgKT,,Kbh,Kjøbenhavn,
-B18700411FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1870-04-11,DRESDEN,Dre,"'peJLo, peGECG, peAuLa, peGB, peJAAFD, peMT, peBB'",,orgKT,,"'Kbh, Kri, Isl'","'Kjøbenhavn, Christiania, Island'",
-B18700413FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1870-04-13,DRESDEN,Dre,peBB,,,,Kri,Christiania,
-B18700421RW,peHI,HENRIK IBSEN,peRW,ROBERT WATT,1870-04-21,DRESDEN,Dre,"'peNFSGr, peEBo'",,,,Kbh,Kjøbenhavn,
-B18700505FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1870-05-05,DRESDEN,Dre,"'peBB, peMWB, pePHe, peMT'",,"'orgChrTh, orgKT'",,"'N, Rom, Kbh'","'Norge, Rom, Kbhvn'",
-B18700509PHe,peHI,HENRIK IBSEN,pePHe,PETER HEISE,1870-05-09,DRESDEN,Dre,"'peFH, peVHei'",,"'orgKT, orgGyl'",,Rom,Rom,
-B18700512JPA,peHI,HENRIK IBSEN,peJPA,JENS PETER ANDRESEN,1870-05-12 - 1870-05-20,DRESDEN,Dre,"'peAI, peBB, peGHK, peMWB'",,orgChrTh,,N,hjemme,
-B18700525FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1870-05-25,DRESDEN,Dre,"'peAdM, peBB, peMT, peGBe, pePHe, peGAK'",,orgKT,,"'Dk, N'","'Danmark, Norge'",
-B18700529MT,peHI,HENRIK IBSEN,peMT,MAGDALENE THORESEN,1870-05-29,DRESDEN,Dre,"'peFH, peBB, peMTh, peSuI, peSiI, peDFa, peCF'",,orgChrTh,,"'Dk, N, Sthlm, Kri'","'Danmark, Norge, Stokholm, Kristiania'",
-B18700604MT,peHI,HENRIK IBSEN,peMT,MAGDALENE THORESEN,1870-06-04 - 1870-06-05,DRESDEN,Dre,"'peKongK4, peEaE, peAWJE, peElHw, peGF, peBeAlm, peAlLa, peAI, peBB, peMWB'",,orgKDTS,,"'SE, Fr'","'Sverig, Frankrig'",
-B18700609RSch,peHI,HENRIK IBSEN,peRSch,RIKKA SCHULERUD,1870-06-09,DRESDEN,Dre,"'peOS, peMTh'",,,,"'Kri, N, It, D, Eg, Nu, RodH, Sin, Ho'","'hovedstaden, Norge, Italien, Tydskland, Egypten, Nubien, det røde hav, Sinai, Homansbyen'",
-B18700611LK,peHI,HENRIK IBSEN,peLK,LAURA PETERSEN (G. KIELER),1870-06-11,DRESDEN,Dre,,,,,N,Norge,
-B18700616PHe,peHI,HENRIK IBSEN,pePHe,PETER HEISE,1870-06-16,DRESDEN,Dre,peVHei,,,,Kbh,København,
-B18700620FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1870-06-20,DRESDEN,Dre,"'peBB, pePHe'",,,,,,
-B18700625PHe,peHI,HENRIK IBSEN,pePHe,PETER HEISE,1870-06-25,DRESDEN,Dre,,,,,,,
-B18700626JPA,peHI,HENRIK IBSEN,peJPA,JENS PETER ANDRESEN,1870-06-26,DRESDEN,Dre,"'peGHK, peMWB, peBB'",,orgChrTh,,Kri,Kristiania,
-B18700702FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1870-07-02,DRESDEN,Dre,"'peJSW, peJH'",,orgGyl,,"'N, Dre, Dk'","'Norge, Dresden, Danmark'",
-B18700712FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1870-07-12,DRESDEN,Dre,,,,,"'N, Lub, Kbh'","'Norge, Lübeck, København'",
-Budat18700720AK,peHI,HENRIK IBSEN,peAK,ANTON KLUBIEN,1870-07-20,KØBENHAVN,Kbh,,,,,,,"'Herr Højesteretsadvokat A: Klubien., Holmens Kanal, N,  4.'"
-B18700909AK,peHI,HENRIK IBSEN,peAK,ANTON KLUBIEN,1870-09-09,KØBENHAVN,Kbh,"'peGBe, peAnM, peJSW, peLuH'",,orgKT,,"'Dk, N'","'Danmark, Norge'",
-B18700912AK,peHI,HENRIK IBSEN,peAK,ANTON KLUBIEN,1870-09-12,KØBENHAVN,Kbh,"'peFH, peFLV'",,orgGyl,,Kri,Kristiania,
-B18700912AVW,peHI,HENRIK IBSEN,peAVW,WILHELM WIEHE,1870-09-12,KØBENHAVN,Kbh,,,,,,,
-B18701003JHT,peHI,HENRIK IBSEN,peJHT,JOHAN HERMAN THORESEN,1870-10-03,DRESDEN,Dre,peJLo,,,,"'Kbh, N'","'Kjøbenhavn, Norge'",
-B18701010FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1870-10-10,DRESDEN,Dre,"'peJH, peJLo, peJHH, peJLH, peGBe, pePHa'",,,,"'Fr, Kbh'","'Frankrig, København'",
-B18701028PHa,peHI,HENRIK IBSEN,pePHa,PETER HANSEN,1870-10-28,DRESDEN,Dre,"'pePBH, peSuI, peKongF7, peVil1, peWiS, peSKi, peMI, peCSAB, peLoBi, peFLH'",,,,"'Gri, N, Kbh, Dyb, Berl, It, Rom, Isc, Sorr'","'en liden, spidsborgerby, Norge, København, Dybbøl, Berlin, Italien, Rom, Ischia, Sorrento'",
-B18701102OvK,peHI,HENRIK IBSEN,peOvK,OSCAR VON KNORRING,1870-11-02,DRESDEN,Dre,,,,,"'D, Kbh, Sthlm, Fr, Eg'","'Tyskland, København, Stockholm, Frankrig, Egypten'",
-B18701106FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1870-11-06,DRESDEN,Dre,"'pePHe, peSJors, pePAM, peSnSt, peJH'",,,,N,Norge,
-B18701123Dem,peHI,HENRIK IBSEN,peDem,OHAN DEMIRGIAN,1870-11-23,DRESDEN,Dre,"'peIsP, peOvK, peKongK4'",,,,"'SE, Eg, Ka, Suez, Kbh, N, Sthlm'","'Sverge, Egypten, Cairo, Suez-canalen, Köbenhavn, Norge, Stockholm'",
-B18701202FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1870-12-02,DRESDEN,Dre,"'peHGu, peJH'",,,,"'Kri, Sthlm, SE'","'Kristiania, Stockholm, Sverig'",
-B18701220JB,peHI,HENRIK IBSEN,peJB,JOHAN BRAVO,1870-12-20,DRESDEN,Dre,"'peAtD, peCKas, peSuI, peSpi'",,,,"'Kri, Rom'","'Christiania, det gamle kjære Rom'",
-B18701220GB,peHI,HENRIK IBSEN,peGB,GEORG BRANDES,1870-12-20,DRESDEN,Dre,peFH,,,,"'Kbh, Rom, Eu, Fr, Pr'","'Kjøbenhavn, Rom, Europa, Frankrig, Preussen'",
-Budat18701224FL,peHI,HENRIK IBSEN,peFL,FREDRIKA LIMNELL,1870-12-24,DRESDEN,Dre,,,,,,,
-B18701225JHT,peHI,HENRIK IBSEN,peJHT,JOHAN HERMAN THORESEN,1870-12-25,DRESDEN,Dre,"'peBB, peHJN, peFL'",,,,,,
-B18710106JB,peHI,HENRIK IBSEN,peJB,JOHAN BRAVO,1871-01-06,DRESDEN,Dre,"'peEGr, peAtD'",,orgSF,,Rom,Rom,
-B18710108AK,peHI,HENRIK IBSEN,peAK,ANTON KLUBIEN,1871-01-08,DRESDEN,Dre,peFL,,,,Kbh,København,
-B18710108FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1871-01-08,DRESDEN,Dre,"'peJH, peECR, peBB, peJLi, peAK'",,,,,,
-B18710113JHT,peHI,HENRIK IBSEN,peJHT,JOHAN HERMAN THORESEN,1871-01-13,DRESDEN,Dre,peBB,,,,,,
-B18710114LK,peHI,HENRIK IBSEN,peLK,LAURA PETERSEN (G. KIELER),1871-01-14,DRESDEN,Dre,,,,,,,
-B18710120FW,peHI,HENRIK IBSEN,peFW,FREDERIK WINKEL HORN,1871-01-20,DRESDEN,Dre,peGBe,,orgKT,,"'N, Kbh'","'Norges, København'",
-B18710121FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1871-01-21,DRESDEN,Dre,"'peECR, peCPP, peBB, peCR'",,orgKT,,,,
-B18710122KB,peHI,HENRIK IBSEN,peKB,KARL BOMHOFF,1871-01-22,DRESDEN,Dre,"'peSor, peFLG, peSuI, peJHT, peSiI'",,,,"'NewOr, Sed, Pa, Trhm, Ham, Kri, Tep, Kbh'","'New-Orleans, Sedan, Paris, Trondhjem, Hamburg, Kristiania, Teplitz, København'","'An den, Herrn Cand: pharm: K: Bomhoff., Adr: Herrn Apotheker Bruun, Drontheim., (Norwegen).'"
-B18710131FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1871-01-31,DRESDEN,Dre,"'peGBe, peJLH, pePHa, peLHG, peJH, peCKFM'",,,,"'Kbh, N'","'København, Norge'",
-B18710201AK,peHI,HENRIK IBSEN,peAK,ANTON KLUBIEN,1871-02-01,DRESDEN,Dre,,,,,,,
-B18710207PHe,peHI,HENRIK IBSEN,pePHe,PETER HEISE,1871-02-07,DRESDEN,Dre,"'peSJors, peVHei'",,,,Kbh,København,
-B18710208FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1871-02-08,DRESDEN,Dre,pePHa,,,,N,Norge,
-B18710213AK,peHI,HENRIK IBSEN,peAK,ANTON KLUBIEN,1871-02-13,DRESDEN,Dre,"'peCFS, peCCH, peKongChr9'",,orgKUMin,,,,"'Hr: Højesteretsadvokat A: Klubien., Holmens Kanal, N,  4., Kopenhagen.'"
-B18710215CFS,peHI,HENRIK IBSEN,peCFS,CHRISTIAN FREDERIK SCHWARTZKOPF,1871-02-15,DRESDEN,Dre,,,orgKUMin,,"'Dre, Kbh'","'Dresden, København'",
-B18710216FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1871-02-16,DRESDEN,Dre,"'peGS, peCRLM, peBB, peJH'",,orgKT,,"'Kri, Sthlm, Rom, Dk'","'Christiania, Stokholm, Rom, Danmark'",
-B18710217GB,peHI,HENRIK IBSEN,peGB,GEORG BRANDES,1871-02-17,DRESDEN,Dre,"'peRNi, peFH, peArius'",,,,"'Fr, Pr, Pal, Dre'","'Frankrigs, Preussens, Palæstina, Dresden'",
-B18710218JB,peHI,HENRIK IBSEN,peJB,JOHAN BRAVO,1871-02-18,DRESDEN,Dre,"'peAtD, peSpi, peKvK, peSuI'",,,,"'It, Rom, Kbh, Kri'","'Italien, Rom, København, Kristiania'",
-B18710218GBe,peHI,HENRIK IBSEN,peGBe,GOTTLOB BERNER,1871-02-18,DRESDEN,Dre,peFW,,orgKT,,,,
-B18710219FGK,peHI,HENRIK IBSEN,peFGK,FREDERICK GOTSCHALK KNUDTZON,1871-02-19,DRESDEN,Dre,"'peGB, peLASc'",,,,"'Dk, Pr'","'Danmark, Preussens'",
-B18710225FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1871-02-25,DRESDEN,Dre,"'peAuLa, peJH'",,,,Kbh,København,
-B18710226KUMin,peHI,HENRIK IBSEN,orgKUMin,KIRKE- OG UNDERVISNINGSMINISTERIET I KØBENHAVN,1871-02-26,DRESDEN,Dre,,,,,,,
-B18710301FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1871-03-01,DRESDEN,Dre,"'peAuLa, peJH'",,,,,,
-B18710302LD,peHI,HENRIK IBSEN,peLD,LORENTZ DIETRICHSON,1871-03-02,DRESDEN,Dre,"'peCAL, peFL, peGS, peEaE, peJAM, peJFK, peCS, peRvonK, peJMD, peHoDi'",,orgKDTS,,"'Sthlm, Rom, N, Had, Ki, Eg, Nil, Nu, Ism'","'Stockholm, Rom, Norgesrejse, Haderslev, Kiel, Egypten, Nil-rejse, Nubien, Ismailia'",
-B18710305Gyl,peHI,HENRIK IBSEN,orgGyl,DEN GYLDENDALSKE BOGHANDEL,1871-03-05,DRESDEN,Dre,"'peAMS, peBB'",,orgGyl,,,,
-B18710323FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1871-03-23,DRESDEN,Dre,peJH,,orgKT,,,,'Hr: cancelliråd Hegel.'
-B18710330JB,peHI,HENRIK IBSEN,peJB,JOHAN BRAVO,1871-03-30,DRESDEN,Dre,"'peAtD, peSpi, peKvK, peGB, peOF'",,,,"'It, Kbh, Kri, Rom'","'Italien, København, Christiania, Rom'",
-B18710407FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1871-04-07,DRESDEN,Dre,"'peCH, peJH'",,,,Sthlm,Stockholm,
-B18710413KongK4,peHI,HENRIK IBSEN,peKongK4,KONG KARL 15.,1871-04-13,DRESDEN,Dre,peKongChr9,,orgKUMin,,,,
-B18710415FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1871-04-15,DRESDEN,Dre,"'peLov, peJLH, peAuLa, peJH'",,,,,,
-B18710415JLH,peHI,HENRIK IBSEN,peJLH,JOHANNE LUISE HEIBERG,1871-04-15,DRESDEN,Dre,,,,,,,"'Fru Etatsrådinde Heiberg., Rosenvænget., Kopenhagen.'"
-B18710423FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1871-04-23,DRESDEN,Dre,peJLH,,,,,,
-B18710425FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1871-04-25,DRESDEN,Dre,peAFK,,,,,,
-B18710425AFK,peHI,HENRIK IBSEN,peAFK,ANDREAS FREDERIK KRIEGER,1871-04-25,DRESDEN,Dre,,,,,,,
-B18710426KB,peHI,HENRIK IBSEN,peKB,KARL BOMHOFF,1871-04-26,DRESDEN,Dre,"'peMTh, peMou, peVil1, peKongJoh, peSor, peSuI'",,,,Ham,Hamburgs,"'Hr: cand: pharm: K: Bomhoff., Drontheim., (Norwegen.)'"
-B18710501FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1871-05-01,DRESDEN,Dre,peAI,,,,"'Kri, Kbh'","'Kristiania, København'",
-B18710509FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1871-05-09,DRESDEN,Dre,"'peAuLa, pePKK, peAI, peJH, peIsP, peAbd'",,orgGyl,,Ist,Konstantinopel,
-B18710510OvK,peHI,HENRIK IBSEN,peOvK,OSCAR VON KNORRING,1871-05-10,DRESDEN,Dre,"'peJDCL, peDem'",,,,"'Finn, Nu, Eg, Sthlm'","'Finmarken, Nubien, Egyptens, Stockholm'","'An den, Herrn Hauptmann Oscar von Knorring., Commandeur, Ritter, etc. etc -, Drottnings-gatan. 98. -, Stockholm.'"
-B18710513JB,peHI,HENRIK IBSEN,peJB,JOHAN BRAVO,1871-05-13,DRESDEN,Dre,"'peAtD, peCaWa, peAbd, peJDCL, peOvK, peGB, peNR, peHJBu, peJLHB'",,,,"'Kbh, Kri, Eg, Rom'","'København, Kristiania, Egypten, Rom'",
-B18710513JHT,peHI,HENRIK IBSEN,peJHT,JOHAN HERMAN THORESEN,1871-05-13,DRESDEN,Dre,"'pePeSi, peIsP, peMTh, peTK, peMWB'",,,,"'Ist, SE, N, Kri'","'Konstantinopel, Sverig, Norge, Kristiania'",
-B18710518GB,peHI,HENRIK IBSEN,peGB,GEORG BRANDES,1871-05-18,DRESDEN,Dre,"'peJB, peFH'",,,,"'Kbh, It, Fras, Aric, Pa'","'København, Italien, Frascati, Ariccia, Paris'",
-B18710523ChrTh,peHI,HENRIK IBSEN,orgChrTh,CHRISTIANIA THEATER,1871-05-23,DRESDEN,Dre,,,,,Kri,Kristiania,
-B18710606KUMin,peHI,HENRIK IBSEN,orgKUMin,KIRKE- OG UNDERVISNINGSMINISTERIET I KØBENHAVN,1871-06-06,DRESDEN,Dre,peGS,,,,,,
-B18510928NN_Til_Abonnenterne,peHI,HENRIK IBSEN,,[abonnentene av Andhrimner],1851-09-28,Kristiania,,,,,,,,
-B18540401NN,peHI,HENRIK IBSEN,,ukjent mottager,1854-04-01,Trondheim,,,,,,,,
-B18540406NN,peHI,HENRIK IBSEN,,ukjent mottager,1854-04-06,Trondheim,,,,,,,,
-B18570208NN_I_et,peHI,HENRIK IBSEN,,ukjent mottager,1857-02-08,Bergen,,,,,,,,
-B18580615CHa,peHI,HENRIK IBSEN,,Christian Hagemann,1858-06-15,Bergen,,peAnM,,,,"'Berg, Kri'","'Bergen, Christiania'",
-B18591210HOB,peHI,HENRIK IBSEN,,Hans Ørn Blom,1859-12-10,Kristiania,,,,,,,,
-B18600418OKL,peHI,HENRIK IBSEN,,Olaus Krabbe Lysholm,1860-04-18,Kristiania,,"'peMAS, peAugH, peJoaHW, peGNa, peAEH, peMatA, peJaHAs, peCJoh, peGLP, peCLW'",,,,,,
-B18600806KongK4,peHI,HENRIK IBSEN,,kong Karl 15.,1860-08-06,Kristiania,,,,,,"'Lon, Pa, Kbh, Sthlm, SE, Dk, Berg, Ham, Berl, Dre'","'London, Paris, Kjøbenhavn, Stokholm, Sverig, Danmark, Bergen, Hamburg, Berlin, Dresden'",
-B18601205Aftb,peHI,HENRIK IBSEN,,Aftenbladet,1860-12-05,Kristiania,,peLeoB,,,,,,
-B18620314AkKoll,peHI,HENRIK IBSEN,,Det Akademiske Kollegium,1862-03-14,Kristiania,,,,,,"'N, Hard, SogFj, Mol, Roms'","'Norge, Hardanger, Sognefjorden, Molde, Romsdalen'",
-B18621104NN_Da_jeg,peHI,HENRIK IBSEN,,ukjent mottager,1862-11-04,Kristiania,,,,,,,,
-B18630108TT,peHI,HENRIK IBSEN,,Throndhjems Theater,1863-01-08,Kristiania,,,,,,,,
-B18630306AkKoll1,peHI,HENRIK IBSEN,,Det Akademiske Kollegium,1863-03-06,Kristiania,,"'peJAAFD, peMaLa, peJMoe, pePCA'",,,,"'NFjrd, SMre'","'Nordfjord, Søndmør'",
-B18630306AkKoll2,peHI,HENRIK IBSEN,,Det Akademiske Kollegium,1863-03-06,Kristiania,,"'peJAAFD, peAFa'",,,,"'N, NFjrd, SMre, ODA, Sda, NMre'","'Norge, Nordfjord, Søndmør, Opdal, Sundalen, Nordmør'",
-B18630310KongK4,peHI,HENRIK IBSEN,,kong Karl 15.,1863-03-10,Kristiania,,"'peCLa, peSuI, peHCT, peSiI'",,,,"'Ski, Kbh, Kri, Dk, SE, N'","'Skien, Kjøbenhavn, Christiania, Danmark, Sverige, mit Fædreland'",
-B18630527KongK4,peHI,HENRIK IBSEN,,kong Karl 15.,1863-05-27,Kristiania,,peBB,,,,"'Rom, Pa'","'Rom, Paris'",
-B18670129JvK,peHI,HENRIK IBSEN,,Julie Kierulff,1867-01-29,Roma,,,,,,,,
-Budat18680831JB,peHI,HENRIK IBSEN,,Johan Bravo,1868-08-31,[Berchtesgaden,,,,,,,,
-B18701121JHT,peHI,HENRIK IBSEN,,Johan Herman Thoresen,1870-11-21,Dresden,,"'peJLo, peNap3, peSJaa, peJS'",,,,"'Metz, Fr'","'Metz, Frankrig'",
-B18710227CCH,peHI,HENRIK IBSEN,,Carl Christian Hall,1871-02-27,Dresden,,peFH,,,,"'It, N, Dk'","'Italien, det norske, statssamfund, Danmarks'","'Hs: Excellence, Minister for Kirke- og Undervisningsvæsenet,, Geheimeråd C: Hall,, Storkors af Dannebrog, p.p. -, Kopenhagen.'"
+Letter_ID,Sender_ID,Sender_Name,Recipient_ID,Recipient_Name,Date,Dispatch_Location,Dispatch_Location_Abbr,Mentioned_Person_ID,Mentioned_Person,Mentioned_Org_ID,Mentioned_Org,Mentioned_Places_Abbr,Mentioned_Places,Recipient_Adress,Mentioned_Works_IDs
+B18440520PL,peHI,HENRIK IBSEN,pePL,POUL LIEUNGH,1844-05-20,GRIMSTAD,Gri,"'peHeL, peJAR, peFLR, peJAAI, peJJos, peCSAa'",,,,"'Gri, Ski'","'Grimstad, Skiens'","'Herr ,  P Lieungh, Skien'",
+B18441006HSte,peHI,HENRIK IBSEN,peHSte,HANNA STENERSEN,1844-10-06,GRIMSTAD,Gri,"'peJAR, peFLR'",,,,,,"'Jomfru H Stenersen, Porsgrund'",
+B18450801AWE,peHI,HENRIK IBSEN,peAWE,MINA WAHL (G. ENG),1845-08-01,GRIMSTAD,Gri,,,,,,,,
+B18461207JCP,peHI,HENRIK IBSEN,peJCP,JOHAN CASPAR PREUS,1846-12-07,GRIMSTAD,Gri,"'peESJB, peHJHB, peJAR, peKPI'",,,,"'Gri, Ski'","'Grimstad, Skien'",,
+B18491015OS,peHI,HENRIK IBSEN,peOS,OLE CARELIUS SCHULERUD,1849-10-15,GRIMSTAD,Gri,peCLD,,,,,,"'N,  1/, Til, Herr Stud: jur: O. Schulerud, Addr: Fru Budde, Kirkebakken, N,  5., Christiania'",woC1
+B18500105OS,peHI,HENRIK IBSEN,peOS,OLE CARELIUS SCHULERUD,1850-01-05,GRIMSTAD,Gri,"'peCL, peKongChr7, peKongG3, peCE, peHJB, peTCr, peCLD, peLNi, pePSch'",,,,"'Tel, Lil, Kbh, Kri, Akfest'","'Thelemarken, Lillesand, Kjøbenhavn, Christiania, Agershuus Fæstning'",,"'woC1, woBalm, woFpA'"
+B18500210OS,peHI,HENRIK IBSEN,peOS,OLE CARELIUS SCHULERUD,1850-02-10,GRIMSTAD,Gri,"'peAGOe, peCLD'",,,,,,"'Til, Herr Stud: jur: O. Schulrud., Addr. Madame Sæther, Pipervigen, Christiania.'",
+B18500412CM,peHI,HENRIK IBSEN,peCM,CATHRINE MARTINI,1850-04-12,GRIMSTAD,Gri,,,,,,,,woDiMaane
+B18500712KongO1,peHI,HENRIK IBSEN,peKongO1,KONG OSCAR 1.,1850-07-12,KRISTIANIA,Kri,,,,,"'Gri, Kri'","'Grimstads, Christiania'",,
+B18500728AkKoll,peHI,HENRIK IBSEN,orgAkKoll,DET AKADEMISKE KOLLEGIUM,1850-07-28,KRISTIANIA,Kri,peHom,,,,,,,
+Budat1850-51CE,peHI,HENRIK IBSEN,peCE,CLARA EBBELL,1850-12-25 - 1851-01-31,GRIMSTAD,Gri,,,,,,,"'Til, Jomfru Clara Ebbell.'",
+B18510125HerrA,peHI,"IBSEN, HENRIK",peHerrA,«HERR A.»,1851-01-25,KRISTIANIA,Kri,peAI,,,,,,,
+B18520425NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1852-04-25,KØBENHAVN,Kbh,"'peJLHe, peTO'",,orgKT,,,,"'Til, Bestyrelsen for det norske Theater, i Bergen.'",
+B18520516NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1852-05-16,KØBENHAVN,Kbh,"'peHaNi, peJFH, peAAB, peLHG, peJLHe, peTO, peCaBe, peCNJS, peTSHH, peWiS, peLuH, peHCA, peJCD, peCRH'",,"'orgNTB, orgBurg'",,"'Kri, Berg, D, Ham, Dre, Wien'","'Christiania, Bergen, Tydskland, Hamburg, Dresden, Wien'","'Til, Bestyrelsen for det norske Theater, i Bergen.'",
+B18520530NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1852-05-30,KØBENHAVN,Kbh,"'peHaNi, peJFB, peJFH, peLoB, peCNJS, peLanz, peJLHe, peTO, peJCD'",,orgKT,,"'Lub, Dre'","'Lübeck, Dresden'","'Til, Bestyrelsen for det norske Theater, i Bergen.'",
+B18520602NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1852-06-02,KØBENHAVN,Kbh,"'peJFB, peJFH, peHaNi, peLoB, peAI, peJPr, peOJB, peLW, peFLH, peTO, peJLHe'",,,,Berg,Bergen,"'Til, Bestyrelsen for det norske Theater, i Bergen'",
+B18520624NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1852-06-24,DRESDEN,Dre,"'peJCD, peCBo, peHaNi, peJFB, peKNe, peWT'",,,,"'Kbh, Pa, Berg, Ham'","'Kjøbenhavn, Paris, Hamburg'","'Til, Bestyrelsen for det norske Theater, in Bergen, Norwegen'",
+B18530522RHo,peHI,HENRIK IBSEN,peRHo,RIKKE HOLST (G. TRESSELT),1853-05-22,BERGEN,Berg,,,,,,,,woDiAur
+B18530606RHo,peHI,HENRIK IBSEN,peRHo,RIKKE HOLST (G. TRESSELT),1853-06-06,[BERGEN],Berg,,,,,,,,woDiTilRH
+Budat185306RHo,peHI,HENRIK IBSEN,peRHo,RIKKE HOLST (G. TRESSELT),1853-06,[BERGEN],Berg,,,,,,,,woDiRose
+B18530804NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1853-08-04,BERGEN,Berg,"'peJMay, pePEN, peJSte, peHJW'",,,,,,,
+B18530805PBH,peHI,HENRIK IBSEN,pePBH,PAUL BOTTEN-HANSEN,1853-08-05,[BERGEN],Berg,"'peAOV, peOJB, peTAb'",,,,,,"'Til, Herr Literatus P. B. Hansen., Adr: Bogh: Dzwonkowsky., Christiania, Ved godhed af, Herr Skuespiller Bucher'",
+B18531108NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1853-11-08,[BERGEN],NN,"'peAI, peBJH, peHaNi'",,,,,,,
+B18531205NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1853-12-05,[BERGEN],NN,"'peFN, peKMR, peHLaa, peAI, peJI'",,,,,,,
+B18531221NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1853-12-21,BERGEN,Berg,peAI,,,,,,,
+B18540405TS,peHI,HENRIK IBSEN,orgTS,TRONDHJEM STIFTAMT,1854-04-05,TRONDHEIM,Trhm,,,"'orgNTB, orgTT'",,Trhm,Trondhjem,,
+B18541104NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1854-11-04,[BERGEN],NN,"'peJac, peJoh'",,,,,,"'Til, Bestyrelsen for det norske Theater'",
+B18550627NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1855-06-27,BERGEN,Berg,peHLaa,,,,,,"'Til, Bestyrelsen for det norske Theater.'",
+B18560211CT,peHI,HENRIK IBSEN,peCT,CHRISTIAN TØNSBERG,1856-02-11,BERGEN,Berg,"'peCPB, peHKj, pePBH'",,,,"'Kri, Trhm'","'Christiania, Throndhjem'","'S.T., Hr: Consul Chr: Tønsberg., Christiania'",woG1
+B18560306NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1856-03-06,TRONDHEIM,Trhm,"'peJLA, peJI, peFN, peBGu'",,,,Berg,Bergen,,
+B18560314CT,peHI,HENRIK IBSEN,peCT,CHRISTIAN TØNSBERG,1856-03-14,TRONDHEIM,Trhm,,,,,,,"'S.T., Hr: Consul Chr: Tønsberg, Christiania'",
+B18560314NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1856-03-14,TRONDHEIM,Trhm,"'peJLA, peJI, peFN, peThS, peLar, peSch'",,,,,,"'Til, Bestyrelsen for det norske Theater, i Bergen'",woG1
+B18560320NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1856-03-20,TRONDHEIM,Trhm,"'peJI, peCSi, peFN, peAI, peCAH, peLar'",,,,,,"'Til, Bestyrelsen for det norske Theat, i Bergen'",woG1
+B18560331NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1856-03-31,TRONDHEIM,Trhm,,,orgTT,,Berg,Bergen,"'Til, Bestyrelsen for det norske Theater, i Bergen.'",
+B18560819HB,peHI,HENRIK IBSEN,peHB,HERMAN BAARS,1856-08-19,BERGEN,Berg,"'peOHe, peJKoo'",,orgNTB,,,,"'Hr. Kjøb,  H. Baars., Bergen'",
+B18570102ESte,peHI,HENRIK IBSEN,peESte,ESTANCE STEEN,1857-01-02,BERGEN,Berg,peKS,,,,,,,
+B18570417PBH,peHI,HENRIK IBSEN,pePBH,PAUL BOTTEN-HANSEN,1857-04-17,BERGEN,Berg,"'peKKn, peSuI, peHCT, peMT, peCPB, peCT'",,"'orgChrTh, orgStud'",,,,"'Hr: stud: philolog. P. B. Hansen., Christiania.'","'woOmKj, woG1, woOL1, woF1'"
+B18570428PBH,peHI,HENRIK IBSEN,pePBH,PAUL BOTTEN-HANSEN,1857-04-28,BERGEN,Berg,"'peOVi, peCT, peCPB, peNHG, peOS, peTAb'",,orgChrTh,,,,"'S.T., Hr: stud: philologiæ Paul Botten-Hansen, Kjøb,  Haslunds Gaard,, Hjørnet af Raadhuusgaden og Kongensgade., Christiania.'","'woOmKj, woF1, woOL1, woHH'"
+B18570705FN,peHI,HENRIK IBSEN,peFN,FREDRIKKE NIELSEN,1857-07-05,BERGEN,Berg,,,,,,,,
+B18570717PBH,peHI,HENRIK IBSEN,pePBH,PAUL BOTTEN-HANSEN,1857-07-17,BERGEN,Berg,,,,,Kri,Christiania,"'Hr. stud: philologiæ Paul Botten-Hansen, Adr: Kjøb,  Haslunds Gaard, Hjørnet af Kongens Gade og Raadhusgaden, Christiania'",
+B18570723NTB,peHI,HENRIK IBSEN,orgNTB,DET NORSKE THEATER I BERGEN,1857-07-23,KRISTIANIA,Kri,"'peJLC, peGHK, peCCL, peOS'",,orgKNT,,"'Berg, Kri'","'Bergen, Christiania'","'Bestyrelsen for det norske Theater, i Bergen'",
+B18571113AkKoll,peHI,HENRIK IBSEN,orgAkKoll,DET AKADEMISKE KOLLEGIUM,1857-11-13,KRISTIANIA,Kri,,,orgNTB,,,,,woOmKj
+B18580113AkKoll,peHI,HENRIK IBSEN,orgAkKoll,DET AKADEMISKE KOLLEGIUM,1858-01-13,KRISTIANIA,Kri,,,,,,,"'Til, Collegium academicum., Christiania.'",
+B18571118DCD,peHI,HENRIK IBSEN,peDCD,DANIEL CORNELIUS DANIELSSEN,1857-11-18,KRISTIANIA,Kri,"'peFARo, pePSp, peOBull, pePB'",,"'orgNTB, orgKNT, orgChrTh, orgIN'",,,,,
+B18580130CJA,peHI,HENRIK IBSEN,peCJA,CARL JOHAN ANKER,1858-01-30,KRISTIANIA,Kri,"'peGOHC, peCFoug'",,orgIN,,"'Hard, Kbh, Sthlm'","'Hardanger, Kjøbenhavn, Stockholm'",,"'woG1, woHH, woDiTilCJ'"
+B18580208CHau,peHI,HENRIK IBSEN,peCHau,CARSTEN HAUCH,1858-02-08,KRISTIANIA,Kri,,,orgKT,,Kbh,Kjøbenhavn,,woHH
+B18580604CHo,peHI,HENRIK IBSEN,peCHo,CHRISTIAN HOLST,1858-06-04,DAMPSKIPET «CHRISTIANIA»,DsChr,,,,,,,"'Hr. Universitetssecretær, Kammerherre,, Ridder Chr: Holst., Christiania'",
+Budat18580616JCG,peHI,HENRIK IBSEN,peJCG,JOACHIM GAMBORG,1858-06-12 - 1858-06-16,[KRISTIANIA],Kri,peHCT,,orgNTB,,Kri,Christiania,,
+Budat1856-58JCDa,peHI,HENRIK IBSEN,peJCDa,JOHAN CHRISTIAN DAHL,1856 - 1858,[BERGEN],Berg,,,,,,,"'Hr. Kirketjener Dahl, Bergen'",
+B18590112PB,peHI,HENRIK IBSEN,pePB,PETER BLYTT,1859-01-12,KRISTIANIA,Kri,peKALM,,orgNTB,,Berg,Bergen,"'Hr: Kjøb,  Peter Blytt, Bergen'",
+Budat185903LD,peHI,HENRIK IBSEN,peLD,LORENTZ DIETRICHSON,1859-03,[KRISTIANIA],Kri,,,,,,,"'Hr. Cand philos: L. Dietrichson, Christiania.'",
+B18590806PB,peHI,HENRIK IBSEN,pePB,PETER BLYTT,1859-08-06,KRISTIANIA,Kri,peSiP,,orgNTB,,,,,woHH
+B18590813JRD,peHI,HENRIK IBSEN,peJRD,JONAS RAVN DAAE,1859-08-13,KRISTIANIA,Kri,,,orgKNT,,,,"'S.T., Hr. Lieutnant J. Daae, Christiania'",
+B18591025Stort2,"peHI', 'peJCG', 'peChH', 'peMKH', 'peKKspr', 'peSiP","HENRIK IBSEN', 'JOACHIM GAMBORG', 'CHRISTOPHER                        HANSTEEN', 'MARTIN KIRKGAARD                           HOLFELDT', 'KNUD KNUDSEN', 'SIEGWART                        PETERSEN",orgStort,STORTINGET,1859-10-25,KRISTIANIA,Kri,"'peOBull, peKongK4, peFrV'",,"'orgKNT, orgBurg, orgKTB, orgKDTS, orgKT'",,"'Eu, Pa, Wien, Berl'","'Europa, Paris, Wien, Berlin'",,
+B18591027NN_Vi_tillade,"peHI', 'peJCG', 'peChH', 'peMKH', 'peKKspr', 'peSiP","HENRIK IBSEN', 'JOACHIM GAMBORG', 'CHRISTOPHER                        HANSTEEN', 'MARTIN KIRKGAARD                           HOLFELDT', 'KNUD KNUDSEN', 'PETER SIEGWART BLUMENTHAL                           PETERSEN",peNN,UKJENT MOTTAGER,1859-10-27,KRISTIANIA,Kri,,,orgKNT,,Kri,Kristiania,,
+Budat18591122JS,"peHI', 'peBB","HENRIK IBSEN', 'BJØRNSTJERNE                        BJØRNSON",peJS,JOHAN SVERDRUP,1859-11-22,[KRISTIANIA],NN,"'peRO, peDCD, peOGU, peJSte, peOLH'",,,,,,"'Til, Hr Sverdrup, Sagføreren'",
+Budat185912HOB,peHI,HENRIK IBSEN,peHOB,HANS ØRN BLOM,1859-12,[KRISTIANIA],Kri,,,,,,,,
+B18600121KE,peHI,HENRIK IBSEN,peKE,KRISTIAN ELSTER,1860-01-21,KRISTIANIA,Kri,,,orgKNT,,,,"'Hr: Theod: Mandrup. -, Adr: Hr: Elster,, Pilestrædet N, \n                        , .'",
+Budat18600218KNT,peHI,HENRIK IBSEN,orgKNT,KRISTIANIA NORSKE THEATER,1860-02-18,[KRISTIANIA],Kri,peSiP,,,,,,,
+Budat18600318IN,peHI,HENRIK IBSEN,orgIN,ILLUSTRERET NYHEDSBLAD,1860-03-18,[KRISTIANIA],Kri,"'peTO, peBJH'",,orgKNT,,,,"'Til, Illustreret Nyhedsblad., Jensens Bogtrykkeri, Storgaden.'",
+Budat18600525CPo,peHI,HENRIK IBSEN,orgCPo,CHRISTIANIA-POSTEN,1860-05-25,[KRISTIANIA],Kri,peAVW,,orgKNT,,,,,
+B18600621KNT,peHI,HENRIK IBSEN,orgKNT,KRISTIANIA NORSKE THEATER,1860-06-21,[KRISTIANIA],NN,"'peGHK, peAI'",,,,,,"'Til, Bestyrelsen for det norske Theater, Kristiania.'",
+B18600704HJN,peHI,HENRIK IBSEN,peHJN,JACOB NANDRUP,1860-07-04,KRISTIANIA,Kri,"'pePPe, peCSo'",,,,,,"'ST., Hr: Sagfører Nandrup, Hersteds.'",
+Budat18600821JRD,peHI,HENRIK IBSEN,peJRD,JONAS RAVN DAAE,1860-08-21,KRISTIANIA,Kri,peKongK4,,,,,,"'ST., Hr. Lieutnant Daae -'",
+Budat18600926JCG,peHI,HENRIK IBSEN,peJCG,JOACHIM GAMBORG,1860-09-26,[KRISTIANIA],Kri,peJLC,,,,Kbh,Kjøbenhavn,"'ST., Hr. Overretssagfører Gamborg.'",
+Budat18600930JCG,peHI,HENRIK IBSEN,peJCG,JOACHIM GAMBORG,1860-09-26 - 1860-09-30,[KRISTIANIA],Kri,,,orgKT,,,,'Hr. Overretssagfører Gamborg.',
+Budat18610302KNT,peHI,HENRIK IBSEN,orgKNT,KRISTIANIA NORSKE THEATER,1861-03-02,[KRISTIANIA],Kri,"'peGHK, peJCG, peMKH'",,,,,,"'Til, Bestyrelsen for det norske Theater.'",
+B18610304JRD,peHI,HENRIK IBSEN,peJRD,JONAS RAVN DAAE,1861-03-04,KRISTIANIA,Kri,peTWH,,orgKNT,,,,,
+B18610317ChrTh,peHI,HENRIK IBSEN,orgChrTh,CHRISTIANIA THEATER,1861-03-17,KRISTIANIA,Kri,,,,,,,"'Til, Directionen for Christiania Theater.'",
+B18610327CHo,peHI,HENRIK IBSEN,peCHo,CHRISTIAN HOLST,1861-03-27,KRISTIANIA,Kri,peBaP,,,,,,,
+B18610606JKSH,peHI,HENRIK IBSEN,peJKSH,JOHAN KRISTOFFER STØREN HEFFERMEHL,1861-06-06,KRISTIANIA,Kri,peJJo,,,,,,,
+B18610718MAU,peHI,HENRIK IBSEN,peMAU,MARTIN UDBYE,1861-07-18,KRISTIANIA,Kri,,,,,,,,woFj
+B18610725CB,peHI,HENRIK IBSEN,orgCB,KRISTIANIA BYFOGDKONTOR,1861-07-25,KRISTIANIA,Kri,peTWH,,,,,,,
+B18620303KNT,peHI,HENRIK IBSEN,orgKNT,KRISTIANIA NORSKE THEATER,1862-03-03,KRISTIANIA,Kri,"'peCPN, peWick'",,orgKNT,,,,,
+B18620514JBK,peHI,HENRIK IBSEN,peJBK,JOHANNES KLINGENBERG,1862-05-14,KRISTIANIA,Kri,,,orgKNT,,,,'Hr. Ingeniørkaptejn Klingenberg.',
+B18620519HW,peHI,HENRIK IBSEN,peHW,HARALD WERGELAND,1862-05-19,[KRISTIANIA],NN,peCARA,,,,,,,
+B18620524HJN,peHI,HENRIK IBSEN,peHJN,JACOB NANDRUP,1862-05-24,KRISTIANIA,Kri,,,,,,,,
+B18620618MDEL,peHI,HENRIK IBSEN,peMDEL,MORTEN LAMBRECHTS,1862-06-18,KRISTIANIA,Kri,,,orgKNT,,,,"'S.T., Hr: Civildommer Lambrechts.'",
+B18620812CT,peHI,HENRIK IBSEN,peCT,CHRISTIAN TØNSBERG,1862-08-12,KRISTIANIA,Kri,peHJN,,,,,,,
+Budat18620825CHo,peHI,HENRIK IBSEN,peCHo,CHRISTIAN HOLST,1862-08-25,[KRISTIANIA],Kri,,,,,,,'Hr: Kammerherre Chr: Holst',
+B18630624RN,peHI,HENRIK IBSEN,peRN,RANDOLPH NILSEN,1863-06-24,KRISTIANIA,Kri,"'peWEN, peCKG, peWMo, peANil, pePB, peJvdL'",,,,"'Berg, Sta'","'Bergen, Stavanger'",,
+B18630810CP,peHI,HENRIK IBSEN,peCP,CLEMENS PETERSEN,1863-08-10,KRISTIANIA,Kri,peBB,,orgKT,,,,,"'woKE, woF1, woHH, woKK'"
+B18631008Kdep,peHI,HENRIK IBSEN,orgKdep,KIRKE- OG UNDERVISNINGSDEPARTEMENTET,1863-10-08,KRISTIANIA,Kri,,,,,Kbh,Kjøbenhavn,,
+B18631026FT,peHI,HENRIK IBSEN,peFT,FREDERIK TILLISCH,1863-10-26,KRISTIANIA,Kri,,,orgKT,,,,"'Til, Chefen for det Kongelige danske Theater,, Hans Excellence, Geheimeconferentsraad Tillisch,, Ridder af Elefantordenen, p: pl:'",woKE
+B18631027Kdep,peHI,HENRIK IBSEN,orgKdep,KIRKE- OG UNDERVISNINGSDEPARTEMENTET,1863-10-27,KRISTIANIA,Kri,,,,,Ham,Hamburg,,
+B18640307BD,peHI,HENRIK IBSEN,peBD,BERNHARD DUNKER,1864-03-07,KRISTIANIA,Kri,"'peBB, peRP'",,,,,,'Hr: Regjeringsadvokat Dunker.',
+B18640417BD,peHI,HENRIK IBSEN,peBD,BERNHARD DUNKER,1864-04-17,KØBENHAVN,Kbh,,,,,"'Lub, Tri, Rom'","'Lübeck, Triest, Rom'","'Hr: Regjeringsadvokat Dunker, Christiania'",
+B18640622BD,peHI,HENRIK IBSEN,peBD,BERNHARD DUNKER,1864-06-22,ROMA,Rom,"'peTH, peJB, peBB'",,,,"'Tri, Mil, Gen, Rom, Ven, Berl'","'Triest, Milano, Genua, Rom, Venedig, Berlin'",,
+B18640718JHT,peHI,HENRIK IBSEN,peJHT,JOHAN HERMAN THORESEN,1864-07-18,ROMA,Rom,,,,,,,,
+B18640916BB,peHI,HENRIK IBSEN,peBB,BJØRNSTJERNE BJØRNSON,1864-09-16,ROMA,Rom,"'peLD, peRP, peBMi, peGLB, peSuI, peSiI, peJHT, peEjBj, peKBj, peBD'",,orgChrTh,,"'Genz, Rom, Mil, Kri, Kbh, Troj'","'Genzano, Rom, Milano, Christiania, Kjøbenhavn, Troja'",,"'woKE, woKG'"
+B18650120SF,peHI,HENRIK IBSEN,orgSF,DEN SKANDINAVISKE FORENING I ROMA,1865-01-20,ROMA,Rom,,,orgSF,,,,,
+B18650128BB,peHI,HENRIK IBSEN,peBB,BJØRNSTJERNE BJØRNSON,1865-01-28,ROMA,Rom,"'pePrax, peBMi, peJHT, peSiI, peKBj, peHI, peSuI, peBD'",,orgChrTh,,"'N, Berl, Dyb, Pol, Vat, ViBo, Cate, Sab, Trhm, Ham'","'vort Lands, Berlin, Dybbøl, Polen, Vatikanet, Villa Borghese, Caracallas Bade, Sabinerbjergene, Trondhjem, Hamburg'","'Til, Digteren Bjørnstjerne Bjørnson, Christiania, in Norvegia'",
+B18650325KNVS,peHI,HENRIK IBSEN,orgKNVS,DET KONGELIGE NORSKE VIDENSKABERS SELSKAB,1865-03-25,ROMA,Rom,peBB,,,,"'Rom, Pa, Kri, It'","'Rom, Paris, Kristiania, Italien'",,woKG
+B18650619IN,peHI,HENRIK IBSEN,orgIN,ILLUSTRERET NYHEDSBLAD,1865-06-19,ROMA,Rom,,,,,,,,
+B18650912EB,peHI,HENRIK IBSEN,peEB,EMIL BLOCH,1865-09-12,ARICCIA,Aric,"'peGuB, peLH, peCBl'",,,,Rom,Rom,,
+B18650912BB,peHI,HENRIK IBSEN,peBB,BJØRNSTJERNE BJØRNSON,1865-09-12,ARICCIA,Aric,"'peFH, peKri, peCaMu, peJS, peJB, peGHK, peKBj'",,"'orgStort, orgKNVS, orgChrTh'",,"'PeKi, Rom, N'","'Peterskirken, Rom, hjemme'","'Til, Digteren ,  Bjørnson, Christiania, Norvegia.'",woBr
+B18650912JS,peHI,HENRIK IBSEN,peJS,JOHAN SVERDRUP,1865-09-12,ARICCIA,Aric,peBB,,orgGyl,,"'Kri, Kbh'","'Kristiania, Kjøbenhavn'",,
+B18650926EB,peHI,HENRIK IBSEN,peEB,EMIL BLOCH,1865-09-26,ARICCIA,Aric,"'peGuB, peALo, peLH, pePCS, peCBl'",,,,Rom,Rom,"'Signor Emil Bloch., Indir: al Sgr: Bravo,, Console Danimarca., Roma.'",
+B18651025FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1865-10-25,ROMA,Rom,peBB,,,,"'Kbh, It'","'Kjøbenhavn, Italien'",,woBr
+B18651026AK,peHI,HENRIK IBSEN,peAK,ANTON KLUBIEN,1865-10-26,ROMA,Rom,"'peFH, peCBl, pePCS, peLH, peJB, peVVP, peHVS, peCKFM'",,"'orgSF, orgGyl'",,"'Lon, Aric, Fir, Rom, Kbh, Sorr'","'London, Ariccia, Florents, Rom, Kjøbenhavn, Sore'","'Hr: Cand: jur: A: Klubien, St: Kannikestræde, N,  15, 1,  Sal., Kjøbenhavn.'",woBr
+B18651107FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1865-11-07,ROMA,Rom,peCKFM,,,,Kbh,Kjøbenhavn,,woBr
+B18651115FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1865-11-15,ROMA,Rom,"'peBB, peBD, peMT, peAK'",,,,"'Kbh, Rom'","'Kjøbenhavn, Rom'",,woBr
+B18651125FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1865-11-25,ROMA,Rom,"'peJB, peCKFM'",,,,"'Kbh, Dk, N'","'Kjøbenhavn, Danmark, Norge'","'Herr Cancelliraad F. Hegel, Copenaghen., Danimarca.'",woBr
+B18651201SF,peHI,HENRIK IBSEN,orgSF,DEN SKANDINAVISKE FORENING I ROMA,1865-12-01,ROMA,Rom,,,,,N plSE plDk,hver Nation,,
+B18651203MT,peHI,HENRIK IBSEN,peMT,MAGDALENE THORESEN,1865-12-03,ROMA,Rom,"'peKongK4, peGGa, peSiI, peFH, peCP, peSuI, peLD, peWMR, peTK, peAxT, peSaLu, peDFa, peMTh, peASM'",,,,"'N, Pie, Gen, Nov, Ales, Pale, Finn, Berl, Dyb, SE, Dk, Kbh'","'Norge, Piemont, Genua, Novara, Alessandria, Palermo, Finmarken, Berlin, Dybbøl, Sverigs, Danmark, Kjøbenhavn'",,woBr
+B18651204CP,peHI,HENRIK IBSEN,peCP,CLEMENS PETERSEN,1865-12-04,ROMA,Rom,,,,,N,Norge,"'Hr: Clemens Petersen., Kjøbenhavn.'",woBr
+B18660304BB,peHI,HENRIK IBSEN,peBB,BJØRNSTJERNE BJØRNSON,1866-03-04,ROMA,Rom,"'peNR, peFB, peJB, peFH, peMT, peDiM, peKBj, peAnM, peLoB, peJFB, peBD, peFBPS, peAMu, peCP, peRiN'",,"'orgStort, orgKNVS, orgChrTh'",,N,Norge,,"'woBr, woKK'"
+B18660304FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1866-03-04,ROMA,Rom,peBB,,,,,,,
+B18660304BD,peHI,HENRIK IBSEN,peBD,BERNHARD DUNKER,1866-03-04,ROMA,Rom,peFH,,,,N,hjemme,"'Herr Regjeringsadvokat Dunker., Christiania.'",woBr
+B18660307FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1866-03-07,ROMA,Rom,"'peBB, peKongChr4, peMT, peCP'",,,,"'N, Kbh, Kri'","'Norge, Kjøbenhavn, Christiania'",,"'woBr, woDi'"
+B18660316FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1866-03-16,ROMA,Rom,"'peBB, peMT, peAK'",,,,"'Dk, Kbh, Rom'","'Danmark, Kjøbenhavns Poststempel, Pavestaten'",,woBr
+B18660316AK,peHI,HENRIK IBSEN,peAK,ANTON KLUBIEN,1866-03-16,ROMA,Rom,"'peFH, peOE, peJCo, peJSo'",,orgSF,,"'Rom, Sorr, Ge, Ol, Su, Cer, Ti'","'Rom, Sorent, Genazzano, Olevano, Subiaco, Cerrano, Tivoli'",,"'woBr, woPG'"
+B18660322JG,peHI,HENRIK IBSEN,peJG,JOHN GRIEG,1866-03-22,ROMA,Rom,peEGr,,,,"'N, D, Dre'","'vort eget Land, Tydskland, Dresden'",,woKE
+B18660415GS,peHI,HENRIK IBSEN,peGS,GEORG SIBBERN,1866-04-15,ROMA,Rom,peKongK4,,,,N,Norge,,woBr
+B18660415KongK4,peHI,HENRIK IBSEN,peKongK4,KONG KARL 15.,1866-04-15,ROMA,Rom,,,orgStort,,"'It, Kbh, N, Kri'","'Italien, Kjøbenhavn, mit Fædrelands Grændser, Christiania'",,woBr
+Budat186604AK,peHI,HENRIK IBSEN,peAK,ANTON KLUBIEN,1866-04,[ROMA],NN,peEGr,,,,,,,
+B18660425GB,peHI,HENRIK IBSEN,peGB,GEORG BRANDES,1866-04-25,ROMA,Rom,"'peLED, peJB, peDrEr, peFWo, pePK, peAP, peCD, peFH, peCP'",,orgSF,,"'Rom, Na, Sorr, Gi, Kbh'","'hernede, det Neapolitanske, Sorento, St: Giacomo, Kjø, n'","'Hr: Cand: mag: , Krystalgade N,  6, 3, Copenaghen.'",
+B18660425FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1866-04-25,ROMA,Rom,,,,,"'Dk, N, Sorr'","'Danmark, Norge, Sorent'",,woBr
+B18660504MB,peHI,HENRIK IBSEN,peMB,MICHAEL BIRKELAND,1866-05-04 - 1866-05-05,ROMA,Rom,"'peKongK4, peGS, peBB, peOAB, pePBH, peJLo, peAFK, peCD, peJLH, peCHau, peMBi, peOF, peFStang'",,orgStort,,"'N, Sthlm, Dk, Kbh, Rom, Vat'","'Norge, Stokholm, Danmark, Kjøbenhavn, Rom, Pavestaten'","'Hr: Rigsarkivar M Birkeland., a Christiania, (Norvegia.)'","'woBr, woKE'"
+B18660505BB,peHI,HENRIK IBSEN,peBB,BJØRNSTJERNE BJØRNSON,1866-05-05,ROMA,Rom,"'peMB, peKongK4, peGS, peBD, peHHolm, peFB, peKBj, peMT'",,"'orgChrTh, orgStort'",,Kri,Christiania,"'Till, Digteren Bjørnstjerne Bjørnson., Christiania'",
+B18660505BD,peHI,HENRIK IBSEN,peBD,BERNHARD DUNKER,1866-05-05,ROMA,Rom,"'peOF, peHad, pePrax, peMyr'",,orgStort,,"'Kap, Vat, ViBo, ViLu'","'Capitoliets, Vatikanets, Villa Borghese, Villa Ludovisi'","'Hr: Regjeringsadvokat Dunker., Christiania.'",
+B18660516HCTh,peHI,HENRIK IBSEN,peHCTh,HARALD THAULOW,1866-05-16,ROMA,Rom,peREP,,,,,,,
+B18660521FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1866-05-21,ROMA,Rom,"'peGr, peGS, peFStang, peKongK4, peCHau, peCP, peGB, peECR, peHFH, peVL, peGAKH'",,"'orgStort, orgKNVS'",,"'Pa, Trhm, Sthlm, Kri, N'","'Paris, Throndhjem, Norge'",,"'woBr, woKG'"
+B18660528MT,peHI,HENRIK IBSEN,peMT,MAGDALENE THORESEN,1866-05-28,ROMA,Rom,"'peFH, peECR'",,,,"'Kri, Fras, Alfj'","'Chr-a, Frascati, Albanerbjergene'",,woBr
+B18660602GS,peHI,HENRIK IBSEN,peGS,GEORG SIBBERN,1866-06-02,ROMA,Rom,peKongK4,,,,"'Kri, Sthlm'","'Christiania, Stokholm'",,woBr
+B18660606LH,peHI,HENRIK IBSEN,peLH,LARS HANSEN,1866-06-06,FRASCATI,Fras,"'peAuLor, peCPC, peGuB, peJB'",,,,"'Kbh, Rom'","'Kjøbenhavn, Rom'",,
+B18660609FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1866-06-09,FRASCATI,Fras,"'peHFH, peGB, peBB, peSKi'",,orgChrTh,,"'Kri, Sthlm'","'Chr-a, Stokholm'",,woBr
+B18660618NR,peHI,HENRIK IBSEN,peNR,NIELS RAVNKILDE,1866-06-18,FRASCATI,Fras,,,,,,,"'All’ illustrissimo Maestro, Il Signore Nicolo Ravnkilde., Indirizz: all Cav: J. Bravo,, Consigliere di Stato di Danimarca,, Console di Svezia & Norvegia., Roma.'",
+B18660722PBH,peHI,HENRIK IBSEN,pePBH,PAUL BOTTEN-HANSEN,1866-07-22,FRASCATI,Fras,"'peFB, peJB, peSuI, peJoBH, peCic, peJLo'",,"'orgSF, orgStort'",,"'Sthlm, Kri, Rom, Camp, Fras, Alfj, PaGr, Tus, Mdh, Sab, Ap, Na, MoSo'","'Stokholm, Kristiania, Rom, Campagnen, Frascati, Albanerbjergene, Palazzo Gratiosi, Tusculum, Middelhavet, Sabinerland, Appeninerne, neapolitanske, Mons Soracte'","'Herr Universitetsbibliothekar, P. Botten-Hansen'",woBr
+B18660724Kdep,"peHI', 'peAuLor', 'peJB","HENRIK IBSEN', 'AUGUST LORENZ', 'JOHAN BRAVO",orgKdep,KIRKE- OG UNDERVISNINGSDEPARTEMENTET,1866-07-24,ROMA,Rom,"'peAuLor, peJB'",,,,,,'Til Den kongelige norske Regjerings Departement for Kirke- og\n                        Undervisningsvæsenet i Christiania.',
+B18660822FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1866-08-22 - 1866-08-24,FRASCATI,Fras,"'peGS, peFStang, peGB, peEGr'",,,,"'Dk, Kbh, Sthlm, Kri, He'","'Danmark, Kjøbenhavn, Stokholm, Kristiania, Grækenland'","'Herr Cancelliraad Hegel., Copenaghen., Danimarca.'","'woBr, woKK'"
+B18660824EGr,peHI,HENRIK IBSEN,peEGr,EDVARD GRIEG,1866-08-24,FRASCATI,Fras,"'peBB, peSuI'",,orgChrTh,,Sthlm,Stokholm,"'Till, Komponisten Hr. Edvard Grieg.'",
+B18660920JHT,peHI,HENRIK IBSEN,peJHT,JOHAN HERMAN THORESEN,1866-09-20,FRASCATI,Fras,,,,,,,,
+B18661005FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1866-10-05,ROMA,Rom,"'peJLi, pePBH, peJDy, peECR, peCP, peMSa, peAuLa'",,,,Kbh,Kjøbenhavns Klasselotteri;,,"'woKK, woBr'"
+B18661005MB,peHI,HENRIK IBSEN,peMB,MICHAEL BIRKELAND,1866-10-05,ROMA,Rom,"'peJHT, peFStang, peFH, peJLi, peJDy, peOAB, peJLo, pePBH, peJES, peLDa, peBB, peSuI, peChar, peMBi'",,,,"'Pa, He, N, Sorr'","'Paris, Grækenland, Norge, Sorrent'",,woKK
+B18661102FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1866-11-02,ROMA,Rom,"'peECR, peBD, peLD, peALCL, peKongChr4, peGS, peKongK4, peBB, peNR, peFB, pePBH, peMB, peMSa, peHNC'",,,,"'Sthlm, N'","'Stokholm, Norge'",,"'woBr, woKK, woPG'"
+B18661111CT,peHI,HENRIK IBSEN,peCT,CHRISTIAN TØNSBERG,1866-11-11,ROMA,Rom,"'peFH, peECR, peBB, peCNJ'",,,,"'Dk, Na, Rom'","'Danmark, Neapel, hernede'","'Herr Generalkonsul Tønsberg., Ridder af Dannebrog og fl:\n                        O:, Adr: Bredgade N,  14., Copenaghen., Danimarca.'",woPG
+Budat18661117BB,peHI,HENRIK IBSEN,peBB,BJØRNSTJERNE BJØRNSON,1866-11-17,[ROMA],Rom,"'peHJN, peBD, peCic, peKBj, peMT, peMTh, peSuI, peFB, peNR'",,"'orgSF, orgChrTh, orgStud'",,"'Rom, Kbh, N'","'Roms, Kjøbenhavn, Norge'",,woBr
+B18661123FH2,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1866-11-23,ROMA,Rom,peNR,,,,,,"'Herr Cancelliraad Hegel, Kjøbenhavn.'",
+B18661123FH1,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1866-11-23,ROMA,Rom,peCEH,,,,Kbh,Kjøbenhavn,,
+B18661210SF,"peHI', 'peJCo","HENRIK IBSEN', 'JANUS LA COUR",orgSF,DEN SKANDINAVISKE FORENING I ROMA,1866-12-10,ROMA,Rom,,,,,,,,
+B18661215CT,peHI,HENRIK IBSEN,peCT,CHRISTIAN TØNSBERG,1866-12-15,ROMA,Rom,peCNJ,,,,,,,
+B18670105FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1867-01-05,ROMA,Rom,"'peAlB, peLD, peALCL, peCP, peJLi'",,,,N,Norge,,"'woKK, woBr, woPG'"
+B18670209BJC,"peHI', 'peJB","HENRIK IBSEN', 'JOHAN BRAVO",peBJC,CARL BERLING,1867-02-09,ROMA,Rom,,,orgSF,,,,,
+B18670304NR,peHI,HENRIK IBSEN,peNR,NIELS RAVNKILDE,1867-03-04,ROMA,Rom,,,,,,,"'All Illmo Signore, Il Maestro N: Ravnkilde., Via di Ripetta, N,  39., Roma.'",
+B18670308FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1867-03-08,ROMA,Rom,"'peMAG, peAxF, peHRi, peHHe, peSKi, peNR, peALCL, peAnL, peHNC, pePAAH, pePMOL, peBB'",,orgChrTh,,"'Sthlm, Kri'","'Stockholm, Christiania'",,"'woPG, woBr, woKK'"
+B18670309CP,peHI,HENRIK IBSEN,peCP,CLEMENS PETERSEN,1867-03-09,ROMA,Rom,peFH,,,,,,,woBr
+B18670327FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1867-03-27,ROMA,Rom,"'peVB, peHNC, pePMOL, peEPHH, pePHe, peVHei'",,,,Sorr,Sorrento,,"'woBr, woPG, woKK'"
+B18670502FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1867-05-02,ROMA,Rom,"'peVB, peAuLa, peJB'",,,,"'Isc, Dk, Kbh'","'Ischia, Danmark, Kjøbenhavn'",,"'woKK, woBr'"
+B18670516VB,peHI,HENRIK IBSEN,peVB,VILHELM BERGSØE,1867-05-16,ROMA,Rom,"'peLH, peMS'",,,,"'Rom, Na, Isc, Sen'","'Rom, Neapel, Ischia, la piccola Sentinella'",,
+B18670808FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1867-08-08,ISCHIA,Isc,"'peDD, pePGy, pePCA, peCP, peVB, peCKFM, peGB'",,,,"'Rom, Na, Gud, Na, Sorr'","'Rom, Neapel, Gudbrandsdalen, Sorrento'",,"'woPG, woKK'"
+B18670918FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1867-09-18,SORRENTO,Sorr,"'peAuLa, peBB, peCKFM, peDD'",,,,Na,Neapel,,woPG
+B18671015MT,peHI,HENRIK IBSEN,peMT,MAGDALENE THORESEN,1867-10-15,SORRENTO,Sorr,"'peSaLu, peDFa, pePCA, peFH, peTK, peAxT, peCT, peSuI, peSiI'",,,,"'Kbh, It, Isc, Rom, Vat, N, Pom'","'Kjøbenhavn, Italien, Ischia, Rom, Pavestaten, Norge, Pompeji'",,woPG
+B18671016JB,peHI,HENRIK IBSEN,peJB,JOHAN BRAVO,1867-10-16,SORRENTO,Sorr,"'peGuB, peALo, peLFGS, peSuI'",,,,"'Rom, Kbh'","'Rom, Kjøbenhavn'",,woPG
+B18671018FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1867-10-18,SORRENTO,Sorr,"'peGB, peBB, peCP, peVB, peJB, peAuLa'",,,,Rom,Rom,,woPG
+B18671021JC,peHI,HENRIK IBSEN,peJC,JONAS COLLIN,1867-10-21,SORRENTO,Sorr,"'peVB, peEC, peGGa, peSuI, peLASc, peGB'",,,,"'Rom, Isc, Sorr, Na, Vat, Pom, Fir, Kbh'","'Rom, Ischia, Sorrento, Neapel, Pavestaten, Pompeji, Florentz, Kjøbenhavn'","'Herr Cand: magister Jonas Collin., Adr: Dronningens Tvergade No 19., Copenaghen., (Danimarca.)'",woPG
+B18671104JB,peHI,HENRIK IBSEN,peJB,JOHAN BRAVO,1867-11-04,SAN GERMANO,SanGer,"'peDD, peVB, peCSAB, peSuI'",,,,"'Vat, Rom, Na, Sorr, Pom'","'pavelige Grænse, Rom, Neapel, Sorrento, Pompeji'",,woPG
+B18671108JB,peHI,HENRIK IBSEN,peJB,JOHAN BRAVO,1867-11-08,SAN GERMANO,SanGer,"'peGuB, peALo'",,,,Rom,Rom,,
+B18671123FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1867-11-23,ROMA,Rom,"'peGB, peJAAFD'",,,,"'N, Kri, Vat'","'Norge, Christiania, Pavestaten'",,"'woBr, woPG'"
+B18671209BB,peHI,HENRIK IBSEN,peBB,BJØRNSTJERNE BJØRNSON,1867-12-09 - 1867-12-10,ROMA,Rom,"'peCP, peMaMo, peCPP, peKBj'",,,,"'Kbh, N, Dk'","'Kjøbenhavn, Norge, Danmark'",,"'woPG, woBr'"
+B18671228BB,peHI,HENRIK IBSEN,peBB,BJØRNSTJERNE BJØRNSON,1867-12-28,ROMA,Rom,"'peCP, peJWGo, peFH, peJB, pePMOL, peABla, peJHT, peKBj'",,orgChrTh,,"'NoIt, N'","'Norditalien, Norge'",,
+B18680127HHag,"peHI', 'peJLHB', 'peJB', 'peVB', 'peOVM","HENRIK IBSEN', 'JOHN BÖRJESON', 'JOHAN BRAVO', 'VILHELM BERGSØE', 'OTTO VALDEMAR                        MOURIER",peHHag,HANS HAGERUP,1868-01-27,ROMA,Rom,"'peMAG, pePW'",,orgSF,,Kbh,Kjøbenhavn,,
+B18680221JdB,"peHI', 'peJLHB', 'peJB', 'peVB', 'peOVM","HENRIK IBSEN', 'JOHN BÖRJESON', 'JOHAN BRAVO', 'VILHELM BERGSØE', 'OTTO VALDEMAR                        MOURIER",peJdB,JOHAN DE BESCHE,1868-02-21,ROMA,Rom,,,orgSF,,,,,
+B18680223SF,peHI,HENRIK IBSEN,orgSF,DEN SKANDINAVISKE FORENING I ROMA,1868-02-23,ROMA,Rom,,,,,,,,
+B18680224FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1868-02-24,ROMA,Rom,"'peBB, peGB, pePHj, peSiI'",,,,"'SE, N, Dk, Kri'","'Sverig, Norge, Danmark, Christiania'",,"'woBr, woPG, woUF'"
+B18680310SF,"peHI', 'peLH', 'peJLHB', 'peJFK","HENRIK IBSEN', 'LARS HANSEN', 'JOHN BÖRJESSON', 'JOHANNES FRITIHOF                           KJELLBERG",orgSF,DEN SKANDINAVISKE FORENING I ROMA,1868-03-10,ROMA,Rom,,,,,,,"'Til, Bestyrelsen for den skand: Forening, i Rom.'",
+B18680331MT,peHI,HENRIK IBSEN,peMT,MAGDALENE THORESEN,1868-03-31,ROMA,Rom,"'peJdB, peTK, peAxT'",,orgSF,,"'It, Kri, N, Vat, Sthlm'","'Italien, Kristiania, vort Land, Pavestatens, Stokholm'",'Fru Magdalene Thoresen.',
+B18680427FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1868-04-27,ROMA,Rom,"'peHLo, peBB, peGB'",,,,"'NoIt, Ty, Pa, Fir'","'Norditalien, Tyrol, Paris, Florentz'",,
+B18680622JB,peHI,HENRIK IBSEN,peJB,JOHAN BRAVO,1868-06-22,BERCHTESGADEN,BerGad,"'peAHas, peFH, peHLo, peOF, peNR, peOVM, peHJBu'",,orgGyl,,"'Rom, Fir, Bol, Ven, Bo, Bay, Tu'","'Rom, Florents, Bologna, Venedig, Botzen, Bayern, Turin'",,
+B18680728FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1868-07-28,BERCHTESGADEN,BerGad,"'peBB, peJB, peLH, peMT, peAHas'",,,,"'Fir, Ty, Mun, Dre, Pa, Sal, Kbh, It, Bay'","'Florentz, Tyrol, München, Dresden, Salzburg, Kbhvn, Italien, Bayern'",,woBr
+B18680820FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1868-08-20,BERCHTESGADEN,BerGad,"'peECR, peGRo, peCHau, peLD'",,,,"'Sal, Ga, Kbh, Sthlm'","'Salzburg, Gastein, Kjøbenhavn, Stokholm'",,"'woUF, woKE'"
+B18680922FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1868-09-22,MÜNCHEN,Mun,peCBa,,orgKT,,"'Dre, N, Mun, Tu'","'Dresden, Norge, Münchens virkelige Kunstskatte, Turin'",,"'woKE, woUF'"
+B18681002FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1868-10-02,MÜNCHEN,Mun,peCBa,,,,"'BerGad, Mun, Dre'","'Berchtesgaden, München, Dresden'",,
+B18681010FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1868-10-10,DRESDEN,Dre,,,,,"'Mun, Dre'","'München, Dresden'",,"'woUF, woBr'"
+B18681031FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1868-10-31,DRESDEN,Dre,"'peGB, peJB, peRS, peVB'",,orgKT,,"'N, Dk, Rom, Dre, D'","'Norge, Danmark, Rom, Dresden, Tydsklands'",,"'woUF, woBr, woKE'"
+B18681031RS,peHI,HENRIK IBSEN,peRS,RUDOLPH SCHMIDT,1868-10-31,DRESDEN,Dre,"'peRNi, peCP'",,,,"'Rom, It'","'Rom, Italien'","'Herr Cand: mag: Rudolf Schmidt, Klareboderne N,  16, 2,  Sal., Kopenhagen.'",woUF
+B18681222FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1868-12-22,DRESDEN,Dre,"'peGB, peJB, peHLo, peHJGr, peMT, peVB, peCPP, peCKFM, pePFSt, peCLFl, peJH, peSuI, peMTh'",,,,"'Tu, Rom, BerGad, Kbh, Ty, Dk, N'","'Turin, Rom, Berchtesgaden, Kjøbenhavn, Tyrol, Danmark, Norge'",,woUF
+Budat1866-68NR,peHI,HENRIK IBSEN,peNR,NIELS RAVNKILDE,1866 - 1868-04,[ROMA],Rom,,,orgSF,,,,"'Illmo Signore, Il Maestro N: Ravnkilde'",
+B18690122FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1869-01-22,DRESDEN,Dre,"'peHLo, peJB, peSpi, peMT, peKAWi, peJWC, peGECG, peRS'",,,,Rom,Rom,,woUF
+B18690126RS,peHI,HENRIK IBSEN,peRS,RUDOLPH SCHMIDT,1869-01-26,DRESDEN,Dre,peBB,,,,,,"'Hr: Cand: magist: Rudolf Schmidt., Klareboderne. 16. 2., Kopenhagen.'",
+B18690210PFS,peHI,HENRIK IBSEN,pePFS,PETER FRIEDRICH SIEBOLD,1869-02-10,DRESDEN,Dre,"'peFH, peHelm'",,,,"'Dk plN plSE, Kri'","'de tre skandinaviske Lande, Christiania'",,woBr
+B18690216Kdep,peHI,HENRIK IBSEN,orgKdep,KIRKE- OG UNDERVISNINGSDEPARTEMENTET,1869-02-16,DRESDEN,Dre,"'peLD, peJB, peTMom, peJAWN, peGGa'",,orgSF,,"'SE, D, Fr, It, N, Kbh, Berl, Pra, Wien, Tri, Ven, Mil, Gen, Liv, Rom, Genz, Alfj, FoRom, PAL, Cate, Titu, Aric, SAB, Ti, Fras, Tus, Na, Isc, Sorr, Ama, Sale, Pom, Vat, SanGer, Fir, Ver, Sal, Ty, Mun'","'Sverig, Tyskland, Frankrig, Italien, Norge, Kjøbenhavn, Berlin, Prag, Wien, Triest, Venedig, Milano, Genua, Livorno, Rom, Genzano, Albanerbjergene, forum romanum, Palatin, Caracallas, Titus’s Thermer, Ariccia, Sabinerbjergene, Tivoli, Frascati, det gamle Tusculum, Neapel, Ischia, Sorrento, Amalfi, Salerno, Pompeji, Pavestaten, San Germano, Florentz, Verona, Salzburg, Tyrol, München'",,"'woBr, woPG, woUF, woKK'"
+B18690220FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1869-02-20,DRESDEN,Dre,"'peBB, peCFR, peMT, peSiI, peTho, peRS'",,,,"'Kbh, Rom, Kri'","'Kjøbenhavn, Rom, Christiania'",,woUF
+B18690228FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1869-02-28,DRESDEN,Dre,pePFSt,,,,,,,woUF
+B18690314FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1869-03-14,DRESDEN,Dre,"'peAuLa, peECR, peGAKH, peGAK, peGB, peBB, pePFS'",,,,"'N, Lei'","'Norge, Leipzig'",,"'woUF, woBr'"
+B18690323MS,peHI,HENRIK IBSEN,peMS,MARTIN SCHNEEKLOTH,1869-03-23,DRESDEN,Dre,"'peCHau, peVB, peFH, peJB, peOVM, peOF, peSiI, peKAH, pePFS'",,orgGyl,,"'It, Rom, Kbh, Ty, Bo, BerGad'","'Italien, Rom, Kbhvn, Tyrol, Botzen, Berchtesgaden'",,"'woUF, woKG, woBr'"
+B18690407FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1869-04-07,DRESDEN,Dre,"'peCP, peBB'",,,,,,,woUF
+B18690418KB,peHI,HENRIK IBSEN,peKB,KARL BOMHOFF,1869-04-18,[DRESDEN],Dre,,,,,,,"'Herrn Cand: pharm: Bomhoff., Palaisplatz., N,  4, Parterre.'",
+B18690502FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1869-05-02,DRESDEN,Dre,"'peBB, peCHSch, peJSW'",,,,Dk,Danmark,,woUF
+B18690509PFS,peHI,HENRIK IBSEN,pePFS,PETER FRIEDRICH SIEBOLD,1869-05-09,DRESDEN,Dre,"'peHelm, peFH, peHLa'",,orgStort,,"'Lei, D'","'Leipzig, Tydskland'",,woKE
+B18690516AI,peHI,HENRIK IBSEN,peAI,ANDREAS HORNBECK ISACHSEN,1869-05-17,DRESDEN,Dre,"'peTH, peJI'",,orgChrTh,,"'Dre, Kri, Berl'","'Dresden, Kristiania, Berlin'","'Herr Skuespiller A. H. Isachsen., in Christiania., (Norw, gen.)'","'woUF, woBr'"
+B18690528LD,peHI,HENRIK IBSEN,peLD,LORENTZ DIETRICHSON,1869-05-28,DRESDEN,Dre,"'pePFS, peJMD, peHoDi, peFH, peLuH, peSuI'",,orgStort,,"'Sthlm, Kas, Lei, Got'","'Stokholm, Cassel, Leipzig'",,"'woKE, woUF, woBr, woPG, woKG'"
+B18690529JHT,peHI,HENRIK IBSEN,peJHT,JOHAN HERMAN THORESEN,1869-05-29,DRESDEN,Dre,,,orgStort,,,,,
+B18690529Tho,peHI,HENRIK IBSEN,peTho,CHR. THORKILSEN,1869-05-29,DRESDEN,Dre,,,,,Kbh,Kjøbenhavn,,
+B18690531PFS,peHI,HENRIK IBSEN,pePFS,PETER FRIEDRICH SIEBOLD,1869-05-31,DRESDEN,Dre,"'peLD, peJJW, peJGTG, peAvonS'",,,,"'Sthlm, Lei, N, Kas'","'Stokholm, Leipzig, Norge, Cassel'",,woBr
+B18690610FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1869-06-10,DRESDEN,Dre,"'peCHSch, peALCL, peGB'",,,,"'Kbh, D'","'Kjøbenhavn, Tyskland'",,"'woUF, woKG'"
+B18690615FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1869-06-15,DRESDEN,Dre,,,orgKT,,,,,"'woBr, woKG'"
+B18690615ALi,peHI,HENRIK IBSEN,peALi,ANDREAS CONRAD PUTSCHER LINDE,1869-06-15,DRESDEN,Dre,peFH,,orgKT,,"'N, Dk, Kri, Kbh'","'Norge, Danmarks, Christiania, Kjøbenhavn'",,woUF
+B18690615PFS,peHI,HENRIK IBSEN,pePFS,PETER FRIEDRICH SIEBOLD,1869-06-15,DRESDEN,Dre,peLD,,,,Kas,Cassel,,
+B18690616FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1869-06-16,DRESDEN,Dre,"'peLD, peBB, peMT'",,"'orgChrTh, orgKDTS, orgStort'",,"'Sthlm, Kbh, Kri'","'Stokholm, Kjøbenhavn, Kristiania'",,
+B18690617JB,peHI,HENRIK IBSEN,peJB,JOHAN BRAVO,1869-06-17,DRESDEN,Dre,"'peSiI, peOVM'",,orgReg,,"'Kri, Rom, It'","'Kristiania, Rom, Italien'",,woUF
+B18690617KB,peHI,HENRIK IBSEN,peKB,KARL BOMHOFF,1869-06-17,DRESDEN,Dre,,,,,,,,
+B18690619LD,peHI,HENRIK IBSEN,peLD,LORENTZ DIETRICHSON,1869-06-19,DRESDEN,Dre,peHaWi,,orgKDTS,,"'N, SE, Sthlm'","'Norge, Sverig, Stokholm'",,woUF
+B18690626GB,peHI,HENRIK IBSEN,peGB,GEORG BRANDES,1869-06-26,DRESDEN,Dre,"'peGGal, peRNi, peMMW, peJC, peJHL, peMAG'",,,,"'Rom, Kbh'","'Rom, Kbhvn'",,"'woBr, woUF, woKE'"
+B18690706JHT,peHI,HENRIK IBSEN,peJHT,JOHAN HERMAN THORESEN,1869-07-06,DRESDEN,Dre,"'peEaE, pePMOL, peAFK'",,,,Sthlm,Stokholm,,
+B18690715GB,peHI,HENRIK IBSEN,peGB,GEORG BRANDES,1869-07-15,DRESDEN,Dre,"'peBB, peBMi, peRaf, peMLut, peFH'",,,,"'Sthlm, Kbh'","'Stokholm, Kjøbenhavn'",,"'woUF, woPG, woBr'"
+B18690718JHT,peHI,HENRIK IBSEN,peJHT,JOHAN HERMAN THORESEN,1869-07-18,DRESDEN,Dre,peSuI,,,,,,,
+B18690719FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1869-07-19,DRESDEN,Dre,peEaE,,"'orgChrTh, orgKDTS, orgKT'",,"'Sthlm, SE'","'Stokholm, Sverig'",,woUF
+B18690801JHT,peHI,HENRIK IBSEN,peJHT,JOHAN HERMAN THORESEN,1869-08-01,STOCKHOLM,Sthlm,,,,,,,,
+B18690802JHT,peHI,HENRIK IBSEN,peJHT,JOHAN HERMAN THORESEN,1869-08-02,STOCKHOLM,Sthlm,"'peLKDaa, peJLo, peLD, peLovi'",,,,"'Dre, N'","'Dresden, Norge'",,
+B18690922FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1869-09-22,STOCKHOLM,Sthlm,"'peGB, pePHa, peMJH, peRK, pePGP, peVB, peMT'",,"'orgKT, orgChrTh, orgKDTS'",,"'Kbh, Eg, SE'","'Kjøbenhavn, Egypten, Sverig'",,woUF
+B18690922RK,peHI,HENRIK IBSEN,peRK,RICHARD KAUFMANN,1869-09-22,STOCKHOLM,Sthlm,,,,,,,,
+B18690924JHT,peHI,HENRIK IBSEN,peJHT,JOHAN HERMAN THORESEN,1869-09-24,STOCKHOLM,Sthlm,"'peIsP, peKongK4, peSuI, peOvK, peMT'",,"'orgKdep, orgKT, orgKDTS'",,"'Eg, Suez, Pa, SE, Dre, Ma'","'hans Land, Suez-Kanalens, Paris, Sverig, Dresden, Marseille'",,
+B18690926HSto,peHI,HENRIK IBSEN,peHSto,HEDVIG STOUSLAND,1869-09-26,STOCKHOLM,Sthlm,"'peMI, peKPI, peIsP, peSuI, peSiI'",,,,"'N, Sthlm, Dre, Pa, Eg'","'Norge, Stockholm, Dresden, Paris, Egypten'",,
+B18691214FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1869-12-14,DRESDEN,Dre,"'peSuI, peBB, peJHT, peGB, pePHa, peRW'",,,,"'Eg, N, Kri, Nu, RodH'","'Egypten, Norge, Christiania, Nubien, det røde Hav'",,woUF
+B18691217JHT,peHI,HENRIK IBSEN,peJHT,JOHAN HERMAN THORESEN,1869-12-17,DRESDEN,Dre,"'peAb, peEug, peSuI, peHJN, peFH, peJLo, pePBH, peMTh, peSiI, peLuDa, peHCTh, peAOV'",,orgChrTh,,"'Nil, Nu, RodH, Ism, Lu, Ka, Suez, Sthlm, Eg, Kri, SE'","'Nilen, Nubien, det røde Hav, Ismailia, Luxor, Kairo, Suez, Stokholm, Egypten, Christiania, Sverig'",,woUF
+B18691227RS,peHI,HENRIK IBSEN,peRS,RUDOLPH SCHMIDT,1869-12-27,DRESDEN,Dre,"'peJLi, peBB'",,,,Tro,Tromsø,"'Herr Cand: mag: Rudolf Schmidt, Klareboderne, N,  16.2., Kopenhagen.'",
+B18691230SAH,peHI,HENRIK IBSEN,peSAH,SVEN ADOLF HEDLUND,1869-12-30,DRESDEN,Dre,peJDCL,,,,"'Ka, Eg'","'Kairo, Egypten'",,
+B18691231EaE,peHI,HENRIK IBSEN,peEaE,ERIK AF EDHOLM,1869-12-31,DRESDEN,Dre,peLeLa,,orgKDTS,,"'Sthlm, Eg'","'Stockholm, Egypten'",,woUF
+B18700104JC,peHI,HENRIK IBSEN,peJC,JONAS COLLIN,1870-01-04,DRESDEN,Dre,"'peFH, peEC, peVB, peGB'",,,,"'SE, Eg, N, Kbh'","'Sverig, Egypten, Norge, Kjøbenhavn'",,woUF
+B18700106AB,peHI,HENRIK IBSEN,peAB,ALBERT BONNIER,1870-01-06,DRESDEN,Dre,"'peEStj, peJAS, peBeBo'",,,,"'Sthlm, It'","'Stockholm, Italien'",,woUF
+B18700113CR,peHI,HENRIK IBSEN,peCR,CARL ROSENBERG,1870-01-13,DRESDEN,Dre,"'peGAKH, peFH'",,,,"'Eg, Kbh'","'Egypten, Kjöbenhavn'",,woUF
+B18700113RW,peHI,HENRIK IBSEN,peRW,ROBERT WATT,1870-01-13,DRESDEN,Dre,"'peEBo, pePBH'",,,,"'Eg, Kbh, Kri, Lei'","'Egypten, Kjøbenhavn, Christiania, Leipzig'",,"'woUF, woBr'"
+B18700114PFS,peHI,HENRIK IBSEN,pePFS,PETER FRIEDRICH SIEBOLD,1870-01-14,DRESDEN,Dre,peHCTh,,,,"'Kri, Kas'","'Christiania, Cassel'",,"'woUF, woBr'"
+B18700115OW,peHI,HENRIK IBSEN,peOW,OSCAR WIJKANDER,1870-01-15,DRESDEN,Dre,,,,,"'Eg, Sthlm'",Stockholm,"'Till, Literatören Herr Oscar Wijkander., Stockholm.'",woUF
+B18700125FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1870-01-25,DRESDEN,Dre,"'peRS, peBB, peJLo'",,orgKT,,"'Kri, Kbh, Sthlm, Eg, N'","'Christiania, Kjøbenhavn, Stockholm, Egypten, Norge'",,"'woUF, woKE, woDi, woUF'"
+B18700126JB,peHI,HENRIK IBSEN,peJB,JOHAN BRAVO,1870-01-26,DRESDEN,Dre,"'peCFGF, peJDCL, peOF, peSuI'",,,,"'Eg, Rom, Kbh, Kri, Dre, N'","'Egypten, Rom, Kjøbenhavn, Christiania, Dresden, Norge'",,woUF
+B18700203PFS,peHI,HENRIK IBSEN,pePFS,PETER FRIEDRICH SIEBOLD,1870-02-03,DRESDEN,Dre,peHCTh,,,,"'Kri, D'","'Christiania, Tydskland'",,woBr
+B18700210JPA,peHI,HENRIK IBSEN,peJPA,JENS PETER ANDRESEN,1870-02-10,DRESDEN,Dre,peBB,,orgChrTh,,Kri,Christiania,,woUF
+B18700212FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1870-02-12,DRESDEN,Dre,"'peJAAFD, peBB, peALG, peJCGun, peHJJ, peKKspr'",,orgKT,,"'Kbh, Berg, Kri, N, Dk, SE'","'Kjøbenhavn, Bergen, Christiania, Norge, Danmarks, Sverigs'",,woKE
+B18700228PFS,peHI,HENRIK IBSEN,pePFS,PETER FRIEDRICH SIEBOLD,1870-02-28,DRESDEN,Dre,"'peJJW, peLK'",,,,"'Kbh, N, N'","'Kjøbenhavn, Norge, vort Land'",,"'woUF, woBr'"
+B18700301EStj,peHI,HENRIK IBSEN,peEStj,EDVARD STJERNSTRÖM,1870-03-01,DRESDEN,Dre,"'peJAS, peWBW, peLStj'",,,,"'Kbh, Berl, Dre, Elb'","'Köbenhavn, Berlin, Dresden, Elben'",,woUF
+B18700306GB,peHI,HENRIK IBSEN,peGB,GEORG BRANDES,1870-03-06,DRESDEN,Dre,,,,,Kbh,Kjøbenhavn,,woUF
+B18700307OvK,peHI,HENRIK IBSEN,peOvK,OSCAR VON KNORRING,1870-03-07,DRESDEN,Dre,"'peKSt, peSuI, peMTh'",,,,"'Kbh, Sthlm, Pa, Eg, Ka, N, SE'","'København, Stockholm, Paris, Egyptens, Kairo, Norge, Sverig'","'Herrn Oscar von Knorring., Hauptmann, Ritter etc. etc., Drottning-gatan N,  98., Stockholm.'",woUF
+B18700308JHT,peHI,HENRIK IBSEN,peJHT,JOHAN HERMAN THORESEN,1870-03-08,DRESDEN,Dre,"'peHJN, peHeHe, peJPA, peBB, pePhCh, peJLo'",,orgChrTh,,"'Kri, Eg'","'Christiania, Egypten'",,woKE
+B18700309RW,peHI,HENRIK IBSEN,peRW,ROBERT WATT,1870-03-09,DRESDEN,Dre,peFLH,,orgKT,,Ism,Ismailia,,woDi
+B18700312RW,peHI,HENRIK IBSEN,peRW,ROBERT WATT,1870-03-12,DRESDEN,Dre,"'peHCFS, peFH'",,,,,,,woDi
+B18700316FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1870-03-16,DRESDEN,Dre,"'peJLo, peHCFS, peNFSGr, peJHW, peEC, peCKFM, peEBo, peVB, peGB'",,orgKT,,Kbh,Kbhvn,,"'woUF, woKE, woDi'"
+B18700317GBe,peHI,HENRIK IBSEN,peGBe,GOTTLOB BERNER,1870-03-17,DRESDEN,Dre,peFH,,orgKT,,Kbh,Kjøbenhavn,,woUF
+B18700411FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1870-04-11,DRESDEN,Dre,"'peJLo, peGECG, peAuLa, peGB, peJAAFD, peMT, peBB'",,orgKT,,"'Kbh, Kri, Isl'","'Kjøbenhavn, Christiania, Island'",,woKE
+B18700413FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1870-04-13,DRESDEN,Dre,peBB,,,,Kri,Christiania,,
+B18700421RW,peHI,HENRIK IBSEN,peRW,ROBERT WATT,1870-04-21,DRESDEN,Dre,"'peNFSGr, peEBo'",,,,Kbh,Kjøbenhavn,,
+B18700505FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1870-05-05,DRESDEN,Dre,"'peBB, peMWB, pePHe, peMT'",,"'orgChrTh, orgKT'",,"'N, Rom, Kbh'","'Norge, Rom, Kbhvn'",,woKE
+B18700509PHe,peHI,HENRIK IBSEN,pePHe,PETER HEISE,1870-05-09,DRESDEN,Dre,"'peFH, peVHei'",,"'orgKT, orgGyl'",,Rom,Rom,,woKE
+B18700512JPA,peHI,HENRIK IBSEN,peJPA,JENS PETER ANDRESEN,1870-05-12 - 1870-05-20,DRESDEN,Dre,"'peAI, peBB, peGHK, peMWB'",,orgChrTh,,N,hjemme,,
+B18700525FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1870-05-25,DRESDEN,Dre,"'peAdM, peBB, peMT, peGBe, pePHe, peGAK'",,orgKT,,"'Dk, N'","'Danmark, Norge'",,woKE
+B18700529MT,peHI,HENRIK IBSEN,peMT,MAGDALENE THORESEN,1870-05-29,DRESDEN,Dre,"'peFH, peBB, peMTh, peSuI, peSiI, peDFa, peCF'",,orgChrTh,,"'Dk, N, Sthlm, Kri'","'Danmark, Norge, Stokholm, Kristiania'",,
+B18700604MT,peHI,HENRIK IBSEN,peMT,MAGDALENE THORESEN,1870-06-04 - 1870-06-05,DRESDEN,Dre,"'peKongK4, peEaE, peAWJE, peElHw, peGF, peBeAlm, peAlLa, peAI, peBB, peMWB'",,orgKDTS,,"'SE, Fr'","'Sverig, Frankrig'",,
+B18700609RSch,peHI,HENRIK IBSEN,peRSch,RIKKA SCHULERUD,1870-06-09,DRESDEN,Dre,"'peOS, peMTh'",,,,"'Kri, N, It, D, Eg, Nu, RodH, Sin, Ho'","'hovedstaden, Norge, Italien, Tydskland, Egypten, Nubien, det røde hav, Sinai, Homansbyen'",,
+B18700611LK,peHI,HENRIK IBSEN,peLK,LAURA PETERSEN (G. KIELER),1870-06-11,DRESDEN,Dre,,,,,N,Norge,,woBr
+B18700616PHe,peHI,HENRIK IBSEN,pePHe,PETER HEISE,1870-06-16,DRESDEN,Dre,peVHei,,,,Kbh,København,,"'woKE, woBergm, woPG'"
+B18700620FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1870-06-20,DRESDEN,Dre,"'peBB, pePHe'",,,,,,,
+B18700625PHe,peHI,HENRIK IBSEN,pePHe,PETER HEISE,1870-06-25,DRESDEN,Dre,,,,,,,,
+B18700626JPA,peHI,HENRIK IBSEN,peJPA,JENS PETER ANDRESEN,1870-06-26,DRESDEN,Dre,"'peGHK, peMWB, peBB'",,orgChrTh,,Kri,Kristiania,,
+B18700702FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1870-07-02,DRESDEN,Dre,"'peJSW, peJH'",,orgGyl,,"'N, Dre, Dk'","'Norge, Dresden, Danmark'",,
+B18700712FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1870-07-12,DRESDEN,Dre,,,,,"'N, Lub, Kbh'","'Norge, Lübeck, København'",,woKE
+Budat18700720AK,peHI,HENRIK IBSEN,peAK,ANTON KLUBIEN,1870-07-20,KØBENHAVN,Kbh,,,,,,,"'Herr Højesteretsadvokat A: Klubien., Holmens Kanal, N,  4.'",
+B18700909AK,peHI,HENRIK IBSEN,peAK,ANTON KLUBIEN,1870-09-09,KØBENHAVN,Kbh,"'peGBe, peAnM, peJSW, peLuH'",,orgKT,,"'Dk, N'","'Danmark, Norge'",,"'woBr, woKK, woPG, woUF, woKE'"
+B18700912AK,peHI,HENRIK IBSEN,peAK,ANTON KLUBIEN,1870-09-12,KØBENHAVN,Kbh,"'peFH, peFLV'",,orgGyl,,Kri,Kristiania,,woKE
+B18700912AVW,peHI,HENRIK IBSEN,peAVW,WILHELM WIEHE,1870-09-12,KØBENHAVN,Kbh,,,,,,,,
+B18701003JHT,peHI,HENRIK IBSEN,peJHT,JOHAN HERMAN THORESEN,1870-10-03,DRESDEN,Dre,peJLo,,,,"'Kbh, N'","'Kjøbenhavn, Norge'",,
+B18701010FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1870-10-10,DRESDEN,Dre,"'peJH, peJLo, peJHH, peJLH, peGBe, pePHa'",,,,"'Fr, Kbh'","'Frankrig, København'",,"'woDi, woKE'"
+B18701028PHa,peHI,HENRIK IBSEN,pePHa,PETER HANSEN,1870-10-28,DRESDEN,Dre,"'pePBH, peSuI, peKongF7, peVil1, peWiS, peSKi, peMI, peCSAB, peLoBi, peFLH'",,,,"'Gri, N, Kbh, Dyb, Berl, It, Rom, Isc, Sorr'","'en liden, spidsborgerby, Norge, København, Dybbøl, Berlin, Italien, Rom, Ischia, Sorrento'",,"'woC1, woF1, woMa_og_po, woEn_fu, woG1, woHH, woKK, woPVi, woKE, woPG, woUF, woKG'"
+B18701102OvK,peHI,HENRIK IBSEN,peOvK,OSCAR VON KNORRING,1870-11-02,DRESDEN,Dre,,,,,"'D, Kbh, Sthlm, Fr, Eg'","'Tyskland, København, Stockholm, Frankrig, Egypten'",,
+B18701106FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1870-11-06,DRESDEN,Dre,"'pePHe, peSJors, pePAM, peSnSt, peJH'",,,,N,Norge,,"'woKE, woDi'"
+B18701123Dem,peHI,HENRIK IBSEN,peDem,OHAN DEMIRGIAN,1870-11-23,DRESDEN,Dre,"'peIsP, peOvK, peKongK4'",,,,"'SE, Eg, Ka, Suez, Kbh, N, Sthlm'","'Sverge, Egypten, Cairo, Suez-canalen, Köbenhavn, Norge, Stockholm'",,
+B18701202FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1870-12-02,DRESDEN,Dre,"'peHGu, peJH'",,,,"'Kri, Sthlm, SE'","'Kristiania, Stockholm, Sverig'",,"'woKE, woDi'"
+B18701220JB,peHI,HENRIK IBSEN,peJB,JOHAN BRAVO,1870-12-20,DRESDEN,Dre,"'peAtD, peCKas, peSuI, peSpi'",,,,"'Kri, Rom'","'Christiania, det gamle kjære Rom'",,
+B18701220GB,peHI,HENRIK IBSEN,peGB,GEORG BRANDES,1870-12-20,DRESDEN,Dre,peFH,,,,"'Kbh, Rom, Eu, Fr, Pr'","'Kjøbenhavn, Rom, Europa, Frankrig, Preussen'",,
+Budat18701224FL,peHI,HENRIK IBSEN,peFL,FREDRIKA LIMNELL,1870-12-24,DRESDEN,Dre,,,,,,,,
+B18701225JHT,peHI,HENRIK IBSEN,peJHT,JOHAN HERMAN THORESEN,1870-12-25,DRESDEN,Dre,"'peBB, peHJN, peFL'",,,,,,,"'woPG, woBall'"
+B18710106JB,peHI,HENRIK IBSEN,peJB,JOHAN BRAVO,1871-01-06,DRESDEN,Dre,"'peEGr, peAtD'",,orgSF,,Rom,Rom,,
+B18710108AK,peHI,HENRIK IBSEN,peAK,ANTON KLUBIEN,1871-01-08,DRESDEN,Dre,peFL,,,,Kbh,København,,"'woKE, woBall'"
+B18710108FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1871-01-08,DRESDEN,Dre,"'peJH, peECR, peBB, peJLi, peAK'",,,,,,,"'woKE, woBall'"
+B18710113JHT,peHI,HENRIK IBSEN,peJHT,JOHAN HERMAN THORESEN,1871-01-13,DRESDEN,Dre,peBB,,,,,,,woPG
+B18710114LK,peHI,HENRIK IBSEN,peLK,LAURA PETERSEN (G. KIELER),1871-01-14,DRESDEN,Dre,,,,,,,,woDi
+B18710120FW,peHI,HENRIK IBSEN,peFW,FREDERIK WINKEL HORN,1871-01-20,DRESDEN,Dre,peGBe,,orgKT,,"'N, Kbh'","'Norges, København'",,woKE
+B18710121FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1871-01-21,DRESDEN,Dre,"'peECR, peCPP, peBB, peCR'",,orgKT,,,,,"'woPVi, woTV, woDi'"
+B18710122KB,peHI,HENRIK IBSEN,peKB,KARL BOMHOFF,1871-01-22,DRESDEN,Dre,"'peSor, peFLG, peSuI, peJHT, peSiI'",,,,"'NewOr, Sed, Pa, Trhm, Ham, Kri, Tep, Kbh'","'New-Orleans, Sedan, Paris, Trondhjem, Hamburg, Kristiania, Teplitz, København'","'An den, Herrn Cand: pharm: K: Bomhoff., Adr: Herrn Apotheker Bruun, Drontheim., (Norwegen).'",woDi
+B18710131FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1871-01-31,DRESDEN,Dre,"'peGBe, peJLH, pePHa, peLHG, peJH, peCKFM'",,,,"'Kbh, N'","'København, Norge'",,"'woKE, woBergm, woByg, woAbLi, woKK'"
+B18710201AK,peHI,HENRIK IBSEN,peAK,ANTON KLUBIEN,1871-02-01,DRESDEN,Dre,,,,,,,,woDi
+B18710207PHe,peHI,HENRIK IBSEN,pePHe,PETER HEISE,1871-02-07,DRESDEN,Dre,"'peSJors, peVHei'",,,,Kbh,København,,"'woDi, woKE'"
+B18710208FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1871-02-08,DRESDEN,Dre,pePHa,,,,N,Norge,,"'woOrnDra, woHH, woKoHaGi'"
+B18710213AK,peHI,HENRIK IBSEN,peAK,ANTON KLUBIEN,1871-02-13,DRESDEN,Dre,"'peCFS, peCCH, peKongChr9'",,orgKUMin,,,,"'Hr: Højesteretsadvokat A: Klubien., Holmens Kanal, N,  4., Kopenhagen.'",woDi
+B18710215CFS,peHI,HENRIK IBSEN,peCFS,CHRISTIAN FREDERIK SCHWARTZKOPF,1871-02-15,DRESDEN,Dre,,,orgKUMin,,"'Dre, Kbh'","'Dresden, København'",,
+B18710216FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1871-02-16,DRESDEN,Dre,"'peGS, peCRLM, peBB, peJH'",,orgKT,,"'Kri, Sthlm, Rom, Dk'","'Christiania, Stokholm, Rom, Danmark'",,"'woHiTilSv, woOrnDra, woBall, woPVi, woKE, woKK, woBr, woPG'"
+B18710217GB,peHI,HENRIK IBSEN,peGB,GEORG BRANDES,1871-02-17,DRESDEN,Dre,"'peRNi, peFH, peArius'",,,,"'Fr, Pr, Pal, Dre'","'Frankrigs, Preussens, Palæstina, Dresden'",,woDi
+B18710218JB,peHI,HENRIK IBSEN,peJB,JOHAN BRAVO,1871-02-18,DRESDEN,Dre,"'peAtD, peSpi, peKvK, peSuI'",,,,"'It, Rom, Kbh, Kri'","'Italien, Rom, København, Kristiania'",,woKG
+B18710218GBe,peHI,HENRIK IBSEN,peGBe,GOTTLOB BERNER,1871-02-18,DRESDEN,Dre,peFW,,orgKT,,,,,"'woDi, woKE'"
+B18710219FGK,peHI,HENRIK IBSEN,peFGK,FREDERICK GOTSCHALK KNUDTZON,1871-02-19,DRESDEN,Dre,"'peGB, peLASc'",,,,"'Dk, Pr'","'Danmark, Preussens'",,woDi
+B18710225FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1871-02-25,DRESDEN,Dre,"'peAuLa, peJH'",,,,Kbh,København,,
+B18710226KUMin,peHI,HENRIK IBSEN,orgKUMin,KIRKE- OG UNDERVISNINGSMINISTERIET I KØBENHAVN,1871-02-26,DRESDEN,Dre,,,,,,,,
+B18710301FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1871-03-01,DRESDEN,Dre,"'peAuLa, peJH'",,,,,,,"'woKE, woBall'"
+B18710302LD,peHI,HENRIK IBSEN,peLD,LORENTZ DIETRICHSON,1871-03-02,DRESDEN,Dre,"'peCAL, peFL, peGS, peEaE, peJAM, peJFK, peCS, peRvonK, peJMD, peHoDi'",,orgKDTS,,"'Sthlm, Rom, N, Had, Ki, Eg, Nil, Nu, Ism'","'Stockholm, Rom, Norgesrejse, Haderslev, Kiel, Egypten, Nil-rejse, Nubien, Ismailia'",,woDi
+B18710305Gyl,peHI,HENRIK IBSEN,orgGyl,DEN GYLDENDALSKE BOGHANDEL,1871-03-05,DRESDEN,Dre,"'peAMS, peBB'",,orgGyl,,,,,
+B18710323FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1871-03-23,DRESDEN,Dre,peJH,,orgKT,,,,'Hr: cancelliråd Hegel.',
+B18710330JB,peHI,HENRIK IBSEN,peJB,JOHAN BRAVO,1871-03-30,DRESDEN,Dre,"'peAtD, peSpi, peKvK, peGB, peOF'",,,,"'It, Kbh, Kri, Rom'","'Italien, København, Christiania, Rom'",,
+B18710407FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1871-04-07,DRESDEN,Dre,"'peCH, peJH'",,,,Sthlm,Stockholm,,woDi
+B18710413KongK4,peHI,HENRIK IBSEN,peKongK4,KONG KARL 15.,1871-04-13,DRESDEN,Dre,peKongChr9,,orgKUMin,,,,,
+B18710415FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1871-04-15,DRESDEN,Dre,"'peLov, peJLH, peAuLa, peJH'",,,,,,,"'woBall, woRimJLH'"
+B18710415JLH,peHI,HENRIK IBSEN,peJLH,JOHANNE LUISE HEIBERG,1871-04-15,DRESDEN,Dre,,,,,,,"'Fru Etatsrådinde Heiberg., Rosenvænget., Kopenhagen.'",
+B18710423FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1871-04-23,DRESDEN,Dre,peJLH,,,,,,,
+B18710425FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1871-04-25,DRESDEN,Dre,peAFK,,,,,,,woDi
+B18710425AFK,peHI,HENRIK IBSEN,peAFK,ANDREAS FREDERIK KRIEGER,1871-04-25,DRESDEN,Dre,,,,,,,,woDi
+B18710426KB,peHI,HENRIK IBSEN,peKB,KARL BOMHOFF,1871-04-26,DRESDEN,Dre,"'peMTh, peMou, peVil1, peKongJoh, peSor, peSuI'",,,,Ham,Hamburgs,"'Hr: cand: pharm: K: Bomhoff., Drontheim., (Norwegen.)'",
+B18710501FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1871-05-01,DRESDEN,Dre,peAI,,,,"'Kri, Kbh'","'Kristiania, København'",,woDi
+B18710509FH,peHI,HENRIK IBSEN,peFH,FREDERIK HEGEL,1871-05-09,DRESDEN,Dre,"'peAuLa, pePKK, peAI, peJH, peIsP, peAbd'",,orgGyl,,Ist,Konstantinopel,,"'woDi, woBr, woPG, woBall'"
+B18710510OvK,peHI,HENRIK IBSEN,peOvK,OSCAR VON KNORRING,1871-05-10,DRESDEN,Dre,"'peJDCL, peDem'",,,,"'Finn, Nu, Eg, Sthlm'","'Finmarken, Nubien, Egyptens, Stockholm'","'An den, Herrn Hauptmann Oscar von Knorring., Commandeur, Ritter, etc. etc -, Drottnings-gatan. 98. -, Stockholm.'",
+B18710513JB,peHI,HENRIK IBSEN,peJB,JOHAN BRAVO,1871-05-13,DRESDEN,Dre,"'peAtD, peCaWa, peAbd, peJDCL, peOvK, peGB, peNR, peHJBu, peJLHB'",,,,"'Kbh, Kri, Eg, Rom'","'København, Kristiania, Egypten, Rom'",,
+B18710513JHT,peHI,HENRIK IBSEN,peJHT,JOHAN HERMAN THORESEN,1871-05-13,DRESDEN,Dre,"'pePeSi, peIsP, peMTh, peTK, peMWB'",,,,"'Ist, SE, N, Kri'","'Konstantinopel, Sverig, Norge, Kristiania'",,
+B18710518GB,peHI,HENRIK IBSEN,peGB,GEORG BRANDES,1871-05-18,DRESDEN,Dre,"'peJB, peFH'",,,,"'Kbh, It, Fras, Aric, Pa'","'København, Italien, Frascati, Ariccia, Paris'",,woDi
+B18710523ChrTh,peHI,HENRIK IBSEN,orgChrTh,CHRISTIANIA THEATER,1871-05-23,DRESDEN,Dre,,,,,Kri,Kristiania,,
+B18710606KUMin,peHI,HENRIK IBSEN,orgKUMin,KIRKE- OG UNDERVISNINGSMINISTERIET I KØBENHAVN,1871-06-06,DRESDEN,Dre,peGS,,,,,,,
+B18510928NN_Til_Abonnenterne,peHI,HENRIK IBSEN,,[abonnentene av Andhrimner],1851-09-28,Kristiania,,,,,,,,,
+B18540401NN,peHI,HENRIK IBSEN,,ukjent mottager,1854-04-01,Trondheim,,,,,,,,,
+B18540406NN,peHI,HENRIK IBSEN,,ukjent mottager,1854-04-06,Trondheim,,,,,,,,,
+B18570208NN_I_et,peHI,HENRIK IBSEN,,ukjent mottager,1857-02-08,Bergen,,,,,,,,,
+B18580615CHa,peHI,HENRIK IBSEN,,Christian Hagemann,1858-06-15,Bergen,,peAnM,,,,"'Berg, Kri'","'Bergen, Christiania'",,
+B18591210HOB,peHI,HENRIK IBSEN,,Hans Ørn Blom,1859-12-10,Kristiania,,,,,,,,,
+B18600418OKL,peHI,HENRIK IBSEN,,Olaus Krabbe Lysholm,1860-04-18,Kristiania,,"'peMAS, peAugH, peJoaHW, peGNa, peAEH, peMatA, peJaHAs, peCJoh, peGLP, peCLW'",,,,,,,
+B18600806KongK4,peHI,HENRIK IBSEN,,kong Karl 15.,1860-08-06,Kristiania,,,,,,"'Lon, Pa, Kbh, Sthlm, SE, Dk, Berg, Ham, Berl, Dre'","'London, Paris, Kjøbenhavn, Stokholm, Sverig, Danmark, Bergen, Hamburg, Berlin, Dresden'",,
+B18601205Aftb,peHI,HENRIK IBSEN,,Aftenbladet,1860-12-05,Kristiania,,peLeoB,,,,,,,
+B18620314AkKoll,peHI,HENRIK IBSEN,,Det Akademiske Kollegium,1862-03-14,Kristiania,,,,,,"'N, Hard, SogFj, Mol, Roms'","'Norge, Hardanger, Sognefjorden, Molde, Romsdalen'",,
+B18621104NN_Da_jeg,peHI,HENRIK IBSEN,,ukjent mottager,1862-11-04,Kristiania,,,,,,,,,
+B18630108TT,peHI,HENRIK IBSEN,,Throndhjems Theater,1863-01-08,Kristiania,,,,,,,,,
+B18630306AkKoll1,peHI,HENRIK IBSEN,,Det Akademiske Kollegium,1863-03-06,Kristiania,,"'peJAAFD, peMaLa, peJMoe, pePCA'",,,,"'NFjrd, SMre'","'Nordfjord, Søndmør'",,
+B18630306AkKoll2,peHI,HENRIK IBSEN,,Det Akademiske Kollegium,1863-03-06,Kristiania,,"'peJAAFD, peAFa'",,,,"'N, NFjrd, SMre, ODA, Sda, NMre'","'Norge, Nordfjord, Søndmør, Opdal, Sundalen, Nordmør'",,
+B18630310KongK4,peHI,HENRIK IBSEN,,kong Karl 15.,1863-03-10,Kristiania,,"'peCLa, peSuI, peHCT, peSiI'",,,,"'Ski, Kbh, Kri, Dk, SE, N'","'Skien, Kjøbenhavn, Christiania, Danmark, Sverige, mit Fædreland'",,
+B18630527KongK4,peHI,HENRIK IBSEN,,kong Karl 15.,1863-05-27,Kristiania,,peBB,,,,"'Rom, Pa'","'Rom, Paris'",,
+B18670129JvK,peHI,HENRIK IBSEN,,Julie Kierulff,1867-01-29,Roma,,,,,,,,,
+Budat18680831JB,peHI,HENRIK IBSEN,,Johan Bravo,1868-08-31,[Berchtesgaden,,,,,,,,,
+B18701121JHT,peHI,HENRIK IBSEN,,Johan Herman Thoresen,1870-11-21,Dresden,,"'peJLo, peNap3, peSJaa, peJS'",,,,"'Metz, Fr'","'Metz, Frankrig'",,
+B18710227CCH,peHI,HENRIK IBSEN,,Carl Christian Hall,1871-02-27,Dresden,,peFH,,,,"'It, N, Dk'","'Italien, det norske, statssamfund, Danmarks'","'Hs: Excellence, Minister for Kirke- og Undervisningsvæsenet,, Geheimeråd C: Hall,, Storkors af Dannebrog, p.p. -, Kopenhagen.'",
