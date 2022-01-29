@@ -4,6 +4,8 @@ import sys
 import openpyxl
 import pandas as pd
 
+# this script extracts information pertaining an individual's profession and writes it into a
+# new csv file, to be used for visualisation purposes
 
 colnames = ['XML_ID','Wikidata_ID','Viaf_ID','NHRP_ID','Given_Name','Surname','Name',
             'Year_of_Birth','Year_of_Death','Lifespan','Instance','Gender',
