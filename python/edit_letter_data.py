@@ -80,6 +80,7 @@ def edit_letter_info_csv():
     collectiv_work = ['Collective_Vesions_ID']
     collective = {}
 
+    # create a dictionary with recipient's name as the key and percipient's id as the value
     recipient_dict = {}
     for n, m in zip(recip_name, recip_id):
         if n != '' and m != '':
@@ -87,6 +88,7 @@ def edit_letter_info_csv():
         else:
             continue
 
+    # for each letter in collection
     for i in range(1,2410):
         # clean sender name entries
         sender_name = ' '.join(s_name[i].split())
@@ -398,10 +400,10 @@ def geo_data():
     ment_loc_abbr = work_file.Mentioned_Places_Abbr.tolist()
     ment_location = work_file.Mentioned_Places.tolist()
     recip_address = work_file.Recipient_Adress.tolist()
-    #disp_location = list(dict.fromkeys(disp_location))
+    # disp_location = list(dict.fromkeys(disp_location))
+    # print(disp_location)
 
-    #print(disp_location)
-
+    # create list of all unique locations in mentioned places, add these to dictionary
     ment_place_list = []
     ment_ab_list = []
     places_dict = {}
@@ -428,12 +430,15 @@ def geo_data():
 
     # pprint.pprint(places_dict)
 
+    # capitalize place names
     for x, item in enumerate(disp_location):
         item = ' '.join(item.split())
         capitaized_item = item.title()
         disp_location[x] = capitaized_item
 
     #full_abbr_dict = dict(zip(disp_loc_abbr, disp_location))
+
+    # create dictionary of all unique dispatch location
     locations_dict = {}
     loc_list = []
     abbr_list = []
@@ -444,6 +449,7 @@ def geo_data():
             locations_dict[disp_location[i]] = {}
             locations_dict[disp_location[i]]['Abbreviation'] = disp_loc_abbr[i]
            # locations_dict[disp_loc_abbr[i]].append(disp_location[i])
+        # replace dictionary value if previously empty of equal to 'NN'
         elif locations_dict[disp_location[i]] == '' or locations_dict[disp_location[i]] == 'NN':
             # locations_dict[disp_location[i]] = dict.disp_loc_abbr[i]
             locations_dict[disp_location[i]]['Abbreviation'] = disp_loc_abbr[i]
@@ -476,7 +482,7 @@ def geo_data():
         if key == 'Pillnitz Ved Dresden' or key == '[Pillnitz Ved Dresden]':
             key_edit = 'Pillnitz'
             try:
-                gn = GeoNames(username='mastersstudent')
+                gn = GeoNames(username='mastersstudent')  # enter GeoNames username
                 place = (gn.geocode(key_edit))
                 raw_data = place.raw
                 locations_dict[key]['toponymName'] = raw_data['toponymName']
@@ -571,14 +577,15 @@ def geo_data():
                 locations_dict[key]['countryName'] = raw_data['countryName']
                 locations_dict[key]['countryId'] = raw_data['countryId']
 
-                time.sleep(10)
+                time.sleep(10)  # may work with shorter buffer
 
             except AttributeError:
                 print(key)
     #
     # #pprint.pprint(locations_dict)
     # # print(locations_dict.keys())
-    #
+
+    # create new lists for complied data from GeoNames
     correct_abbr = ['Abbriviations']
     geonameID_list = ['GeoName_ID']
     toponymName_list = ['toponymName']
@@ -591,8 +598,9 @@ def geo_data():
     new_recipient_addr_abbr = ['Recipient_Location_Abbr']
     recipiet_latitude = ['Recipient_Addr_Latitude']
     recipiet_longitude = ['Recipient_Addr_Longitude']
-    #
-    for full, abbr in zip(disp_location , disp_loc_abbr):
+
+    # collect missing information by looking up location names/ abbreviations in dictionary
+    for full, abbr in zip(disp_location, disp_loc_abbr):
         if full == '' and abbr == '':
             new_disp_abbr_locations.append(str(''))
             new_disp_location_list.append(str(''))
@@ -638,6 +646,7 @@ def geo_data():
             intermediate_address = []
             intermediate_abbr = []
 
+            # match tokens with mentioned locations
             for token in addr_tokens:
                 # print(token)
                 if token == '':
@@ -664,6 +673,7 @@ def geo_data():
             new_recipient_addr_list.append(intermediate_address)
             new_recipient_addr_abbr.append(intermediate_abbr)
 
+    # clean found places from previous step
     for x, item in enumerate(new_recipient_addr_list):
         if x == 0:
             new_recipient_addr_list[x] = str(item)
@@ -705,7 +715,6 @@ def geo_data():
     # print(len(new_recipient_addr_list))
 
     ### Sort through information from Geonames ###
-
     for r in range(1,2410):
         a = disp_location[r]
         b = new_recipient_addr_list[r]
