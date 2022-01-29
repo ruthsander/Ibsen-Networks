@@ -19,34 +19,6 @@ recip_place = work_file.Recipient_Location.tolist()
 recip_lat = work_file.Recipient_Addr_Latitude.tolist()
 recip_long = work_file.Recipient_Addr_Longitude.tolist()
 
-# disp_city = list(dict.fromkeys(disp_city))
-# disp_country = list(dict.fromkeys(disp_country))
-# disp_lat = list(dict.fromkeys(disp_lat))
-# disp_long = list(dict.fromkeys(disp_long))
-
-# for a,b,c in zip(recip_place,recip_lat,recip_long):
-#     if a == '' and b == '' and c == '':
-#         recip_place.remove(a)
-#         recip_lat.remove(b)
-#         recip_long.remove(c)
-#     else:
-#         continue
-
-
-# print(len(disp_city))
-# print(disp_city)
-# for n in range(1,2410):
-#     city = disp_city[n]
-#     country = disp_country[n]
-#     lat = disp_lat[n]
-#     long = disp_long[n]
-
-    # if city == '' and country == '' and lat == '' and long == '':
-    #     disp_city.remove(city)
-    #     disp_country.remove(country)
-    #     disp_lat.remove(lat)
-    #     disp_long.remove(long)
-
 with open('All_Recipient_Coordinates.csv', 'w', ) as work_csv:
     wr = csv.writer(work_csv, delimiter=',')
 
