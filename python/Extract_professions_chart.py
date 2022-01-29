@@ -43,22 +43,6 @@ for o in expand_prof:
         occup_frequency[index] = occup_frequency[index]+1
 
 
-# print(occup_frequency)
-# print(len(disp_city))
-# print(disp_city)
-# for n in range(1,2410):
-#     city = disp_city[n]
-#     country = disp_country[n]
-#     lat = disp_lat[n]
-#     long = disp_long[n]
-
-    # if city == '' and country == '' and lat == '' and long == '':
-    #     disp_city.remove(city)
-    #     disp_country.remove(country)
-    #     disp_lat.remove(lat)
-    #     disp_long.remove(long)
-
-#
 with open('Occupation_freq.csv', 'w', ) as work_csv:
     wr = csv.writer(work_csv, delimiter=',')
 
