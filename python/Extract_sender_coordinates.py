@@ -4,6 +4,8 @@ import sys
 import openpyxl
 import pandas as pd
 
+# this script extracts information pertaining the sender's location (dispatch location) and writes it into a
+# new csv file, to be used for visualisation purposes
 
 colnames = ['Letter_ID','Sender_ID','Sender_Name','Recipient_ID','Recipient_Name','Date',
             'Dispatch_Location','Dispatch_Location_Abbr','GeoName_ID','toponymName','Country',
