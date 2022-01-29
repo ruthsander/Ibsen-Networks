@@ -18,6 +18,8 @@ import openpyxl
 import time
 from geopy.geocoders import GeoNames
 
+### This script edits the data collected using 'ExtractLetterData.py" ###
+
 
 def edit_letter_info_csv():
     colnames = ['Number', 'Letter_ID','Sender_ID','Sender_Name','Recipient_ID','Recipient_Name','Date','Dispatch_Location','Dispatch_Location_Abbr','Mentioned_Person_ID','Mentioned_Person','Mentioned_Org_ID','Mentioned_Org','Mentioned_Places_Abbr','Mentioned_Places','Recipient_Adress', 'Mentioned_Works_IDs']
@@ -52,7 +54,7 @@ def edit_letter_info_csv():
     for x in range(1,1704):
         dict_person_reg[register_pid[x]]= register_name[x]
 
-
+    # create lists with information found in Excel file 'Works_ids_and_text_NME'
     #pprint.pprint(dict_person_reg)
     #print(len(ment_pers))
     workbook = openpyxl.load_workbook('../xml-filer/Works_ids_and_text_NME.xlsx')
@@ -67,6 +69,7 @@ def edit_letter_info_csv():
         tekstID.append(sheet.cell(row=rowNum, column=4).value)
         sjanger.append(sheet.cell(row=rowNum, column=5).value)
 
+    # create new lists for edited information
     new_sender_names = ['Sender_Name']
     new_mentioned_pers_names = ['Mentioned_Persons']
     new_mentioned_orgs = ['Mentioned_Org']
@@ -125,73 +128,71 @@ def edit_letter_info_csv():
         new_mentioned_orgs.append(str(re.sub('\'', '', str(intermediate_org_list))).lstrip('[').rstrip(']'))
 
         # add recipient id based on name
-
-
         intermediate_id_list = []
         recipient_name = recip_name[i]
-        recipient_uppecase = recipient_name.upper()
+        recipient_uppercase = recipient_name.upper()
         recipient_id = recip_id[i]
         # print(recipient_name)
         if recipient_name == '':
             intermediate_id_list.append(str(''))
         else:
-            if recipient_uppecase in recipient_dict.keys():
-                intermediate_id_list.append(recipient_dict[recipient_uppecase])
+            if recipient_uppercase in recipient_dict.keys():
+                intermediate_id_list.append(recipient_dict[recipient_uppercase])
             elif recipient_name == 'ukjent mottager' or recipient_name == 'UKJENT MOTTAGER':
-                # new_recipient_ids.append('unknow_per')
-                intermediate_id_list.append('unknow_person')
+                # new_recipient_ids.append('unknown_per')
+                intermediate_id_list.append('unknown_person')
             elif recipient_name == 'ukjente mottagere':
-                intermediate_id_list.append('unknow_persons')
-            elif recipient_uppecase == 'JOHAN CHRISTIAN DAHL':
+                intermediate_id_list.append('unknown_persons')
+            elif recipient_uppercase == 'JOHAN CHRISTIAN DAHL':
                 intermediate_id_list.append('peJCDa')
-            elif recipient_uppecase == 'FREDERIK HEGEL':
+            elif recipient_uppercase == 'FREDERIK HEGEL':
                 intermediate_id_list.append('peFH')
-            elif recipient_uppecase == 'PETER HANSEN':
+            elif recipient_uppercase == 'PETER HANSEN':
                 intermediate_id_list.append('pePHa')
-            elif recipient_uppecase == 'FREDERIK BLICH':
+            elif recipient_uppercase == 'FREDERIK BLICH':
                 intermediate_id_list.append('peDrB')
-            elif recipient_uppecase == 'DAHL':
+            elif recipient_uppercase == 'DAHL':
                 intermediate_id_list.append('peDahl')
-            elif recipient_uppecase == 'CHRISTIAN HAMMER':
+            elif recipient_uppercase == 'CHRISTIAN HAMMER':
                 intermediate_id_list.append('peCH')
-            elif recipient_uppecase == 'EMIL JONAS':
+            elif recipient_uppercase == 'EMIL JONAS':
                 intermediate_id_list.append('peEJ')
-            elif recipient_uppecase == 'AUGUST LINDBERG':
+            elif recipient_uppercase == 'AUGUST LINDBERG':
                 intermediate_id_list.append('peAL')
-            elif recipient_uppecase == 'BJØRN BJØRNSON':
+            elif recipient_uppercase == 'BJØRN BJØRNSON':
                 intermediate_id_list.append('peBBj')
-            elif recipient_uppecase == 'LUDVIG AUBERT':
+            elif recipient_uppercase == 'LUDVIG AUBERT':
                 intermediate_id_list.append('peLMBA')
-            elif recipient_uppecase == 'JOHAN HJORT':
+            elif recipient_uppercase == 'JOHAN HJORT':
                 intermediate_id_list.append('peJHj')
-            elif recipient_uppecase == 'FREDRIK GRØN':
+            elif recipient_uppercase == 'FREDRIK GRØN':
                 intermediate_id_list.append('peAFG')
-            elif recipient_uppecase == 'NILS VOGT':
+            elif recipient_uppercase == 'NILS VOGT':
                 intermediate_id_list.append('peNVo')
-            elif recipient_uppecase == 'CHRISTIAN SONTUM':
+            elif recipient_uppercase == 'CHRISTIAN SONTUM':
                 intermediate_id_list.append('peChrSo')
-            elif recipient_uppecase == 'ERIK LIE':
+            elif recipient_uppercase == 'ERIK LIE':
                 intermediate_id_list.append('peELie')
-            elif recipient_uppecase == 'LAURA FITINGHOFF':
+            elif recipient_uppercase == 'LAURA FITINGHOFF':
                 intermediate_id_list.append('peLFi')
-            elif recipient_uppecase == 'LUDVIG DAAE':
+            elif recipient_uppercase == 'LUDVIG DAAE':
                 intermediate_id_list.append('peLuDa')
-            elif recipient_uppecase == 'OSCAR WERGELAND':
+            elif recipient_uppercase == 'OSCAR WERGELAND':
                 intermediate_id_list.append('peOWe')
-            elif recipient_uppecase == 'KRISTIANIA ARBEIDERSAMFUND':
+            elif recipient_uppercase == 'KRISTIANIA ARBEIDERSAMFUND':
                 intermediate_id_list.append('orgKrArb')
-            elif recipient_uppecase == 'HENRIK JÆGER':
+            elif recipient_uppercase == 'HENRIK JÆGER':
                 intermediate_id_list.append('peHeJa')
-            elif recipient_uppecase == 'CHRISTIAN HOSTRUP':
+            elif recipient_uppercase == 'CHRISTIAN HOSTRUP':
                 intermediate_id_list.append('peJCH')
-            elif recipient_uppecase == 'JOHANNES STEEN':
+            elif recipient_uppercase == 'JOHANNES STEEN':
                 intermediate_id_list.append('peJSte')
-            elif recipient_uppecase == 'KNUD KNUDSEN':
+            elif recipient_uppercase == 'KNUD KNUDSEN':
                 intermediate_id_list.append('peKKspr')
-            elif recipient_uppecase == 'THOMAS KRAG':
+            elif recipient_uppercase == 'THOMAS KRAG':
                 intermediate_id_list.append('peTPK')
             else:
-                tokenize_name = recipient_uppecase.split(' ')
+                tokenize_name = recipient_uppercase.split(' ')
                 for value in dict_person_reg.values():
                     # for token in tokenize_name:
                     # if all token in dict_person_reg.values():
@@ -385,7 +386,8 @@ letter_id,s_id,new_sender_names, new_recipient_ids, recip_name, date,ment_place,
 #
 #
 # #recipIDsANDnames_csv(strangeId,strangeName)
-#
+
+
 def geo_data():
     colnames = ['Letter_ID','Sender_ID','Sender_Name','Recipient_ID','Recipient_Name','Date','Dispatch_Location','Dispatch_Location_Abbr','Mentioned_Person_ID','Mentioned_Person','Mentioned_Org_ID','Mentioned_Org','Mentioned_Places_Abbr','Mentioned_Places','Recipient_Adress', 'Mentioned_Works_IDs']
 
