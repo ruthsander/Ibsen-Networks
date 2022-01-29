@@ -49,11 +49,6 @@ letter_text1871_1879 = tree1871_1879.xpath('//tei:text[@rend="letter"]', namespa
 letter_text1880_1889 = tree1880_1889.xpath('//tei:text[@rend="letter"]', namespaces=ns)
 letter_text1890_1905 = tree1890_1905.xpath('//tei:text[@rend="letter"]', namespaces=ns)
 
-# print(letter_text1844_1871)
-# print(len(Letter_ID))
-# print(len(Mention_Works_Title))
-# print(len(Mentioned_Works_IDs))
-# print(len(Mention_Works_Genre))
 
 
 def ids_and_title_from_letters(letters1844_1871):
@@ -415,10 +410,7 @@ def edit_works_info(dict_titles_in_letters, letter_id_csv, title_in_csv, genres_
     new_work_ids = []
 
     for letter_id, title_csv, genre, title_id, collective_title, work_id in zip(letter_id_csv, title_in_csv, genres_csv, title_ids, collective_title_csv, works_ids_csv):
-        # intermediate_work_title = []
-        # intermediate_genres = []
-        # intermediate_title_ids = []
-        # intermediate_collective_titles = []
+
         try:
             if len(dict_titles_in_letters[letter_id])!=0:
                 add_titles = re.sub('\[', '', re.sub('\]', '', re.sub('\'', '', str(dict_titles_in_letters[letter_id]))))
@@ -524,7 +516,8 @@ def edit_works_info(dict_titles_in_letters, letter_id_csv, title_in_csv, genres_
 
 
 new_work_title, new_genres, new_title_ids, new_collective_titles, new_works_ids = edit_works_info(ids_titles_dict,Letter_ID,Mention_Works_Title,Mention_Works_Genre,Text_ID,Collective_Vesions_ID, Mentioned_Works_IDs)
-# edit_works_info(ids_titles_dict,Letter_ID,Mention_Works_Title,Mention_Works_Genre,Text_ID,Collective_Vesions_ID, Mentioned_Works_IDs)
+# edit_works_info(ids_titles_dict,Letter_ID,Mention_Works_Title,Mention_Works_Genre,Text_ID,
+# Collective_Vesions_ID, Mentioned_Works_IDs)
 
 
 def create_csv(new_work_title, new_genres, new_title_ids, new_collective_titles, new_works_ids):
@@ -580,39 +573,3 @@ def create_csv(new_work_title, new_genres, new_title_ids, new_collective_titles,
 
 create_csv(new_work_title, new_genres, new_title_ids, new_collective_titles, new_works_ids)
 
-#
-# def collect_titles_from_xml(ids):
-#     # brand = letter_text1844_1871.xpath('./tei:div[@type="letter"]/tei:p/text()[contains(.,"Brand")]', namespaces=ns)
-#     # bygmester_solness = letter_text1844_1871.xpath('./tei:div[@type="letter"]/tei:p/text()[contains(.,"Bygmester Solness")]', namespaces=ns)
-#     # catiline = letter_text1844_1871.xpath('./tei:div[@type="letter"]/tei:p/text()[contains(.,"Catilina")]', namespaces=ns)
-#     # de_unges_forbund = letter_text1844_1871.xpath('./tei:div[@type="letter"]/tei:p/text()[contains(.,"De unges Forbund")]', namespaces=ns)
-#     # en_folkefiende = letter_text1844_1871.xpath(
-#     #     './tei:div[@type="letter"]/tei:p/text()[contains(.,"Folkefiende")]', namespaces=ns)
-#     # episk_brand = letter_text1844_1871.xpath('./tei:div[@type="letter"]/tei:p/text()[contains(.,"Episk Brand")]', namespaces=ns)
-#     # et_dukkehjem = letter_text1844_1871.xpath('./tei:div[@type="letter"]/tei:p/text()[contains(.,"dukkehjem")]', namespaces=ns)
-#     # fjeldfuglen = letter_text1844_1871.xpath('./tei:div[@type="letter"]/tei:p/text()[contains(.,"Fjeldfuglen")]', namespaces=ns)
-#     # fruen_fra_havet = letter_text1844_1871.xpath('./tei:div[@type="letter"]/tei:p/text()[contains(.,"Fruen fra havet")]', namespaces=ns)
-#     # fru_inger_til_østeraad = letter_text1844_1871.xpath('./tei:div[@type="letter"]/tei:p/text()[contains(.,"Fru_Inger_til_Østeraad")]', namespaces=ns)
-#     # fru_inger_til_østeråd = letter_text1844_1871.xpath(
-#     #     './tei:div[@type="letter"]/tei:p/text()[contains(.,"Fru_Inger_til_Østeråd")]', namespaces=ns)
-#     # gengangere = letter_text1844_1871.xpath('./tei:div[@type="letter"]/tei:p/text()[contains(.,"Gengangere")]', namespaces=ns)
-#
-#     # letter_text = letter_text1844_1871.xpath('./tei:div[@type="letter"]/tei:p/text()', namespaces=ns)
-#     # for id in ids:
-#     #     try:
-#     #         result = re.search(r'(?<=Brand)[^.]*', letter_text)
-#     #     except None
-#
-#
-#
-#
-# # collect_titles_from_xml(xml_corresp_ids)
-# #
-# #
-# # for i in range(1,2410):
-# #     letter_id = Letter_ID[i]
-# #     works_title = Mention_Works_Title[i]
-# #     works_ids = Mentioned_Works_IDs[i]
-# #     genre = Mention_Works_Genre[i]
-# #
-#     # print(letter_id)
