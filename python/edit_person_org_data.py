@@ -21,18 +21,24 @@ ns = {'HIS': 'http://www.example.org/ns/HIS',
       'xml': 'http://www.w3.org/XML/1998/namespace',
       'tei': 'http://www.tei-c.org/ns/1.0'}
 
+# set root element for xml file
 tree = etree.parse('../github/Ibsen-Networks/xml-data/Navneregister_HISe.xml')
+# travel to specific elements within the xml file based on given root (tree)
 regest_entries = tree.xpath('//tei:div[@xml:id and @type="person" or @type="organisation"]', namespaces=ns)
 persons_regest_entries = tree.xpath('//tei:div[@xml:id and @type="person"]', namespaces=ns)
 
-# colnames = ['XML_ID','Wikidata_ID','Viaf_ID','NHRP_ID','Given_Name','Surname','Name','Year_of_Birth','Year_of_Death','Lifespan','Instance','Gender','Country_of_citizenship','Occupation','Letters_Received','Times_Mentioned','Brief_Description']
-# person_org_col = ['XML_ID','Wikidata_ID','Viaf_ID','NHRP_ID','Given_Name','Surname','Name','Year_of_Birth','Year_of_Death','Lifespan','Instance','Gender','Country_of_citizenship','Occupation','Letters_Received','Times_Mentioned','Brief_Description']
+# colnames = ['XML_ID','Wikidata_ID','Viaf_ID','NHRP_ID','Given_Name','Surname','Name','Year_of_Birth',
+# 'Year_of_Death','Lifespan','Instance','Gender','Country_of_citizenship','Occupation','Letters_Received','Times_Mentioned','Brief_Description']
+# person_org_col = ['XML_ID','Wikidata_ID','Viaf_ID','NHRP_ID','Given_Name','Surname','Name','Year_of_Birth',
+# 'Year_of_Death','Lifespan','Instance','Gender','Country_of_citizenship','Occupation','Letters_Received','Times_Mentioned','Brief_Description']
 # work_file = pd.read_csv('Person_Register_Info.csv', names=colnames, na_filter=False)
 #
 # ids_persons = work_file.XML_ID.tolist()
 # persons_names = work_file.Name.tolist()
 
 
+# function to count the number of letters received per person and how often each person was mentioned
+# creates two dictionaries with person-id as the key and frequency as the value
 def count_letters_to_person(reg_entries):
     n_letters_received = {'XML_ID': 'Letters_Received'}
     mentions_list = {'XML_ID': 'Times_Mentioned'}
@@ -46,14 +52,12 @@ def count_letters_to_person(reg_entries):
 
     return n_letters_received, mentions_list
 
-
-
-
-
 # print(n_letter_received)
 # print(n_mentions)
 
 
+# function to edit the collected person data found in previously compiled csv.
+# this function edits: citizenship, occupation, instance, gender
 def edit_person_org_csv():
     colnames = ['XML_ID', 'Wikidata_ID', 'Viaf_ID', 'NHRP_ID', 'Given_Name', 'Surname', 'Name', 'Year_of_Birth',
                 'Year_of_Death', 'Lifespan', 'Country_of_citizenship', 'Occupation', 'Instance', 'Gender',
@@ -77,9 +81,11 @@ def edit_person_org_csv():
     instance = work_file.Instance.tolist()
     gender = work_file.Gender.tolist()
     description = work_file.Brief_Description.tolist()
+
     occup_norsk = prof_file.Norsk.tolist()
     occup_eng = prof_file.English.tolist()
 
+# create list of all instances found in 'final_pers_org_details.csv' e.g. university, newspaper etc.
     instance_label = []
     for label in instance:
         if label not in instance_label:
@@ -87,8 +93,9 @@ def edit_person_org_csv():
                 continue
             else:
                 instance_label.append(label)
-    #pprint.pprint(instance_label)
+    # pprint.pprint(instance_label)
 
+# create list of all occupations found in 'final_pers_org_details.csv'
     prof_label = []
     for prof in occupation:
         if prof not in prof_label:
@@ -98,6 +105,7 @@ def edit_person_org_csv():
                 prof_label.append(prof)
     #pprint.pprint(prof_label)
 
+# dictionaries and lists containing norwegian/english terms. This is used to compare and add further data later
     dict_instance_label = {'bank': 'bank',
                            'stiftet': 'foundation',
                            'embetskontor': 'civil service office',
@@ -112,7 +120,7 @@ def edit_person_org_csv():
                            'litterært selskap': 'literary society',
                            'teater': 'theatre',
                            'interesseorganisasjon': 'interest group',
-                           #'interesseorganisasjon og teateragentur': 'interest group, theatre agency',
+                           # 'interesseorganisasjon og teateragentur': 'interest group, theatre agency',
                            'bedriftsstyre': 'company board',
                            'byrett': 'court',
                            'departement': 'ministry',
@@ -120,8 +128,8 @@ def edit_person_org_csv():
                            'hotell': 'hotel',
                            'komit': 'commitee',
                            'statsoverhode': 'head of state',
-                           #'teater, opera og ballett': 'theatre, opera, ballet',
-                           'ballett':'ballet',
+                           # 'teater, opera og ballett': 'theatre, opera, ballet',
+                           'ballett': 'ballet',
                            'arbeidersamfunn': 'writers’ organization',
                            'etat': 'budgetary',
                            'tidsskrift': 'magazine',
@@ -131,17 +139,17 @@ def edit_person_org_csv():
                            'lokaladministrativ enhet': 'local administrative unit',
                            'fetevareforretning': ''}
 
-    titles = {'fyrst':'Prince',
-              'prins':'Prince',
-              'dronning':'Queen',
+    titles = {'fyrst': 'Prince',
+              'prins': 'Prince',
+              'dronning': 'Queen',
               'keiser': 'Emperor',
               'keiserinne': 'Empress',
               'prinsesse': 'Princess',
               'greve': 'Count',
               'sultan': 'Sultan',
               'emir': 'Commander/Prince',
-              'grevinne':'Countess',
-              'kong':'King'}
+              'grevinne': 'Countess',
+              'kong': 'King'}
 
     gender_indicators = [
         'hustru',
@@ -152,44 +160,47 @@ def edit_person_org_csv():
         'inne']
 
     nationality = {
-        'norsk':'Norway',
-        'dansk':'Denmark',
-        'svensk':'Sweden',
-        'tysk':'Germany',
+        'norsk': 'Norway',
+        'dansk': 'Denmark',
+        'svensk': 'Sweden',
+        'tysk': 'Germany',
         'østerriksk': 'Austria',
-        'sveitsisk':'Switzerland',
-        'engelsk':'England',
-        'italiensk':'Italy',
-        'spansk':'Spain',
-        'fransk':'France',
-        'gresk':'Greece',
-        'polsk':'Poland',
-        'amerikansk':'United States of America',
-        'russisk':'Russia',
-        'tsjekkisk':'Czechoslovakia',
+        'sveitsisk': 'Switzerland',
+        'engelsk': 'England',
+        'italiensk': 'Italy',
+        'spansk': 'Spain',
+        'fransk': 'France',
+        'gresk': 'Greece',
+        'polsk': 'Poland',
+        'amerikansk': 'United States of America',
+        'russisk': 'Russia',
+        'tsjekkisk': 'Czechoslovakia',
         'britisk': 'United Kingdom of Great Britain and Ireland',
         'osmansk': 'Ottoman Empire'
     }
 
     female_profs = {
         'sangerinne': 'singer',
-        'salongvertinne':'salonnière',
-        'kvinnesaksforkjemper':'suffragette',
-        'friherrinne':'Baroness',
-        'skuespillerinne':'actor'
+        'salongvertinne': 'salonnière',
+        'kvinnesaksforkjemper': 'suffragette',
+        'friherrinne': 'Baroness',
+        'skuespillerinne': 'actor'
     }
 
+# create dictionary from data in 'occupations_list_edited.csv'
     dict_occup = {}
     for line in range(1, 229):
         norsk = occup_norsk[line]
         eng = occup_eng[line]
         dict_occup[norsk] = eng
 
-
+# create lists with edited information
     new_inst_list = ['Instance']
     new_occup_list = ['Occupation']
     new_gender_list = ['Gender']
     new_nationality_list = ['Country_of_citizenship']
+
+# go through person data ('final_pers_org_details.csv') by row. Each row is one person/organization
     for i in range(1, 1704):
         inst = instance[i]
         desc = description[i]
@@ -204,8 +215,8 @@ def edit_person_org_csv():
 
             if 'org' in xmlid:
                 key_list.append('organization')
-                #print(dict_instance_label[key])
-            #print(key_list)
+                # print(dict_instance_label[key])
+            # print(key_list)
             # if len(key_list) == 0:
             #     new_inst_list.append(str(''))
             # # elif len(key_list) == 1:
@@ -216,6 +227,8 @@ def edit_person_org_csv():
             inst_list = []
             if inst == 'human':
                 inst_list.append(inst)
+
+                # add titles such as King, Princess as entity descriptors for a person
                 for title in titles:
                     if title in desc:
                         inst_list.append(titles[title])
@@ -223,10 +236,13 @@ def edit_person_org_csv():
                         continue
 
             elif 'org' in xmlid:
+                # add 'organization as descriptor, previously only descriptors such as 'university'
                 inst_list.append('organization')
                 inst_list.append(inst)
 
-            #pprint.pprint(inst_list)
+            # pprint.pprint(inst_list)
+
+            # remove gender duplicates caused by string match.
             if 'Princess' in inst_list:
                 inst_list.remove('Prince')
 
@@ -243,6 +259,7 @@ def edit_person_org_csv():
         if 'human' not in new_inst_list[i]:
             temp_occup_list.append('organization')
         else:
+            # add missing professions for person
             for k in dict_occup:
                 if k in desc:
                     if dict_occup[k] in temp_occup_list:
@@ -250,6 +267,7 @@ def edit_person_org_csv():
                     else:
                         temp_occup_list.append(dict_occup[k])
 
+            # remove profession duplicates/wrongly assigned professions caused by string matching
             if 'literary historian' in temp_occup_list:
                 for items in temp_occup_list:
                     if items == 'literarian':
@@ -294,7 +312,6 @@ def edit_person_org_csv():
                         if key in desc:
                             temp_occup_list.append(female_profs[key])
 
-
         new_occup_list.append(temp_occup_list)
 
         # add missing genders
@@ -313,8 +330,11 @@ def edit_person_org_csv():
         # add missing citizenship information
         # !Overwrite the entries from Wikidata to normalise the different
         # names for a country, e.g. Nazi Germany -> Germany
-        # if citi_ship == str(''):
+        # also: remove citizenship for persons with 'married to' descriptors
+        # because the nationality refers to the spouse
+
         nat_list = []
+
         if 'hustru' in desc:
             nat_list.append(str(''))
         else:
@@ -326,10 +346,7 @@ def edit_person_org_csv():
         #     new_nationality_list.append(citi_ship)
         # print(nat_list)
 
-
-
-
-
+# clean up data entries in new lists
     for x in range(len(new_nationality_list)):
         new_input = re.sub('\[', '', re.sub('\]', '', re.sub('\'', '',str(new_nationality_list[x]))))
         new_nationality_list[x]=new_input
@@ -343,18 +360,18 @@ def edit_person_org_csv():
         new_occup_list[z]=new_input
     # pprint.pprint(new_nationality_list)
     print(len(new_nationality_list))
-    #pprint.pprint(new_nationality_list)
-    #print(len(new_nationality_list))
-
+    # pprint.pprint(new_nationality_list)
+    # print(len(new_nationality_list))
 
     return new_inst_list,new_gender_list,new_nationality_list, new_occup_list
 
 
 n_letter_received, n_mentions = count_letters_to_person(regest_entries)
-#print(n_letter_received)
+# print(n_letter_received)
 new_i_list, new_g_list,new_n_list,new_occup_list = edit_person_org_csv()
 
 
+# function to expand on marital status
 def extract_marriages(person_entries):
     colnames = ['XML_ID', 'Wikidata_ID', 'Viaf_ID', 'NHRP_ID', 'Given_Name', 'Surname', 'Name', 'Year_of_Birth',
                 'Year_of_Death', 'Lifespan', 'Country_of_citizenship', 'Occupation', 'Instance', 'Gender',
@@ -368,15 +385,20 @@ def extract_marriages(person_entries):
     married_to_dict = {}
     person_id = []
     spouse_id = []
+
     for person in person_entries:
+        # get attribute from xml element specified in xpath 'person_entires'
         xml_id = person.attrib['{http://www.w3.org/XML/1998/namespace}id']
 
         pers_entries += 1
 
+        # match element <p> containing string 'gift med'
         long_desc = person.xpath('./tei:p[text()[contains(.,"gift med")]]', namespaces=ns)
+
         for desc in long_desc:
             married_to_dict[xml_id] = {}
 
+            # clean string, remove
             def replace_all(text, dic):
                 for i, j in dic.items():
                     text = text.replace(i, j)
@@ -399,6 +421,7 @@ def extract_marriages(person_entries):
 
             result = re.search(r'(?<=gift med )[^.]*', cleaned_pers_texts)
 
+            # check if spouse has their own person id and add to dictionary
             try:
                 ref_pers = re.search('(?<=HIS:hisRef type="person" target=")[^">]*', str(result))
                 if ref_pers != None:
@@ -427,6 +450,7 @@ def extract_marriages(person_entries):
     Spouse_id = []
     Spouse_Name = []
 
+    # create lists from Excel file
     for rowNum in range(2, 243):
         Person_id.append(sheet.cell(row=rowNum, column=1).value)
         Spouse_id.append(sheet.cell(row=rowNum, column=3).value)
@@ -437,6 +461,7 @@ def extract_marriages(person_entries):
     # print(Spouse_Name)
     # ids = person.attrib['{http://www.w3.org/XML/1998/namespace}id']
 
+    # replace 'None' entries in list
     for x, entry in enumerate(Spouse_id):
         if entry == None:
             Spouse_id[x] = str('')
@@ -445,13 +470,17 @@ def extract_marriages(person_entries):
         if entry == None:
             Spouse_Name[x] = str('')
 
+    # create new lists for spouse info
+    # for each entry compare data from all lists and try to fill out missing data
+    # by matching names to ids and/or ids to names
+
     new_married_to_list = ['Spouse\'s_Name']
     new_married_to_id_list = ['Spouse\'s_ID']
-    #print(ids_persons)
-    print(len(ids_persons))
+    # print(ids_persons)
+    # print(len(ids_persons))
+
     for n in range(1, 1704):
         id = ids_persons[n]
-        # for id in ids_persons:
 
         if id in Person_id:
             i = Person_id.index(id)
@@ -483,12 +512,12 @@ def extract_marriages(person_entries):
                     cleaned_name = re.sub('\)','',re.sub('\(','', Spouse_Name[i]))
                 capital_names = cleaned_name.upper()
                 individual_names = capital_names.split(', ')
-                #print(individual_names)
+                # print(individual_names)
                 intermediate_id_list = []
                 # intermediate_name_list = []
                 for name in individual_names:
                     name_tokens = name.split(' ')
-                    #print(name)
+                    # print(name)
                     matched_ids = []
                     for value in persons_names:
                         v = re.sub('\]','',re.sub('\[','', value))
@@ -502,7 +531,7 @@ def extract_marriages(person_entries):
                             index_matched_name = persons_names.index(value)
                             print(ids_persons[index_matched_name])
                             matched_ids.append(ids_persons[index_matched_name])
-                            #intermediate_id_list.append(ids_persons[index_matched_name])
+                            # intermediate_id_list.append(ids_persons[index_matched_name])
                         else:
                             continue
 
@@ -519,6 +548,7 @@ def extract_marriages(person_entries):
             new_married_to_id_list.append(str(''))
             new_married_to_list.append(str(''))
 
+    # clean data
     for x, item in enumerate(new_married_to_id_list):
         new_item = re.sub('\'','', re.sub('\[', '', re.sub('\]', '',str(item))))
         new_married_to_id_list[x] = new_item
@@ -541,6 +571,7 @@ def extract_marriages(person_entries):
 new_married_to_list, new_married_to_id_list = extract_marriages(persons_regest_entries)
 
 
+# function to compile all relivent lists (edited and not edited) and create new csv file
 def combile_to_csv(instance, gender,citizenship,occupation,n_letter_received, n_mentions, new_married_to_list, new_married_to_id_list):
     colnames = ['XML_ID', 'Wikidata_ID', 'Viaf_ID', 'NHRP_ID', 'Given_Name', 'Surname', 'Name', 'Year_of_Birth',
                 'Year_of_Death', 'Lifespan', 'Country_of_citizenship', 'Occupation', 'Instance', 'Gender',
