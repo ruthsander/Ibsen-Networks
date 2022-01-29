@@ -19,11 +19,6 @@ disp_country = work_file.Country.tolist()
 disp_lat = work_file.Latitude.tolist()
 disp_long = work_file.Longitude.tolist()
 
-# disp_city = list(dict.fromkeys(disp_city))
-# disp_country = list(dict.fromkeys(disp_country))
-# disp_lat = list(dict.fromkeys(disp_lat))
-# disp_long = list(dict.fromkeys(disp_long))
-
 for a,b,c,d in zip(disp_city,disp_country,disp_lat,disp_long):
     if a == '' and b == '' and c == '' and d == '':
         disp_city.remove(a)
@@ -32,21 +27,6 @@ for a,b,c,d in zip(disp_city,disp_country,disp_lat,disp_long):
         disp_long.remove(d)
     else:
         continue
-
-
-# print(len(disp_city))
-# print(disp_city)
-# for n in range(1,2410):
-#     city = disp_city[n]
-#     country = disp_country[n]
-#     lat = disp_lat[n]
-#     long = disp_long[n]
-
-    # if city == '' and country == '' and lat == '' and long == '':
-    #     disp_city.remove(city)
-    #     disp_country.remove(country)
-    #     disp_lat.remove(lat)
-    #     disp_long.remove(long)
 
 with open('All_Sender_Coordinates.csv', 'w', ) as work_csv:
     wr = csv.writer(work_csv, delimiter=',')
