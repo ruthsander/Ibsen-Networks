@@ -50,7 +50,8 @@ letter_text1880_1889 = tree1880_1889.xpath('//tei:text[@rend="letter"]', namespa
 letter_text1890_1905 = tree1890_1905.xpath('//tei:text[@rend="letter"]', namespaces=ns)
 
 
-
+# search through all letter text for the names of Ibsen's works and
+# add the information to the appropriate lists
 def ids_and_title_from_letters(letters1844_1871):
     all_corresp_ids = {}
     for corresp in letter_text1844_1871:
@@ -385,6 +386,7 @@ def ids_and_title_from_letters(letters1844_1871):
 ids_titles_dict = ids_and_title_from_letters(letter_text1844_1871)
 
 
+# compare the data collected above with that contained in the csv. Add missing information
 def edit_works_info(dict_titles_in_letters, letter_id_csv, title_in_csv, genres_csv, title_ids, collective_title_csv, works_ids_csv):
     workbook = openpyxl.load_workbook('../xml-filer/Works_ids_and_text_NME.xlsx')
     sheet = workbook.active
@@ -520,6 +522,7 @@ new_work_title, new_genres, new_title_ids, new_collective_titles, new_works_ids 
 # Collective_Vesions_ID, Mentioned_Works_IDs)
 
 
+# compile all data -newly edited and none edited- and create new csv file
 def create_csv(new_work_title, new_genres, new_title_ids, new_collective_titles, new_works_ids):
     colnames = ['Letter_ID', 'Sender_ID', 'Sender_Name', 'Recipient_ID', 'Recipient_Name', 'Date',
                 'Dispatch_Location', 'Dispatch_Location_Abbr', 'GeoName_ID', 'toponymName', 'Country',
