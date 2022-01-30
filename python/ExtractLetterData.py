@@ -6,21 +6,26 @@ import re
 import csv
 import dateparser
 
+### This script is the first step in collecting the relevant data found in the letter xml-files ###
+## the xml-files are processed one after another. The file name needs to be changed for each pass ##
+
 #  declaring all namespaces present in the xml files
 ns = {'HIS': 'http://www.example.org/ns/HIS',
       'xml': 'http://www.w3.org/XML/1998/namespace',
       'tei': 'http://www.tei-c.org/ns/1.0'}
 
-tree = etree.parse('../github/Ibsen-Networks/xml-data/B1890-1905ht.xml')
+# declare root of the xml files and specify xpath to relevant nodes
+tree = etree.parse('../github/Ibsen-Networks/xml-data/B1890-1905ht.xml')  # change file name to the one being processed
 root = tree.getroot()
 letter_short_info = tree.xpath('//HIS:hisMsDesc[@type="letter"]', namespaces=ns)
 letter_text = tree.xpath('.//tei:text[@rend="letter"]', namespaces=ns)
 
 tree_info = etree.parse('../github/Ibsen-Networks/xml-data/B1890-1905_info.xml')
-letter_head = tree_info.xpath('.//tei:div[@type = "letterHead"]', namespaces=ns)
+letter_head = tree_info.xpath('.//tei:div[@type = "letterHead"]', namespaces=ns)  # change file name to the one being processed
 #   Header = root[0]
 
-
+# process information found in the element <HIS:hisMsDesc[@type="letter"]>
+# in this element information such as dates are encoded in the correct format
 def parse_letterinfo(letter_short_info):
     # retrieve all letter ids
     processed_letters = 0
@@ -31,6 +36,7 @@ def parse_letterinfo(letter_short_info):
 
         letter_info = entry.xpath('.//HIS:letterinfo[@corresp]', namespaces=ns)
         attributes_corresp = letter_info[0].attrib
+    # get the id of the letter being processed
         corresp = attributes_corresp['corresp']
         # info_ids.append(corresp)
         letter_short_infos[corresp] = {}
@@ -118,6 +124,7 @@ def parse_letterinfo(letter_short_info):
 
 # parse_letterinfo(letter_short_info)
 
+# retrieve further information from the letter text
 def parse_letter_text(letter_text):
     letter_texts = {}
     text_number = 0
@@ -131,12 +138,12 @@ def parse_letter_text(letter_text):
 
     for corres in letter_text:
 
-        # retrieve letter id
+    # retrieve letter id
         id_text = corres.attrib['corresp']
         letter_texts[id_text] = {}
         # print(id_text)
 
-        # retrieve persons mentioned in letter
+    # retrieve persons mentioned in letter
         per_mentioned = corres.xpath('.//HIS:hisRef[@type="person"]', namespaces=ns)
         mentioned_per_id = []
         for per in per_mentioned:
@@ -153,7 +160,7 @@ def parse_letter_text(letter_text):
         else:
             letter_texts[id_text]['per_m_id'] = mentioned_per_id
 
-        # retrieve works mentioned in letter
+    # retrieve works mentioned in letter
         works_mentioned = corres.xpath('.//HIS:hisRef[@type="work"]', namespaces=ns)
         mentioned_works = []
         #print(works_mentioned)
@@ -184,7 +191,7 @@ def parse_letter_text(letter_text):
             # else:
             #     continue
 
-        # retrieve places mentioned in letter
+    # retrieve places mentioned in letter
         place_mentioned = corres.xpath('.//HIS:hisRef[@type="place"]', namespaces=ns)
         place_mentioned_text = corres.xpath('.//HIS:hisRef[@type="place"]/text()', namespaces=ns)
         mentioned_pl_id_abbr = []
@@ -216,7 +223,7 @@ def parse_letter_text(letter_text):
         else:
             letter_texts[id_text]['place_m_name'] = mentioned_pl_full
 
-        # retrieve organisations mentioned in the letter
+    # retrieve organisations mentioned in the letter
         org_mentioned = corres.xpath('.//HIS:hisRef[@type="org"]', namespaces=ns)
         mentioned_org_id = []
         for org in org_mentioned:
@@ -230,7 +237,7 @@ def parse_letter_text(letter_text):
         else:
             letter_texts[id_text]['org_m_id'] = mentioned_org_id
 
-        # retrieve sending address
+    # retrieve sending address
         send_to = corres.xpath('.//HIS:envelope/tei:address/tei:addrLine/text()', namespaces=ns)
         # addr_string = str(etree.tostring(send_to[0]))
         addr_str = []
@@ -257,28 +264,31 @@ def parse_letter_text(letter_text):
 
 # parse_letter_text(letter_text)
 
+# collect data from the letter heads found in 'B*_info.xml"
+# there are about 20 letters per xml file 'B*ht.xml' that don't have a short info (above)
+# missing date for these letters is collected from the info.xml
 def parse_letter_heads(heads):
     letter_head_info = {}
     text_number = 0
     for head in heads:
-        # retrieve letter id
+    # retrieve letter id
         id_text_head = head.attrib['corresp']
         letter_head_info[id_text_head] = {}
 
         # add sender id
         letter_head_info[id_text_head]['sender_id'] = str('peHI')
 
-        # retrieve recipient
+    # retrieve recipient
         recip_head = str(head.xpath('.//tei:name/text()', namespaces=ns))
         recip_name = str(re.sub('Til ', '', re.sub(',', '', recip_head)))
         #print(recip_name)
         letter_head_info[id_text_head]['recipient_name'] = recip_name
 
-        # retrieve dispatch location
+    # retrieve dispatch location
         dispatch_head = str(head.xpath('.//tei:placeName/text()', namespaces=ns))
         letter_head_info[id_text_head]['dispatch_location_name'] = dispatch_head
 
-        # retrieve date
+    # retrieve date
         date_head = str(head.xpath('.//tei:date/text()', namespaces=ns))
         try:
             cleaned_date = dateparser.parse(re.sub('\[', '', re.sub(']', '', re.sub('\'', '', date_head)))).strftime("%Y-%m-%d")
@@ -295,41 +305,44 @@ dict_letter_info = (parse_letterinfo(letter_short_info))
 dict_letter_text = parse_letter_text(letter_text)
 dict_letter_head = parse_letter_heads(letter_head)
 
+# in this section the data that was collected in the previous sections is pieced
+# together from the different dictionaries based on the letter id
+# where possible the data found in dict_letter_info is used, before turing to the dict_letter_head
 def compile_letter_info(dict_info, dict_text, dict_head):
     list_info_per_letter = [['Letter_ID','Sender_ID','Sender_Name','Recipient_ID', 'Recipient_Name', 'Date', 'Dispatch_Location', 'Dispatch_Location_Abbr', 'Mentioned_Person_ID', 'Mentioned_Person', 'Mentioned_Org_ID', 'Mentioned_Org', 'Mentioned_Places_Abbr', 'Mentioned_Places', 'Recipient_Adress','Mentioned_Works_IDs']]
 
     for key in dict_info.keys():
         individual_letter_list =[]
-        # append letter id
+    # append letter id
         individual_letter_list.append(key)
-        # get sender id
+    # get sender id
         sender_string = str(dict_info[key]['sender_ids'])
         individual_letter_list.append(str(re.sub('\[\'', '',(re.sub('\'\]', '', sender_string)))))
-        # get sender name
+    # get sender name
         sender_n_string = re.sub('\[\'', '',(re.sub('\'\]', '', str((dict_info[key]['sender_name'])))))
         individual_letter_list.append(sender_n_string)
-        # get recipient id
+    # get recipient id
         recipient_string = str(dict_info[key]['recipient_ids'])
         individual_letter_list.append(str(re.sub('\[\'', '', (re.sub('\'\]', '', recipient_string)))))
-        # get recipient name
+    # get recipient name
         recip_n_string = str(dict_info[key]['recipient_name'])
         individual_letter_list.append(re.sub('\[\'', '',(re.sub('\'\]', '', str(recip_n_string)))))
-        # get send date
+    # get send date
         individual_letter_list.append(str(dict_info[key]['send_date']))
-        # get dispatch location name
+    # get dispatch location name
         individual_letter_list.append(str(dict_info[key]['dispatch_loc_full']))
-        # get dispatch location abbreviation
+    # get dispatch location abbreviation
         individual_letter_list.append(str(dict_info[key]['dispatch_loc_abbr']))
-        # get ids of persons mentioned
+    # get ids of persons mentioned
         if len(dict_text[key]['per_m_id'])==0:
             individual_letter_list.append(str(''))
         elif len(dict_text[key]['per_m_id'])==1:
             individual_letter_list.append(str(re.sub('\[', '',re.sub('\]', '', (re.sub('\'', '', str(dict_text[key]['per_m_id'])))))))
         else:
             individual_letter_list.append(str(re.sub('\[', '\'',(re.sub('\]', '\'', (re.sub('\'', '', str(dict_text[key]['per_m_id']))))))))
-        # append name of persons mentioned
+    # append name of persons mentioned
         individual_letter_list.append(str(''))
-        # get ids of organisations mentioned
+    # get ids of organisations mentioned
         if len(dict_text[key]['org_m_id']) == 0:
             individual_letter_list.append(str(''))
         elif len(dict_text[key]['org_m_id']) == 1:
@@ -338,30 +351,30 @@ def compile_letter_info(dict_info, dict_text, dict_head):
         else:
             individual_letter_list.append(
                 str(re.sub('\[', '\'', (re.sub('\]', '\'', (re.sub('\'', '', str(dict_text[key]['org_m_id']))))))))
-        # append name of organisations mentioned
+    # append name of organisations mentioned
         individual_letter_list.append(str(''))
-        # get mentoned places'ids
+    # get mentoned places'ids
         if len(dict_text[key]['place_m_id'])==0:
             individual_letter_list.append(str(''))
         elif len(dict_text[key]['place_m_id'])==1:
             individual_letter_list.append(str(re.sub('\[', '',re.sub('\]', '', (re.sub('\'', '', str(dict_text[key]['place_m_id'])))))))
         else:
             individual_letter_list.append(str(re.sub('\[', '\'',(re.sub('\]', '\'', (re.sub('\'', '', str(dict_text[key]['place_m_id']))))))))
-        # get mentioned places' names
+    # get mentioned places' names
         if len(dict_text[key]['place_m_name'])==0:
             individual_letter_list.append(str(''))
         elif len(dict_text[key]['place_m_name'])==1:
             individual_letter_list.append(str(re.sub('\[', '',re.sub('\]', '', (re.sub('\'', '', str(dict_text[key]['place_m_name'])))))))
         else:
             individual_letter_list.append(str(re.sub('\[', '\'',(re.sub('\]', '\'', (re.sub('\'', '', str(dict_text[key]['place_m_name']))))))))
-        # get address of recipient
+    # get address of recipient
         if len(dict_text[key]['recipient_addr'])==0:
             individual_letter_list.append(str(''))
         else:
             #len(dict_text[key]['recipient_addr'])==1:
             individual_letter_list.append(str(re.sub('\[', '\'',re.sub('\]', '\'', (re.sub('\'', '', str(dict_text[key]['recipient_addr'])))))))
         list_info_per_letter.append(individual_letter_list)
-        # get works mentioned
+    # get works mentioned
         if len(dict_text[key]['works_m_id']) == 0:
             individual_letter_list.append(str(''))
         elif len(dict_text[key]['works_m_id']) == 1:
@@ -371,39 +384,40 @@ def compile_letter_info(dict_info, dict_text, dict_head):
             individual_letter_list.append(
                 str(re.sub('\[', '\'', (re.sub('\]', '\'', (re.sub('\'', '', str(dict_text[key]['works_m_id']))))))))
 
+    # only process letters which don't have an entry in dict_letter_info
     for keys in dict_head.keys():
         if keys in dict_info:
             continue
         else:
             solo_letter_list = []
-            # append letter id
+        # append letter id
             solo_letter_list.append(keys)
-            # get sender id
+        # get sender id
             sender_str = str(dict_head[keys]['sender_id'])
             solo_letter_list.append(str(re.sub('\'', '', (re.sub('\'', '', sender_str)))))
-            # append sender name
+        # append sender name
             solo_letter_list.append('HENRIK IBSEN')
-            # get recipient id
+        # get recipient id
             solo_letter_list.append(str(''))
-            # get recipient name
+        # get recipient name
             recip_name = str(dict_head[keys]['recipient_name'])
             solo_letter_list.append(re.sub('\[\'', '', (re.sub('\'\]', '', recip_name))))
-            # get send date
+        # get send date
             solo_letter_list.append(str(dict_head[keys]['date']))
-            # get dispatch location name
+        # get dispatch location name
             solo_letter_list.append(re.sub('\[\'', '', (re.sub('\'\]', '',(str(dict_head[keys]['dispatch_location_name']))))))
-            # get dispatch location abbreviation
+        # get dispatch location abbreviation
             solo_letter_list.append(str(''))
-            # get ids of persons mentioned
+        # get ids of persons mentioned
             if len(dict_text[keys]['per_m_id']) == 0:
                 solo_letter_list.append(str(''))
             elif len(dict_text[keys]['per_m_id']) == 1:
                 solo_letter_list.append(str(re.sub('\[', '', re.sub('\]', '', (re.sub('\'', '', str(dict_text[keys]['per_m_id'])))))))
             else:
                 solo_letter_list.append(str(re.sub('\[', '\'', (re.sub('\]', '\'', (re.sub('\'', '', str(dict_text[keys]['per_m_id']))))))))
-            # append name of persons mentioned
+        # append name of persons mentioned
             solo_letter_list.append(str(''))
-            # get ids of organisations mentioned
+        # get ids of organisations mentioned
             if len(dict_text[keys]['org_m_id']) == 0:
                 solo_letter_list.append(str(''))
             elif len(dict_text[keys]['org_m_id']) == 1:
@@ -412,30 +426,30 @@ def compile_letter_info(dict_info, dict_text, dict_head):
             else:
                 solo_letter_list.append(
                     str(re.sub('\[', '\'', (re.sub('\]', '\'', (re.sub('\'', '', str(dict_text[key]['org_m_id']))))))))
-            # append name of organisations mentioned
+        # append name of organisations mentioned
             solo_letter_list.append(str(''))
-            # get mentoned places'ids
+        # get mentoned places'ids
             if len(dict_text[keys]['place_m_id']) == 0:
                 solo_letter_list.append(str(''))
             elif len(dict_text[keys]['place_m_id']) == 1:
                 solo_letter_list.append(str(re.sub('\[', '', re.sub('\]', '', (re.sub('\'', '', str(dict_text[keys]['place_m_id'])))))))
             else:
                 solo_letter_list.append(str(re.sub('\[', '\'', (re.sub('\]', '\'', (re.sub('\'', '', str(dict_text[keys]['place_m_id']))))))))
-            # get mentioned places' names
+        # get mentioned places' names
             if len(dict_text[keys]['place_m_name']) == 0:
                 solo_letter_list.append(str(''))
             elif len(dict_text[keys]['place_m_name']) == 1:
                 solo_letter_list.append(str(re.sub('\[', '', re.sub('\]', '', (re.sub('\'', '', str(dict_text[keys]['place_m_name'])))))))
             else:
                 solo_letter_list.append(str(re.sub('\[', '\'', (re.sub('\]', '\'', (re.sub('\'', '', str(dict_text[keys]['place_m_name']))))))))
-            # get address of recipient
+        # get address of recipient
             if len(dict_text[keys]['recipient_addr']) == 0:
                 solo_letter_list.append(str(''))
             else:
                 # len(dict_text[key]['recipient_addr'])==1:
                 solo_letter_list.append(
                     str(re.sub('\[', '\'', re.sub('\]', '\'', (re.sub('\'', '', str(dict_text[keys]['recipient_addr'])))))))
-            # get works mentioned
+        # get works mentioned
             if len(dict_text[keys]['works_m_id']) == 0:
                 solo_letter_list.append(str(''))
             elif len(dict_text[keys]['works_m_id']) == 1:
@@ -459,8 +473,10 @@ def compile_letter_info(dict_info, dict_text, dict_head):
     #     letter_id = entries.key
     #     print(letter_id)
 
+# create a csv per xml files processed. Change the name according to the year group being processed.
 def create_csv_letters(info_list):
 
+    # match csv name to the year group (1844-1871, 1871-1879 etc.)
     with open('letter_information_1890-1905.csv', 'w', ) as work_csv:
         wr = csv.writer(work_csv, delimiter=',')
 
