@@ -395,16 +395,23 @@ def edit_works_info(dict_titles_in_letters, letter_id_csv, title_in_csv, genres_
     tekstID = []
     sjanger = []
 
-    for rowNum in range(2, 70):
+    for rowNum in range(2, 72):
         verkID.append(sheet.cell(row=rowNum, column=1).value)
         tittel.append(re.sub('«', '', re.sub('»','',sheet.cell(row=rowNum, column=3).value)))
         tekstID.append(sheet.cell(row=rowNum, column=4).value)
         sjanger.append(sheet.cell(row=rowNum, column=5).value)
+
+# remove None values from list
+    for x, entry in enumerate(verkID):
+        if entry == None:
+            verkID[x] = str('')
     # print(len(letter_id_csv))
     # print(len(title_in_csv))
     # print(len(genres_csv))
     # print(len(title_ids))
     # print(len(collective_title_csv))
+
+    # create new lists for exited data
     new_work_title = []
     new_genres = []
     new_title_ids = []
@@ -418,16 +425,21 @@ def edit_works_info(dict_titles_in_letters, letter_id_csv, title_in_csv, genres_
                 add_titles = re.sub('\[', '', re.sub('\]', '', re.sub('\'', '', str(dict_titles_in_letters[letter_id]))))
                 title_tokens = add_titles.split(', ')
                 for token in title_tokens:
+                    # print(token)
+
                     if token in title_csv:
                         continue
                     else:
+
                         if title_csv == '':
+
                             try:
                                 index = tittel.index(token)
                                 title_csv = (str(token))
                                 genre = str(sjanger[index])
-                                title_id = str(tekstID[index])
                                 work_id = str(verkID[index])
+                                title_id = str(tekstID[index])
+
                                 if any(c in str(tekstID[index]) for c in ('C1', 'C2')):
                                     collective_title = str('C')
                                 elif any(c in str(tekstID[index]) for c in ('F1', 'F2')):
@@ -453,8 +465,9 @@ def edit_works_info(dict_titles_in_letters, letter_id_csv, title_in_csv, genres_
                                 index = tittel.index(token)
                                 title_csv = str(title_csv + str(', ') + token)
                                 genre = str(genre +str(', ')+str(sjanger[index]))
-                                title_id = str(title_id + str(', ')+str(tekstID[index]))
                                 work_id = str(work_id + str(', ')+str(verkID[index]))
+                                title_id = str(title_id + str(', ')+str(tekstID[index]))
+
                                 if len(collective_title)==0:
                                     if any(c in str(tekstID[index]) for c in ('C1', 'C2')):
                                         collective_title = str('C')
@@ -512,8 +525,8 @@ def edit_works_info(dict_titles_in_letters, letter_id_csv, title_in_csv, genres_
             new_collective_titles.append(collective_title)
             new_work_ids.append(work_id)
 
-    pprint.pprint(new_work_ids)
-    print(len(new_work_ids))
+    # pprint.pprint(new_title_ids)
+    # print(len(new_title_ids))
     return new_work_title, new_genres, new_title_ids, new_collective_titles, new_work_ids
 
 
