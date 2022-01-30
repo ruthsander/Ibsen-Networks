@@ -15,11 +15,14 @@ import time
 import numpy as np
 import sys
 
+### This script is the first step in collecting relevant information from the person-register xml ###
+
 #  declaring all namespaces present in the xml files
 ns = {'HIS': 'http://www.example.org/ns/HIS',
       'xml': 'http://www.w3.org/XML/1998/namespace',
       'tei': 'http://www.tei-c.org/ns/1.0'}
 
+# declare root and xpath to specific elements
 tree = etree.parse('../github/Ibsen-Networks/xml-data/Navneregister_HISe.xml')
 root = tree.getroot()
 # ADD tei: IN XPATH
@@ -30,7 +33,7 @@ names = tree.xpath(
 
 # desc = tree.xpath('//tei:list/tei:item[@rend="briefDescription"]', namespaces=ns) NOT USED
 
-
+# collect the xml-id of each person/organization
 def person_id(a):
     # person_count = 0
     list_of_ids = ['XML-ID']
@@ -60,6 +63,7 @@ def person_id(a):
 # (person_id(persons_org))
 # print(str('Number of letters: ') + str(len(persons_org)))
 
+# collect the given name of each person. If no name is found an empty string in added
 def given_names(b):
     # name_count = 0
     name_list = ['Given Name']
@@ -84,7 +88,7 @@ def given_names(b):
 # print(str('Number of letters: ') + str(len(names)))
 # given_names(names)
 
-
+# collect the surname name of each person. If no name is found an empty string in added
 def surname_names(c):
     # name_count = 0
     surname_list = ['Surname']
@@ -104,7 +108,8 @@ def surname_names(c):
 
 # surname_names(names)
 
-
+# collect the full name of each person. If no name is found an empty string in added
+# the names of organisations are retrieved from a different element
 def full_names(d):
     # name_count = 0
     list_full_name = ['Name']
@@ -135,7 +140,7 @@ def full_names(d):
 
 # full_names(names)
 
-
+# retrieve birth date per person. If no date is found an empty string is added
 def date_of_birth(e):
     # date_count = 0
     # person_org_count = 0
@@ -155,7 +160,7 @@ def date_of_birth(e):
 
 # date_of_birth(persons_org)
 
-
+# retrieve death date per person. If no date is found an empty string is added
 def date_of_death(f):
     # date_count = 0
     # person_org_count = 0
@@ -175,7 +180,7 @@ def date_of_death(f):
 
 # date_of_death(persons_org)
 
-
+# the birth and death dates are combined to create the lifespan
 def lifespan(g):
     # date_count = 0
     # person_org_count = 0
@@ -204,7 +209,8 @@ def lifespan(g):
 
 # lifespan(persons_org)
 
-
+# retrieve the person's /organization's short description. If the element <tei:item[@rend="briefDescription"]>
+# has a child node then then entire element is retrieved as a string and cleaned
 def person_org_desc(h):
     desc_count = 0
     person_org_count = 0
@@ -260,7 +266,7 @@ def person_org_desc(h):
 # XML_tree = etree.fromstring(XML_content)
 # text = XML_tree.xpath('string(//text[@title="book"]/div/div/p)')
 
-
+# retrieve wikidata ids base on the person/organization name
 def get_wikidata_ids(target):
     ntarget = len(target)
     list_wikidata_ids = ['Wikidata ID']
@@ -297,6 +303,9 @@ def get_wikidata_ids(target):
     return list_wikidata_ids
 
 
+# collect previously collected information and compile it into a csv.
+# !!! this csv, specifically the wiki_ids, have to be corrected manually. Any changes are
+# saved under 'practice_person_info_edited.csv' !!!
 def write_csv(ids, wiki_id, names_given, last_name, names_full, year_of_birth, year_of_death, lifespans, descriptions):
     # print(ids)
     rows = zip(ids, wiki_id, names_given, last_name, names_full, year_of_birth, year_of_death, lifespans, descriptions)
@@ -317,19 +326,20 @@ lifespan_list = (lifespan(persons_org))
 descriptions_list = (person_org_desc(persons_org))
 
 
-#w_ids = (get_wikidata_ids(names_list))
-#write_csv(id_list, w_ids, given_name_list, surnames_list, names_list, birth_year_list, death_year_list, lifespan_list, descriptions_list)
+# w_ids = (get_wikidata_ids(names_list))
+# write_csv(id_list, w_ids, given_name_list, surnames_list, names_list, birth_year_list, death_year_list, lifespan_list, descriptions_list)
 
-
+# using the edited cvs 'practice_person_info_edited.csv' further information is queried from Wikidata
 def retrieve_further_data():
-    colnames = ['XML-ID','Wikidata_ID','Given_Name','Surname','Name','Year_of_Birth','Year_of_Death','Lifespan','Brief_Description']
+    colnames = ['XML-ID', 'Wikidata_ID', 'Given_Name', 'Surname', 'Name', 'Year_of_Birth', 'Year_of_Death', 'Lifespan',
+                'Brief_Description']
     data_csv = pd.read_csv('practice_person_info_edited.csv', names=colnames, na_filter=False)
     q_ids = data_csv.Wikidata_ID.tolist()
     # q_ids.fillna('', inplace=True)
     # print(q_ids)
     # print(len(q_ids))
 
-
+    # the data being quiried from wikidata
     # details_Qid = ['Wiki ID']
     details_instance = ['Instance']
     details_gender = ['Gender']
@@ -338,19 +348,21 @@ def retrieve_further_data():
     details_nat = ['Country_of_citizenship']
     details_occup = ['Occupation']
 
-        # q_is_list =[]
-        # entry = (wiki_ids['Wikidata ID'])
-        # q_is_list.append(entry)
-        #
-        # for row in wiki_ids:
-        #     print(row)
+    # q_is_list =[]
+    # entry = (wiki_ids['Wikidata ID'])
+    # q_is_list.append(entry)
+    #
+    # for row in wiki_ids:
+    #     print(row)
 
+    # the queries are performed in groups of 300-400 to prevent the script from ending unexpectedly
+    # the ranges used are: (1, 300), (301, 600), (601, 900), (901, 1300), (1301-1703)
     for index in range(1, 300):
         try:
             search_id = q_ids[index]
-            #print(search_id)
-            #for search_id in q_ids:
-            #print(search_id)
+            # print(search_id)
+            # for search_id in q_ids:
+            # print(search_id)
             # q_is_list.append(value)
 
             # details = []
@@ -364,14 +376,14 @@ def retrieve_further_data():
             #     details_nat.append(str(''))
             #     details_occup.append(str(''))
             #
-            #else:
+            # else:
             print(search_id)
-                # with open('sparql.rq', 'r') as query_file:
+            # with open('sparql.rq', 'r') as query_file:
             query = '''PREFIX wikibase: <http://wikiba.se/ontology#>
                 PREFIX wd: <http://www.wikidata.org/entity/>
                 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
                 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-    
+
                 SELECT ?item ?instanceLabel ?genderLabel ?viaf ?nhrpId ?nationalityLabel ?occupationLabel WHERE {
                 VALUES ?item {wd:Q36661}
                 OPTIONAL {?item wdt:P1477 ?itemLabel.}
@@ -389,6 +401,7 @@ def retrieve_further_data():
             url = 'https://query.wikidata.org/bigdata/namespace/wdq/sparql'
             data = requests.get(url, params={'query': change_values, 'format': 'json'}).json()
 
+            # compile all queried data into dictionaries
             for item in data['results']['bindings']:
                 # try:
                 #   item['item']['value']
@@ -445,10 +458,14 @@ def retrieve_further_data():
 details_instance, details_gender, details_viaf, details_nhrp, details_nat, details_occup = retrieve_further_data()
 
 
-def intermediate_csv(list_details_instance, list_details_gender, list_details_viaf, list_details_nhrp, list_details_nat, list_details_occup):
-    with open('intermediate_1.csv', 'w', ) as work_csv:
+# create intermediate csv files containing the collected data from wikidate for each range group
+def intermediate_csv(list_details_instance, list_details_gender, list_details_viaf, list_details_nhrp, list_details_nat,
+                     list_details_occup):
+    # match the name of the csv according to the range group being processed in the previous function
+    with open('person_info_new_data_1-300.csv', 'w', ) as work_csv:
         wr = csv.writer(work_csv, delimiter=',')
-        rows = zip(list_details_instance, list_details_gender, list_details_viaf, list_details_nhrp, list_details_nat, list_details_occup)
+        rows = zip(list_details_instance, list_details_gender, list_details_viaf, list_details_nhrp, list_details_nat,
+                   list_details_occup)
         for row in rows:
             wr.writerow(row)
 
@@ -456,8 +473,11 @@ def intermediate_csv(list_details_instance, list_details_gender, list_details_vi
 intermediate_csv(details_instance, details_gender, details_viaf, details_nhrp, details_nat, details_occup)
 
 
+# compile the data collected in the previous functions and write a new csv file
+# this function should remain commented out until all intermediate csv file have been written.
+# the functions 'intermediate_csv', 'retrieve_further_data' and 'write_csv' are not necessary for this step
 def final_csv(ids, names_given, last_name, names_full, year_of_birth, year_of_death, lifespans, descriptions):
-    colnames = ['Instance','Gender','Viaf_Id','NHRP_ID','Country_of_citizenship','Occupation']
+    colnames = ['Instance', 'Gender', 'Viaf_Id', 'NHRP_ID', 'Country_of_citizenship', 'Occupation']
     data_csv_p1 = pd.read_csv('person_info_new_data_1-300.csv', names=colnames, na_filter=False)
     data_csv_p2 = pd.read_csv('person_info_new_data_301-600.csv', names=colnames, na_filter=False)
     data_csv_p3 = pd.read_csv('person_info_new_data_601-900.csv', names=colnames, na_filter=False)
@@ -500,7 +520,7 @@ def final_csv(ids, names_given, last_name, names_full, year_of_birth, year_of_de
     occupation_4 = data_csv_p4.Occupation.tolist()
     occupation_5 = data_csv_p5.Occupation.tolist()
 
-    #print(len(nhrp_5))
+    # print(len(nhrp_5))
     instance_list = ['Instance']
     gender_list = ['Gender']
     viaf_list = ['Viaf ID']
@@ -509,7 +529,6 @@ def final_csv(ids, names_given, last_name, names_full, year_of_birth, year_of_de
     occupation_list = ['Occupation']
 
     for index in range(1, 300):
-
         instance_list.append(instance_1[index])
         gender_list.append(gender_1[index])
         viaf_list.append(viaf_1[index])
@@ -528,7 +547,6 @@ def final_csv(ids, names_given, last_name, names_full, year_of_birth, year_of_de
         # return instance_list
 
     for index in range(1, 301):
-
         instance_list.append(instance_3[index])
         gender_list.append(gender_3[index])
         viaf_list.append(viaf_3[index])
@@ -538,7 +556,6 @@ def final_csv(ids, names_given, last_name, names_full, year_of_birth, year_of_de
         # return instance_list
 
     for index in range(1, 401):
-
         instance_list.append(instance_4[index])
         gender_list.append(gender_4[index])
         viaf_list.append(viaf_4[index])
@@ -565,8 +582,6 @@ def final_csv(ids, names_given, last_name, names_full, year_of_birth, year_of_de
             else:
                 continue
 
-
-
     # print(instance_list)
     # print(len(instance_list))
     # print(gender_list)
@@ -579,16 +594,16 @@ def final_csv(ids, names_given, last_name, names_full, year_of_birth, year_of_de
     # print(len(occupation_list))
 
     colnames2 = ['XML-ID', 'Wikidata_ID', 'Given_Name', 'Surname', 'Name', 'Year_of_Birth', 'Year_of_Death', 'Lifespan',
-                'Brief_Description']
+                 'Brief_Description']
     data_csv = pd.read_csv('practice_person_info_edited.csv', names=colnames2, na_filter=False)
     q_ids = data_csv.Wikidata_ID.tolist()
 
-    rows = zip(ids, q_ids,viaf_list, nhrp_list, names_given, last_name, names_full, year_of_birth, year_of_death, lifespans,country_list, occupation_list, instance_list, gender_list,descriptions)
+    rows = zip(ids, q_ids, viaf_list, nhrp_list, names_given, last_name, names_full, year_of_birth, year_of_death,
+               lifespans, country_list, occupation_list, instance_list, gender_list, descriptions)
     with open('final_pers_org_details.csv', 'w', ) as work_csv:
         wr = csv.writer(work_csv, delimiter=',')
 
         for row in rows:
             wr.writerow(row)
-
 
 # final_csv(id_list, given_name_list, surnames_list, names_list, birth_year_list, death_year_list, lifespan_list, descriptions_list)
