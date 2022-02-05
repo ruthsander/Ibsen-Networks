@@ -9,7 +9,7 @@ around 2400 letters written by Ibsen, as well as, around 400 different forms of 
 
 The project is funded by Teksthub, University of Oslo. 
 
-Project runtime: 2021
+Project runtime: 2021-beginning of 2022
 
 Participants: Ruth Sander and the Centre for Ibsen Studies, University of Oslo
 
@@ -19,7 +19,7 @@ The contents of the letters is written in Norwegian and the files are encoded in
 **Data and file overview**
 
 The project repository contains all files written and created for the purpose of the project.
-This includes python scripts used to transform and collect data, as well as the resulting csv files.
+This includes xml and Excel files containing the letter data, python scripts used to transform and collect data, as well as the resulting csv files.
 
 **Sharing and access information**
 
@@ -27,4 +27,4 @@ All files, data, and scripts are open access under the CC by NC40 license.
 
 **Contact**
 
-Inquiresy about the project and the data can be sent to: ruthsander@me.com
+Inquires about the project and the data can be posted in this repository or by contacting the project Henrik Ibsens Skrifter: https://www.ibsen.uio.no
