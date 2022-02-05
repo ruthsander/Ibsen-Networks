@@ -5,20 +5,22 @@
 This folder contains all the xml and Excel files used throughout the duration of the project. 
 The files pertaining the letter data can be grouped by time frames:
 
-B1844-1871_info.xml
-B1844-1871_komm.xml
+B1844-1871_info.xml | 
+B1844-1871_komm.xml | 
 B1844-1871ht.xml
 
-B1871-1879_info.xml
-B1871-1879_komm.xml
+B1871-1879_info.xml | 
+B1871-1879_komm.xml | 
 B1871-1879ht.xml
 
-B1880-1889_info.xml
-B1880-1889_komm.xml
+B1880-1889_info.xml | 
+B1880-1889_komm.xml | 
 B1880-1889ht.xml
 
 B1890-1905_info.xml
+
 B1890-1905_komm.xml
+
 B1890-1905ht.xml
 
 Other files:
